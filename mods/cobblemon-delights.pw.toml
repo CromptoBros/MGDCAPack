@@ -1,0 +1,13 @@
+name = "Cobblemon Delights"
+filename = "cfarmersint-1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/U6TbMVNM/versions/wOC3OLn1/cfarmersint-1.0.jar"
+hash-format = "sha1"
+hash = "f94a15fea1bb4a4758a8795b1b326cba0ddc2c96"
+
+[update]
+[update.modrinth]
+mod-id = "U6TbMVNM"
+version = "wOC3OLn1"
