@@ -216,6 +216,16 @@ hash = "f3a60be69dcc6f70951ca1c8750fc473a4374adef53926a557fca2c17522689d"
 metafile = true
 
 [[files]]
+file = "mods/straw-golem.pw.toml"
+hash = "8f5cf5465dc9ca04eef3a84b9daa2b3066707a8ef372c6d1e4c1fdcbfb904438"
+metafile = true
+
+[[files]]
+file = "mods/tlib.pw.toml"
+hash = "afcc8e4279514e174414b92f047a2d9ce57edf81403239d5c70d3a3a645e115b"
+metafile = true
+
+[[files]]
 file = "mods/valkyrien-skies.pw.toml"
 hash = "4d8b0094b232afe27e8e2e95d5301ce82f984202a457ff4ecdffa4ec1845acdb"
 metafile = true
