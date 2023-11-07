@@ -66,6 +66,11 @@ hash = "4cb0af877f1e6c3687015b1720674cfb38f59d29e56469d49c964297518adcf9"
 metafile = true
 
 [[files]]
+file = "mods/companion.pw.toml"
+hash = "7a28d9895ec8f4d3c7c68fd8b9c7c8eabe9e6d7a3c0521c22b766c020a591a0b"
+metafile = true
+
+[[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "5310e389fc77e7f725a2b68ecea8c82034858371bcc9b4ef6693584a43447033"
 metafile = true
