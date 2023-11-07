@@ -31,6 +31,11 @@ hash = "2264acfbd388023f4c11b06b18e1a8b79b2b078e9fbf4cc38b31e4cb31c653dd"
 metafile = true
 
 [[files]]
+file = "mods/better-advancements.pw.toml"
+hash = "9a43ef0531b9488d545c873b4d1db2f9afd6e7639e0fd729118d07bd2e3cd053"
+metafile = true
+
+[[files]]
 file = "mods/botarium.pw.toml"
 hash = "72b4e9baeb3065481aeaf244de7c664c10d5c791991fff6bf626a472d713cc0e"
 metafile = true
