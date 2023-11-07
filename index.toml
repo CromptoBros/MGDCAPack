@@ -116,6 +116,11 @@ hash = "a89d8b3b63fa4eaff3f93cb2a08a6c78dcc10182ab1229819508c68fbb70f73f"
 metafile = true
 
 [[files]]
+file = "mods/embeddium.pw.toml"
+hash = "b108f316715c94158d80ecde0f0c5de4821870c8d7abaf51cf4e7ce31e2ab878"
+metafile = true
+
+[[files]]
 file = "mods/eureka.pw.toml"
 hash = "ccc82fc6325061cc1e3473d415de87607077e9de86de24b89e294dde316a6e41"
 metafile = true
@@ -123,6 +128,11 @@ metafile = true
 [[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "43f19afbb308bff77774f842401b2b68cf60252f9e65091686a0c90634e6679a"
+metafile = true
+
+[[files]]
+file = "mods/ferrite-core.pw.toml"
+hash = "ed6f0207affbcdbc338b0af19a596451230a25255f425b3b4670a0104368c95c"
 metafile = true
 
 [[files]]
@@ -181,6 +191,11 @@ hash = "d6c0f05a4982b73b78910bd95f917bb8a934f4f233d218a3ccc22ea7ecc8bf55"
 metafile = true
 
 [[files]]
+file = "mods/pluto.pw.toml"
+hash = "c90d1f76411f74e449eb7a170406303b8106b743e45d1dbb6641fd4e6f2702cd"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "827b361fcddfa0bdb84bfa0ebf0e1a38b139804c92aaf9e39218d784e4111fb4"
 metafile = true
@@ -218,6 +233,11 @@ metafile = true
 [[files]]
 file = "mods/roughly-enough-trades.pw.toml"
 hash = "f3a60be69dcc6f70951ca1c8750fc473a4374adef53926a557fca2c17522689d"
+metafile = true
+
+[[files]]
+file = "mods/starlight-forge.pw.toml"
+hash = "f8f7cbc0daf05063e9d314d9492a87b2484d97e812a418d9a07b9099bb664021"
 metafile = true
 
 [[files]]
