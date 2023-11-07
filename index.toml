@@ -56,11 +56,6 @@ hash = "4cb0af877f1e6c3687015b1720674cfb38f59d29e56469d49c964297518adcf9"
 metafile = true
 
 [[files]]
-file = "mods/create-big-cannons.pw.toml"
-hash = "bf958daadb25a359c1348d38781efc5bc24f344115a8be72a42d120b2e300690"
-metafile = true
-
-[[files]]
 file = "mods/create-enchantment-industry.pw.toml"
 hash = "5310e389fc77e7f725a2b68ecea8c82034858371bcc9b4ef6693584a43447033"
 metafile = true
