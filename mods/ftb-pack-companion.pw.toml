@@ -1,0 +1,13 @@
+name = "FTB Pack Companion"
+filename = "ftb-pack-companion-2.0.7+mc1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "34abf1aeef3b8b7ef2370f620b2ff124690c30e8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4757600
+project-id = 693963

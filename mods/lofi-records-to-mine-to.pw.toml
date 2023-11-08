@@ -1,0 +1,13 @@
+name = "LoFi Records to Mine To"
+filename = "lofirecordstomineto-1.19.2-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f818c2044c43888aecfb28d8ab21c300c8b60784"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4462322
+project-id = 364009

@@ -1,0 +1,13 @@
+name = "Seamless"
+filename = "seamless-2.1.1-forge-1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c21908cf2c5b82fb9d52226e4029347024c5e3f7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4809942
+project-id = 855593

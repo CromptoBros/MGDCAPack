@@ -1,0 +1,13 @@
+name = "Simply Graves"
+filename = "simplygraves-1.19.2-1.0.7-build.9.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c4377ac1ec5319a44803be211c07ee4aee6bf048"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4785136
+project-id = 620112

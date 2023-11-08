@@ -1,0 +1,13 @@
+name = "Default Server Properties"
+filename = "default-server-properties-forge-77.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f20d325e54cd5fda64e8130e2d2844e8ed780bef"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4599519
+project-id = 676811

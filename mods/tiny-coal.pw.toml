@@ -1,0 +1,13 @@
+name = "Tiny Coal"
+filename = "Tiny-Coal-Forge-1.19.2-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "77afdc398c9710f36a447cb9ab57a16214f465cf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3970536
+project-id = 395272

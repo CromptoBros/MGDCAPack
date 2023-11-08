@@ -1,0 +1,264 @@
+https://curseforge.com/minecraft/mc-mods/accelerated-decay Accelerated Decay
+https://curseforge.com/minecraft/mc-mods/advanced-peripherals Advanced Peripherals
+https://curseforge.com/minecraft/mc-mods/aeinfinitybooster AEInfinityBooster
+https://curseforge.com/minecraft/mc-mods/ai-improvements AI Improvements
+https://curseforge.com/minecraft/mc-mods/akashic-tome Akashic Tome
+https://curseforge.com/minecraft/mc-mods/alexs-mobs Alex's Mobs
+https://curseforge.com/minecraft/mc-mods/almost-unified Almost Unified
+https://curseforge.com/minecraft/mc-mods/alternate-current Alternate Current
+https://curseforge.com/minecraft/mc-mods/ambient-environment Ambient Environment
+https://curseforge.com/minecraft/mc-mods/apotheosis Apotheosis
+https://curseforge.com/minecraft/mc-mods/appleskin AppleSkin
+https://curseforge.com/minecraft/mc-mods/applied-botanics-addon Applied Botanics Addon
+https://curseforge.com/minecraft/mc-mods/applied-energistics-2 Applied Energistics 2
+https://curseforge.com/minecraft/mc-mods/applied-mekanistics Applied Mekanistics
+https://curseforge.com/minecraft/mc-mods/architectury-api Architectury API (Fabric/Forge)
+https://curseforge.com/minecraft/mc-mods/ars-armiger Ars Armiger
+https://curseforge.com/minecraft/mc-mods/ars-creo Ars Creo
+https://curseforge.com/minecraft/mc-mods/ars-elemental Ars Elemental
+https://curseforge.com/minecraft/mc-mods/ars-energistique Ars Énergistique
+https://curseforge.com/minecraft/mc-mods/ars-nouveau Ars Nouveau
+https://curseforge.com/minecraft/mc-mods/art-of-forging-a-tetra-addon Art of Forging: A Tetra Addon
+https://curseforge.com/minecraft/mc-mods/artifacts Artifacts
+https://curseforge.com/minecraft/mc-mods/attributefix AttributeFix
+https://curseforge.com/minecraft/mc-mods/audio-extension-for-fancymenu-forge Audio Extension for FancyMenu [Forge]
+https://curseforge.com/minecraft/mc-mods/autoreglib AutoRegLib
+https://curseforge.com/minecraft/mc-mods/auudio-forge Auudio [Forge]
+https://curseforge.com/minecraft/mc-mods/balm Balm (Forge Edition)
+https://curseforge.com/minecraft/mc-mods/better-advancements Better Advancements
+https://curseforge.com/minecraft/mc-mods/better-compatibility-checker Better Compatibility Checker
+https://curseforge.com/minecraft/mc-mods/better-fps-render-distance Better Fps - Render Distance[Forge]
+https://curseforge.com/minecraft/mc-mods/bobby-reforged Bobby Reforged
+https://curseforge.com/minecraft/mc-mods/bookshelf Bookshelf
+https://curseforge.com/minecraft/mc-mods/botania Botania
+https://curseforge.com/minecraft/mc-mods/botarium Botarium
+https://curseforge.com/minecraft/mc-mods/building-gadgets Building Gadgets
+https://curseforge.com/minecraft/mc-mods/canary Canary
+https://curseforge.com/minecraft/mc-mods/catalogue Catalogue
+https://curseforge.com/minecraft/mc-mods/cc-tweaked CC: Tweaked
+https://curseforge.com/minecraft/mc-mods/cccbridge CC:C Bridge
+https://curseforge.com/minecraft/mc-mods/chipped Chipped
+https://curseforge.com/minecraft/mc-mods/chisels-bits Chisels &amp; Bits - For Forge
+https://curseforge.com/minecraft/mc-mods/citadel Citadel
+https://curseforge.com/minecraft/mc-mods/click-machine Click Machine
+https://curseforge.com/minecraft/mc-mods/client-tweaks Client Tweaks
+https://curseforge.com/minecraft/mc-mods/cloth-config Cloth Config API (Fabric/Forge)
+https://curseforge.com/minecraft/mc-mods/clumps Clumps
+https://curseforge.com/minecraft/mc-mods/cobblefordays CobbleForDays
+https://curseforge.com/minecraft/mc-mods/codechicken-lib-1-8 CodeChicken Lib 1.8.+
+https://curseforge.com/minecraft/mc-mods/colorful-health-bar Colorful Health bar
+https://curseforge.com/minecraft/mc-mods/comforts Comforts (Fabric/Forge/Quilt)
+https://curseforge.com/minecraft/mc-mods/common-capabilities Common Capabilities
+https://curseforge.com/minecraft/mc-mods/compact-machines Compact Machines
+https://curseforge.com/minecraft/mc-mods/compressedcreativity Compressed Creativity
+https://curseforge.com/minecraft/mc-mods/compressium Compressium
+https://curseforge.com/minecraft/mc-mods/configured Configured
+https://curseforge.com/minecraft/mc-mods/ctm ConnectedTexturesMod
+https://curseforge.com/minecraft/mc-mods/connectivity Connectivity[Forge/Fabric]
+https://curseforge.com/minecraft/mc-mods/controlling Controlling
+https://curseforge.com/minecraft/mc-mods/cosmetic-armor-reworked Cosmetic Armor Reworked
+https://curseforge.com/minecraft/mc-mods/crafting-station Crafting Station
+https://curseforge.com/minecraft/mc-mods/crafting-tweaks Crafting Tweaks
+https://curseforge.com/minecraft/mc-mods/create Create
+https://curseforge.com/minecraft/mc-mods/create-misc-and-things Create : Misc &amp; Things
+https://curseforge.com/minecraft/mc-mods/create-chunkloading Create Chunkloading
+https://curseforge.com/minecraft/mc-mods/create-confectionery Create Confectionery
+https://curseforge.com/minecraft/mc-mods/create-steam-n-rails Create: Steam 'n' Rails
+https://curseforge.com/minecraft/mc-mods/creatures-and-beasts Creatures and Beasts
+https://curseforge.com/minecraft/mc-mods/creeper-overhaul Creeper Overhaul
+https://curseforge.com/minecraft/mc-mods/creeperhost-presents-soul-shards CreeperHost Presents Soul Shards
+https://curseforge.com/minecraft/mc-mods/critters-and-companions Critters and Companions
+https://curseforge.com/minecraft/mc-mods/cupboard Cupboard
+https://curseforge.com/minecraft/mc-mods/curios Curios API (Forge)
+https://curseforge.com/minecraft/mc-mods/cyclops-core Cyclops Core
+https://curseforge.com/minecraft/mc-mods/dank-storage Dank Storage
+https://curseforge.com/minecraft/mc-mods/dark-utilities Dark Utilities
+https://curseforge.com/minecraft/mc-mods/default-options Default Options
+https://curseforge.com/minecraft/mc-mods/default-server-properties Default Server Properties
+https://curseforge.com/minecraft/mc-mods/dynamic-view Dynamic View[Forge]
+https://curseforge.com/minecraft/mc-mods/effective-forge Effective (Forge)
+https://curseforge.com/minecraft/mc-mods/effortless-building Effortless Building
+https://curseforge.com/minecraft/mc-mods/embeddium Embeddium
+https://curseforge.com/minecraft/mc-mods/emi EMI
+https://curseforge.com/minecraft/mc-mods/emojiful Emojiful
+https://curseforge.com/minecraft/mc-mods/enchantment-descriptions Enchantment Descriptions
+https://curseforge.com/minecraft/mc-mods/engineers-decor Engineer's Decor
+https://curseforge.com/minecraft/mc-mods/enhanced-block-entities-reforged-unofficial Enhanced Block Entities Reforged (Unofficial)
+https://curseforge.com/minecraft/mc-mods/entangled Entangled
+https://curseforge.com/minecraft/mc-mods/entity-collision-fps-fix Entity Collision FPS Fix
+https://curseforge.com/minecraft/mc-mods/entityculling Entity Culling Fabric/Forge
+https://curseforge.com/minecraft/mc-mods/equipment-compare Equipment Compare [Forge]
+https://curseforge.com/minecraft/mc-mods/evilcraft EvilCraft
+https://curseforge.com/minecraft/mc-mods/extreme-sound-muffler Extreme sound muffler (Forge)
+https://curseforge.com/minecraft/mc-mods/fancymenu-forge FancyMenu [Forge]
+https://curseforge.com/minecraft/mc-mods/fastfurnace FastFurnace
+https://curseforge.com/minecraft/mc-mods/fastsuite FastSuite
+https://curseforge.com/minecraft/mc-mods/fastworkbench FastWorkbench
+https://curseforge.com/minecraft/mc-mods/ferritecore FerriteCore (Forge)
+https://curseforge.com/minecraft/mc-mods/findme FindMe
+https://curseforge.com/minecraft/mc-mods/flux-networks Flux Networks
+https://curseforge.com/minecraft/mc-mods/framedblocks FramedBlocks
+https://curseforge.com/minecraft/mc-mods/ftb-chunks-forge FTB Chunks (Forge)
+https://curseforge.com/minecraft/mc-mods/ftb-essentials-forge FTB Essentials (Forge &amp; Fabric)
+https://curseforge.com/minecraft/mc-mods/ftb-library-forge FTB Library (Forge)
+https://curseforge.com/minecraft/mc-mods/ftb-pack-companion FTB Pack Companion
+https://curseforge.com/minecraft/mc-mods/ftb-quests-forge FTB Quests (Forge)
+https://curseforge.com/minecraft/mc-mods/ftb-ranks-forge FTB Ranks (Forge)
+https://curseforge.com/minecraft/mc-mods/ftb-teams-forge FTB Teams (Forge)
+https://curseforge.com/minecraft/mc-mods/ftb-ultimine-forge FTB Ultimine (Forge)
+https://curseforge.com/minecraft/mc-mods/ftb-xmod-compat FTB XMod Compat
+https://curseforge.com/minecraft/mc-mods/fullstack-watchdog FullStack Watchdog
+https://curseforge.com/minecraft/mc-mods/functional-storage Functional Storage
+https://curseforge.com/minecraft/mc-mods/gag Gadgets Against Grind
+https://curseforge.com/minecraft/mc-mods/game-stages Game Stages
+https://curseforge.com/minecraft/mc-mods/geckolib GeckoLib
+https://curseforge.com/minecraft/mc-mods/glassential Glassential
+https://curseforge.com/minecraft/mc-mods/hexcasting Hex Casting
+https://curseforge.com/minecraft/mc-mods/hex-gloop Hex Gloop
+https://curseforge.com/minecraft/mc-mods/hexal Hexal
+https://curseforge.com/minecraft/mc-mods/hostile-neural-networks Hostile Neural Networks
+https://curseforge.com/minecraft/mc-mods/iceberg Iceberg [Forge]
+https://curseforge.com/minecraft/mc-mods/immediatelyfast-reforged ImmediatelyFast Reforged (Unofficial)
+https://curseforge.com/minecraft/mc-mods/immersive-engineering Immersive Engineering
+https://curseforge.com/minecraft/mc-mods/incendium Incendium
+https://curseforge.com/minecraft/mc-mods/integrated-api Integrated API
+https://curseforge.com/minecraft/mc-mods/integrated-crafting Integrated Crafting
+https://curseforge.com/minecraft/mc-mods/idas Integrated Dungeons and Structures
+https://curseforge.com/minecraft/mc-mods/integrated-dynamics Integrated Dynamics
+https://curseforge.com/minecraft/mc-mods/integrated-nbt Integrated NBT
+https://curseforge.com/minecraft/mc-mods/integrated-terminals Integrated Terminals
+https://curseforge.com/minecraft/mc-mods/integrated-tunnels Integrated Tunnels
+https://curseforge.com/minecraft/mc-mods/inventory-essentials Inventory Essentials
+https://curseforge.com/minecraft/mc-mods/inventory-sorter Inventory Sorter
+https://curseforge.com/minecraft/mc-mods/iron-chests Iron Chests
+https://curseforge.com/minecraft/mc-mods/item-filters Item Filters
+https://curseforge.com/minecraft/mc-mods/jamd JAMD
+https://curseforge.com/minecraft/mc-mods/jaopca JAOPCA
+https://curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed Just Enough Effect Descriptions (JEED)
+https://curseforge.com/minecraft/mc-mods/just-enough-immersive-multiblocks Just Enough Immersive Multiblocks
+https://curseforge.com/minecraft/mc-mods/jei Just Enough Items (JEI)
+https://curseforge.com/minecraft/mc-mods/just-enough-professions-jep Just Enough Professions (JEP)
+https://curseforge.com/minecraft/mc-mods/just-enough-resources-jer Just Enough Resources (JER)
+https://curseforge.com/minecraft/mc-mods/kleeslabs KleeSlabs
+https://curseforge.com/minecraft/mc-mods/konkrete Konkrete [Forge]
+https://curseforge.com/minecraft/mc-mods/kubejs KubeJS
+https://curseforge.com/minecraft/mc-mods/kubejs-mekanism KubeJS Mekanism
+https://curseforge.com/minecraft/mc-mods/laserio LaserIO
+https://curseforge.com/minecraft/mc-mods/lazy-dfu-forge Lazy DataFixerUpper(LazyDFU) [FORGE]
+https://curseforge.com/minecraft/mc-mods/legendary-tooltips Legendary Tooltips [Forge]
+https://curseforge.com/minecraft/mc-mods/light-overlay Light Overlay (Rift/Forge/Fabric)
+https://curseforge.com/minecraft/mc-mods/lightspeedmod Lightspeed - Launch optimizations
+https://curseforge.com/minecraft/mc-mods/little-botanics Little Botanics
+https://curseforge.com/minecraft/mc-mods/little-contraptions Little Contraptions
+https://curseforge.com/minecraft/mc-mods/little-logistics Little Logistics
+https://curseforge.com/minecraft/mc-mods/lofi-records-to-mine-to LoFi Records to Mine To
+https://curseforge.com/minecraft/mc-mods/lootjs LootJS: KubeJS Addon
+https://curseforge.com/minecraft/mc-mods/lootr Lootr (Forge)
+https://curseforge.com/minecraft/mc-mods/magnesium-extras Magnesium/Rubidium Extras
+https://curseforge.com/minecraft/mc-mods/max-health-fix Max Health Fix
+https://curseforge.com/minecraft/mc-mods/mcjtylib McJtyLib
+https://curseforge.com/minecraft/mc-mods/merequester ME Requester
+https://curseforge.com/minecraft/mc-mods/mega-cells MEGA Cells
+https://curseforge.com/minecraft/mc-mods/mekanism Mekanism
+https://curseforge.com/minecraft/mc-mods/mekanism-additions Mekanism Additions
+https://curseforge.com/minecraft/mc-mods/mekanism-generators Mekanism Generators
+https://curseforge.com/minecraft/mc-mods/mekanism-tools Mekanism Tools
+https://curseforge.com/minecraft/mc-mods/mekanism-evolution Mekanism-Evolution
+https://curseforge.com/minecraft/mc-mods/creeperhost-minetogether MineTogether
+https://curseforge.com/minecraft/mc-mods/mining-gadgets Mining Gadgets
+https://curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm MmmMmmMmmMmm (Target Dummy)
+https://curseforge.com/minecraft/mc-mods/mob-grinding-utils Mob Grinding Utils
+https://curseforge.com/minecraft/mc-mods/mod-name-tooltip Mod Name Tooltip
+https://curseforge.com/minecraft/mc-mods/modernfix ModernFix
+https://curseforge.com/minecraft/mc-mods/modular-routers Modular Routers
+https://curseforge.com/minecraft/mc-mods/selene Moonlight Lib
+https://curseforge.com/minecraft/mc-mods/more-dragon-eggs More Dragon Eggs
+https://curseforge.com/minecraft/mc-mods/moreiotas MoreIotas
+https://curseforge.com/minecraft/mc-mods/mouse-tweaks Mouse Tweaks
+https://curseforge.com/minecraft/mc-mods/multi-mine Multi Mine
+https://curseforge.com/minecraft/mc-mods/mutil mutil
+https://curseforge.com/minecraft/mc-mods/natures-aura Nature's Aura
+https://curseforge.com/minecraft/mc-mods/natures-compass Nature's Compass
+https://curseforge.com/minecraft/mc-mods/nekos-enchanted-books Neko's Enchanted Books
+https://curseforge.com/minecraft/mc-mods/neruina Neruina - Ticking Entity Fixer
+https://curseforge.com/minecraft/mc-mods/nullscape Nullscape
+https://curseforge.com/minecraft/mc-mods/nyfs-spiders Nyf's Spiders
+https://curseforge.com/minecraft/mc-mods/observable Observable
+https://curseforge.com/minecraft/mc-mods/openblocks-elevator OpenBlocks Elevator
+https://curseforge.com/minecraft/mc-mods/overloaded-armor-bar Overloaded Armor Bar
+https://curseforge.com/minecraft/mc-mods/patchouli Patchouli
+https://curseforge.com/minecraft/mc-mods/paucal PAUCAL
+https://curseforge.com/minecraft/mc-mods/pig-pen-cipher Pig Pen Cipher
+https://curseforge.com/minecraft/mc-mods/pitch-perfect Pitch Perfect
+https://curseforge.com/minecraft/mc-mods/placebo Placebo
+https://curseforge.com/minecraft/mc-mods/pluto Pluto
+https://curseforge.com/minecraft/mc-mods/pneumaticcraft-repressurized PneumaticCraft: Repressurized
+https://curseforge.com/minecraft/mc-mods/polylib PolyLib
+https://curseforge.com/minecraft/mc-mods/polymorph Polymorph (Fabric/Forge/Quilt)
+https://curseforge.com/minecraft/mc-mods/ponder Ponder for KubeJS
+https://curseforge.com/minecraft/mc-mods/prefab Prefab
+https://curseforge.com/minecraft/mc-mods/pretty-pipes Pretty Pipes
+https://curseforge.com/minecraft/mc-mods/prism-lib Prism [Forge]
+https://curseforge.com/minecraft/mc-mods/probejs ProbeJS
+https://curseforge.com/minecraft/mc-mods/quark Quark
+https://curseforge.com/minecraft/mc-mods/quark-oddities Quark Oddities
+https://curseforge.com/minecraft/mc-mods/recipe-stages Recipe Stages
+https://curseforge.com/minecraft/mc-mods/reforgium Reforgium
+https://curseforge.com/minecraft/mc-mods/repurposed-structures Repurposed Structures (Forge)
+https://curseforge.com/minecraft/mc-mods/resourceful-config Resourceful Config
+https://curseforge.com/minecraft/mc-mods/resourceful-lib Resourceful Lib
+https://curseforge.com/minecraft/mc-mods/rftools-base RFTools Base
+https://curseforge.com/minecraft/mc-mods/rftools-builder RFTools Builder
+https://curseforge.com/minecraft/mc-mods/rftools-control RFTools Control
+https://curseforge.com/minecraft/mc-mods/rftools-dimensions RFTools Dimensions
+https://curseforge.com/minecraft/mc-mods/rftools-power RFTools Power
+https://curseforge.com/minecraft/mc-mods/rftools-storage RFTools Storage
+https://curseforge.com/minecraft/mc-mods/rftools-utility RFTools Utility
+https://curseforge.com/minecraft/mc-mods/rhino Rhino
+https://curseforge.com/minecraft/mc-mods/runelic Runelic
+https://curseforge.com/minecraft/mc-mods/scannable Scannable
+https://curseforge.com/minecraft/mc-mods/seamless Seamless
+https://curseforge.com/minecraft/mc-mods/smooth-chunk-save Server Performance - Smooth Chunk Save[Forge/Fabric]
+https://curseforge.com/minecraft/mc-mods/serverconfig-updater ServerConfig Updater
+https://curseforge.com/minecraft/mc-mods/shrink_ Shrink.
+https://curseforge.com/minecraft/mc-mods/simple-discord-rich-presence Simple Discord Rich Presence (Forge /  Fabric)
+https://curseforge.com/minecraft/mc-mods/simply-graves Simply Graves
+https://curseforge.com/minecraft/mc-mods/simply-light Simply Light
+https://curseforge.com/minecraft/mc-mods/slightly-improved-font Slightly Improved Font (32x)
+https://curseforge.com/minecraft/mc-mods/slimyboyos SlimyBoyos
+https://curseforge.com/minecraft/mc-mods/smartbrainlib SmartBrainLib (Forge/Fabric/Quilt)
+https://curseforge.com/minecraft/mc-mods/sophisticated-backpacks Sophisticated Backpacks
+https://curseforge.com/minecraft/mc-mods/sophisticated-core Sophisticated Core
+https://curseforge.com/minecraft/mc-mods/spark spark
+https://curseforge.com/minecraft/mc-mods/squat-grow Squat Grow (Shift / Twerk to grow plants)
+https://curseforge.com/minecraft/mc-mods/starlight-forge Starlight (Forge)
+https://curseforge.com/minecraft/mc-mods/statues Statues
+https://curseforge.com/minecraft/mc-mods/super-factory-manager Super Factory Manager ( SFM )
+https://curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib SuperMartijn642's Config Lib
+https://curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib SuperMartijn642's Core Lib
+https://curseforge.com/minecraft/mc-mods/supplementaries Supplementaries
+https://curseforge.com/minecraft/mc-mods/tetra Tetra
+https://curseforge.com/minecraft/mc-mods/tetranomicon Tetranomicon
+https://curseforge.com/minecraft/mc-mods/the-one-probe The One Probe
+https://curseforge.com/minecraft/mc-mods/tiny-coal Tiny Coal
+https://curseforge.com/minecraft/mc-mods/tiny-gates Tiny Gates
+https://curseforge.com/minecraft/mc-mods/tiny-redstone Tiny Redstone
+https://curseforge.com/minecraft/mc-mods/tips Tips
+https://curseforge.com/minecraft/mc-mods/tipthescales TipTheScales
+https://curseforge.com/minecraft/mc-mods/titanium Titanium
+https://curseforge.com/minecraft/mc-mods/trash-cans Trash Cans
+https://curseforge.com/minecraft/mc-mods/wnboi Why Not Be One Item (WNBOI)
+https://curseforge.com/minecraft/mc-mods/xnet XNet
+https://curseforge.com/minecraft/mc-mods/xnet-gases XNet Gases
+https://curseforge.com/minecraft/mc-mods/yeetusexperimentus Yeetus Experimentus
+https://curseforge.com/minecraft/mc-mods/yungs-api YUNG's API (Forge)
+https://curseforge.com/minecraft/mc-mods/yungs-better-dungeons YUNG's Better Dungeons (Forge)
+https://curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-forge YUNG's Better Mineshafts (Forge)
+https://curseforge.com/minecraft/mc-mods/yungs-better-nether-fortresses YUNG's Better Nether Fortresses (Forge)
+https://curseforge.com/minecraft/mc-mods/yungs-better-strongholds YUNG's Better Strongholds (Forge)
+https://curseforge.com/minecraft/mc-mods/undefined Nicer-Rain-1.0.0.zip
+https://curseforge.com/minecraft/mc-mods/undefined ftb-banners-1.0.0-build.31-20230427.152744-1.jar
+https://curseforge.com/minecraft/mc-mods/undefined ftb-schools-1.0.2-20230908.103810-1.jar
+https://curseforge.com/minecraft/mc-mods/undefined ftbbackups2-forge-1.19.2-1.0.20.jar
+https://curseforge.com/minecraft/mc-mods/undefined kotlinforforge-3.12.0-all.jar
+https://curseforge.com/minecraft/mc-mods/undefined memoryleakfix-forge-1.17+-1.1.1.jar

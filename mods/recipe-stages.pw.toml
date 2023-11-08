@@ -1,0 +1,13 @@
+name = "Recipe Stages"
+filename = "RecipeStages-4.0.0.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b875cae68016c91895d11c2b873e664ef98e96b2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4642197
+project-id = 280554

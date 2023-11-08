@@ -1,0 +1,13 @@
+name = "CreeperHost Presents Soul Shards"
+filename = "soulshards-1.19-1.3.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b265bc5aa91ff9f31380c5846967f63de77a723b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4090460
+project-id = 551523

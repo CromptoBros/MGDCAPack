@@ -1,0 +1,13 @@
+name = "Colorful Health bar"
+filename = "colorfulhealthbar-1.19.2-2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f2e9542ab297675ba5b1bd3f68c405d889f941c5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4743913
+project-id = 317397
