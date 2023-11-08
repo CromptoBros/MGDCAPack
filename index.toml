@@ -3491,7 +3491,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "2df773e7b7659f53640f79e1e2b2e1de0df20277dc61de90a1d12881116cdc49"
+hash = "ea0d8c35669646b8d739a20b97a28c48744dcdea889ccc3c39ccd1431bf5cc6c"
 metafile = true
 
 [[files]]
@@ -3574,9 +3574,8 @@ hash = "879813604dd833f793d6d362c6b8a13ce35bf41da13d921b1e4e6c67813ceace"
 metafile = true
 
 [[files]]
-file = "mods/ftb-pack-companion.pw.toml"
-hash = "587bdbf66cbf564e2d24d1fa22d148913c928d8338618109c45fc26ed9148978"
-metafile = true
+file = "mods/ftb-pack-companion-2.0.7+mc1.19.2.jar"
+hash = "515ed3b8058769545820dffccc8a95f6ed9c58816ec358191db92686cf7180f6"
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
