@@ -1,0 +1,48 @@
+{
+	id: "62A514D556270921"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "botania:incense_stick"
+				tag: {
+					RepairCost: 0
+					brewKey: "botania:regen"
+					display: {
+						Name: "{\"translate\":\"university.gaia1.reward2\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "botania:incense_stick"
+				tag: {
+					RepairCost: 0
+					brewKey: "botania:resistance"
+					display: {
+						Name: "{\"translate\":\"university.gaia1.reward3\"}"
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "botania:incense_stick"
+				tag: {
+					RepairCost: 0
+					brewKey: "botania:strength"
+					display: {
+						Name: "{\"translate\":\"university.gaia1.reward1\"}"
+					}
+				}
+			}
+		}
+	]
+	title: "{university.gaia1.rewards}"
+	use_title: true
+}

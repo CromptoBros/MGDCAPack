@@ -1,0 +1,209 @@
+{
+	id: "7C0DE768DDE55E56"
+	loot_crate: {
+		color: 10777673
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "pitch_perfect_items"
+	}
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "pitchperfect:banjo"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: ["\"Can be enchanted...\""]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "pitchperfect:bass_drum"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: ["\"Can be enchanted...\""]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "pitchperfect:bass"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: ["\"Can be enchanted...\""]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "pitchperfect:bit"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: ["\"Can be enchanted...\""]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "pitchperfect:chimes"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: ["\"Can be enchanted...\""]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "pitchperfect:cow_bell"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: ["\"Can be enchanted...\""]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "pitchperfect:didgeridoo"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: ["\"Can be enchanted...\""]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "pitchperfect:electric_piano"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: ["\"Can be enchanted...\""]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "pitchperfect:flute"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: ["\"Can be enchanted...\""]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "pitchperfect:glockenspiel"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: ["\"Can be enchanted...\""]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "pitchperfect:guitar"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: ["\"Can be enchanted...\""]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "pitchperfect:harp"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: ["\"Can be enchanted...\""]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "pitchperfect:snare_drum"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: ["\"Can be enchanted...\""]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "pitchperfect:sticks"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: ["\"Can be enchanted...\""]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "pitchperfect:vibraphone"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: ["\"Can be enchanted...\""]
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "pitchperfect:xylophone"
+				tag: {
+					Damage: 0
+					display: {
+						Lore: ["\"Can be enchanted...\""]
+					}
+				}
+			}
+		}
+	]
+	title: "{university.coolthings.rewards.pp}"
+}

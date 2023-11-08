@@ -1,0 +1,40 @@
+{
+	"conditions": [
+		{
+			"modid": "cnb",
+			"type": "forge:mod_loaded"
+		}
+	],
+	"type": "cnb:cactem",
+	"subtypes": [],
+	"name": "entity.cnb.cactem",
+	"name_color": "0x274935",
+	"display_nbt": {},
+	"gui_scale": 1.0,
+	"gui_x_offset": 0.0,
+	"gui_y_offset": 0.0,
+	"gui_z_offset": 0.0,
+	"sim_cost": 256,
+	"input": {
+		"item": "hostilenetworks:empty_prediction",
+		"count": 1
+	},
+	"base_drop": {
+		"item": "hostilenetworks:overworld_prediction",
+		"count": 1
+	},
+	"trivia": "hostilenetworks.trivia.cactem",
+	"fabricator_drops": [
+		{
+			"item": "cnb:cactem_spear",
+			"count": 1,
+			"nbt": "{Damage:0}"
+		},
+		{
+			"item": "minecraft:cactus",
+			"count": 32
+		}
+	],
+	"tier_data": [6, 54, 354, 1254],
+	"data_per_kill": [1, 4, 10, 18]
+}

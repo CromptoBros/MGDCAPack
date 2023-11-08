@@ -1,0 +1,11 @@
+{
+	id: "5F73BB3438D574D9"
+	loot_size: 4
+	order_index: 16
+	rewards: [
+		{ count: 3, item: "naturesaura:infused_iron" }
+		{ count: 3, item: "naturesaura:tainted_gold" }
+	]
+	title: "{university.infusediron.rewards}"
+	use_title: true
+}

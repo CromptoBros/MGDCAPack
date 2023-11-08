@@ -1,0 +1,49 @@
+{
+  "conditions": [
+    {
+      "modid": "cnb",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "cnb:yeti",
+  "subtypes": [],
+  "name": "entity.cnb.yeti",
+  "name_color": "0xDF96A4",
+  "display_nbt": {},
+  "gui_scale": 1.0,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 0.0,
+  "gui_z_offset": 0.0,
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:empty_prediction",
+    "count": 1
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction",
+    "count": 1
+  },
+  "trivia": "hostilenetworks.trivia.yeti",
+  "fabricator_drops": [
+    {
+      "item": "cnb:yeti_hide",
+      "count": 9
+    },
+    {
+      "item": "cnb:yeti_antler",
+      "count": 9
+    }
+  ],
+  "tier_data": [
+    6,
+    54,
+    354,
+    1254
+  ],
+  "data_per_kill": [
+    1,
+    4,
+    10,
+    18
+  ]
+}

@@ -1,0 +1,617 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_trains"
+	group: "324223492707BC57"
+	icon: "create:track_station"
+	id: "3D5B65512AD62666"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/rail"
+			rotation: 90.0d
+			width: 1.0d
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/rail"
+			rotation: 90.0d
+			width: 1.0d
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/rail"
+			rotation: 90.0d
+			width: 1.0d
+			x: 2.85d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/rail"
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/rail"
+			rotation: 90.0d
+			width: 1.0d
+			x: 4.35d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/rail"
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/rail"
+			rotation: 90.0d
+			width: 1.0d
+			x: 9.285714285714285d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/rail"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.857142857142854d
+			y: -0.6632653061224474d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/rail"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.714285714285708d
+			y: -2.3367346938775526d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/rail"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.581632653061213d
+			y: -0.6598639455782305d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/rail"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.42857142857143d
+			y: -2.3367346938775526d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "littlelogistics:block/switch_rail_left_on"
+			rotation: 90.0d
+			width: 1.0d
+			x: 6.714285714285708d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "littlelogistics:block/switch_rail_right_on"
+			rotation: 90.0d
+			width: 1.0d
+			x: 5.857142857142854d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "littlelogistics:block/switch_rail_right_on"
+			rotation: 90.0d
+			width: 1.0d
+			x: 7.5714285714285765d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "littlelogistics:block/switch_rail_left_on"
+			rotation: 90.0d
+			width: 1.0d
+			x: 8.42857142857143d
+			y: -1.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "minecraft:block/rail"
+			rotation: 90.0d
+			width: 1.0d
+			x: 10.0d
+			y: -1.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"598E570C9259DA20"
+				"6846091F3770CB9A"
+			]
+			description: [
+				"{university.tracks.desc1}"
+				""
+				"{university.tracks.desc2}"
+				""
+				"{image:ftbuniversity:textures/quests/create/junction.png width:200 height:115 align:1}"
+				""
+				"{university.tracks.desc3}"
+			]
+			hide_dependency_lines: true
+			icon: "create:track"
+			id: "6F7F83D8A6F933C3"
+			min_width: 275
+			rewards: [{
+				count: 128
+				id: "500D6029F426188B"
+				item: "create:track"
+				type: "item"
+			}]
+			subtitle: "{university.tracks.subtitle}"
+			tasks: [{
+				id: "79FCA76F76933D33"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create:track"
+							}
+							{
+								Count: 1b
+								id: "railways:track_acacia"
+							}
+							{
+								Count: 1b
+								id: "railways:track_birch"
+							}
+							{
+								Count: 1b
+								id: "railways:track_crimson"
+							}
+							{
+								Count: 1b
+								id: "railways:track_dark_oak"
+							}
+							{
+								Count: 1b
+								id: "railways:track_jungle"
+							}
+							{
+								Count: 1b
+								id: "railways:track_oak"
+							}
+							{
+								Count: 1b
+								id: "railways:track_spruce"
+							}
+							{
+								Count: 1b
+								id: "railways:track_warped"
+							}
+							{
+								Count: 1b
+								id: "railways:track_blackstone"
+							}
+							{
+								Count: 1b
+								id: "railways:track_mangrove"
+							}
+							{
+								Count: 1b
+								id: "railways:track_monorail"
+							}
+						]
+					}
+				}
+				title: "{university.tracks.task}"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["598E570C9259DA20"]
+			description: [
+				"{university.trains.desc1}"
+				""
+				"{university.trains.desc2}"
+				""
+				"{university.trains.desc3}"
+			]
+			hide_dependency_lines: true
+			icon: "railways:light_blue_conductor_cap"
+			id: "6846091F3770CB9A"
+			rewards: [{
+				id: "700A339620DD5DDB"
+				item: "railways:light_blue_conductor_cap"
+				type: "item"
+			}]
+			subtitle: "{university.trains.subtitle}"
+			tasks: [{
+				id: "7471B53887243B44"
+				type: "checkmark"
+			}]
+			title: "{university.trains.title}"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F7F83D8A6F933C3"]
+			description: [
+				"{university.trainstation.desc1}"
+				""
+				"{university.trainstation.desc2}"
+				""
+				"{university.trainstation.desc3}"
+				""
+				"{university.trainstation.desc4}"
+			]
+			hide_dependency_lines: true
+			icon: "create:track_station"
+			id: "49B5376F93BE2D58"
+			min_width: 275
+			subtitle: "{university.trainstation.subtitle}"
+			tasks: [
+				{
+					id: "1FA1989E150D22D7"
+					item: "create:track_station"
+					type: "item"
+				}
+				{
+					id: "1251C563E984EF5A"
+					item: "create:railway_casing"
+					type: "item"
+				}
+				{
+					id: "331940B5AAD1FA65"
+					item: "create:controls"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["49B5376F93BE2D58"]
+			description: [
+				"{university.trainrelocation.desc1}"
+				""
+				"{university.trainrelocation.desc2}"
+			]
+			icon: "create:wrench"
+			id: "35B69F11405456F3"
+			size: 0.5d
+			subtitle: "{university.trainrelocation.subtitle}"
+			tasks: [{
+				id: "003BE0E3B211B649"
+				type: "checkmark"
+			}]
+			title: "{university.trainrelocation.title}"
+			x: 4.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["49B5376F93BE2D58"]
+			description: [
+				"{university.traindecor.desc1}"
+				""
+				"{university.traindecor.desc2}"
+			]
+			icon: "create:train_door"
+			id: "6731C13FBD2CB509"
+			size: 0.5d
+			subtitle: "{university.traindecor.subtitle}"
+			tasks: [
+				{
+					id: "47B4A216EB29AA29"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "create:train_door"
+								}
+								{
+									Count: 1b
+									id: "create:framed_glass_door"
+								}
+							]
+						}
+					}
+					title: "{university.traindecor.task}"
+					type: "item"
+				}
+				{
+					id: "56203A83040B3463"
+					item: "create:steam_whistle"
+					type: "item"
+				}
+			]
+			title: "{university.traindecor.title}"
+			x: 4.25d
+			y: -2.25d
+		}
+		{
+			dependencies: ["49B5376F93BE2D58"]
+			description: [
+				"{university.trainspeed.desc1}"
+				""
+				"{university.trainspeed.desc2}"
+				""
+				"{university.trainspeed.desc3}"
+			]
+			icon: "minecraft:coal"
+			id: "6C4DA2585DF4BAAE"
+			size: 0.5d
+			subtitle: "{university.trainspeed.subtitle}"
+			tasks: [{
+				id: "08EBBD879A3A0E85"
+				type: "checkmark"
+			}]
+			title: "{university.trainspeed.title}"
+			x: 4.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["49B5376F93BE2D58"]
+			description: [
+				"{university.trainpilot.desc1}"
+				""
+				"{university.trainpilot.desc2}"
+				""
+				"{university.trainpilot.desc3}"
+				""
+				"{university.trainpilot.desc4}"
+				""
+				"{university.trainpilot.desc5}"
+				"{@pagebreak}"
+				"{image:ftbuniversity:textures/quests/create/train_schedule.png width:190 height:175 align:1}"
+			]
+			hide_dependency_lines: true
+			icon: "create:blaze_burner"
+			id: "313F7D8101F47395"
+			min_width: 275
+			subtitle: "{university.trainpilot.subtitle}"
+			tasks: [
+				{
+					id: "3DAD2FA0A6398A4D"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "create:blaze_burner"
+								}
+								{
+									Count: 1b
+									id: "itemfilters:id_regex"
+									tag: {
+										value: "create.*seat"
+									}
+								}
+							]
+						}
+					}
+					title: "{university.trainpilot.task}"
+					type: "item"
+				}
+				{
+					id: "37D10013EAA216E0"
+					item: "create:schedule"
+					type: "item"
+				}
+			]
+			title: "{university.trainpilot.title}"
+			x: 6.693877551020414d
+			y: -2.4d
+		}
+		{
+			dependencies: ["49B5376F93BE2D58"]
+			description: [
+				"{university.trainsignal.desc1}"
+				""
+				"{university.trainsignal.desc2}"
+				""
+				"{university.trainsignal.desc3}"
+				""
+				"{university.trainsignal.desc4}"
+				""
+				"{university.trainsignal.desc5}"
+			]
+			hide_dependency_lines: true
+			id: "6C3C77CEC67EB231"
+			min_width: 250
+			rewards: [{
+				count: 4
+				id: "31E98904BA8775ED"
+				item: "create:nixie_tube"
+				type: "item"
+			}]
+			subtitle: "{university.trainsignal.subtitle}"
+			tasks: [{
+				id: "06C04BEA8359C37D"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			x: 7.5714285714285765d
+			y: -0.6d
+		}
+		{
+			dependencies: ["49B5376F93BE2D58"]
+			description: [
+				"{university.trainobserver.desc1}"
+				""
+				"{university.trainobserver.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "6BBE1ADBF22DB37A"
+			subtitle: "{university.trainobserver.subtitle}"
+			tasks: [{
+				id: "03C613C50DD4170D"
+				item: "create:track_observer"
+				type: "item"
+			}]
+			title: "{university.trainobserver.title}"
+			x: 5.857142857142854d
+			y: -0.6d
+		}
+		{
+			dependencies: ["49B5376F93BE2D58"]
+			description: [
+				"{university.trainmap.desc1}"
+				""
+				"{university.trainmap.desc2}"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:filled_map"
+				tag: {
+					map: 2
+				}
+			}
+			id: "65E39B3C8B9E64C2"
+			size: 0.5d
+			subtitle: "{university.trainmap.subtitle}"
+			tasks: [{
+				id: "31C8CA50462E7867"
+				type: "checkmark"
+			}]
+			title: "{university.trainmap.title}"
+			x: 4.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["49B5376F93BE2D58"]
+			description: [
+				"{university.ridetrain.desc1}"
+				""
+				"{university.ridetrain.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "6006A338662B5F4E"
+			subtitle: "{university.ridetrain.subtitle}"
+			tasks: [{
+				icon: "minecraft:map"
+				id: "69FE7AE2FF779BAD"
+				title: "{university.ridetrain.subtitle}"
+				type: "custom"
+			}]
+			title: "{university.ridetrain.title}"
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["49B5376F93BE2D58"]
+			description: [
+				"{university.traindimension.desc1}"
+				""
+				"{university.traindimension.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "499197C177594F2C"
+			subtitle: "{university.traindimension.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "minecraft:block/nether_portal"
+					}
+				}
+				id: "6976C815B68518C8"
+				title: "{university.traindimension.subtitle}"
+				type: "custom"
+			}]
+			title: "{university.traindimension.title}"
+			x: 8.408163265306122d
+			y: -2.4d
+		}
+	]
+	title: "{university.create.chapter3}"
+}

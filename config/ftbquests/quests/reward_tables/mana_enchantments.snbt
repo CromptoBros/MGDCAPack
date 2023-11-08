@@ -1,0 +1,35 @@
+{
+	id: "788B9D7D74CB1F1C"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "ars_nouveau:mana_regen"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "{university.spellmana.reward1}"
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "ars_nouveau:mana_boost"
+						lvl: 1s
+					}]
+				}
+			}
+			title: "{university.spellmana.reward2}"
+		}
+	]
+	title: "{university.spellmana.rewards}"
+	use_title: true
+}

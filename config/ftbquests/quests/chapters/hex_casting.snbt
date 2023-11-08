@@ -1,0 +1,990 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hex_casting"
+	group: "38AD62CCDB954696"
+	icon: "hexcasting:charged_amethyst"
+	id: "5742F9062EE882B2"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3FCA46E079BDBEBA"]
+			description: [
+				"{university.hexbook.desc1}"
+				""
+				"{university.hexbook.desc2}"
+				""
+				"{university.akashicTask}"
+			]
+			hide: true
+			id: "45E45611DFC91B80"
+			min_width: 250
+			rewards: [{
+				id: "556D3DE93BCC27C6"
+				item: {
+					Count: 1b
+					id: "hexcasting:jeweler_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{university.hexbook.subtitle}"
+			tasks: [{
+				id: "0E7AC014CB20C73C"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"patchouli:book": "hexcasting:thehexbook"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "hexcasting:thehexbook"
+								}
+							}
+						]
+					}
+				}
+				title: "{university.hexbook.task}"
+				type: "item"
+			}]
+			title: "{university.hexbook.title}"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F19C47C9110A490"]
+			description: [
+				"{university.hexstaff.desc1}"
+				""
+				"{university.hexstaff.desc2}"
+				""
+				"{university.hexstaff.desc3}"
+				"{@pagebreak}"
+				"{university.hexstaff.desc4}"
+				""
+				"{university.hexstaff.desc5}"
+				""
+				"{university.hexstaff.desc6}"
+				""
+				"{university.hexstaff.desc7}"
+				"{@pagebreak}"
+				"{university.hexstaff.desc8}"
+				""
+				"{image:ftbuniversity:textures/quests/hex/stack/empty.png width:240 height:100 align:1 fit:true}"
+				"{image:ftbuniversity:textures/quests/hex/stack/mind.png width:240 height:100 align:1 fit:true}"
+				"{image:ftbuniversity:textures/quests/hex/stack/numerical.png width:240 height:100 align:1 fit:true}"
+				"{image:ftbuniversity:textures/quests/hex/stack/blink.png width:240 height:100 align:1 fit:true}"
+				"{@pagebreak}"
+				"{university.hexstaff.desc9}"
+			]
+			icon: "hexcasting:oak_staff"
+			id: "2C2A392B81FCDC6A"
+			min_width: 250
+			rewards: [{
+				id: "080D1C8F6A2EE7E1"
+				item: "hexcasting:lens"
+				type: "item"
+			}]
+			subtitle: "{university.hexstaff.subtitle}"
+			tasks: [{
+				id: "228F797533B7BF3C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "hexcasting:staves"
+					}
+				}
+				title: "{university.hexstaff.task}"
+				type: "item"
+			}]
+			title: "{university.hexstaff.title}"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["45E45611DFC91B80"]
+			description: [
+				"{university.hexmedia.desc1}"
+				""
+				"{university.hexmedia.desc2}"
+				""
+				"{university.hexmedia.desc3}"
+				"{@pagebreak}"
+				"{university.hexmedia.desc4}"
+				""
+				"{university.hexmedia.desc5}"
+			]
+			icon: "hexcasting:charged_amethyst"
+			id: "2F19C47C9110A490"
+			min_width: 250
+			rewards: [{
+				count: 6
+				id: "13DADA1AB6C4FD56"
+				item: "hexcasting:charged_amethyst"
+				type: "item"
+			}]
+			subtitle: "{university.hexmedia.subtitle}"
+			tasks: [{
+				id: "06FEA5B7C75D31DE"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexcasting:amethyst_dust"
+							}
+							{
+								Count: 1b
+								id: "minecraft:amethyst_shard"
+							}
+							{
+								Count: 1b
+								id: "hexcasting:charged_amethyst"
+							}
+							{
+								Count: 1b
+								id: "hexcasting:battery"
+								tag: {
+									"hexcasting:media": 100000
+									"hexcasting:start_media": 100000
+								}
+							}
+						]
+					}
+				}
+				title: "{university.hexmedia.task}"
+				type: "item"
+			}]
+			title: "{university.hexmedia.title}"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CE0DDDD24DD734F"]
+			description: [
+				"{university.hexscrolls.desc1}"
+				""
+				"{university.hexscrolls.desc2}"
+				""
+				"{university.hexscrolls.desc3}"
+				""
+				"{university.hexscrolls.desc4}"
+				"{@pagebreak}"
+				"{university.hexscrolls.desc5}"
+				""
+				"{university.hexscrolls.desc6}"
+				"{@pagebreak}"
+				"{university.hexscrolls.desc7}"
+				""
+				"{image:ftbuniversity:textures/quests/hex/scrolls.png width:206 height:100 align:1}"
+			]
+			icon: "hexcasting:scroll_medium"
+			id: "07277D4CA5A233DA"
+			min_width: 250
+			subtitle: "{university.hexscrolls.subtitle}"
+			tasks: [{
+				id: "2B17B03B99E48FB1"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexcasting:scroll_small"
+							}
+							{
+								Count: 1b
+								id: "hexcasting:scroll_medium"
+							}
+							{
+								Count: 1b
+								id: "hexcasting:scroll"
+							}
+							{
+								Count: 0b
+								id: "minecraft:air"
+								tag: {
+									op_id: "hexcasting:lightning"
+									pattern: {
+										angles: [B;
+											1b
+											0b
+											5b
+											2b
+											0b
+											4b
+											4b
+											2b
+											0b
+											4b
+											0b
+											1b
+											2b
+											2b
+											5b
+										]
+										start_dir: 5b
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "hexcasting:scroll"
+								tag: {
+									op_id: "hexcasting:lightning"
+									pattern: {
+										angles: [B;
+											1b
+											0b
+											5b
+											2b
+											0b
+											4b
+											4b
+											2b
+											0b
+											4b
+											0b
+											1b
+											2b
+											2b
+											5b
+										]
+										start_dir: 5b
+									}
+								}
+							}
+						]
+					}
+				}
+				match_nbt: false
+				title: "{university.hexscrolls.task}"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2C2A392B81FCDC6A"]
+			description: [
+				"{university.writingspells.desc1}"
+				""
+				"{university.writingspells.desc2}"
+				""
+				"{university.writingspells.desc3}"
+				""
+				"{university.writingspells.desc4}"
+				"{@pagebreak}"
+				"{university.writingspells.desc5}"
+				""
+				"[\"\",{\"translate\":\"university.gammadelta.desc.1\"},{\"translate\":\"university.gammadelta.desc.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://gamma-delta.github.io/HexMod/#patterns/\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: https://gamma-delta.github.io/HexMod/#patterns/\"]}},{\"translate\":\"university.gammadelta.desc.3\"}]"
+				""
+				"{university.gammadelta.desc2}"
+				"{@pagebreak}"
+				"{university.writingspells.desc6}"
+				""
+				"{university.writingspells.desc7}"
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "0A8B738C207EA22D"
+			min_width: 250
+			rewards: [{
+				id: "0EC413E8505AB365"
+				item: "hexcasting:uuid_colorizer"
+				type: "item"
+			}]
+			subtitle: "{university.writingspells.subtitle}"
+			tasks: [{
+				id: "1EC043330D867B1A"
+				type: "checkmark"
+			}]
+			title: "{university.writingspells.title}"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A8B738C207EA22D"]
+			description: [
+				"{university.hexnumbers.desc1}"
+				""
+				"{university.hexnumbers.desc2}"
+				""
+				"{image:ftbuniversity:textures/quests/hex/numbers/zeros.png width:144 height:100 align:1}"
+				""
+				"{university.hexnumbers.desc3}"
+				"{@pagebreak}"
+				"{university.hexnumbers.desc4}"
+				""
+				"{university.hexnumbers.desc5}"
+				""
+				"{image:ftbuniversity:textures/quests/hex/numbers/ones.png width:213 height:100 align:1 fit:true}"
+				"{@pagebreak}"
+				"{university.hexnumbers.desc6}"
+				""
+				"{image:ftbuniversity:textures/quests/hex/numbers/corners.png width:1000 height:160 align:1 fit:true}"
+				""
+				"{university.hexnumbers.desc7}"
+				""
+				"{university.hexnumbers.desc8}"
+				"{@pagebreak}"
+				"{university.hexnumbers.desc9}"
+				""
+				"{university.hexnumbers.desc10)"
+			]
+			icon: "minecraft:stick"
+			id: "22CE7F147C39CAC5"
+			min_width: 250
+			subtitle: "{university.hexnumbers.subtitle}"
+			tasks: [{
+				id: "556C460E8EF1C2F2"
+				type: "checkmark"
+			}]
+			title: "{university.hexnumbers.title}"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0A8B738C207EA22D"]
+			description: [
+				"{university.stackmanip.desc1}"
+				""
+				"{university.stackmanip.desc2}"
+				""
+				"{image:ftbuniversity:textures/quests/hex/novice.png width:100 height:100 align:1}"
+				"{@pagebreak}"
+				"{university.stackmanip.desc3}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbuniversity:textures/quests/hex/novice.png"
+				}
+			}
+			id: "16A0C0ABD810C132"
+			min_width: 250
+			subtitle: "{university.stackmanip.subtitle}"
+			tasks: [{
+				id: "15EDA93BBF35FCEC"
+				type: "checkmark"
+			}]
+			title: "{university.stackmanip.title}"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1EF99460C4C58B78"]
+			description: [
+				"{university.hexfocus.desc1}"
+				""
+				"{university.hexfocus.desc2}"
+				""
+				"{image:ftbuniversity:textures/quests/hex/scribe_gambit.png width:100 height:100 align:1}"
+				"{@pagebreak}"
+				"{university.hexfocus.desc3}"
+				""
+				"{image:ftbuniversity:textures/quests/hex/scribe_reflect.png width:100 height:100 align:1}"
+				"{@pagebreak}"
+				"{university.hexfocus.desc4}"
+				""
+				"{university.hexfocus.desc5}"
+			]
+			icon: "hexcasting:focus"
+			id: "3CE0DDDD24DD734F"
+			min_width: 250
+			rewards: [{
+				id: "5725E673278B49A5"
+				item: "hexcasting:abacus"
+				type: "item"
+			}]
+			subtitle: "{university.hexfocus.subtitle}"
+			tasks: [{
+				id: "1AEEF3EB3170E7AF"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexcasting:focus"
+							}
+							{
+								Count: 1b
+								id: "hexcasting:spellbook"
+								tag: {
+									page_idx: 0
+									page_names: { }
+								}
+							}
+						]
+					}
+				}
+				title: "{university.hexfocus.task}"
+				type: "item"
+			}]
+			title: "{university.hexfocus.title}"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A8B738C207EA22D"]
+			description: [
+				""
+				"{university.examplespells.desc1}"
+				""
+				"{@pagebreak}"
+				"{university.examplespells.desc2}"
+				"{image:ftbuniversity:textures/quests/hex/reference/raytrace_block.png width:1000 height:256 align:1 fit:true}"
+				""
+				"{university.examplespells.desc3}"
+				"{@pagebreak}"
+				"{university.examplespells.desc4}"
+				""
+				"{university.examplespells.desc5}"
+				"{@pagebreak}"
+				"{university.examplespells.desc6}"
+				"{image:ftbuniversity:textures/quests/hex/reference/before.png width:219 height:117 align:1}"
+				""
+				"{university.examplespells.desc7}"
+				""
+				"{university.examplespells.desc8}"
+				"{@pagebreak}"
+				"{university.examplespells.desc6}"
+				"{image:ftbuniversity:textures/quests/hex/reference/combined.png width:200 height:117 align:1 fit:true}"
+				""
+				"{university.examplespells.desc9}"
+				""
+				"{university.examplespells.desc10}"
+				"{@pagebreak}"
+				"{university.examplespells.desc11}"
+				""
+				"{university.examplespells.desc12}"
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "1EF99460C4C58B78"
+			min_width: 275
+			rewards: [{
+				count: 16
+				id: "04CFEA4DEBA2807E"
+				item: "hexcasting:edified_log"
+				type: "item"
+			}]
+			subtitle: "{university.examplespells.subtitle}"
+			tasks: [{
+				id: "566E2CB7A30F10D8"
+				type: "checkmark"
+			}]
+			title: "{university.examplespells.title}"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"028F3091B129CEB2"
+				"3CE0DDDD24DD734F"
+			]
+			description: [
+				"{university.castingitems.desc1}"
+				""
+				"{university.castingitems.desc2}"
+				""
+				"{university.castingitems.desc3}"
+				"{@pagebreak}"
+				"{university.castingitems.desc4}"
+				""
+				"{image:ftbuniversity:textures/quests/hex/scout_distillation.png width:500 height:220 align:1 fit:true}"
+				""
+				"{university.castingitems.desc5}"
+				"{@pagebreak}"
+				"{university.castingitems.desc6}"
+				""
+				"{university.castingitems.desc7}"
+				""
+				"{university.castingitems.desc8}"
+				"{@pagebreak}"
+				"{university.castingitems.desc9}"
+				""
+				"{image:ftbuniversity:textures/quests/hex/smelt_cypher.png width:187 height:100 align:1 fit:true}"
+			]
+			icon: "hexcasting:trinket"
+			id: "0BC532A01689AC31"
+			min_width: 250
+			rewards: [{
+				id: "1775EE8A76A9E092"
+				item: {
+					Count: 1b
+					id: "hexcasting:cypher"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Smelt Dropped Itemstack\"}"
+						}
+						"hexcasting:media": 3200000
+						"hexcasting:start_media": 3200000
+						patterns: [
+							{
+								"hexcasting:data": {
+									angles: [B;
+										5b
+										4b
+										5b
+									]
+									start_dir: 0b
+								}
+								"hexcasting:type": "hexcasting:pattern"
+							}
+							{
+								"hexcasting:data": {
+									angles: [B;
+										4b
+										4b
+									]
+									start_dir: 1b
+								}
+								"hexcasting:type": "hexcasting:pattern"
+							}
+							{
+								"hexcasting:data": {
+									angles: [B;
+										5b
+										4b
+										5b
+									]
+									start_dir: 0b
+								}
+								"hexcasting:type": "hexcasting:pattern"
+							}
+							{
+								"hexcasting:data": {
+									angles: [B;
+										0b
+										4b
+									]
+									start_dir: 0b
+								}
+								"hexcasting:type": "hexcasting:pattern"
+							}
+							{
+								"hexcasting:data": {
+									angles: [B;
+										0b
+										1b
+										4b
+										5b
+										4b
+									]
+									start_dir: 1b
+								}
+								"hexcasting:type": "hexcasting:pattern"
+							}
+							{
+								"hexcasting:data": {
+									angles: [B;
+										0b
+										5b
+										5b
+										5b
+										0b
+										5b
+										5b
+										4b
+										2b
+										4b
+										2b
+									]
+									start_dir: 1b
+								}
+								"hexcasting:type": "hexcasting:pattern"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{university.castingitems.subtitle}"
+			tasks: [{
+				id: "418356438FB2995B"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexcasting:cypher"
+							}
+							{
+								Count: 1b
+								id: "hexcasting:trinket"
+							}
+							{
+								Count: 1b
+								id: "hexcasting:artifact"
+							}
+						]
+					}
+				}
+				title: "{university.castingitems.task}"
+				type: "item"
+			}]
+			title: "{university.castingitems.title}"
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1EF99460C4C58B78"]
+			description: [
+				"{university.patterniota.desc1}"
+				""
+				"{university.patterniota.desc2}"
+				"{@pagebreak}"
+				"{image:ftbuniversity:textures/quests/hex/blink_save.png width:500 height:155 align:1 fit:true}"
+				""
+				"{university.patterniota.desc3}"
+				""
+				"{university.patterniota.desc4}"
+				""
+				"{university.patterniota.desc5}"
+			]
+			icon: "minecraft:emerald"
+			id: "028F3091B129CEB2"
+			min_width: 250
+			subtitle: "{university.patterniota.subtitle}"
+			tasks: [{
+				id: "7EEE0C5BDAF08A0D"
+				type: "checkmark"
+			}]
+			title: "{\"translate\":\"university.patterniota.title\",\"font\":\"minecraft:uniform\"}"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["07277D4CA5A233DA"]
+			description: [
+				"{university.phial.desc1}"
+				""
+				"{university.phial.desc2}"
+				""
+				"{university.phial.desc3}"
+				""
+				"{university.phial.desc4}"
+			]
+			id: "2354A9817E829585"
+			min_width: 250
+			rewards: [{
+				count: 4
+				id: "6B588E2DCD9F77CF"
+				item: "hexcasting:charged_amethyst"
+				type: "item"
+			}]
+			subtitle: "{university.phial.subtitle}"
+			tasks: [{
+				id: "5FD9F42DBCC26C68"
+				item: {
+					Count: 1b
+					id: "hexcasting:battery"
+					tag: {
+						"hexcasting:media": 100000
+						"hexcasting:start_media": 100000
+					}
+				}
+				type: "item"
+			}]
+			title: "{university.phial.title}"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["07277D4CA5A233DA"]
+			description: [
+				"{university.blinddiversion.desc1}"
+				""
+				"{university.blinddiversion.desc2}"
+				""
+				"{university.blinddiversion.desc3}"
+				"{@pagebreak}"
+				"{university.blinddiversion.desc4}"
+				""
+				"{university.blinddiversion.desc5}"
+				"{@pagebreak}"
+				"{university.blinddiversion.desc6}"
+				""
+				"{university.blinddiversion.desc7}"
+				""
+				"{university.blinddiversion.desc8}"
+			]
+			icon: "minecraft:ender_eye"
+			id: "6F1C2F3DE54102D3"
+			min_width: 250
+			rewards: [{
+				count: 8
+				id: "24C7F2D989FC0023"
+				item: "hexcasting:lore_fragment"
+				type: "item"
+			}]
+			subtitle: "{university.blinddiversion.subtitle}"
+			tasks: [
+				{
+					advancement: "hexcasting:y_u_no_cast_angy"
+					criterion: ""
+					id: "70F2DA169C613BF3"
+					type: "advancement"
+				}
+				{
+					advancement: "hexcasting:opened_eyes"
+					criterion: ""
+					id: "297A3D85DB21F0B1"
+					type: "advancement"
+				}
+				{
+					advancement: "hexcasting:enlightenment"
+					criterion: ""
+					id: "61404272212312B2"
+					type: "advancement"
+				}
+			]
+			title: "{university.blinddiversion.title}"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6F1C2F3DE54102D3"]
+			description: [
+				"{university.impetus.desc1}"
+				""
+				"{university.impetus.desc2}"
+				"{@pagebreak}"
+				"{university.impetus.desc3}"
+				""
+				"{university.impetus.desc4}"
+				"{@pagebreak}"
+				"{university.impetus.desc5}"
+				""
+				"{image:ftbuniversity:textures/quests/hex/flay_minds.png width:1000 height:324 align:1 fit:true}"
+				""
+				"{university.impetus.desc6}"
+				""
+				"{university.impetus.desc7}"
+				"{@pagebreak}"
+				"{university.impetus.desc8}"
+				""
+				"{university.impetus.desc9}"
+				""
+				"{university.impetus.desc10}"
+				"{@pagebreak}"
+				"{university.impetus.desc11}"
+				""
+				"{university.impetus.desc12}"
+				""
+				"{university.impetus.desc13}"
+			]
+			icon: "hexcasting:impetus_rightclick"
+			id: "6E2A25621333D972"
+			min_width: 250
+			subtitle: "{university.impetus.subtitle}"
+			tasks: [{
+				id: "51C521303D94D204"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "hexcasting:impetus_rightclick"
+							}
+							{
+								Count: 1b
+								id: "hexcasting:impetus_look"
+							}
+							{
+								Count: 1b
+								id: "hexcasting:impetus_storedplayer"
+							}
+						]
+					}
+				}
+				title: "{university.impetus.task}"
+				type: "item"
+			}]
+			title: "{university.impetus.title}"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CE0DDDD24DD734F"]
+			description: [
+				"{university.slate.desc1}"
+				""
+				"{university.slate.desc2}"
+				""
+				"{university.slate.desc3}"
+			]
+			id: "49C3C59C27F506CF"
+			min_width: 250
+			rewards: [{
+				count: 32
+				id: "3EB5C616AA6511B1"
+				item: "hexcasting:slate"
+				type: "item"
+			}]
+			subtitle: "{university.slate.subtitle}"
+			tasks: [{
+				id: "2712D5C6454F78EF"
+				item: "hexcasting:slate"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"49C3C59C27F506CF"
+				"6E2A25621333D972"
+			]
+			description: [
+				"{university.spellcircle.desc1}"
+				""
+				"{university.spellcircle.desc2}"
+				"{@pagebreak}"
+				"{university.spellcircle.desc3}"
+				""
+				"{university.spellcircle.desc4}"
+				"{@pagebreak}"
+				"{university.spellcircle.desc5}"
+				""
+				"{image:ftbuniversity:textures/quests/hex/circles/empty_3d_circle.png width:145 height:100 align:1 fit:true}"
+				""
+				"{university.spellcircle.desc6}"
+				""
+				"{university.spellcircle.desc7}"
+				"{@pagebreak}"
+				"{university.spellcircle.desc8}"
+				""
+				"{image:ftbuniversity:textures/quests/hex/circles/circle_impulse.png width:100 height:100 align:1}"
+				""
+				"{university.spellcircle.desc9}"
+				"{@pagebreak}"
+				"{university.spellcircle.desc10}"
+				""
+				"{image:ftbuniversity:textures/quests/hex/circles/circle_blink.png width:100 height:100 align:1}"
+				""
+				"{university.spellcircle.desc11}"
+				""
+				"{university.spellcircle.desc12}"
+				"{@pagebreak}"
+				"{university.spellcircle.desc13}"
+			]
+			icon: "minecraft:lodestone"
+			id: "0BF1D799F4299219"
+			min_width: 275
+			subtitle: "{university.spellcircle.subtitle}"
+			tasks: [{
+				id: "6054975AEBF317A8"
+				type: "checkmark"
+			}]
+			title: "{university.spellcircle.title}"
+			x: 10.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0BF1D799F4299219"]
+			description: [
+				"{university.directrix.desc1}"
+				""
+				"{university.directrix.desc2}"
+				"{@pagebreak}"
+				"{university.directrix.desc3}"
+				""
+				"{image:ftbuniversity:textures/quests/hex/circles/directrix.png width:1000 height:571 align:1 fit:true}"
+				""
+				"{university.directrix.desc4}"
+			]
+			id: "2233D3183D560AF4"
+			min_width: 250
+			subtitle: "{university.directrix.subtitle}"
+			tasks: [{
+				id: "572AA4E0B8DF1B50"
+				item: "hexcasting:directrix_redstone"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6F1C2F3DE54102D3"]
+			description: [
+				"{university.hexakashic.desc1}"
+				""
+				"{university.hexakashic.desc2}"
+				""
+				"{university.hexakashic.desc3}"
+				"{@pagebreak}"
+				"{university.hexakashic.desc4}"
+				""
+				"{university.hexakashic.desc5}"
+				""
+				"{university.hexakashic.desc6}"
+				""
+				"{university.hexakashic.desc7}"
+				""
+				"{university.hexakashic.desc8}"
+				""
+				"{image:ftbuniversity:textures/quests/hex/akashic_stack.png width:1000 height:306 align:1 fit:true}"
+				""
+				"{university.hexakashic.desc9}"
+				"{@pagebreak}"
+				"{university.hexakashic.desc10}"
+				""
+				"{image:ftbuniversity:textures/quests/hex/akashas_distillation.png width:1000 height:272 align:1 fit:true}"
+				""
+				"{university.hexakashic.desc11}"
+			]
+			icon: "hexcasting:akashic_record"
+			id: "055D08C7D03A6CAE"
+			min_width: 275
+			rewards: [{
+				count: 8
+				id: "5810B2A8B2FFDF78"
+				item: "hexcasting:akashic_bookshelf"
+				type: "item"
+			}]
+			subtitle: "{university.hexakashic.subtitle}"
+			tasks: [
+				{
+					id: "67D8917BED5F9E13"
+					item: "hexcasting:akashic_record"
+					type: "item"
+				}
+				{
+					id: "11B412F96D89A133"
+					item: "hexcasting:akashic_bookshelf"
+					type: "item"
+				}
+			]
+			title: "{university.hexakashic.title}"
+			x: 10.0d
+			y: -1.5d
+		}
+	]
+	title: "{university.hexcasting.chapter}"
+}

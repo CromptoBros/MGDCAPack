@@ -1,0 +1,38 @@
+{
+	id: "4AB919EE2CAC6569"
+	loot_crate: {
+		color: 10786686
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "cute_mobs"
+	}
+	loot_size: 1
+	order_index: 10
+	rewards: [
+		{ item: "cnb:little_grebe_spawn_egg" }
+		{ item: "cnb:lilytad_spawn_egg" }
+		{ item: "cnb:minipad_spawn_egg" }
+		{ item: "cnb:cactem_spawn_egg" }
+		{ item: "cnb:sporeling_overworld_egg" }
+		{ item: "cnb:lizard_spawn_egg", weight: 0.16f }
+		{ item: "cnb:lizard_item_desert", weight: 0.16f }
+		{ item: "cnb:lizard_item_desert_2", weight: 0.16f }
+		{ item: "cnb:lizard_item_jungle", weight: 0.16f }
+		{ item: "cnb:lizard_item_jungle_2", weight: 0.16f }
+		{ item: "cnb:lizard_item_mushroom", weight: 0.16f }
+		{ item: "crittersandcompanions:dragonfly_spawn_egg" }
+		{ item: "crittersandcompanions:ferret_spawn_egg" }
+		{ item: "crittersandcompanions:dumbo_octopus_spawn_egg" }
+		{ item: "crittersandcompanions:koi_fish_spawn_egg" }
+		{ item: "crittersandcompanions:leaf_insect_spawn_egg" }
+		{ item: "crittersandcompanions:otter_spawn_egg" }
+		{ item: "crittersandcompanions:red_panda_spawn_egg" }
+		{ item: "crittersandcompanions:sea_bunny_spawn_egg" }
+		{ item: "create_confectionery:little_gingerbread_man_spawn_egg" }
+		{ item: "crittersandcompanions:shima_enaga_spawn_egg" }
+	]
+	title: "Cute Mobs"
+}

@@ -1,0 +1,24 @@
+{
+	icon: "alexsmobs:hemolymph_sac"
+	id: "38AF10EA722B12EB"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{
+			auto: "invisible"
+			ignore_reward_blocking: true
+			stage: "no_alex_arthopods"
+			title: "{university.disableam.disable2}"
+			type: "gamestage"
+		}
+		{
+			auto: "invisible"
+			ignore_reward_blocking: true
+			remove: true
+			stage: "no_alex_arthopods"
+			title: "{university.disableam.enable2}"
+			type: "gamestage"
+		}
+	]
+	title: "{university.disableam.arthopods}"
+}

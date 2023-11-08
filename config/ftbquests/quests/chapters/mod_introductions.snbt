@@ -1,0 +1,479 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mod_introductions"
+	group: ""
+	icon: "minecraft:book"
+	id: "24E0B85E8D72055B"
+	images: [
+		{
+			click: ""
+			corner: false
+			dependency: "3D783F2EC10EA6F8"
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "ftbuniversity:textures/quests/intro/storage_auto.png"
+			rotation: 0.0d
+			width: 4.465d
+			x: -1.9478523596938757d
+			y: 2.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "3D783F2EC10EA6F8"
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "ftbuniversity:textures/quests/intro/gear.png"
+			rotation: 0.0d
+			width: 1.55d
+			x: -0.6820129145408202d
+			y: 1.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "3D783F2EC10EA6F8"
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "ftbuniversity:textures/quests/intro/technology.png"
+			rotation: 0.0d
+			width: 4.03125d
+			x: -1.7636455676020404d
+			y: 3.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "3D783F2EC10EA6F8"
+			dev: false
+			height: 0.5d
+			hover: [ ]
+			image: "ftbuniversity:textures/quests/intro/magic.png"
+			rotation: 0.0d
+			width: 1.859375d
+			x: -0.85d
+			y: 4.0d
+		}
+	]
+	order_index: 1
+	quest_links: [{
+		id: "63F39885E185792A"
+		linked_quest: "579F8A4A81B98941"
+		x: 0.5d
+		y: 3.0d
+	}]
+	quests: [
+		{
+			dependencies: ["0731A31DB76B1F78"]
+			description: [
+				"{university.introae2.desc1}"
+				""
+				"{university.introae2.desc2}"
+				"{@pagebreak}"
+				"{university.introae2.desc3}"
+				""
+				"{university.introae2.desc4}"
+				""
+				"{university.introae2.desc5}"
+			]
+			hide_dependency_lines: true
+			icon: "ae2:controller"
+			id: "6D17661E64E724D1"
+			min_width: 250
+			subtitle: "{university.introae2.subtitle}"
+			tasks: [{
+				id: "440671A4A4793F27"
+				type: "checkmark"
+			}]
+			title: "{university.introae2.title}"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0731A31DB76B1F78"]
+			description: [
+				"{university.introbotania.desc1}"
+				""
+				"{university.introbotania.desc2}"
+				"{@pagebreak}"
+				"{university.introbotania.desc3}"
+				""
+				"{university.introbotania.desc4}"
+				""
+				"{university.introbotania.desc5}"
+			]
+			icon: "botania:brewery"
+			id: "579F8A4A81B98941"
+			min_width: 250
+			subtitle: "{university.introbotania.subtitle}"
+			tasks: [{
+				id: "20DDE849316E3C02"
+				type: "checkmark"
+			}]
+			title: "{university.introbotania.title}"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0731A31DB76B1F78"]
+			description: [
+				"{university.introcreate.desc1}"
+				""
+				"{university.introcreate.desc2}"
+				""
+				"{university.introcreate.desc3}"
+				"{@pagebreak}"
+				"{university.introcreate.desc4}"
+				""
+				"{university.introcreate.desc5}"
+			]
+			icon: "create:mechanical_arm"
+			id: "15A27D52E5D214BF"
+			min_width: 275
+			subtitle: "{university.introcreate.subtitle}"
+			tasks: [{
+				id: "1B8F2D2616526DE2"
+				type: "checkmark"
+			}]
+			title: "{university.introcreate.title}"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0731A31DB76B1F78"]
+			description: [
+				"{university.introintegrated.desc1}"
+				""
+				"{university.introintegrated.desc2}"
+				""
+				"{university.introintegrated.desc3}"
+				"{@pagebreak}"
+				"{university.introintegrated.desc4}"
+				""
+				"{university.introintegrated.desc5}"
+			]
+			hide_dependency_lines: true
+			icon: "integrateddynamics:cable"
+			id: "51C72A4C38DF1330"
+			min_width: 275
+			subtitle: "{university.introintegrated.subtitle}"
+			tasks: [{
+				id: "2611D56DDE5626B8"
+				type: "checkmark"
+			}]
+			title: "{university.introintegrated.title}"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0731A31DB76B1F78"]
+			description: [
+				"{university.intromek.desc1}"
+				""
+				"{university.intromek.desc2}"
+				""
+				"{university.intromek.desc3}"
+			]
+			icon: "mekanism:robit"
+			id: "4BD338B825E67292"
+			subtitle: "{university.intromek.subtitle}"
+			tasks: [{
+				id: "777D4C55EDC09CD7"
+				type: "checkmark"
+			}]
+			title: "{university.intromek.title}"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0731A31DB76B1F78"]
+			description: [
+				"{university.intropneum.desc1}"
+				""
+				"{university.intropneum.desc2}"
+				""
+				"{university.intropneum.desc3}"
+			]
+			icon: {
+				Count: 1b
+				id: "pneumaticcraft:drone"
+				tag: {
+					"pneumaticcraft:air": 120000
+				}
+			}
+			id: "41CB28E4957517BC"
+			min_width: 250
+			subtitle: "{university.intropneum.subtitle}"
+			tasks: [{
+				id: "675AE4B4174F6B7C"
+				type: "checkmark"
+			}]
+			title: "{university.intropneum.title}"
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0731A31DB76B1F78"]
+			description: [
+				"{university.introrftools.desc1}"
+				""
+				"{university.introrftools.desc2}"
+			]
+			icon: "rftoolsutility:matter_transmitter"
+			id: "2A48CE32A8074FBB"
+			subtitle: "{university.introrftools.subtitle}"
+			tasks: [{
+				id: "78680607C31D69C1"
+				type: "checkmark"
+			}]
+			title: "{university.introrftools.title}"
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0731A31DB76B1F78"]
+			description: [
+				"{university.introars.desc1}"
+				""
+				"{university.introars.desc2}"
+			]
+			icon: "ars_nouveau:archmage_spell_book"
+			id: "740C806DE0D3BB5D"
+			subtitle: "{university.introars.subtitle}"
+			tasks: [{
+				id: "4DF611AFFEB5DCC1"
+				type: "checkmark"
+			}]
+			title: "{university.introars.title}"
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0731A31DB76B1F78"]
+			description: [
+				"{university.introevilcraft.desc1}"
+				""
+				"{university.introevilcraft.desc2}"
+				""
+				"{university.introevilcraft.desc3}"
+			]
+			icon: "evilcraft:dark_gem"
+			id: "0E2430DD3B63301E"
+			subtitle: "{university.introevilcraft.subtitle}"
+			tasks: [{
+				id: "501AD5A759879340"
+				type: "checkmark"
+			}]
+			title: "{university.introevilcraft.title}"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0731A31DB76B1F78"]
+			description: [
+				"{university.introaura.desc1}"
+				""
+				"{university.introaura.desc2}"
+			]
+			icon: "naturesaura:gold_leaf"
+			id: "38F754E26E327B51"
+			subtitle: "{university.introaura.subtitle}"
+			tasks: [{
+				id: "3597F430040A0957"
+				type: "checkmark"
+			}]
+			title: "{university.introaura.title}"
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0731A31DB76B1F78"]
+			description: [
+				"{university.introxnet.desc1}"
+				""
+				"{university.introxnet.desc2}"
+				"{@pagebreak}"
+				"{university.introxnet.desc3}"
+				""
+				"{university.introxnet.desc4}"
+			]
+			icon: "xnet:controller"
+			id: "264CE0005277D2B7"
+			subtitle: "{university.introxnet.subtitle}"
+			tasks: [{
+				id: "0ED372C5F9CB3DAF"
+				type: "checkmark"
+			}]
+			title: "{university.introxnet.title}"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0731A31DB76B1F78"]
+			description: [
+				"{university.introie.desc1}"
+				""
+				"{university.introie.desc2}"
+				""
+				"{university.introie.desc3}"
+				""
+				"{university.introie.desc4}"
+			]
+			icon: "immersiveengineering:wirecoil_copper"
+			id: "6BC58ACB67A1BBC2"
+			min_width: 250
+			subtitle: "{university.introie.subtitle}"
+			tasks: [{
+				id: "74551D26318D3832"
+				title: "ie"
+				type: "checkmark"
+			}]
+			title: "{university.introie.title}"
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0731A31DB76B1F78"]
+			description: [
+				"{university.introtetra.desc1}"
+				""
+				"{university.introtetra.desc2}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					HideFlags: 1
+					"double/basic_axe_left_material": "basic_axe/stone"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/basic_pickaxe_right_material": "basic_pickaxe/stone"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_axe_left"
+					"double/head_right": "double/basic_pickaxe_right"
+					honing_progress: 290
+					id: "46dcb48a-5ec0-46d1-b502-896ff0b41d42"
+				}
+			}
+			id: "720E7178E0A91013"
+			min_width: 225
+			subtitle: "{university.introtetra.subtitle}"
+			tasks: [{
+				id: "007C4252484FF926"
+				type: "checkmark"
+			}]
+			title: "{university.introtetra.title}"
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0731A31DB76B1F78"]
+			description: [
+				"{university.introapoth.desc1}"
+				""
+				"{university.introapoth.desc2}"
+			]
+			icon: "apotheosis:boss_summoner"
+			id: "51159D799DADB412"
+			min_width: 250
+			subtitle: "{university.introapoth.subtitle}"
+			tasks: [{
+				id: "30F740369C065CDE"
+				type: "checkmark"
+			}]
+			title: "{university.introapoth.title}"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0731A31DB76B1F78"]
+			description: [
+				"{university.introhex.desc1}"
+				""
+				"{university.introhex.desc2}"
+				""
+				"{university.introhex.desc3}"
+			]
+			icon: "hexcasting:oak_staff"
+			id: "3FCA46E079BDBEBA"
+			min_width: 250
+			subtitle: "{university.introhex.subtitle}"
+			tasks: [{
+				id: "067F2C576F9442F1"
+				type: "checkmark"
+			}]
+			title: "{university.introhex.title}"
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.introschools.desc1}"
+				""
+				"{university.introschools.desc2}"
+				""
+				"{university.introschools.desc3}"
+				""
+				"{university.introschools.desc4}"
+			]
+			hide: true
+			icon: "kubejs:modpack_logo"
+			id: "6C03DCB9338FA546"
+			min_width: 250
+			subtitle: "{university.introschools.subtitle}"
+			tasks: [{
+				id: "4EB998D9C8E7BC47"
+				type: "checkmark"
+			}]
+			title: "{university.introschools.title}"
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0731A31DB76B1F78"]
+			description: ["{university.introstoragemisc.desc1}"]
+			icon: "minecraft:chest"
+			id: "55AD1DD15F6EF356"
+			subtitle: "{university.introstoragemisc.subtitle}"
+			tasks: [{
+				id: "3426A70463952CDE"
+				type: "checkmark"
+			}]
+			title: "{university.introstoragemisc.title}"
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.introintro.desc1}"
+				""
+				"{university.introintro.desc2}"
+				""
+				"{university.introintro.desc3}"
+				""
+				"{university.introintro.desc4}"
+			]
+			hide: true
+			hide_dependent_lines: true
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "0731A31DB76B1F78"
+			min_width: 250
+			subtitle: "{university.introintro.subtitle}"
+			tasks: [{
+				id: "3D896A0965D50891"
+				type: "checkmark"
+			}]
+			title: "{university.introintro.title}"
+			x: 0.5d
+			y: -0.5d
+		}
+	]
+	title: "{university.introductions.chapter}"
+}

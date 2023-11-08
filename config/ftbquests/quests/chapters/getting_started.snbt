@@ -1,0 +1,254 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: ""
+	icon: "minecraft:grass_block"
+	id: "0B399FDADF99535E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["{university.welcome.desc}"]
+			icon: "ftbquests:book"
+			id: "720A64DB6423C204"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02F918B3CDCF3244"
+				table_id: 1821591933135306144L
+				type: "choice"
+			}]
+			subtitle: "{university.welcome.subtitle}"
+			tasks: [{
+				icon: "minecraft:clock"
+				id: "2E830ED308437CB6"
+				stat: "minecraft:play_time"
+				title: "{university.welcome.task}"
+				type: "stat"
+				value: 1
+			}]
+			title: "{university.welcome.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["720A64DB6423C204"]
+			description: [
+				"{university.prefab.desc1}"
+				""
+				"{university.prefab.desc2}"
+				""
+				"{university.prefab.desc3}"
+				""
+				"{university.prefab.desc4}"
+			]
+			hide_dependency_lines: true
+			icon: "prefab:item_house"
+			id: "097181BB3C0BBCBA"
+			min_width: 275
+			size: 0.625d
+			subtitle: "{university.prefab.subtitle}"
+			tasks: [{
+				id: "779027C43821E800"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "prefab:item_house"
+							}
+							{
+								Count: 1b
+								id: "prefab:item_house_improved"
+							}
+							{
+								Count: 1b
+								id: "prefab:item_house_advanced"
+							}
+						]
+					}
+				}
+				title: "{university.prefab.task}"
+				type: "item"
+			}]
+			title: "{university.prefab.title}"
+			x: -0.3125d
+			y: -0.9375d
+		}
+		{
+			dependencies: ["097181BB3C0BBCBA"]
+			description: ["{university.prefab2.desc}"]
+			icon: "prefab:item_ski_lodge"
+			id: "3CB28C13DCBC754C"
+			size: 0.625d
+			subtitle: "{university.prefab2.subtitle}"
+			tasks: [{
+				id: "5CB4355916F89EF5"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "prefab:item_instant_bridge"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "prefab:item_machinery_tower"
+							}
+							{
+								Count: 1b
+								id: "prefab:item_defense_bunker"
+							}
+							{
+								Count: 1b
+								id: "prefab:item_mineshaft_entrance"
+							}
+							{
+								Count: 1b
+								id: "prefab:item_aqua_base"
+							}
+							{
+								Count: 1b
+								id: "prefab:item_grassy_plain"
+							}
+							{
+								Count: 1b
+								id: "prefab:item_magic_temple"
+							}
+							{
+								Count: 1b
+								id: "prefab:item_watch_tower"
+							}
+							{
+								Count: 1b
+								id: "prefab:item_welcome_center"
+							}
+							{
+								Count: 1b
+								id: "prefab:item_jail"
+							}
+							{
+								Count: 1b
+								id: "prefab:item_saloon"
+							}
+							{
+								Count: 1b
+								id: "prefab:item_ski_lodge"
+							}
+							{
+								Count: 1b
+								id: "prefab:item_wind_mill"
+							}
+							{
+								Count: 1b
+								id: "prefab:item_town_hall"
+							}
+							{
+								Count: 1b
+								id: "prefab:item_nether_gate"
+							}
+							{
+								Count: 1b
+								id: "prefab:item_aqua_base_improved"
+							}
+							{
+								Count: 1b
+								id: "prefab:item_villager_houses"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "prefab:item_warehouse_improved"
+							}
+							{
+								Count: 1b
+								id: "prefab:item_warehouse"
+							}
+							{
+								Count: 1b
+								id: "prefab:item_modern_buildings"
+							}
+							{
+								Count: 1b
+								id: "prefab:item_modern_buildings_improved"
+							}
+							{
+								Count: 1b
+								id: "prefab:item_modern_buildings_advanced"
+							}
+							{
+								Count: 1b
+								id: "prefab:item_farm"
+							}
+							{
+								Count: 1b
+								id: "prefab:item_farm_improved"
+							}
+							{
+								Count: 1b
+								id: "prefab:item_farm_advanced"
+							}
+						]
+					}
+				}
+				title: "{university.prefab2.task}"
+				type: "item"
+			}]
+			title: "{university.prefab2.title}"
+			x: 0.3125d
+			y: -0.9375d
+		}
+		{
+			dependencies: ["720A64DB6423C204"]
+			description: [
+				"{university.colortext.desc1}"
+				""
+				"{university.colortext.desc2}"
+				""
+				"{university.colortext.desc3}"
+				""
+				"{university.colortext.desc4}"
+				""
+				"[\"\",{\"translate\":\"university.colortext.desc5.1\",\"color\":\"light_purple\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"university.colortext.desc5.1.hover\"}]}},{\"translate\":\"university.colortext.desc5.2\"},{\"translate\":\"university.colortext.desc5.3\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/university easteregg_roach\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"university.colortext.desc5.3.hover\"}]}},{\"translate\":\"university.colortext.desc5.4\"}]"
+				""
+				"{university.colortext.desc6}"
+				"{@pagebreak}"
+				"{\"translate\":\"university.colortext.desc7\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/university reading_rainbow\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"university.colortext.desc5.3.hover\"}]}}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftblibrary:textures/icons/color_rgb.png"
+				}
+			}
+			id: "3D783F2EC10EA6F8"
+			min_width: 250
+			rewards: [{
+				count: 64
+				id: "0411C896E2DE4F4B"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			subtitle: "{university.colortext.subtitle}"
+			tasks: [{
+				id: "77644C0CE27AE33A"
+				title: "{university.colortext.task}"
+				type: "custom"
+			}]
+			title: "{university.colortext.title}"
+			x: 0.0d
+			y: 1.5d
+		}
+	]
+	title: "{university.gettingstarted.chapter}"
+}

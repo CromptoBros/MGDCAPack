@@ -1,0 +1,49 @@
+{
+	"conditions": [
+		{
+			"modid": "alexsmobs",
+			"type": "forge:mod_loaded"
+		}
+	],
+	"type": "alexsmobs:skelewag",
+	"subtypes": [],
+	"name": "entity.alexsmobs.skelewag",
+	"name_color": "0xB0E5F2",
+	"display_nbt": {},
+	"gui_scale": 1.0,
+	"gui_x_offset": 0.0,
+	"gui_y_offset": 0.0,
+	"gui_z_offset": 0.0,
+	"sim_cost": 256,
+	"input": {
+		"item": "hostilenetworks:empty_prediction",
+		"count": 1
+	},
+	"base_drop": {
+		"item": "hostilenetworks:nether_prediction",
+		"count": 1
+	},
+	"trivia": "hostilenetworks.trivia.skelewag",
+	"fabricator_drops": [
+		{
+			"item": "minecraft:bone",
+			"count": 32
+		},
+		{
+			"item": "alexsmobs:fish_bones",
+			"count": 16
+		},
+		{
+			"item": "alexsmobs:skelewag_sword",
+			"count": 1,
+			"nbt": "{Damage:0}"
+		},
+		{
+			"item": "alexsmobs:novelty_hat",
+			"count": 1,
+			"nbt": "{Damage:0}"
+		}
+	],
+	"tier_data": [6, 54, 354, 1254],
+	"data_per_kill": [1, 4, 10, 18]
+}

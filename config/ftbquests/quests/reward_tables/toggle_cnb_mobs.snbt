@@ -1,0 +1,23 @@
+{
+	id: "3B772DE1F65FF585"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			auto: "invisible"
+			ignore_reward_blocking: true
+			stage: "no_cnb"
+			title: "{university.disablecnb.disable}"
+			type: "gamestage"
+		}
+		{
+			auto: "invisible"
+			ignore_reward_blocking: true
+			remove: true
+			stage: "no_cnb"
+			title: "{university.disablecnb.enable}"
+			type: "gamestage"
+		}
+	]
+	title: "Toggle CnB mobs"
+}

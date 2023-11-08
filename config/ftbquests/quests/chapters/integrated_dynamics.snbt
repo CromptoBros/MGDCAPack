@@ -1,0 +1,1028 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "integrated_dynamics"
+	group: "3355232C2CB5DB41"
+	icon: "integratedterminals:part_terminal_storage"
+	id: "1CE6597508E31035"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["18D6A0633B3420CB"]
+			description: [
+				"{university.stringetc.desc1}"
+				""
+				"{university.stringetc.desc2}"
+				""
+				"{university.stringetc.desc3}"
+				""
+				"{university.stringetc.desc4}"
+				""
+				"{university.stringetc.desc5}"
+				""
+				"{university.stringetc.desc6}"
+			]
+			icon: "minecraft:string"
+			id: "7BB987936565CE54"
+			min_width: 300
+			subtitle: "{university.stringetc.subtitle}"
+			tasks: [{
+				id: "758D2B3B63EFA12F"
+				type: "checkmark"
+			}]
+			title: "{university.stringetc.title}"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["51C72A4C38DF1330"]
+			description: [
+				"{university.intbook.desc1}"
+				""
+				"{university.intbook.desc2}"
+				""
+				"{university.intbook.desc3}"
+				""
+				"{university.akashicTask}"
+			]
+			hide: true
+			id: "18D6A0633B3420CB"
+			min_width: 250
+			subtitle: "{university.intbook.subtitle}"
+			tasks: [{
+				id: "76A014D84A9EFC6F"
+				item: "integrateddynamics:on_the_dynamics_of_integration"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["18D6A0633B3420CB"]
+			description: [
+				"{university.menrilchunk.desc1}"
+				""
+				"{university.menrilchunk.desc2}"
+			]
+			icon: "integrateddynamics:menril_sapling"
+			id: "16DFEE511554F77D"
+			rewards: [{
+				count: 8
+				id: "0B418282D8E05FEF"
+				item: "integrateddynamics:menril_sapling"
+				type: "item"
+			}]
+			subtitle: "Chop a Menril tree"
+			tasks: [
+				{
+					id: "7D84BFA3884D2E78"
+					item: "integrateddynamics:menril_log"
+					type: "item"
+				}
+				{
+					id: "52D0E2B2726FD4A6"
+					item: "integrateddynamics:menril_berries"
+					type: "item"
+				}
+				{
+					id: "6892150C4F4851F5"
+					item: "integrateddynamics:crystalized_menril_chunk"
+					type: "item"
+				}
+			]
+			title: "Menril"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["16DFEE511554F77D"]
+			description: [
+				"{university.idsqueezer.desc1}"
+				""
+				"{university.idsqueezer.desc2}"
+				""
+				"{university.idsqueezer.desc3}"
+			]
+			id: "7CFAC107058B164D"
+			min_width: 275
+			rewards: [{
+				count: 8
+				id: "0E53C81BA8AB0B27"
+				item: "integrateddynamics:menril_log"
+				type: "item"
+			}]
+			subtitle: "{university.idsqueezer.subtitle}"
+			tasks: [{
+				id: "19DB3E4EF7D94E7F"
+				item: "integrateddynamics:squeezer"
+				type: "item"
+			}]
+			title: "{university.idsqueezer.title}"
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7CFAC107058B164D"]
+			description: [
+				"{university.mechanicalsqueezer.desc1}"
+				""
+				"{university.mechanicalsqueezer.desc2}"
+			]
+			id: "163F6555F12EFE56"
+			rewards: [{
+				count: 8
+				id: "26548E437D72E122"
+				item: "minecraft:coal_ore"
+				type: "item"
+			}]
+			subtitle: "{university.mechanicalsqueezer.subtitle}"
+			tasks: [{
+				id: "73A9F288F4B44FC1"
+				item: "integrateddynamics:mechanical_squeezer"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7CFAC107058B164D"]
+			description: [
+				"{university.idwrench.desc1}"
+				""
+				"{university.idwrench.desc2}"
+			]
+			id: "29FBB7E5F46EE772"
+			subtitle: "{university.idwrench.subtitle}"
+			tasks: [{
+				id: "17AD58027B6F4EAF"
+				item: "integrateddynamics:wrench"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["16DFEE511554F77D"]
+			description: ["{university.labeller.desc}"]
+			hide_dependency_lines: true
+			id: "4D708E83DC6DC3EB"
+			size: 0.5d
+			subtitle: "{university.labeller.subtitle}"
+			tasks: [{
+				id: "7CFD787C6810678E"
+				item: "integrateddynamics:labeller"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["7CFAC107058B164D"]
+			description: [
+				"{university.dryingbasin.desc1}"
+				""
+				"{university.dryingbasin.desc2}"
+			]
+			id: "58BFA314B7F7564D"
+			rewards: [{
+				id: "1385318D050D2948"
+				item: "integrateddynamics:crystalized_menril_block"
+				type: "item"
+			}]
+			subtitle: "{university.dryingbasin.subtitle}"
+			tasks: [{
+				id: "36608F93533DB801"
+				item: "integrateddynamics:drying_basin"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["58BFA314B7F7564D"]
+			description: ["{university.mechdrybas.desc}"]
+			id: "58F2BD431B55BDB1"
+			rewards: [{
+				count: 16
+				id: "67DDD6E708692904"
+				item: "minecraft:rotten_flesh"
+				type: "item"
+			}]
+			subtitle: "{university.mechdrybas.subtitle}"
+			tasks: [{
+				id: "5A13F63AE006E6F0"
+				item: "integrateddynamics:mechanical_drying_basin"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["58BFA314B7F7564D"]
+			description: ["{university.logiccable.desc}"]
+			id: "74CC0234B0F5C450"
+			rewards: [{
+				count: 32
+				id: "3E72DD09A798BB92"
+				item: "integrateddynamics:cable"
+				type: "item"
+			}]
+			subtitle: "{university.logiccable.subtitle}"
+			tasks: [{
+				id: "30A53C10C012C5BF"
+				item: "integrateddynamics:cable"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["74CC0234B0F5C450"]
+			description: [
+				"{university.variablecard.desc1}"
+				""
+				"{university.variablecard.desc2}"
+				""
+				"{university.variablecard.desc3}"
+				""
+				"{university.variablecard.desc4}"
+				""
+				"{university.variablecard.desc5}"
+			]
+			id: "788EE5BCC4690C99"
+			min_width: 250
+			subtitle: "{university.variablecard.subtitle}"
+			tasks: [{
+				id: "3889571B62B61579"
+				item: "integrateddynamics:variable"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["74CC0234B0F5C450"]
+			description: [
+				"{university.monoconn.desc1}"
+				""
+				"{university.monoconn.desc2}"
+				""
+				"{image:ftbuniversity:textures/quests/id/mono_directional.png width:200 height:109 align:1}"
+			]
+			id: "0FA4FAC9A73E1336"
+			rewards: [{
+				id: "2B4999E056C285AA"
+				item: "integrateddynamics:part_connector_mono_directional"
+				type: "item"
+			}]
+			subtitle: "{university.monoconn.subtitle}"
+			tasks: [{
+				id: "13A8D0D552E4BF4F"
+				item: "integrateddynamics:part_connector_mono_directional"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0FA4FAC9A73E1336"]
+			description: [
+				"{university.omnicon.desc1}"
+				""
+				"{university.omnicon.desc2}"
+				""
+				"{university.omnicon.desc3}"
+			]
+			id: "53178D11682C7A3C"
+			subtitle: "{university.omnicon.subtitle}"
+			tasks: [{
+				id: "796285590717E880"
+				item: "integrateddynamics:part_connector_omni_directional"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["788EE5BCC4690C99"]
+			description: [
+				"{university.displaypanel.desc1}"
+				""
+				"{university.displaypanel.desc2}"
+				""
+				"{image:ftbuniversity:textures/quests/id/display_panel.png width:250 height:125 align:1}"
+			]
+			id: "7C3C614896435DB7"
+			min_width: 275
+			subtitle: "{university.displaypanel.subtitle}"
+			tasks: [{
+				id: "25FE4C03C4CEB3AB"
+				item: "integrateddynamics:part_display_panel"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["788EE5BCC4690C99"]
+			description: [
+				"{university.redstoneio.desc1}"
+				""
+				"{university.redstoneio.desc2}"
+				""
+				"{university.redstoneio.desc3}"
+				"{image:ftbuniversity:textures/quests/rft/redstone_reader.png width:200 height:47 align:1}"
+				"{university.redstoneio.desc4}"
+				""
+				"{university.redstoneio.desc5}"
+				"{image:ftbuniversity:textures/quests/rft/redstone_writer.png width:200 height:24 align:1}"
+			]
+			icon: "integrateddynamics:part_redstone_reader"
+			id: "1E04C0695371B43A"
+			min_width: 275
+			subtitle: "{university.redstoneio.subtitle}"
+			tasks: [
+				{
+					id: "4015DACA4754536E"
+					item: "integrateddynamics:part_redstone_reader"
+					type: "item"
+				}
+				{
+					id: "3C9079856C2F66AB"
+					item: "integrateddynamics:part_redstone_writer"
+					type: "item"
+				}
+			]
+			title: "{university.redstoneio.title}"
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["788EE5BCC4690C99"]
+			description: [
+				"{university.readers.desc1}"
+				""
+				"{university.readers.desc2}"
+				""
+				"{university.readers.desc3}"
+				""
+				"{university.readers.desc4}"
+				""
+				"{university.readers.desc5}"
+			]
+			icon: "integrateddynamics:part_inventory_reader"
+			id: "777C5CA83792935A"
+			min_width: 250
+			subtitle: "{university.readers.subtitle}"
+			tasks: [{
+				id: "4E654F815883BC2E"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:mod"
+								tag: {
+									value: "integrateddynamics"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:id_regex"
+								tag: {
+									value: "reader"
+								}
+							}
+						]
+					}
+				}
+				title: "{university.readers.title}"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["777C5CA83792935A"]
+			description: [
+				"{university.writers.desc1}"
+				""
+				"{university.writers.desc2}"
+				""
+				"{university.writers.desc3}"
+				""
+				"{university.writers.desc4}"
+			]
+			icon: "integrateddynamics:part_audio_writer"
+			id: "1EA3A579183DF1A2"
+			min_width: 275
+			subtitle: "{university.writers.subtitle}"
+			tasks: [{
+				id: "065A6CA158670E8F"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:mod"
+								tag: {
+									value: "integrateddynamics"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:id_regex"
+								tag: {
+									value: "writer"
+								}
+							}
+						]
+					}
+				}
+				title: "{university.writers.title}"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["788EE5BCC4690C99"]
+			description: [
+				"{university.logprogram.desc1}"
+				""
+				"{university.logprogram.desc2}"
+				""
+				"{university.logprogram.desc3}"
+				"{image:ftbuniversity:textures/quests/id/programmer.png width:200 height:188 align:1}"
+				"{@pagebreak}"
+				"{university.logprogram.desc4}"
+				""
+				"{university.logprogram.desc5}"
+				""
+				"{university.logprogram.desc6}"
+				""
+				"{university.logprogram.desc7}"
+			]
+			icon: "integrateddynamics:logic_programmer"
+			id: "3038CAA5081AEF3F"
+			min_width: 300
+			subtitle: "{university.logprogram.subtitle}"
+			tasks: [
+				{
+					id: "6FA988A165AA163F"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "integrateddynamics:logic_programmer"
+								}
+								{
+									Count: 1b
+									id: "integrateddynamics:portable_logic_programmer"
+								}
+							]
+						}
+					}
+					title: "{university.logprogram.task}"
+					type: "item"
+				}
+				{
+					id: "10409B70C4659396"
+					item: "integrateddynamics:variablestore"
+					type: "item"
+				}
+			]
+			title: "{university.logprogram.title}"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3038CAA5081AEF3F"]
+			description: [
+				"{university.proxies.desc1}"
+				""
+				"{university.proxies.desc2}"
+				""
+				"{university.proxies.desc3}"
+			]
+			id: "3460E5B95FFD20E0"
+			subtitle: "{university.proxies.subtitle}"
+			tasks: [{
+				id: "69FE55BB0C634931"
+				item: "integrateddynamics:proxy"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3038CAA5081AEF3F"]
+			description: [
+				"{university.delayer.desc1}"
+				""
+				"{university.delayer.desc2}"
+				""
+				"{university.delayer.desc3}"
+				""
+				"{university.delayer.desc4}"
+			]
+			id: "3E85F29BA045DDEC"
+			subtitle: "{university.delayer.subtitle}"
+			tasks: [{
+				id: "15B2B3D1E2A42E9B"
+				item: "integrateddynamics:delay"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3038CAA5081AEF3F"]
+			description: [
+				"{university.materializer.desc1}"
+				""
+				"{university.materializer.desc2}"
+				""
+				"{university.materializer.desc3}"
+				""
+				"{university.materializer.desc4}"
+				""
+				"{university.materializer.desc5}"
+				""
+				"{university.materializer.desc6}"
+			]
+			id: "614D04B1E904F693"
+			min_width: 300
+			subtitle: "{university.materializer.subtitle}"
+			tasks: [{
+				id: "7C2CA5765E84943E"
+				item: "integrateddynamics:materializer"
+				type: "item"
+			}]
+			title: "{university.materializer.title}"
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3038CAA5081AEF3F"]
+			description: [
+				"{university.integratednbt.desc1}"
+				""
+				"{university.integratednbt.desc2}"
+				""
+				"{university.integratednbt.desc3}"
+				"{@pagebreak}"
+				"{university.integratednbt.desc4}"
+				"{image:ftbuniversity:textures/quests/id/nbt_extractor.png width:150 height:170 align:1}"
+				""
+				"{university.integratednbt.desc5}"
+				"{@pagebreak}"
+				"{university.integratednbt.desc6}"
+				""
+				"{university.integratednbt.desc7}"
+			]
+			id: "2B04DF031ABC58AB"
+			min_width: 300
+			rewards: [{
+				id: "6445107D39EFE6AA"
+				item: {
+					Count: 1b
+					id: "integratednbt:nbt_extractor_remote"
+					tag: {
+						integratednbt: { }
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{university.integratednbt.subtitle}"
+			tasks: [{
+				id: "70FF1B54393192B4"
+				item: "integratednbt:nbt_extractor"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["614D04B1E904F693"]
+			description: [
+				"{university.iddoor.desc1}"
+				""
+				"{university.iddoor.desc2}"
+				""
+				"{university.iddoor.desc3}"
+			]
+			icon: {
+				Count: 1b
+				id: "botania:cosmetic_questgiver_mark"
+				tag: { }
+			}
+			id: "7A058DAFED2DE2C6"
+			subtitle: "{university.iddoor.subtitle}"
+			tasks: [{
+				id: "719A5D7F93F42F9B"
+				type: "checkmark"
+			}]
+			title: "{university.iddoor.title}"
+			x: 11.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["788EE5BCC4690C99"]
+			description: [
+				"{university.integratedtunnels.desc1}"
+				""
+				"{university.integratedtunnels.desc2}"
+				"{@pagebreak}"
+				"{university.integratedtunnels.desc3}"
+				""
+				"{university.integratedtunnels.desc4}"
+				""
+				"{university.integratedtunnels.desc5}"
+			]
+			icon: "integratedtunnels:part_exporter_item"
+			id: "6CC59D2008F9ABB7"
+			min_width: 275
+			subtitle: "{university.integratedtunnels.subtitle}"
+			tasks: [
+				{
+					id: "54F2FA19F5034944"
+					item: "integratedtunnels:part_interface_item"
+					type: "item"
+				}
+				{
+					id: "1F7B1994E66CCD17"
+					item: "integratedtunnels:part_importer_item"
+					type: "item"
+				}
+				{
+					id: "6C82A3B38051E3BF"
+					item: "integratedtunnels:part_exporter_item"
+					type: "item"
+				}
+			]
+			title: "{university.integratedtunnels.title}"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6CC59D2008F9ABB7"]
+			description: [
+				"{university.itwhitelist.desc1}"
+				""
+				"{university.itwhitelist.desc2}"
+				""
+				"{university.itwhitelist.desc3}"
+				""
+				"{university.itwhitelist.desc4}"
+				""
+				"{university.itwhitelist.desc5}"
+			]
+			icon: {
+				Count: 1b
+				id: "botania:cosmetic_questgiver_mark"
+				tag: { }
+			}
+			id: "4FF4DBC11DEFF15A"
+			min_width: 275
+			subtitle: "{university.itwhitelist.subtitle}"
+			tasks: [{
+				id: "2F76D5648E77F797"
+				type: "checkmark"
+			}]
+			title: "{university.itwhitelist.title}"
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6CC59D2008F9ABB7"]
+			description: ["{university.itnonitems.desc}"]
+			icon: "integratedtunnels:part_importer_fluid"
+			id: "2B984F96CE3596DC"
+			subtitle: "{university.itnonitems.subtitle}"
+			tasks: [{
+				id: "7D80D52DF274054F"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "integratedtunnels:part_interface_energy"
+							}
+							{
+								Count: 1b
+								id: "integratedtunnels:part_importer_energy"
+							}
+							{
+								Count: 1b
+								id: "integratedtunnels:part_exporter_energy"
+							}
+							{
+								Count: 1b
+								id: "integratedtunnels:part_interface_fluid"
+							}
+							{
+								Count: 1b
+								id: "integratedtunnels:part_importer_fluid"
+							}
+							{
+								Count: 1b
+								id: "integratedtunnels:part_exporter_fluid"
+							}
+						]
+					}
+				}
+				title: "{university.itnonitems.task}"
+				type: "item"
+			}]
+			title: "{university.itnonitems.title}"
+			x: 4.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6CC59D2008F9ABB7"]
+			description: [
+				"{university.worldints.desc1}"
+				""
+				"{university.worldints.desc2}"
+				""
+				"{university.worldints.desc3}"
+			]
+			hide_dependency_lines: false
+			icon: "integratedtunnels:part_exporter_world_item"
+			id: "7A692ACC005E67DF"
+			subtitle: "{university.worldints.subtitle}"
+			tasks: [
+				{
+					id: "0B897556185B2986"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "integratedtunnels:part_importer_world_energy"
+								}
+								{
+									Count: 1b
+									id: "integratedtunnels:part_importer_world_item"
+								}
+								{
+									Count: 1b
+									id: "integratedtunnels:part_importer_world_fluid"
+								}
+								{
+									Count: 1b
+									id: "integratedtunnels:part_importer_world_block"
+								}
+							]
+						}
+					}
+					title: "{university.worldints.task1}"
+					type: "item"
+				}
+				{
+					id: "54422CA297A1AA1F"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "integratedtunnels:part_exporter_world_energy"
+								}
+								{
+									Count: 1b
+									id: "integratedtunnels:part_exporter_world_item"
+								}
+								{
+									Count: 1b
+									id: "integratedtunnels:part_exporter_world_fluid"
+								}
+								{
+									Count: 1b
+									id: "integratedtunnels:part_exporter_world_block"
+								}
+							]
+						}
+					}
+					title: "{university.worldints.task2}"
+					type: "item"
+				}
+			]
+			title: "{university.worldints.title}"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7A692ACC005E67DF"]
+			description: [
+				"{university.playersim.desc1}"
+				""
+				"{university.playersim.desc2}"
+				""
+				"{university.playersim.desc3}"
+			]
+			id: "4C1BC84923D020A2"
+			subtitle: "{university.playersim.subtitle}"
+			tasks: [{
+				id: "1B80380B245E460D"
+				item: "integratedtunnels:part_player_simulator"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["58BFA314B7F7564D"]
+			description: [
+				"{university.energybattery.desc1}"
+				""
+				"{university.energybattery.desc2}"
+				""
+				"{university.energybattery.desc3}"
+			]
+			id: "0CB985B934700B25"
+			min_width: 275
+			subtitle: "{university.energybattery.subtitle}"
+			tasks: [{
+				id: "1FE5A3A2091CD466"
+				item: {
+					Count: 1b
+					id: "integrateddynamics:energy_battery"
+					tag: {
+						energy: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6CC59D2008F9ABB7"]
+			description: [
+				"{university.storageterminal.desc1}"
+				""
+				"{university.storageterminal.desc2}"
+				""
+				"{university.storageterminal.desc3}"
+				""
+				"{university.storageterminal.desc4}"
+				""
+				"{university.storageterminal.desc5}"
+			]
+			id: "0C7306E40F86D7E8"
+			min_width: 275
+			rewards: [{
+				count: 6
+				id: "24D6E3A44D99E8F1"
+				item: "integratedtunnels:part_interface_item"
+				type: "item"
+			}]
+			subtitle: "{university.storageterminal.subtitle}"
+			tasks: [{
+				id: "08E72DAB7D626D0C"
+				item: "integratedterminals:part_terminal_storage"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"0C7306E40F86D7E8"
+				"43F5886906F44484"
+			]
+			description: [
+				"{university.craftjob.desc1}"
+				""
+				"{university.craftjob.desc2}"
+			]
+			id: "71E4827D34069D53"
+			subtitle: "{university.craftjob.subtitle}"
+			tasks: [{
+				id: "572E8280E3C1C998"
+				item: "integratedterminals:part_terminal_crafting_job"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["788EE5BCC4690C99"]
+			description: [
+				"{university.intcrafting.desc1}"
+				""
+				"{university.intcrafting.desc2}"
+				""
+				"{university.intcrafting.desc3}"
+				"{image:ftbuniversity:textures/quests/id/integrated_crafting.png width:150 height:141 align:1}"
+				""
+				"{university.intcrafting.desc4}"
+			]
+			hide_dependency_lines: true
+			id: "43F5886906F44484"
+			min_width: 300
+			subtitle: "{university.intcrafting.subtitle}"
+			tasks: [{
+				id: "4B626AB5E0D93FD2"
+				item: "integratedcrafting:part_interface_crafting"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["43F5886906F44484"]
+			description: [
+				"{university.craftwriter.desc1}"
+				""
+				"{university.craftwriter.desc2}"
+				""
+				"{university.craftwriter.desc3}"
+				"{university.craftwriter.desc4}"
+				"{university.craftwriter.desc5}"
+				"{university.craftwriter.desc6}"
+				"{university.craftwriter.desc7}"
+				""
+				"{university.craftwriter.desc8}"
+			]
+			id: "70CB73AD77085F92"
+			min_width: 275
+			subtitle: "{university.craftwriter.subtitle}"
+			tasks: [{
+				id: "4474D2E362E619AC"
+				item: "integratedcrafting:part_crafting_writer"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["43F5886906F44484"]
+			description: [
+				"{university.ictips.desc1}"
+				""
+				"{university.ictips.desc2}"
+			]
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "35840A9DE1927266"
+			size: 0.5d
+			subtitle: "{university.ictips.subtitle}"
+			tasks: [{
+				id: "5F865DCB1C262692"
+				type: "checkmark"
+			}]
+			title: "{university.ictips.title}"
+			x: 7.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["788EE5BCC4690C99"]
+			description: [
+				"{university.integratedids.desc1}"
+				""
+				"{university.integratedids.desc2}"
+				""
+				"{university.integratedids.desc3}"
+				""
+				"{university.integratedids.desc4}"
+				""
+				"{university.integratedids.desc5}"
+				"{image:ftbuniversity:textures/quests/id/variable_id_1.png width:125 height:64 align:1}"
+				""
+				"{university.integratedids.desc6}"
+				"{image:ftbuniversity:textures/quests/id/variable_id_2.png width:94 height:64 align:1}"
+				""
+				"{university.integratedids.desc7}"
+				"{image:ftbuniversity:textures/quests/id/variable_id_3.png width:120 height:64 align:1}"
+			]
+			icon: "minecraft:barrier"
+			id: "6757FE8CCE3A78E0"
+			min_width: 300
+			size: 0.5d
+			subtitle: "{university.integratedids.subtitle}"
+			tasks: [{
+				id: "3C29514909CE7E13"
+				type: "checkmark"
+			}]
+			title: "{university.integratedids.title}"
+			x: 6.25d
+			y: -0.75d
+		}
+	]
+	title: "{university.intdyn.chapter}"
+}

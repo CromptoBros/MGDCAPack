@@ -1,0 +1,9 @@
+Text images made using https://textcraft.net/
+
+Center color is the pink E in the middle of the second to last row
+Outer color is #000000
+Disable 3D
+
+Small, 2 pix.
+Space in top row
+Disable different styles per row

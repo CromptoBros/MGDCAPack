@@ -1,0 +1,23 @@
+{
+	id: "017283FD0C445DC1"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			auto: "invisible"
+			ignore_reward_blocking: true
+			stage: "no_critters"
+			title: "{university.disablecritters.disable}"
+			type: "gamestage"
+		}
+		{
+			auto: "invisible"
+			ignore_reward_blocking: true
+			remove: true
+			stage: "no_critters"
+			title: "{university.disablecritters.enable}"
+			type: "gamestage"
+		}
+	]
+	title: "Toggle CaC mobs"
+}

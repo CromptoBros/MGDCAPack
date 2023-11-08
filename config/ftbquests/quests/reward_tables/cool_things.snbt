@@ -1,0 +1,325 @@
+{
+	id: "6641A29AFC3A56E7"
+	loot_crate: {
+		color: 8764261
+		drops: {
+			boss: 0
+			monster: 1
+			passive: 0
+		}
+		string_id: "cool_things"
+	}
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "supplementaries:notice_board"
+				tag: {
+					BlockEntityTag: {
+						Color: "black"
+						ForgeCaps: { }
+						Items: [{
+							Count: 1b
+							Slot: 0b
+							id: "minecraft:written_book"
+							tag: {
+								author: "Player"
+								pages: ["\"The FitnessGram Pacer Test is a multistage aerobic capacity test that progressively gets more difficult as it continues. The 20 meter pacer test will begin in 30 seconds. Line up at the start. The running speed starts slowly but gets faster each minute after you hear this signal bodeboop. A sing lap should be completed every time you hear this sound. ding Remember to run in a straight line and run as long as possible. The second time you fail to complete a lap before the sound, your test is over. The test will begin on the word start. On your mark. Get ready!… Start. ding﻿\""]
+								title: "Custom Book"
+							}
+						}]
+						PageNumber: 0
+						TextVisible: 1b
+						id: "supplementaries:notice_board"
+					}
+					display: {
+						Lore: ["\"(+NBT)\""]
+					}
+				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "supplementaries:bubble_blower"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "supplementaries:cage"
+				tag: {
+					BlockEntityTag: {
+						MobHolder: {
+							EntityData: {
+								AbsorptionAmount: 0.0f
+								Age: 0
+								Air: 300s
+								AltMush: 0b
+								ArmorDropChances: [
+									0.085f
+									0.085f
+									0.085f
+									0.085f
+								]
+								ArmorItems: [
+									{ }
+									{ }
+									{ }
+									{ }
+								]
+								Attributes: [
+									{
+										Base: 0.25d
+										Name: "minecraft:generic.movement_speed"
+									}
+									{
+										Base: 0.08d
+										Name: "forge:entity_gravity"
+									}
+									{
+										Base: 16.0d
+										Modifiers: [{
+											Amount: -0.06837133733940648d
+											Name: "Random spawn bonus"
+											Operation: 1
+											UUID: [I;
+												1594096015
+												-571717483
+												-1112513816
+												246059050
+											]
+										}]
+										Name: "minecraft:generic.follow_range"
+									}
+									{
+										Base: 0.0d
+										Name: "forge:step_height_addition"
+									}
+								]
+								BeamCounter: 0
+								Brain: {
+									memories: { }
+								}
+								CanPickUpLoot: 0b
+								CanUpdate: 1b
+								CitadelData: { }
+								DeathTime: 0s
+								EggTime: 43563
+								FallDistance: 0.0f
+								FallFlying: 0b
+								Fire: 0s
+								ForcedAge: 0
+								ForgeCaps: {
+									"mekanism:radiation": {
+										radiation: 1.0E-7d
+									}
+									"pneumaticcraft:hacking": { }
+								}
+								ForgeData: { }
+								HandDropChances: [
+									0.085f
+									0.085f
+								]
+								HandItems: [
+									{ }
+									{ }
+								]
+								Health: 15.0f
+								HurtByTimestamp: 0
+								HurtTime: 0s
+								InLove: 0
+								Invulnerable: 0b
+								LeftHanded: 0b
+								Motion: [
+									0.0d
+									-0.0784000015258789d
+									0.0d
+								]
+								MushroomCount: 0
+								MushroomState: {
+									Name: "minecraft:red_mushroom"
+								}
+								OnGround: 1b
+								PersistenceRequired: 1b
+								PortalCooldown: 0
+								Pos: [
+									0.5d
+									0.0626d
+									0.5d
+								]
+								Rotation: [
+									0.0f
+									0.0f
+								]
+								Sack: 0
+								id: "alexsmobs:mungus"
+							}
+							Name: "Mungus"
+							Scale: 0.6034483f
+							UUID: [I;
+								-1305051107
+								-992787090
+								-1540636756
+								-1033130283
+							]
+						}
+					}
+				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "pneumaticcraft:micromissiles"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "pneumaticcraft:vortex_cannon"
+				tag: {
+					"pneumaticcraft:air": 30000
+				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "create:potato_cannon"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 100.0f
+		}
+		{ count: 4, item: "botania:blacker_lotus", weight: 100.0f }
+		{ item: "botania:pinkinator", weight: 100.0f }
+		{ count: 3, item: "botania:overgrowth_seed", weight: 100.0f }
+		{ item: "botania:starfield", weight: 100.0f }
+		{
+			item: {
+				Count: 1b
+				id: "ae2:portable_item_cell_1k"
+				tag: {
+					internalCurrentPower: 20000.0d
+				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "alexsmobs:stink_ray"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "alexsmobs:tendon_whip"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "alexsmobs:unsettling_kimono"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "create_things_and_misc:neon_tube"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "pitch_perfect_items"
+				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "lofi_records_to_mine_to"
+				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "cute_mobs"
+				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:jar_of_light"
+				tag: { }
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "artifacts"
+				}
+			}
+			weight: 100.0f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "university_coolthings_rewards_apotharrows"
+				}
+			}
+			weight: 100.0f
+		}
+		{ item: "alexsmobs:bear_dust", weight: 70.0f }
+		{ count: 16, item: "prefab:block_phasic" }
+	]
+	title: "{university.coolthings.rewards}"
+}

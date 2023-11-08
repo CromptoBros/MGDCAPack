@@ -1,0 +1,6 @@
+{
+	"quest_completed": {
+		"sounds": ["ftbuniversity:quest_completed"],
+		"subtitle": "university.subtitle.quest_completed"
+	}
+}

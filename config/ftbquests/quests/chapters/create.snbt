@@ -1,0 +1,1663 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	filename: "create"
+	group: "324223492707BC57"
+	icon: "create:deployer"
+	id: "1D4E61F47F10BDD4"
+	images: [
+		{
+			click: "https://youtu.be/rR8W-f9YhYA"
+			corner: false
+			dev: false
+			height: 1.5d
+			hover: ["{university.thisiscreate.title}"]
+			image: "supplementaries:textures/gui/book/icon/youtube.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [
+				"{create.ponder.tag.kinetic_relays}"
+				"&7{create.ponder.tag.kinetic_relays.description}"
+			]
+			image: "ftbuniversity:textures/quests/create/kinetic_blocks.png"
+			rotation: 0.0d
+			width: 7.52d
+			x: 7.25d
+			y: 0.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [
+				"{university.simpletransportation.1}"
+				"{university.simpletransportation.2}"
+			]
+			image: "ftbuniversity:textures/quests/create/simple_transportation.png"
+			rotation: 0.0d
+			width: 11.56d
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [
+				"{create.ponder.tag.kinetic_sources}"
+				"&7{create.ponder.tag.kinetic_sources.description}"
+			]
+			image: "ftbuniversity:textures/quests/create/kinetic_sources.png"
+			rotation: 0.0d
+			width: 8.1d
+			x: 7.0d
+			y: -5.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [
+				"{create.ponder.tag.kinetic_appliances}"
+				"&7{create.ponder.tag.kinetic_appliances.description}"
+			]
+			image: "ftbuniversity:textures/quests/create/kinetic_appliances.png"
+			rotation: 0.0d
+			width: 9.44d
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [
+				"{university.createmisc.1}"
+				"{university.createmisc.2}"
+			]
+			image: "ftbuniversity:textures/quests/create/misc.png"
+			rotation: 0.0d
+			width: 2.2162162162162162d
+			x: -7.0d
+			y: 0.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D42A349ED924B59"]
+			description: [
+				"{university.cogs.desc1}"
+				""
+				"{university.cogs.desc2}"
+				""
+				"{university.cogs.desc3}"
+			]
+			icon: "create:large_cogwheel"
+			id: "66AF01E5A7A40DE5"
+			min_width: 275
+			rewards: [{
+				count: 64
+				id: "280DD142667FA622"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.25d
+			subtitle: "{university.cogs.subtitle}"
+			tasks: [{
+				id: "4A515F36D1D4A245"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create:large_cogwheel"
+							}
+							{
+								Count: 1b
+								id: "create:cogwheel"
+							}
+						]
+					}
+				}
+				title: "{university.cogs.task}"
+				type: "item"
+			}]
+			title: "{university.cogs.title}"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7D42A349ED924B59"]
+			description: [
+				"{university.createcrank.desc1}"
+				""
+				"{university.createcrank.desc2}"
+				""
+				"{university.createcrank.desc3}"
+			]
+			hide_dependency_lines: true
+			icon: "create:hand_crank"
+			id: "3E3FB95CA5E34166"
+			rewards: [{
+				id: "5EBE66FD4A60C0DD"
+				item: "create:turntable"
+				type: "item"
+			}]
+			subtitle: "{university.createcrank.subtitle}"
+			tasks: [{
+				id: "459FFBFB69FAC585"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create:hand_crank"
+							}
+							{
+								Count: 1b
+								id: "create:copper_valve_handle"
+							}
+						]
+					}
+				}
+				title: "{university.createcrank.task}"
+				type: "item"
+			}]
+			title: "{university.createcrank.title}"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["15A27D52E5D214BF"]
+			description: [
+				"{university.createshaft.desc1}"
+				""
+				"{university.createshaft.desc2}"
+				""
+				"{university.createshaft.desc3}"
+				""
+				"{university.createshaft.desc4}"
+				""
+				"{university.createshaft.desc5}"
+			]
+			hide: true
+			id: "7D42A349ED924B59"
+			min_width: 275
+			rewards: [{
+				count: 64
+				id: "64D2C970A861FF1B"
+				item: "create:shaft"
+				team_reward: true
+				type: "item"
+			}]
+			subtitle: "{university.createshaft.subtitle}"
+			tasks: [{
+				id: "6F82D38BB08C43B1"
+				item: "create:shaft"
+				type: "item"
+			}]
+			title: "{university.introcreate.title}"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7D42A349ED924B59"]
+			description: ["{university.shaftcasing.desc}"]
+			hide_dependency_lines: true
+			icon: "create:andesite_casing"
+			id: "0B52BD0F5D023639"
+			rewards: [{
+				count: 32
+				id: "46178F0D65D512CE"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			subtitle: "{university.shaftcasing.subtitle}"
+			tasks: [{
+				id: "1D92F2B343FAC77A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create:andesite_casing"
+							}
+							{
+								Count: 1b
+								id: "create:brass_casing"
+							}
+						]
+					}
+				}
+				title: "{university.shaftcasing.task}"
+				type: "item"
+			}]
+			title: "{university.shaftcasing.title}"
+			x: 4.75d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B52BD0F5D023639"]
+			description: [
+				"{university.gearbox.desc1}"
+				""
+				"{university.gearbox.desc2}"
+			]
+			hide_dependency_lines: true
+			icon: "create:gearbox"
+			id: "223891E8EB73EEC1"
+			subtitle: "{university.gearbox.subtitle}"
+			tasks: [{
+				id: "4EE43EB32023F053"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create:vertical_gearbox"
+							}
+							{
+								Count: 1b
+								id: "create:gearbox"
+							}
+						]
+					}
+				}
+				title: "{university.gearbox.task}"
+				type: "item"
+			}]
+			title: "{university.gearbox.title}"
+			x: 5.75d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D42A349ED924B59"]
+			description: [
+				"{university.createwater.desc1}"
+				""
+				"{university.createwater.desc2}"
+				"{@pagebreak}"
+				"{image:ftbuniversity:textures/quests/create/sideways_waterwheel.png width:100 height:100 align:1}"
+				""
+				"{university.createwater.desc3}"
+				""
+				"{university.createwater.desc4}"
+			]
+			hide_dependency_lines: true
+			id: "5C6D1C1C031EDA09"
+			min_width: 250
+			subtitle: "{university.createwater.subtitle}"
+			tasks: [{
+				id: "78DA7A8EA5105930"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7D42A349ED924B59"]
+			description: [
+				"{university.createwrench.desc1}"
+				""
+				"{university.createwrench.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "1D8D9F824AC813D2"
+			subtitle: "{university.createwrench.subtitle}"
+			tasks: [{
+				id: "14B504FE52BED035"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["598E570C9259DA20"]
+			description: [
+				"[\"\",{\"translate\":\"university.windill.desc1.1\"},{\"translate\":\"university.windill.desc1.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"019C4D235CE302A8\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"university.windill.desc1.2text\"}]}},{\"translate\":\"university.windill.desc1.3\"},{\"translate\":\"university.windill.desc1.4\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"598E570C9259DA20\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"university.contraptionsquest\"}]}}]"
+				""
+				"{university.windill.desc2}"
+				""
+				"{university.windill.desc3}"
+				""
+				"{university.windill.desc4}"
+			]
+			hide_dependency_lines: true
+			icon: "create:windmill_bearing"
+			id: "1A40BF28A6E6F4E9"
+			min_width: 275
+			rewards: [{
+				count: 32
+				icon: "create:white_sail"
+				id: "5851041D6A5D4E02"
+				item: "create:sail_frame"
+				type: "item"
+			}]
+			subtitle: "{university.windill.subtitle}"
+			tasks: [
+				{
+					id: "4FBEAD7B0B9E3A09"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					id: "5E5CF618D3F72CEE"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:tag"
+									tag: {
+										value: "forge:wool"
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:id_regex"
+									tag: {
+										value: "create:.*sail"
+									}
+								}
+							]
+						}
+					}
+					title: "{university.windill.task}"
+					type: "item"
+				}
+			]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7D42A349ED924B59"]
+			description: [
+				"{university.mechbelt.desc1}"
+				""
+				"{university.mechbelt.desc2}"
+				""
+				"{university.mechbelt.desc3}"
+				""
+				"{image:ftbuniversity:textures/quests/create/belt_turn.png width:207 height:100 align:1}"
+				""
+				"{university.mechbelt.desc4}"
+			]
+			hide_dependency_lines: true
+			id: "4C5AD8CC824EA0BC"
+			min_width: 285
+			rewards: [{
+				count: 16
+				id: "5D8E6BD35BF8B511"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			subtitle: "{university.mechbelt.subtitle}"
+			tasks: [{
+				id: "3761D7E6E25892F2"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			title: "{university.mechbelt.title}"
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0B52BD0F5D023639"]
+			description: ["{university.clutch.desc}"]
+			hide_dependency_lines: true
+			id: "70BA1C5CD3203967"
+			subtitle: "{university.clutch.subtitle}"
+			tasks: [{
+				id: "7100FECA3A92AE7D"
+				item: "create:clutch"
+				type: "item"
+			}]
+			x: 7.75d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B52BD0F5D023639"]
+			description: ["{university.gearshift.desc}"]
+			hide_dependency_lines: true
+			id: "564E9092D7A7B237"
+			subtitle: "{university.gearshift.subtitle}"
+			tasks: [{
+				id: "7EA89C2D91FF47B3"
+				item: "create:gearshift"
+				type: "item"
+			}]
+			x: 6.75d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0B52BD0F5D023639"]
+			description: [
+				"{university.chaindrive.desc1}"
+				""
+				"{university.chaindrive.desc2}"
+				""
+				"{image:ftbuniversity:textures/quests/create/encased_chain_drive.png width:200 height:130 align:1}"
+			]
+			hide_dependency_lines: true
+			id: "4B0546B0CFD8505F"
+			rewards: [{
+				count: 4
+				id: "7C16286996451CE3"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			subtitle: "{university.chaindrive.subtitle}"
+			tasks: [{
+				id: "0954DD9E9C8A930A"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			x: 8.75d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4B0546B0CFD8505F"]
+			description: [
+				"{university.adjchaingear.desc1}"
+				""
+				"{university.adjchaingear.desc2}"
+			]
+			id: "0060A5ACE00C82B7"
+			size: 0.5d
+			subtitle: "{university.adjchaingear.subtitle}"
+			tasks: [{
+				id: "535A3124412F7CA6"
+				item: "create:adjustable_chain_gearshift"
+				type: "item"
+			}]
+			x: 8.75d
+			y: 1.75d
+		}
+		{
+			dependencies: ["0B52BD0F5D023639"]
+			description: [
+				"{university.seqgear.desc1}"
+				""
+				"{university.seqgear.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "67F3B1608F60063C"
+			size: 0.5d
+			subtitle: "{university.seqgear.subtitle}"
+			tasks: [{
+				id: "50921E3B972C6312"
+				item: "create:sequenced_gearshift"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.75d
+		}
+		{
+			dependencies: ["4C5AD8CC824EA0BC"]
+			description: [
+				"{university.funnel.desc1}"
+				""
+				"{university.funnel.desc2}"
+				""
+				"{university.funnel.desc3}"
+				""
+				"{university.funnel.desc4}"
+				""
+				"{university.funnel.desc5}"
+			]
+			hide_dependency_lines: true
+			icon: "create:andesite_funnel"
+			id: "1308ECA2BBA0E0C2"
+			min_width: 275
+			size: 0.5d
+			subtitle: "{university.funnel.subtitle}"
+			tasks: [{
+				id: "69FCF97EB8AA6596"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create:andesite_funnel"
+							}
+							{
+								Count: 1b
+								id: "create:brass_funnel"
+							}
+						]
+					}
+				}
+				title: "{university.funnel.task}"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.25d
+		}
+		{
+			dependencies: ["15A27D52E5D214BF"]
+			description: [
+				"{university.chute.desc1}"
+				""
+				"{university.chute.desc2}"
+				""
+				"{university.chute.desc3}"
+			]
+			hide: true
+			id: "66802D2C711010E1"
+			size: 0.5d
+			subtitle: "{university.chute.subtitle}"
+			tasks: [{
+				id: "1FFB15D10A34C3AA"
+				item: "create:chute"
+				type: "item"
+			}]
+			title: "{university.chute.title}"
+			x: -6.0d
+			y: -3.25d
+		}
+		{
+			dependencies: ["66802D2C711010E1"]
+			description: [
+				"{university.smartchute.desc1}"
+				""
+				"{university.smartchute.desc2}"
+			]
+			id: "5F3FE603CEF20496"
+			size: 0.5d
+			subtitle: "{university.smartchute.subtitle}"
+			tasks: [{
+				id: "6B2C7073BC78C514"
+				item: "create:smart_chute"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.75d
+		}
+		{
+			dependencies: ["7D42A349ED924B59"]
+			description: [
+				"{university.weightedejector.desc1}"
+				""
+				"{university.weightedejector.desc2}"
+				""
+				"{university.weightedejector.desc3}"
+			]
+			hide_dependency_lines: true
+			id: "4C7402FEDADDB794"
+			size: 0.5d
+			subtitle: "{university.weightedejector.subtitle}"
+			tasks: [{
+				id: "18AEBBF3462FBE3C"
+				item: "create:weighted_ejector"
+				type: "item"
+			}]
+			title: "{university.weightedejector.title}"
+			x: -5.0d
+			y: -2.75d
+		}
+		{
+			dependencies: ["4C5AD8CC824EA0BC"]
+			description: [
+				"{university.tunnels.desc1}"
+				""
+				"{university.tunnels.desc2}"
+				""
+				"{university.tunnels.desc3}"
+			]
+			hide_dependency_lines: true
+			icon: "create:andesite_tunnel"
+			id: "5213E4B23B9969AF"
+			size: 0.5d
+			subtitle: "{university.tunnels.subtitle}"
+			tasks: [{
+				id: "53A7A316C19E89C4"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create:andesite_tunnel"
+							}
+							{
+								Count: 1b
+								id: "create:brass_tunnel"
+							}
+						]
+					}
+				}
+				title: "{university.tunnels.task}"
+				type: "item"
+			}]
+			title: "{university.tunnels.title}"
+			x: -5.0d
+			y: -3.25d
+		}
+		{
+			dependencies: ["4C5AD8CC824EA0BC"]
+			description: [
+				"{university.createfilter.desc1}"
+				""
+				"{university.createfilter.desc2}"
+				""
+				"{university.createfilter.desc3}"
+				""
+				"{university.createfilter.desc4}"
+				""
+				"{university.createfilter.desc5}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "create:filter"
+				tag: {
+					Blacklist: 0b
+					Items: {
+						Items: [ ]
+						Size: 18
+					}
+					RespectNBT: 0b
+				}
+			}
+			id: "4592E9D5F57713AD"
+			min_width: 250
+			size: 0.5d
+			subtitle: "{university.createfilter.subtitle}"
+			tasks: [{
+				id: "7C75C3CD29E70951"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create:attribute_filter"
+								tag: {
+									Items: {
+										Items: [{
+											Count: 1b
+											Slot: 1
+											id: "minecraft:name_tag"
+											tag: {
+												display: {
+													Name: "{\"text\":\"Selected Tags\"}"
+												}
+											}
+										}]
+										Size: 2
+									}
+									MatchedAttributes: [ ]
+									WhitelistMode: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "create:filter"
+								tag: {
+									Blacklist: 0b
+									Items: {
+										Items: [ ]
+										Size: 18
+									}
+									RespectNBT: 0b
+								}
+							}
+						]
+					}
+				}
+				title: "{university.createfilter.task}"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.75d
+		}
+		{
+			dependencies: ["0792C4199144AAB4"]
+			description: [
+				"{university.crushingwheel.desc1}"
+				""
+				"{university.crushingwheel.desc2}"
+			]
+			id: "7548854FB03C714C"
+			rewards: [{
+				count: 32
+				id: "69824200A3D980A9"
+				item: "create:wheat_flour"
+				type: "item"
+			}]
+			subtitle: "{university.crushingwheel.subtitle}"
+			tasks: [{
+				id: "0239B682E31A49DB"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7D42A349ED924B59"]
+			description: [
+				"{university.createfan.desc1}"
+				""
+				"{university.createfan.desc2}"
+				"{@pagebreak}"
+				"{university.createfan.desc3}"
+				""
+				"{university.createfan.desc4}"
+				""
+				"{university.createfan.desc5}"
+				""
+				"{university.createfan.desc6}"
+			]
+			hide_dependency_lines: true
+			id: "4EEB54EDEF804835"
+			min_width: 300
+			subtitle: "{university.createfan.subtitle}"
+			tasks: [{
+				id: "084FCB073BD464D0"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7D42A349ED924B59"]
+			description: [
+				"{university.mechanicalcrafter.desc1}"
+				""
+				"{university.mechanicalcrafter.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "0792C4199144AAB4"
+			rewards: [{
+				count: 4
+				id: "2AEFFA562EB4DCB7"
+				item: "create:crafter_slot_cover"
+				type: "item"
+			}]
+			subtitle: "{university.mechanicalcrafter.subtitle}"
+			tasks: [{
+				id: "0DFD114AD9820262"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["0792C4199144AAB4"]
+			description: [
+				"{university.extendogrip.desc1}"
+				""
+				"{university.extendogrip.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "207246E26BEAEC0F"
+			subtitle: "{university.extendogrip.subtitle}"
+			tasks: [{
+				id: "62CB5A11FDA016A8"
+				item: {
+					Count: 1b
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3835A0CA59E3AC49"]
+			description: [
+				"{university.stressometer.desc1}"
+				""
+				"{university.stressometer.desc2}"
+				""
+				"{university.stressometer.desc3}"
+			]
+			hide_dependency_lines: true
+			id: "5E076059A0164590"
+			size: 0.5d
+			subtitle: "{university.stressometer.subtitle}"
+			tasks: [{
+				id: "0879F82C98FBE26F"
+				item: "create:stressometer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.25d
+		}
+		{
+			dependencies: ["0B52BD0F5D023639"]
+			description: [
+				"{university.speedometer.desc1}"
+				""
+				"{university.speedometer.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "3835A0CA59E3AC49"
+			size: 0.5d
+			subtitle: "{university.speedometer.subtitle}"
+			tasks: [{
+				id: "0631EA237ADE8964"
+				item: "create:speedometer"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 1.75d
+		}
+		{
+			dependencies: ["7D42A349ED924B59"]
+			description: [
+				"{university.engineergoggles.desc1}"
+				""
+				"{university.engineergoggles.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "674557C631966FBE"
+			subtitle: "{university.engineergoggles.subtitle}"
+			tasks: [{
+				id: "37D4E50D1D58A2AC"
+				item: "create:goggles"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7D42A349ED924B59"]
+			description: [
+				"{university.mechanicalpress.desc1}"
+				""
+				"{university.mechanicalpress.desc2}"
+				""
+				"{university.mechanicalpress.desc3}"
+				""
+				"{university.mechanicalpress.desc4}"
+			]
+			hide_dependency_lines: true
+			id: "0E6191A5CD5864D0"
+			min_width: 250
+			rewards: [{
+				count: 6
+				id: "45A26DA9F707CBCE"
+				item: "create:bar_of_chocolate"
+				type: "item"
+			}]
+			subtitle: "{university.mechanicalpress.subtitle}"
+			tasks: [{
+				id: "036B9B3AEE29450E"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7D42A349ED924B59"]
+			description: [
+				"{university.mechanicalmixer.desc1}"
+				""
+				"{university.mechanicalmixer.desc2}"
+				""
+				"{university.mechanicalmixer.desc3}"
+				""
+				"{university.mechanicalmixer.desc4}"
+			]
+			hide_dependency_lines: true
+			icon: "create:mechanical_mixer"
+			id: "759AD47E5CBCA128"
+			subtitle: "{university.mechanicalmixer.subtitle}"
+			tasks: [
+				{
+					id: "4AF746349FE868E8"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "22A6D838BF409C26"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["759AD47E5CBCA128"]
+			description: [
+				"{university.blazeburner.desc1}"
+				""
+				"{university.blazeburner.desc2}"
+				""
+				"{university.blazeburner.desc3}"
+			]
+			id: "6D8D8A7E977B9F86"
+			rewards: [{
+				count: 4
+				id: "72BD9EE26F613257"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			subtitle: "{university.blazeburner.subtitle}"
+			tasks: [{
+				id: "56FC8F2EE1C78902"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["15A27D52E5D214BF"]
+			description: ["{university.createredstone.desc}"]
+			hide: true
+			icon: "create:powered_toggle_latch"
+			id: "0CAC41FE43C593A3"
+			min_width: 225
+			size: 0.5d
+			subtitle: "{university.createredstone.subtitle}"
+			tasks: [{
+				id: "55476B056C4A7380"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create:pulse_repeater"
+							}
+							{
+								Count: 1b
+								id: "create:pulse_extender"
+							}
+							{
+								Count: 1b
+								id: "create:powered_latch"
+							}
+							{
+								Count: 1b
+								id: "create:powered_toggle_latch"
+							}
+							{
+								Count: 1b
+								id: "create:analog_lever"
+							}
+						]
+					}
+				}
+				title: "{university.createredstone.title}"
+				type: "item"
+			}]
+			x: -8.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["15A27D52E5D214BF"]
+			description: [
+				"{university.redstonelink.desc1}"
+				""
+				"{university.redstonelink.desc2}"
+				""
+				"{university.redstonelink.desc3}"
+			]
+			hide: true
+			id: "2FB8D8BEE0731D52"
+			size: 0.5d
+			subtitle: "{university.redstonelink.subtitle}"
+			tasks: [{
+				id: "1685D8E1975F70DA"
+				item: "create:redstone_link"
+				type: "item"
+			}]
+			title: "{university.redstonelink.title}"
+			x: -7.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["3A21F44AFC7BE30B"]
+			description: [
+				"{university.mechanicalarm.desc1}"
+				""
+				"{university.mechanicalarm.desc2}"
+				""
+				"{university.mechanicalarm.desc3}"
+				""
+				"{university.mechanicalarm.desc4}"
+			]
+			hide_dependency_lines: true
+			id: "2756A7344FBC6343"
+			subtitle: "{university.mechanicalarm.subtitle}"
+			tasks: [{
+				id: "4CADBF1884B68D43"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7D42A349ED924B59"]
+			description: [
+				"{university.mechdrill.desc1}"
+				""
+				"[\"\",{\"translate\":\"university.mechdrill.desc2.1\"},{\"translate\":\"university.mechdrill.desc2.2\",\"color\":\"light_purple\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"university.contraptionsquest\"}]}},{\"translate\":\"university.mechdrill.desc2.3\"}]"
+			]
+			hide_dependency_lines: true
+			id: "3F59E7E28C72BA8B"
+			rewards: [{
+				id: "5E9FE5B3EC3ED526"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			subtitle: "{university.mechdrill.subtitle}"
+			tasks: [{
+				id: "4A40EB9ECE5FA2F1"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			title: "{university.mechdrill.title}"
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7D42A349ED924B59"]
+			description: [
+				"{university.deployer.desc1}"
+				""
+				"{university.deployer.desc2}"
+				""
+				"{university.deployer.desc3}"
+				""
+				"{university.deployer.desc4}"
+			]
+			hide_dependency_lines: true
+			id: "3A21F44AFC7BE30B"
+			min_width: 275
+			subtitle: "{university.deployer.subtitle}"
+			tasks: [{
+				id: "787AEB9E861C9663"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["15A27D52E5D214BF"]
+			description: [
+				"{university.createtank.desc1}"
+				""
+				"{university.createtank.desc2}"
+			]
+			hide: true
+			id: "3F3D2440C127FB78"
+			rewards: [{
+				count: 3
+				id: "150A8A95957C0CD1"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			subtitle: "{university.createtank.subtitle}"
+			tasks: [{
+				id: "688EBC648C48E4C0"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["15A27D52E5D214BF"]
+			description: [
+				"{university.createpipe.desc1}"
+				""
+				"{university.createpipe.desc2}"
+				"{@pagebreak}"
+				"{university.createpipe.desc3}"
+				""
+				"{image:ftbuniversity:textures/quests/create/create_pipes.png width:200 height:77 align:1}"
+				"{@pagebreak}"
+				"{university.createpipe.desc4}"
+				""
+				"{university.createpipe.desc5}"
+			]
+			hide: true
+			icon: "create:fluid_pipe"
+			id: "192BFA1C2D6C5247"
+			min_width: 250
+			rewards: [
+				{
+					count: 32
+					id: "1878664E318EF5ED"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "133C559A6BA7C262"
+					item: "create:metal_bracket"
+					type: "item"
+				}
+			]
+			subtitle: "{university.createpipe.subtitle}"
+			tasks: [
+				{
+					id: "49F86A9E75190C97"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "058ECE2C8A6D4C36"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "0AAAD896CACB6379"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "create:smart_fluid_pipe"
+								}
+								{
+									Count: 1b
+									id: "create:fluid_valve"
+								}
+							]
+						}
+					}
+					title: "{university.createpipe.task}"
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["192BFA1C2D6C5247"]
+			description: [
+				"{university.hosepulley.desc1}"
+				""
+				"{university.hosepulley.desc2}"
+				""
+				"{university.hosepulley.desc3}"
+				""
+				"{image:ftbuniversity:textures/quests/create/hose_pulley.png width:200 height:114 align:1}"
+			]
+			id: "1A8362DD58502CDF"
+			min_width: 225
+			size: 0.5d
+			subtitle: "{university.hosepulley.subtitle}"
+			tasks: [{
+				id: "725688578572206F"
+				item: "create:hose_pulley"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.25d
+		}
+		{
+			dependencies: ["3F3D2440C127FB78"]
+			description: [
+				"{university.createfluidio.desc1}"
+				""
+				"{university.createfluidio.desc2}"
+			]
+			icon: "create:spout"
+			id: "3F8FB06C806BD7CA"
+			size: 0.5d
+			subtitle: "{university.createfluidio.subtitle}"
+			tasks: [
+				{
+					id: "4D352B05A2BC0313"
+					item: "create:item_drain"
+					type: "item"
+				}
+				{
+					id: "587CA40F0F6A7362"
+					item: "create:spout"
+					type: "item"
+				}
+			]
+			title: "{university.createfluidio.title}"
+			x: -8.0d
+			y: -3.25d
+		}
+		{
+			dependencies: ["0792C4199144AAB4"]
+			description: [
+				"{university.wandofsymmetry.desc1}"
+				""
+				"{university.wandofsymmetry.desc2}"
+				""
+				"{university.wandofsymmetry.desc3}"
+				""
+				"{university.wandofsymmetry.desc4}"
+			]
+			hide_dependency_lines: true
+			id: "3E220CD3BE8712BA"
+			min_width: 275
+			subtitle: "{university.wandofsymmetry.subtitle}"
+			tasks: [{
+				id: "59556544BFA493B3"
+				item: {
+					Count: 1b
+					id: "create:wand_of_symmetry"
+					tag: {
+						enable: 0b
+						symmetry: {
+							direction: 0
+							enable: 1b
+							pos: [
+								0.0f
+								0.0f
+								0.0f
+							]
+							type: "empty"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["15A27D52E5D214BF"]
+			description: [
+				"{university.craftblueprint.desc1}"
+				""
+				"{university.craftblueprint.desc2}"
+				""
+				"{university.craftblueprint.desc3}"
+				""
+				"{university.craftblueprint.desc4}"
+			]
+			hide: true
+			id: "18BF5927A0B84071"
+			min_width: 275
+			size: 0.5d
+			subtitle: "{university.craftblueprint.subtitle}"
+			tasks: [{
+				id: "717B730C58E5DE44"
+				item: "create:crafting_blueprint"
+				type: "item"
+			}]
+			x: -8.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["7D42A349ED924B59"]
+			description: [
+				"{university.backtank.desc1}"
+				""
+				"{university.backtank.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "2B9006C2DD17FFF5"
+			subtitle: "{university.backtank.subtitle}"
+			tasks: [{
+				id: "0260E2247F5F5801"
+				item: {
+					Count: 1b
+					id: "create:copper_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2B9006C2DD17FFF5"]
+			description: ["{university.divinghelmet.desc}"]
+			id: "2321046CF96D173F"
+			size: 0.5d
+			subtitle: "{university.divinghelmet.subtitle}"
+			tasks: [{
+				id: "06398D88486B0A9C"
+				item: {
+					Count: 1b
+					id: "create:copper_diving_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.25d
+			y: 1.0d
+		}
+		{
+			dependencies: ["15A27D52E5D214BF"]
+			description: ["{university.divingboots.desc}"]
+			hide: true
+			hide_dependency_lines: true
+			id: "66FBE59D15AFBBBD"
+			size: 0.5d
+			subtitle: "{university.divingboots.subtitle}"
+			tasks: [{
+				id: "56A40D28C250DAD8"
+				item: {
+					Count: 1b
+					id: "create:copper_diving_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.25d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"15A27D52E5D214BF"
+				"0792C4199144AAB4"
+			]
+			description: ["{university.potatocannon.desc}"]
+			hide: true
+			hide_dependency_lines: true
+			id: "2665CE6E1A1593F0"
+			optional: true
+			rewards: [{
+				count: 16
+				id: "2E2A1DB5679237E1"
+				item: "minecraft:baked_potato"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.potatocannon.subtitle}"
+			tasks: [{
+				id: "30331FDA593138A7"
+				item: {
+					Count: 1b
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["3A21F44AFC7BE30B"]
+			description: [
+				"{university.rotspeedcont.desc1}"
+				""
+				"{university.rotspeedcont.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "17AB36DA56BEF5FD"
+			rewards: [{
+				id: "5674EC30BDA1E994"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			subtitle: "{university.rotspeedcont.subtitle}"
+			tasks: [{
+				id: "3E7B072BF05AD5B3"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: 9.75d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D42A349ED924B59"]
+			description: [
+				"{university.steamengine.desc1}"
+				""
+				"{university.steamengine.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "3B9E64FF270EE977"
+			subtitle: "{university.steamengine.subtitle}"
+			tasks: [{
+				id: "62B9F38696F47098"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			title: "{university.steamengine.title}"
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["66AF01E5A7A40DE5"]
+			description: [
+				"{university.stress.desc1}"
+				""
+				"[\"\",{\"translate\":\"university.stress.desc2.1\"},{\"translate\":\"university.stress.desc2.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5E076059A0164590\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"university.stress.desc2.2text\"}]}}]"
+				""
+				"{university.stress.desc3}"
+				""
+				"[\"\",{\"translate\":\"university.stress.desc4.1\"},{\"translate\":\"university.stress.desc4.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5E076059A0164590\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"university.stress.desc4.2text\"}]}}]"
+			]
+			icon: "create:stressometer"
+			id: "7515662E2D4C1A72"
+			min_width: 250
+			subtitle: "{university.stress.subtitle}"
+			tasks: [{
+				id: "47B9BE9860B22376"
+				type: "checkmark"
+			}]
+			title: "{university.stress.title}"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D42A349ED924B59"]
+			description: [
+				"{university.mechsaw.desc1}"
+				""
+				"{university.mechsaw.desc2}"
+				""
+				"{university.mechsaw.desc3}"
+				""
+				"[\"\",{\"translate\":\"university.mechsaw.desc4.1\"},{\"translate\":\"university.mechsaw.desc4.2\",\"color\":\"light_purple\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"university.contraptionsquest\"}]}},{\"translate\":\"university.mechsaw.desc4.3\"}]"
+			]
+			hide_dependency_lines: true
+			id: "2D499915F92BEBC0"
+			subtitle: "{university.mechsaw.subtitle}"
+			tasks: [{
+				id: "34A510C337415E18"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7D42A349ED924B59"]
+			description: [
+				"{university.schematicannon.desc1}"
+				""
+				"{university.schematicannon.desc2}"
+				""
+				"{university.schematicannon.desc3}"
+				"{@pagebreak}"
+				"[\"\",{\"translate\":\"university.schematicannon.desc4.1\"},{\"translate\":\"university.schematicannon.desc4.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"337D9B15738B7AFA\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"university.schematicannon.desc4.2text\"}]}},{\"translate\":\"university.schematicannon.desc4.3\"}]"
+				""
+				"{university.schematicannon.desc5}"
+				""
+				"{university.schematicannon.desc6}"
+				""
+				"{university.schematicannon.desc7}"
+			]
+			hide_dependency_lines: true
+			icon: "create:schematicannon"
+			id: "3A11E740E2A43D2D"
+			min_width: 275
+			subtitle: "{university.schematicannon.subtitle}"
+			tasks: [
+				{
+					id: "5FF424CED93474F1"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					id: "29CA5088A01C05BF"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					id: "2E211B0CAF5CBDC6"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7D42A349ED924B59"]
+			description: [
+				"{university.schemquill.desc1}"
+				""
+				"{university.schemquill.desc2}"
+				""
+				"{university.schemquill.desc3}"
+			]
+			hide_dependency_lines: true
+			id: "337D9B15738B7AFA"
+			subtitle: "{university.schemquill.subtitle}"
+			tasks: [{
+				id: "20A4FA940DDCC992"
+				item: "create:schematic_and_quill"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3A21F44AFC7BE30B"]
+			description: [
+				"{university.deployerrecipes.desc1}"
+				""
+				"[\"\",{\"translate\":\"university.enterschool.1\"},{\"translate\":\"university.enterschool.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/school enter ftbuniversity:create/deployer_recipes\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: /school enter ftbuniversity:create/deployer_recipes\"]}}]"
+			]
+			icon: "kubejs:modpack_logo"
+			id: "59270A68FCF14083"
+			size: 0.5d
+			subtitle: "{university.deployerrecipes.subtitle}"
+			tasks: [{
+				icon: "kubejs:modpack_logo"
+				id: "0471945A70C2D1EC"
+				title: "{university.deployerrecipes.subtitle}"
+				type: "custom"
+			}]
+			title: "{university.deployerrecipes.title}"
+			x: -2.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["7548854FB03C714C"]
+			description: [
+				"{university.createoreproc.desc1}"
+				""
+				"{university.createoreproc.desc2}"
+				""
+				"[\"\",{\"translate\":\"university.enterschool.1\"},{\"translate\":\"university.enterschool.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/school enter ftbuniversity:create/ore_processing\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: /school enter ftbuniversity:create/ore_processing\"]}}]"
+			]
+			icon: "kubejs:modpack_logo"
+			id: "24F6FF7303A759F9"
+			min_width: 250
+			size: 0.5d
+			subtitle: "{university.createoreproc.subtitle}"
+			tasks: [{
+				icon: "kubejs:modpack_logo"
+				id: "6E56046AF9FCE548"
+				title: "{university.createoreproc.subtitle}"
+				type: "custom"
+			}]
+			title: "{university.createoreproc.title}"
+			x: 2.0d
+			y: 7.25d
+		}
+		{
+			dependencies: ["5C6D1C1C031EDA09"]
+			description: [
+				"{university.largewheel.desc1}"
+				""
+				"{university.largewheel.desc2}"
+				""
+				"{university.largewheel.desc3}"
+			]
+			id: "7E076FA2B23A7813"
+			min_width: 250
+			subtitle: "{university.largewheel.subtitle}"
+			tasks: [{
+				id: "427D90303D7E745B"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D42A349ED924B59"]
+			description: [
+				"{university.createclipboard.desc1}"
+				""
+				"{university.createclipboard.desc2}"
+				""
+				"{university.createclipboard.desc3}"
+			]
+			hide_dependency_lines: true
+			id: "588E7BBDF3996E49"
+			subtitle: "{university.createclipboard.subtitle}"
+			tasks: [{
+				id: "64477D950FD8D006"
+				item: "create:clipboard"
+				type: "item"
+			}]
+			title: "{university.createclipboard.title}"
+			x: -7.0d
+			y: 1.0d
+		}
+	]
+	title: "{university.create.chapter1}"
+}

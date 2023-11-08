@@ -1,0 +1,1540 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "misc_storage"
+	group: "3355232C2CB5DB41"
+	icon: "ironchest:iron_chest"
+	id: "25068C43C3791EBB"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbuniversity:textures/quests/storage_auto/storage.png"
+			rotation: 0.0d
+			width: 5.3d
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbuniversity:textures/quests/storage_auto/automation.png"
+			rotation: 0.0d
+			width: 7.4125d
+			x: 4.5d
+			y: -7.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["55AD1DD15F6EF356"]
+			description: [
+				"{university.dank.desc1}"
+				""
+				"{university.dank.desc2}"
+				""
+				"{university.dank.desc3}"
+				""
+				"[\"\",{\"translate\":\"university.dank.desc4\"},{\"translate\":\"university.dank.normal\",\"color\":\"light_purple\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"university.dank.normaltext\"}]}},\", \",{\"translate\":\"university.dank.all\",\"color\":\"light_purple\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"university.dank.alltext\"}]}},\", \",{\"translate\":\"university.dank.filtered\",\"color\":\"light_purple\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"university.dank.filtered\"}]}},\", \",{\"translate\":\"university.dank.void\",\"color\":\"light_purple\",\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"university.dank.voidtext1\"},{\"translate\":\"university.dank.voidtext2\",\"color\":\"red\"},{\"translate\":\"university.dank.voidtext3\"}]}}]"
+				""
+				"{university.dank.desc5}"
+			]
+			icon: "dankstorage:dank_1"
+			id: "2F5E6110447B7CB8"
+			min_width: 325
+			subtitle: "{university.dank.subtitle}"
+			tasks: [{
+				id: "5177C37FD9CB9C55"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "dankstorage:dank_1"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:dank_2"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:dank_3"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:dank_4"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:dank_5"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:dank_6"
+							}
+							{
+								Count: 1b
+								id: "dankstorage:dank_7"
+							}
+						]
+					}
+				}
+				title: "Danks"
+				type: "item"
+			}]
+			title: "{university.dank.title}"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["2F5E6110447B7CB8"]
+			description: [
+				"{university.dankdock.desc1}"
+				""
+				"{university.dankdock.desc2}"
+			]
+			icon: "dankstorage:1_to_2"
+			id: "7213410BDECD2966"
+			subtitle: "{university.dankdock.subtitle}"
+			tasks: [
+				{
+					id: "330D7EB715681C08"
+					item: "dankstorage:dock"
+					type: "item"
+				}
+				{
+					id: "1BF555AD09C56F92"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "dankstorage:1_to_2"
+								}
+								{
+									Count: 1b
+									id: "dankstorage:2_to_3"
+								}
+								{
+									Count: 1b
+									id: "dankstorage:3_to_4"
+								}
+								{
+									Count: 1b
+									id: "dankstorage:4_to_5"
+								}
+								{
+									Count: 1b
+									id: "dankstorage:5_to_6"
+								}
+								{
+									Count: 1b
+									id: "dankstorage:6_to_7"
+								}
+							]
+						}
+					}
+					title: "{university.dankdock.task}"
+					type: "item"
+				}
+			]
+			title: "{university.dankdock.title}"
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["55AD1DD15F6EF356"]
+			description: [
+				"{university.ironchests.desc1}"
+				""
+				"{university.ironchests.desc2}"
+			]
+			icon: "ironchest:iron_chest"
+			id: "6E6DBF43454AB292"
+			rewards: [{
+				count: 3
+				id: "1E7B80A182F43AAC"
+				item: "ironchest:gold_to_diamond_chest_upgrade"
+				type: "item"
+			}]
+			subtitle: "{university.ironchests.subtitle}"
+			tasks: [
+				{
+					id: "104A5B10474B8759"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ironchest:copper_chest"
+								}
+								{
+									Count: 1b
+									id: "ironchest:iron_chest"
+								}
+								{
+									Count: 1b
+									id: "ironchest:gold_chest"
+								}
+								{
+									Count: 1b
+									id: "ironchest:diamond_chest"
+								}
+								{
+									Count: 1b
+									id: "ironchest:crystal_chest"
+								}
+								{
+									Count: 1b
+									id: "ironchest:obsidian_chest"
+								}
+							]
+						}
+					}
+					title: "{university.ironchests.task1}"
+					type: "item"
+				}
+				{
+					id: "1840A487C2BD3DF9"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ironchest:wood_to_copper_chest_upgrade"
+								}
+								{
+									Count: 1b
+									id: "ironchest:wood_to_iron_chest_upgrade"
+								}
+								{
+									Count: 1b
+									id: "ironchest:copper_to_iron_chest_upgrade"
+								}
+								{
+									Count: 1b
+									id: "ironchest:iron_to_gold_chest_upgrade"
+								}
+								{
+									Count: 1b
+									id: "ironchest:gold_to_diamond_chest_upgrade"
+								}
+								{
+									Count: 1b
+									id: "ironchest:diamond_to_crystal_chest_upgrade"
+								}
+								{
+									Count: 1b
+									id: "ironchest:diamond_to_obsidian_chest_upgrade"
+								}
+							]
+						}
+					}
+					title: "{university.ironchests.task2}"
+					type: "item"
+				}
+			]
+			title: "{university.ironchests.title}"
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["55AD1DD15F6EF356"]
+			description: [
+				"{university.functionalstorage.desc1}"
+				""
+				"{university.functionalstorage.desc2}"
+			]
+			icon: "functionalstorage:oak_2"
+			id: "2EF24C526BD21420"
+			subtitle: "{university.functionalstorage.subtitle}"
+			tasks: [{
+				id: "2A785EA396961FD4"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "functionalstorage:drawer"
+					}
+				}
+				title: "{university.functionalstorage.title}"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2EF24C526BD21420"]
+			description: [
+				"{university.compactingdrawer.desc1}"
+				""
+				"{university.compactingdrawer.desc2}"
+			]
+			icon: "functionalstorage:compacting_drawer"
+			id: "677D655A364C6B33"
+			subtitle: "{university.compactingdrawer.subtitle}"
+			tasks: [{
+				id: "6D218F2547A58D9D"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "functionalstorage:compacting_drawer"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:compacting_framed_drawer"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:simple_compacting_drawer"
+							}
+						]
+					}
+				}
+				title: "{university.compactingdrawer.title}"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["55AD1DD15F6EF356"]
+			description: ["{university.fluiddrawer.desc}"]
+			icon: "functionalstorage:fluid_1"
+			id: "260CC0F57B16411E"
+			optional: true
+			subtitle: "{university.fluiddrawer.subtitle}"
+			tasks: [{
+				id: "291071894DA429AB"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "functionalstorage:fluid_1"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:fluid_2"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:fluid_4"
+							}
+						]
+					}
+				}
+				title: "{university.fluiddrawer.task}"
+				type: "item"
+			}]
+			title: "{university.fluiddrawer.title}"
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["55AD1DD15F6EF356"]
+			description: [
+				"{university.specialdrawers.desc1}"
+				""
+				"{university.specialdrawers.desc2}"
+			]
+			icon: "functionalstorage:armory_cabinet"
+			id: "2CE3CABF32E7A7C5"
+			rewards: [{
+				id: "02C26BDBC2C117E0"
+				item: "functionalstorage:ender_drawer"
+				type: "item"
+			}]
+			subtitle: "{university.specialdrawers.subtitle}"
+			tasks: [{
+				id: "6A1CEDB0DC8EFB74"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "functionalstorage:ender_drawer"
+							}
+							{
+								Count: 1b
+								id: "functionalstorage:armory_cabinet"
+							}
+						]
+					}
+				}
+				title: "{university.specialdrawers.title}"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2EF24C526BD21420"]
+			description: [
+				"{university.storagecontroller.desc1}"
+				""
+				"{university.storagecontroller.desc2}"
+				""
+				"{university.storagecontroller.desc3}"
+			]
+			icon: "functionalstorage:storage_controller"
+			id: "164E99045144250B"
+			min_width: 250
+			subtitle: "{university.storagecontroller.subtitle}"
+			tasks: [
+				{
+					id: "23AFA703970098CA"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "functionalstorage:storage_controller"
+								}
+								{
+									Count: 1b
+									id: "functionalstorage:controller_extension"
+								}
+							]
+						}
+					}
+					title: "{university.storagecontroller.title}"
+					type: "item"
+				}
+				{
+					id: "581189D432C718DD"
+					item: {
+						Count: 1b
+						id: "functionalstorage:linking_tool"
+						tag: {
+							Action: "ADD"
+							Mode: "SINGLE"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2EF24C526BD21420"]
+			description: [
+				"{university.funcupgrades.desc1}"
+				""
+				"{university.funcupgrades.desc2}"
+				""
+				"{university.funcupgrades.desc3}"
+				""
+				"{university.funcupgrades.desc4}"
+			]
+			icon: "functionalstorage:copper_upgrade"
+			id: "4E7BB03F20A710BD"
+			min_width: 250
+			subtitle: "{university.funcupgrades.subtitle}"
+			tasks: [
+				{
+					id: "58FE9B920009857D"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "functionalstorage:copper_upgrade"
+								}
+								{
+									Count: 1b
+									id: "functionalstorage:gold_upgrade"
+								}
+								{
+									Count: 1b
+									id: "functionalstorage:diamond_upgrade"
+								}
+								{
+									Count: 1b
+									id: "functionalstorage:netherite_upgrade"
+								}
+								{
+									Count: 1b
+									id: "functionalstorage:iron_downgrade"
+								}
+							]
+						}
+					}
+					title: "{university.funcupgrades.task1}"
+					type: "item"
+				}
+				{
+					id: "6836164070018CCE"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "functionalstorage:puller_upgrade"
+									tag: {
+										Direction: "down"
+									}
+								}
+								{
+									Count: 1b
+									id: "functionalstorage:pusher_upgrade"
+									tag: {
+										Direction: "down"
+									}
+								}
+								{
+									Count: 1b
+									id: "functionalstorage:void_upgrade"
+								}
+								{
+									Count: 1b
+									id: "functionalstorage:redstone_upgrade"
+									tag: {
+										Slot: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "functionalstorage:configuration_tool"
+									tag: {
+										Mode: "LOCKING"
+									}
+								}
+							]
+						}
+					}
+					title: "{university.funcupgrades.task2}"
+					type: "item"
+				}
+			]
+			title: "{university.funcupgrades.title}"
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["55AD1DD15F6EF356"]
+			description: [
+				"{university.noender.desc1}"
+				""
+				"{university.noender.desc2}"
+				""
+				"[\"\",{\"translate\":\"university.noender.desc3.1\"},{\"translate\":\"university.noender.desc3.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"499197C177594F2C\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"university.noender.desc3.2text\"}]}},{\"translate\":\"university.noender.desc3.3\"},{\"translate\":\"university.noender.desc3.4\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"3318CF224625B5C1\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"university.noender.desc3.4text\"}]}},{\"translate\":\"university.noender.desc3.5\"}]"
+				""
+				"{university.noender.desc4}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbuniversity:textures/quests/storage_auto/get_dunked_on.png"
+				}
+			}
+			id: "756BA8CBDFE90BB9"
+			min_width: 250
+			rewards: [{
+				count: 2
+				id: "4F5A52364660E687"
+				item: "minecraft:ender_chest"
+				type: "item"
+			}]
+			subtitle: "{university.noender.subtitle}"
+			tasks: [{
+				id: "2E844BBCEFAA3040"
+				type: "checkmark"
+			}]
+			title: "{university.noender.title}"
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["55AD1DD15F6EF356"]
+			description: [
+				"{university.sophisticated.desc1}"
+				""
+				"{university.sophisticated.desc2}"
+				""
+				"{university.sophisticated.desc3}"
+			]
+			icon: {
+				Count: 1b
+				id: "sophisticatedbackpacks:backpack"
+				tag: {
+					contentsUuid: [I;
+						821699663
+						604914537
+						-1954444059
+						1605935946
+					]
+					inventorySlots: 27
+					upgradeSlots: 1
+				}
+			}
+			id: "64DEEB62AA4EB3E8"
+			min_width: 275
+			rewards: [{
+				count: 8
+				id: "6C2256522C87023F"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			subtitle: "{university.sophisticated.subtitle}"
+			tasks: [{
+				id: "7AE410E5226C404A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:iron_backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:gold_backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:diamond_backpack"
+							}
+							{
+								Count: 1b
+								id: "sophisticatedbackpacks:netherite_backpack"
+							}
+						]
+					}
+				}
+				title: "{university.sophisticated.task}"
+				type: "item"
+			}]
+			title: "{university.sophisticated.title}"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["64DEEB62AA4EB3E8"]
+			description: [
+				"{university.backup.desc1}"
+				""
+				"{university.backup.desc2}"
+			]
+			icon: "sophisticatedbackpacks:everlasting_upgrade"
+			id: "36B460F8B73763BB"
+			rewards: [{
+				id: "5F29864E96FAF00E"
+				item: "sophisticatedbackpacks:feeding_upgrade"
+				type: "item"
+			}]
+			subtitle: "{university.backup.subtitle}"
+			tasks: [{
+				id: "295B0888F3D93BDA"
+				item: {
+					Count: 1b
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "acks:.*upgrade"
+					}
+				}
+				title: "{university.backup.task}"
+				type: "item"
+			}]
+			title: "{university.backup.title}"
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["55AD1DD15F6EF356"]
+			description: [
+				"{university.laserio.desc1}"
+				""
+				"[\"\",{\"translate\":\"university.laserio.desc2.1\"},{\"translate\":\"university.laserio.desc2.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/school enter ftbuniversity:misc/laserio\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: /school enter ftbuniversity:misc/laserio\"]}},{\"translate\":\"university.laserio.desc2.3\"}]"
+				"{@pagebreak}"
+				"{university.laserio.desc3}"
+				""
+				"{university.laserio.desc4}"
+				""
+				"{university.laserio.desc5}"
+			]
+			icon: "laserio:laser_node"
+			id: "5C671B6E562C39E5"
+			min_width: 275
+			rewards: [{
+				id: "5244EC5CA525321A"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "laserio:laseriobook"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{university.laserio.subtitle}"
+			tasks: [
+				{
+					id: "133499DFE40F0388"
+					item: "laserio:laser_node"
+					type: "item"
+				}
+				{
+					id: "6A4FC6F3F95C7444"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "laserio:card_item"
+								}
+								{
+									Count: 1b
+									id: "laserio:card_fluid"
+								}
+								{
+									Count: 1b
+									id: "laserio:card_energy"
+								}
+								{
+									Count: 1b
+									id: "laserio:card_redstone"
+								}
+							]
+						}
+					}
+					title: "{university.laserio.task}"
+					type: "item"
+				}
+			]
+			title: "{university.laserio.title}"
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5C671B6E562C39E5"]
+			description: [
+				"{university.laserupgrades.desc1}"
+				""
+				"{university.laserupgrades.desc2}"
+			]
+			icon: {
+				Count: 1b
+				id: "laserio:filter_count"
+				tag: {
+					counts: [
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 0
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 1
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 2
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 3
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 4
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 5
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 6
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 7
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 8
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 9
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 10
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 11
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 12
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 13
+						}
+						{
+							Count: 0
+							MBAmount: 0
+							Slot: 14
+						}
+					]
+					inv: {
+						Items: [ ]
+						Size: 15
+					}
+				}
+			}
+			id: "0CD11137BC02C059"
+			rewards: [{
+				count: 4
+				id: "540538CC02D12882"
+				item: "laserio:overclocker_card"
+				type: "item"
+			}]
+			subtitle: "{university.laserupgrades.subtitle}"
+			tasks: [
+				{
+					id: "1B39F93A0179FDCF"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "laserio:filter_basic"
+									tag: {
+										inv: {
+											Items: [ ]
+											Size: 15
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "laserio:filter_count"
+									tag: {
+										counts: [
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 0
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 1
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 2
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 3
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 4
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 5
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 6
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 7
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 8
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 9
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 10
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 11
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 12
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 13
+											}
+											{
+												Count: 0
+												MBAmount: 0
+												Slot: 14
+											}
+										]
+										inv: {
+											Items: [ ]
+											Size: 15
+										}
+									}
+								}
+								{
+									Count: 1b
+									id: "laserio:filter_tag"
+									tag: {
+										tags: [ ]
+									}
+								}
+								{
+									Count: 1b
+									id: "laserio:filter_mod"
+									tag: {
+										inv: {
+											Items: [ ]
+											Size: 15
+										}
+									}
+								}
+							]
+						}
+					}
+					title: "{university.laserupgrades.task1}"
+					type: "item"
+				}
+				{
+					id: "04620F099B4F4A86"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "laserio:overclocker_card"
+								}
+								{
+									Count: 1b
+									id: "laserio:overclocker_node"
+								}
+							]
+						}
+					}
+					title: "{university.laserupgrades.task2}"
+					type: "item"
+				}
+			]
+			title: "{university.laserupgrades.title}"
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["55AD1DD15F6EF356"]
+			description: [
+				"{university.modularrouters.desc1}"
+				""
+				"{university.modularrouters.desc2}"
+				""
+				"{university.modularrouters.desc3}"
+				""
+				"{university.modularrouters.desc4}"
+			]
+			icon: "modularrouters:modular_router"
+			id: "5585418E41964F86"
+			min_width: 250
+			rewards: [{
+				id: "33DD7ADD456623F8"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "modularrouters:book"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{university.modularrouters.subtitle}"
+			tasks: [{
+				id: "4D9A55FE9995939C"
+				item: "modularrouters:modular_router"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["55AD1DD15F6EF356"]
+			description: [
+				"{university.superfactorymanager.desc1}"
+				""
+				"[\"\",{\"translate\":\"university.superfactorymanager.desc2.1\"},{\"translate\":\"university.superfactorymanager.desc2.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/TeamDman/SuperFactoryManager/tree/1.19/examples\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: https://github.com/TeamDman/SuperFactoryManager/tree/1.19/examples\"]}},{\"translate\":\"university.superfactorymanager.desc2.3\"},{\"translate\":\"university.superfactorymanager.desc2.4\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/school enter ftbuniversity:misc/sfm\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: /school enter ftbuniversity:misc/sfm\"]}},{\"translate\":\"university.superfactorymanager.desc2.5\"}]"
+				""
+				"{image:ftbuniversity:textures/quests/storage_auto/sfm.png width:175 height:106 align:1}"
+			]
+			icon: "sfm:manager"
+			id: "4F53951A0B3C604E"
+			min_width: 275
+			subtitle: "{university.superfactorymanager.subtitle}"
+			tasks: [
+				{
+					id: "347A24C04E6A9204"
+					item: "sfm:manager"
+					type: "item"
+				}
+				{
+					id: "25A471646292AED1"
+					item: {
+						Count: 1b
+						id: "sfm:disk"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "3BC5A368B5D1822F"
+					item: {
+						Count: 1b
+						id: "sfm:labelgun"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "{university.superfactorymanager.title}"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["55AD1DD15F6EF356"]
+			description: [
+				"{university.mekpipes.desc1}"
+				""
+				"[\"\",{\"translate\":\"university.mekpipes.desc2.1\"},{\"translate\":\"university.mekpipes.desc2.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5D06472EF5EC1773\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"university.mekpipes.desc2.2text\"}]}},{\"translate\":\"university.mekpipes.desc2.3\"}]"
+			]
+			icon: "mekanism:basic_logistical_transporter"
+			id: "2AC45CD20CB59CA1"
+			subtitle: "{university.mekpipes.subtitle}"
+			tasks: [{
+				id: "1613CF0C88484458"
+				item: {
+					Count: 1b
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "al_tran"
+					}
+				}
+				title: "{university.mekpipes.task}"
+				type: "item"
+			}]
+			title: "{university.mekpipes.title}"
+			x: 4.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["55AD1DD15F6EF356"]
+			description: [
+				"{university.quarkpipe.desc1}"
+				""
+				"{university.quarkpipe.desc2}"
+				""
+				"{university.quarkpipe.desc3}"
+			]
+			icon: "quark:pipe"
+			id: "44399760CB24DDFE"
+			min_width: 250
+			rewards: [{
+				count: 32
+				id: "54E4F91617BD2F3F"
+				item: "quark:pipe"
+				type: "item"
+			}]
+			subtitle: "{university.quarkpipe.subtitle}"
+			tasks: [{
+				id: "0BD77D936AFBFA04"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "quark:pipes"
+					}
+				}
+				title: "{university.quarkpipe.title}"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["55AD1DD15F6EF356"]
+			description: [
+				"{university.prettypipes.desc1}"
+				""
+				"{university.prettypipes.desc2}"
+				""
+				"{university.prettypipes.desc3}"
+				""
+				"{image:ftbuniversity:textures/quests/storage_auto/pretty_pipes.png width:208 height:100 align:1}"
+			]
+			icon: "prettypipes:pipe"
+			id: "3CEE41253F085764"
+			min_width: 275
+			subtitle: "{university.prettypipes.subtitle}"
+			tasks: [
+				{
+					id: "567F3CADC7FE9B86"
+					item: "prettypipes:pipe"
+					type: "item"
+				}
+				{
+					id: "7CF68C2DAE5D38EE"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "prettypipes:low_extraction_module"
+								}
+								{
+									Count: 1b
+									id: "prettypipes:medium_extraction_module"
+								}
+								{
+									Count: 1b
+									id: "prettypipes:high_extraction_module"
+								}
+								{
+									Count: 1b
+									id: "prettypipes:low_retrieval_module"
+								}
+								{
+									Count: 1b
+									id: "prettypipes:medium_retrieval_module"
+								}
+								{
+									Count: 1b
+									id: "prettypipes:high_retrieval_module"
+								}
+							]
+						}
+					}
+					title: "{university.prettypipes.task}"
+					type: "item"
+				}
+			]
+			title: "{university.prettypipes.title}"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3CEE41253F085764"]
+			description: [
+				"{university.ppterm.desc1}"
+				""
+				"{university.ppterm.desc2}"
+				""
+				"{university.ppterm.desc3}"
+			]
+			icon: "prettypipes:item_terminal"
+			id: "4D26A8212EF6D030"
+			rewards: [{
+				id: "5F1792B6ECE04943"
+				item: "prettypipes:pressurizer"
+				type: "item"
+			}]
+			subtitle: "{university.ppterm.subtitle}"
+			tasks: [{
+				id: "0BA39CB423163BB6"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "prettypipes:item_terminal"
+							}
+							{
+								Count: 1b
+								id: "prettypipes:crafting_terminal"
+							}
+						]
+					}
+				}
+				title: "{university.ppterm.title}"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3CEE41253F085764"]
+			description: [
+				"{university.ppwrench.desc1}"
+				""
+				"{university.ppwrench.desc2}"
+			]
+			id: "56DC4B267771FBB9"
+			subtitle: "{university.ppwrench.subtitle}"
+			tasks: [{
+				id: "222DA6AC0E3CBAF4"
+				item: "prettypipes:wrench"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3CEE41253F085764"]
+			description: [
+				"{university.ppfilter.desc1}"
+				""
+				"{university.ppfilter.desc2}"
+				""
+				"{university.ppfilter.desc3}"
+			]
+			icon: "prettypipes:tag_filter_modifier"
+			id: "71A614FF48408157"
+			rewards: [{
+				count: 3
+				id: "39651D7D1372015C"
+				item: "prettypipes:high_speed_module"
+				type: "item"
+			}]
+			subtitle: "{university.ppfilter.subtitle}"
+			tasks: [{
+				id: "3EDF669C7C1986DB"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "prettypipes:stack_size_module"
+							}
+							{
+								Count: 1b
+								id: "prettypipes:redstone_module"
+							}
+							{
+								Count: 1b
+								id: "prettypipes:filter_increase_modifier"
+							}
+							{
+								Count: 1b
+								id: "prettypipes:low_filter_module"
+							}
+							{
+								Count: 1b
+								id: "prettypipes:high_filter_module"
+							}
+							{
+								Count: 1b
+								id: "prettypipes:low_low_priority_module"
+							}
+							{
+								Count: 1b
+								id: "prettypipes:medium_low_priority_module"
+							}
+							{
+								Count: 1b
+								id: "prettypipes:high_low_priority_module"
+							}
+							{
+								Count: 1b
+								id: "prettypipes:low_high_priority_module"
+							}
+							{
+								Count: 1b
+								id: "prettypipes:medium_high_priority_module"
+							}
+							{
+								Count: 1b
+								id: "prettypipes:high_high_priority_module"
+							}
+							{
+								Count: 1b
+								id: "prettypipes:low_crafting_module"
+							}
+							{
+								Count: 1b
+								id: "prettypipes:medium_crafting_module"
+							}
+							{
+								Count: 1b
+								id: "prettypipes:high_crafting_module"
+							}
+							{
+								Count: 1b
+								id: "prettypipes:damage_filter_modifier"
+							}
+							{
+								Count: 1b
+								id: "prettypipes:nbt_filter_modifier"
+							}
+							{
+								Count: 1b
+								id: "prettypipes:mod_filter_modifier"
+							}
+							{
+								Count: 1b
+								id: "prettypipes:tag_filter_modifier"
+							}
+							{
+								Count: 1b
+								id: "prettypipes:round_robin_sorting_modifier"
+							}
+							{
+								Count: 1b
+								id: "prettypipes:random_sorting_modifier"
+							}
+						]
+					}
+				}
+				title: "{university.ppfilter.task}"
+				type: "item"
+			}]
+			title: "{university.ppfilter.title}"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5C671B6E562C39E5"]
+			description: [
+				"{university.laserwrench.desc1}"
+				""
+				"{university.laserwrench.desc2}"
+			]
+			id: "69781C9AD54141DF"
+			rewards: [{
+				count: 4
+				id: "16EB190E1F34BA53"
+				item: "laserio:laser_connector"
+				type: "item"
+			}]
+			subtitle: "{university.laserwrench.subtitle}"
+			tasks: [{
+				id: "5204D50BCD63B9A3"
+				item: {
+					Count: 1b
+					id: "laserio:laser_wrench"
+					tag: {
+						connectionpos: {
+							X: 0
+							Y: 0
+							Z: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5585418E41964F86"]
+			description: [
+				"{university.mrmodules.desc1}"
+				""
+				"{university.mrmodules.desc2}"
+				""
+				"{university.mrmodules.desc3}"
+				""
+				"{university.mrmodules.desc4}"
+				""
+				"{image:ftbuniversity:textures/quests/storage_auto/mr_power.png width:142 height:75 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "modularrouters:puller_module_1"
+				tag: {
+					modularrouters: {
+						Direction: "NONE"
+						ModuleFilter: { }
+					}
+				}
+			}
+			id: "5F130221D43B1A37"
+			min_width: 250
+			subtitle: "{university.mrmodules.subtitle}"
+			tasks: [{
+				id: "6F77912AD562318E"
+				item: {
+					Count: 1b
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "modular.*module"
+					}
+				}
+				title: "{university.mrmodules.title}"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5F130221D43B1A37"]
+			description: [
+				"{university.mrupgrades.desc1}"
+				""
+				"{university.mrupgrades.desc2}"
+			]
+			icon: "modularrouters:energy_upgrade"
+			id: "60A6E85D76C6109B"
+			rewards: [{
+				count: 3
+				id: "4B8D2003317BE493"
+				item: "modularrouters:speed_upgrade"
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "{university.mrupgrades.subtitle}"
+			tasks: [{
+				id: "6D4C9EED04CFF2C8"
+				item: {
+					Count: 1b
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "modul.*upgrade"
+					}
+				}
+				title: "{university.mrupgrades.title}"
+				type: "item"
+			}]
+			x: 7.875d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5F130221D43B1A37"]
+			description: ["{university.mraugments.desc}"]
+			icon: "modularrouters:stack_augment"
+			id: "173CA3C811A4FCB0"
+			size: 0.75d
+			subtitle: "{university.mraugments.subtitle}"
+			tasks: [{
+				id: "12692910693B2A2C"
+				item: {
+					Count: 1b
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "modul.*augm"
+					}
+				}
+				title: "{university.mraugments.title}"
+				type: "item"
+			}]
+			x: 7.875d
+			y: -4.875d
+		}
+		{
+			dependencies: ["5C671B6E562C39E5"]
+			description: ["[\"\",{\"translate\":\"university.lioschool.desc.1\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/school enter ftbuniversity:misc/laserio\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: /school enter ftbuniversity:misc/laserio\"]}},{\"translate\":\"university.lioschool.desc.2\"}]"]
+			icon: "kubejs:modpack_logo"
+			id: "768932776A0D6FD1"
+			size: 0.5d
+			subtitle: "{university.lioschool.subtitle}"
+			tasks: [{
+				icon: "kubejs:modpack_logo"
+				id: "0D236AC2BC406D70"
+				title: "{university.lioschool.subtitle}"
+				type: "custom"
+			}]
+			title: "{university.lioschool.title}"
+			x: 3.0d
+			y: -4.75d
+		}
+		{
+			dependencies: ["4F53951A0B3C604E"]
+			description: ["[\"\",{\"translate\":\"university.sfmschool.desc.1\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/school enter ftbuniversity:misc/sfm\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: /school enter ftbuniversity:misc/sfm\"]}},{\"translate\":\"university.sfmschool.desc.2\"}]"]
+			icon: "kubejs:modpack_logo"
+			id: "1343770F5D98D4F0"
+			size: 0.5d
+			subtitle: "{university.sfmschool.subtitle}"
+			tasks: [{
+				icon: "kubejs:modpack_logo"
+				id: "44A10091A39C7CFF"
+				title: "{university.sfmschool.subtitle}"
+				type: "custom"
+			}]
+			title: "{university.sfmschool.title}"
+			x: 6.0d
+			y: -3.75d
+		}
+	]
+	title: "{university.miscstorage.chapter}"
+}

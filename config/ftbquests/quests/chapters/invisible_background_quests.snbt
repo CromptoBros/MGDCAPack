@@ -1,0 +1,916 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "invisible_background_quests"
+	group: ""
+	icon: "minecraft:command_block"
+	id: "3D07FA7DC9E67813"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 4.0d
+		hover: ["You aren't supposed to be here"]
+		image: "ftbuniversity:textures/quests/aaron.png"
+		rotation: 0.0d
+		width: 4.0d
+		x: -2.0d
+		y: -6.0d
+	}]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6586648E25E825D8"
+			rewards: [{
+				auto: "invisible"
+				id: "589E652BCE1C19B2"
+				title: "A Mongoose"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "26CD5A7C07831AAB"
+				observe_type: 5
+				timer: 0L
+				to_observe: "alexsmobs:mungus"
+				type: "observation"
+			}]
+			title: "Observe mungus"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			id: "5D8AF3B20C1B78DA"
+			rewards: [{
+				id: "162B910743DC8A52"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "7AF617E44A12A4DB"
+				stat: "minecraft:play_time"
+				title: "Play 25 minutes (20*60*25 ticks)"
+				type: "stat"
+				value: 30000
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3FBEF9540A778253"]
+			description: [
+				"put this back when you know what it does"
+				""
+				"apparently not fully implemented?"
+			]
+			id: "1C3E3674E54AEFAB"
+			tasks: [{
+				icon: "tetra:extractor_1_1"
+				id: "4966955A44DC94D1"
+				observe_type: 1
+				timer: 0L
+				to_observe: "ftbuniversity:tetra_schematics"
+				type: "observation"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			id: "45606B83CDD97190"
+			tasks: [{
+				id: "1341098F41C0A501"
+				title: "Removed quests"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			id: "4C99D1EB3D7C7DDF"
+			tasks: [{
+				id: "2F9EC99A2726004E"
+				title: "Logic quests"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0792C4199144AAB4"]
+			description: [
+				"{university.createoreexc.desc1}"
+				""
+				"{university.createoreexc.desc2}"
+				""
+				"{university.createoreexc.desc3}"
+			]
+			icon: "createoreexcavation:drilling_machine"
+			id: "199CEB8E064E8449"
+			subtitle: "{university.createoreexc.subtitle}"
+			tasks: [
+				{
+					id: "48981A04244CA980"
+					item: "createoreexcavation:drilling_machine"
+					type: "item"
+				}
+				{
+					id: "009C929AAD10BC8F"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "createoreexcavation:drill"
+								}
+								{
+									Count: 1b
+									id: "createoreexcavation:diamond_drill"
+								}
+								{
+									Count: 1b
+									id: "createoreexcavation:netherite_drill"
+								}
+							]
+						}
+					}
+					title: "{university.createoreexc.task}"
+					type: "item"
+				}
+				{
+					id: "3ED734896F106723"
+					item: "createoreexcavation:vein_finder"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0792C4199144AAB4"]
+			description: [
+				"{university.coepump.desc1}"
+				""
+				"{university.coepump.desc2}"
+				""
+				"{university.coepump.desc3}"
+			]
+			icon: "createoreexcavation:extractor"
+			id: "2926931820DDB1D8"
+			subtitle: "{university.coepump.subtitle}"
+			tasks: [
+				{
+					id: "74B27F685E969450"
+					item: "createoreexcavation:extractor"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4ED0C9874F6EA3E3"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "createoreexcavation:drill"
+								}
+								{
+									Count: 1b
+									id: "createoreexcavation:diamond_drill"
+								}
+								{
+									Count: 1b
+									id: "createoreexcavation:netherite_drill"
+								}
+							]
+						}
+					}
+					title: "{university.createoreexc.task}"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "7CBBD3FC28C11A5E"
+					item: "createoreexcavation:vein_finder"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.enderchest.desc1}"
+				""
+				"{university.enderchest.desc2}"
+				""
+				"{university.enderchest.desc3}"
+			]
+			id: "4053E5B79353957D"
+			min_width: 250
+			rewards: [{
+				id: "0CC566E4FCECF2D4"
+				item: "enderstorage:ender_chest"
+				type: "item"
+			}]
+			subtitle: "{university.enderchest.subtitle}"
+			tasks: [{
+				id: "2F46E195D09EAAB1"
+				item: "enderstorage:ender_chest"
+				type: "item"
+			}]
+			title: "{university.enderchest.title}"
+			x: -5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4053E5B79353957D"]
+			description: [
+				"{university.enderpouch.desc1}"
+				""
+				"{university.enderpouch.desc2}"
+			]
+			id: "08045A4848CB785B"
+			subtitle: "{university.enderpouch.subtitle}"
+			tasks: [{
+				id: "0FC54E3C95E481A1"
+				item: "enderstorage:ender_pouch"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.endertank.desc1}"
+				""
+				"{university.endertank.desc2}"
+			]
+			id: "13C40EC2313249BC"
+			rewards: [{
+				id: "32431C7CC90B09EF"
+				item: "enderstorage:ender_tank"
+				type: "item"
+			}]
+			subtitle: "{university.endertank.subtitle}"
+			tasks: [{
+				id: "29509B91F60D894F"
+				item: "enderstorage:ender_tank"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.parcool.desc1}"
+				""
+				"[\"\",{\"translate\":\"university.parcool.desc2.1\"},{\"translate\":\"university.parcool.desc2.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://youtu.be/yd8yR_lIz_A\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: https://youtu.be/yd8yR_lIz_A\"]}},{\"translate\":\"university.parcool.desc2.3\"}]"
+				""
+				"{university.parcool.desc4}"
+				""
+				"{university.parcool.desc5}"
+			]
+			id: "0F3A4646512928C2"
+			min_width: 250
+			subtitle: "{university.parcool.subtitle}"
+			tasks: [{
+				id: "5A74FF4EE62B2BC5"
+				title: "{university.parcool.task}"
+				type: "custom"
+			}]
+			title: "{university.parcool.title}"
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.abilitytotems.desc1}"
+				""
+				"{university.abilitytotems.desc2}"
+				""
+				"{university.abilitytotems.desc3}"
+				""
+				"{university.abilitytotems.desc4}"
+				""
+				"{university.abilitytotems.desc5}"
+			]
+			id: "26B14E8EA396AAFC"
+			min_width: 250
+			rewards: [{
+				count: 3
+				id: "35025570A34300AB"
+				item: {
+					Count: 1b
+					id: "everlastingabilities:ability_totem"
+					tag: {
+						"everlastingabilities:abilityStoreStack": [{
+							level: 1
+							name: "everlastingabilities:effect/unluck"
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{university.abilitytotems.subtitle}"
+			tasks: [{
+				id: "2D1EAF9AD199F484"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [{
+							Count: 1b
+							id: "everlastingabilities:ability_totem"
+							tag: {
+								"everlastingabilities:abilityStoreStack": [{
+									level: 1
+									name: "everlastingabilities:effect/resistance"
+								}]
+							}
+						}]
+					}
+				}
+				title: "{university.abilitytotems.task}"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1AE06DA75012FBCD"]
+			description: [
+				"{university.tinypipes.desc1}"
+				""
+				"{university.tinypipes.desc2}"
+				""
+				"{university.tinypipes.desc3}"
+				""
+				"{image:ftbuniversity:textures/quests/misc/tiny_pipes.png width:160 height:100 align:1}"
+			]
+			icon: "tinypipes:item_pipe"
+			id: "0FEB1A0F8035161B"
+			min_width: 250
+			subtitle: "{university.tinypipes.subtitle}"
+			tasks: [
+				{
+					id: "3BECB19406213A07"
+					item: "tinypipes:pipe_wrench"
+					type: "item"
+				}
+				{
+					id: "673136D9C6E1EDCA"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "tinypipes:full_item_pipe"
+								}
+								{
+									Count: 1b
+									id: "tinypipes:full_item_filter_pipe"
+								}
+								{
+									Count: 1b
+									id: "tinypipes:full_fluid_pipe"
+								}
+								{
+									Count: 1b
+									id: "tinypipes:full_fluid_filter_pipe"
+								}
+								{
+									Count: 1b
+									id: "tinypipes:full_energy_pipe"
+								}
+								{
+									Count: 1b
+									id: "tinypipes:full_redstone_pipe"
+								}
+								{
+									Count: 1b
+									id: "tinypipes:item_pipe"
+								}
+								{
+									Count: 1b
+									id: "tinypipes:item_filter_pipe"
+								}
+								{
+									Count: 1b
+									id: "tinypipes:fluid_pipe"
+								}
+								{
+									Count: 1b
+									id: "tinypipes:fluid_filter_pipe"
+								}
+								{
+									Count: 1b
+									id: "tinypipes:energy_pipe"
+								}
+								{
+									Count: 1b
+									id: "tinypipes:redstone_pipe"
+								}
+							]
+						}
+					}
+					title: "{university.tinypipes.title}"
+					type: "item"
+				}
+			]
+			title: "{university.tinypipes.title}"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["58BFA314B7F7564D"]
+			description: [
+				"{university.idfacade.desc1}"
+				""
+				"{university.idfacade.desc2}"
+			]
+			id: "5C5A343BE2DF6D93"
+			subtitle: "{university.idfacade.subtitle}"
+			tasks: [{
+				id: "357705063EF52CDF"
+				item: "integrateddynamics:facade"
+				type: "item"
+			}]
+			title: "{university.idfacade.title}"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["504E08D36C5AE9B1"]
+			description: [
+				"{university.mekaddon.desc1}"
+				""
+				"{university.mekaddon.desc2}"
+			]
+			icon: "solarpanels:spectral_solar_panel"
+			id: "5154A2CA84D32B38"
+			subtitle: "{university.mekaddon.subtitle}"
+			tasks: [{
+				id: "506E34DBA5938531"
+				item: {
+					Count: 1b
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "solarpanels:.*panel"
+					}
+				}
+				title: "{university.mekaddon.task}"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0731A31DB76B1F78"]
+			description: [
+				"{university.introll.desc1}"
+				""
+				"{university.introll.desc2}"
+				""
+				"{university.introll.desc3}"
+			]
+			hide_dependency_lines: true
+			icon: "littlelogistics:tug"
+			id: "7CCD606A54C26521"
+			subtitle: "{university.introll.subtitle}"
+			tasks: [{
+				id: "7A70070531985CEB"
+				type: "checkmark"
+			}]
+			title: "{university.introll.title}"
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["59A19C9973AFF5FB"]
+			description: [
+				"{university.creativespellbook.desc1}"
+				""
+				"{university.creativespellbook.desc2}"
+			]
+			id: "1990F0E99706A557"
+			subtitle: "{university.creativespellbook.subtitle}"
+			tasks: [{
+				id: "2E5AB18FCD7C12D5"
+				item: "ars_nouveau:creative_spell_book"
+				type: "item"
+			}]
+			title: "{university.creativespellbook.title}"
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			id: "65456B4A13A87FB4"
+			tasks: [{
+				id: "21DFC00812D8673D"
+				title: "Custom Filters"
+				type: "checkmark"
+			}]
+			x: 4.5d
+			y: -3.5d
+		}
+		{
+			id: "2857BAB47F6E080D"
+			rewards: [{
+				id: "282A4644D547CEBD"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "5D71A6ECAC1910D3"
+				item: {
+					Count: 1b
+					id: "itemfilters:custom"
+					tag: {
+						value: "craftable_hammers"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			id: "69D731474753BE7B"
+			rewards: [{
+				id: "51A2682EBE7A91B0"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "403760DD67966A2E"
+				item: {
+					Count: 1b
+					id: "itemfilters:custom"
+					tag: {
+						value: "basic_scroll"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -2.5d
+		}
+		{
+			id: "3DE75D5152CBBEB5"
+			rewards: [{
+				id: "52C34B42C1BD3808"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "1E8DAD2CC62EE3FE"
+				item: {
+					Count: 1b
+					id: "itemfilters:custom"
+					tag: {
+						value: "war_scroll"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			id: "672478641C04531F"
+			rewards: [{
+				id: "5EC1DC7F4E77B95E"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "7F2785993A9B8E6C"
+				item: {
+					Count: 1b
+					id: "itemfilters:custom"
+					tag: {
+						value: "treatise_scroll"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			id: "3C13CEB3AE04616B"
+			rewards: [{
+				id: "2480514B48894778"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "299473317356312A"
+				item: {
+					Count: 1b
+					id: "itemfilters:custom"
+					tag: {
+						value: "hone_scroll"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			id: "617BDB987AA04247"
+			rewards: [{
+				id: "148EB74599A20EC0"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "490C0DA7D9A9992D"
+				item: {
+					Count: 1b
+					id: "itemfilters:custom"
+					tag: {
+						value: "dolabras"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			id: "2EC7C88C3B827AA4"
+			tasks: [{
+				id: "652AE5DF03483BA4"
+				item: {
+					Count: 1b
+					id: "itemfilters:custom"
+					tag: {
+						value: "extractor"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "37A08B6E4D677FE5"
+			rewards: [{
+				id: "61BB649311D93798"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "672F1C95E76BF29E"
+				item: {
+					Count: 1b
+					id: "itemfilters:custom"
+					tag: {
+						value: "holosphere_scanner"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			id: "2922E45844CC85D8"
+			rewards: [{
+				id: "57BD2DB24939D74B"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "5F3634A85367CF20"
+				item: {
+					Count: 1b
+					id: "itemfilters:custom"
+					tag: {
+						value: "bolts"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			id: "7F6209BE4929E939"
+			rewards: [{
+				id: "796917EC311A6C6A"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "55391C3F46BE0CB0"
+				item: {
+					Count: 1b
+					id: "itemfilters:custom"
+					tag: {
+						value: "stonecutter"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			id: "0997F5867CEBC699"
+			rewards: [{
+				id: "0676249EBA60E877"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "29CE480BA31DB0D4"
+				item: {
+					Count: 1b
+					id: "itemfilters:custom"
+					tag: {
+						value: "earthpiercer"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			id: "1421A9E5D7D73450"
+			rewards: [{
+				id: "796A4FE37FA3D084"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "65FCD03BB0053FFB"
+				item: {
+					Count: 1b
+					id: "itemfilters:custom"
+					tag: {
+						value: "unbreakable_charm"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			id: "6D6471726CC7553B"
+			rewards: [{
+				id: "2BA2257C86C75C35"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "137434FE840D157C"
+				item: {
+					Count: 1b
+					id: "itemfilters:custom"
+					tag: {
+						value: "broom_brushes"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			id: "0529783CF8073F4A"
+			rewards: [{
+				id: "1715D994868FBA05"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "01100BA2BA7B85AF"
+				item: {
+					Count: 1b
+					id: "itemfilters:custom"
+					tag: {
+						value: "broom_caps"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			id: "1648FF8EB2C5C8A8"
+			rewards: [{
+				id: "5AB3C42185129817"
+				type: "custom"
+			}]
+			tasks: [{
+				id: "473951DAAA5EA28C"
+				item: {
+					Count: 1b
+					id: "itemfilters:custom"
+					tag: {
+						value: "broom_rods"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.craftcalc.desc1}"
+				""
+				"{university.craftcalc.desc2}"
+				""
+				"{image:ftbuniversity:textures/quests/misc/jec/no_recipes.png width:117 height:125 align:1}"
+				"{@pagebreak}"
+				"{university.craftcalc.desc3}"
+				""
+				"{university.craftcalc.desc4}"
+				""
+				"{image:ftbuniversity:textures/quests/misc/jec/chest_recipe.png width:128 height:125 align:1}"
+				"{@pagebreak}"
+				"{university.craftcalc.desc5}"
+				""
+				"{university.craftcalc.desc6}"
+				""
+				"{image:ftbuniversity:textures/quests/misc/jec/chest.png width:100 height:107 align:1}"
+				"{@pagebreak}"
+				"{university.craftcalc.desc7}"
+				""
+				"{image:ftbuniversity:textures/quests/misc/jec/log_chests.png width:100 height:107 align:1}"
+			]
+			hide: true
+			id: "5558DC6FFB1C349D"
+			min_width: 275
+			subtitle: "{university.craftcalc.subtitle}"
+			tasks: [{
+				id: "2716C8701EF8FDB8"
+				item: {
+					Count: 1b
+					id: "jecalculation:item_calculator_craft"
+					tag: {
+						jecalculation: {
+							craft: {
+								amount: ""
+								inventory: 0b
+								mode: "input"
+								overlayDepth: 0
+								overlayOpen: 0b
+								overlayPositionX: 0
+								overlayPositionY: 0
+								recents: [ ]
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "{university.craftcalc.title}"
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5558DC6FFB1C349D"]
+			description: [
+				"{university.craftcalc2.desc1}"
+				""
+				"{university.craftcalc2.desc2}"
+				"{@pagebreak}"
+				"{university.craftcalc2.desc3}"
+				""
+				"{image:ftbuniversity:textures/quests/misc/jec/making_placeholder.png width:125 height:133 align:1}"
+				"{@pagebreak}"
+				"{university.craftcalc2.desc4}"
+				""
+				"{image:ftbuniversity:textures/quests/misc/jec/placeholder_recipe.png width:125 height:114 align:1}"
+				"{@pagebreak}"
+				"{university.craftcalc2.desc5}"
+				""
+				"{image:ftbuniversity:textures/quests/misc/jec/viewing_placeholder_recipe.png width:125 height:128 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbuniversity:textures/quests/misc/jec/placeholder.png"
+				}
+			}
+			id: "4EF83994B2323148"
+			min_width: 275
+			subtitle: "{university.craftcalc2.subtitle}"
+			tasks: [{
+				id: "5C095B07B9050C36"
+				type: "checkmark"
+			}]
+			title: "{university.craftcalc2.title}"
+			x: -3.5d
+			y: 1.5d
+		}
+	]
+	title: "Invisible Background Quests"
+}

@@ -1,0 +1,2148 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "applied_energistics_2"
+	group: "3355232C2CB5DB41"
+	icon: "ae2:controller"
+	id: "7D266164A79DA7FA"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2CFE1A252EBE4448"]
+			description: [
+				"{university.certus.desc1}"
+				""
+				"{university.certus.desc2}"
+				""
+				"{university.certus.desc3}"
+				""
+				"[\"\",{\"translate\":\"university.certus.desc4.1\"},{\"translate\":\"university.certus.desc4.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"18189FB5E98DA74B\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"university.certus.desc4.2.text\"}]}},{\"translate\":\"university.certus.desc4.3\"}]"
+				""
+				"{university.certus.desc5}"
+			]
+			icon: "ae2:large_quartz_bud"
+			id: "3DB834F1D71682BD"
+			min_width: 275
+			rewards: [{
+				id: "429A2CDCA2408CBE"
+				item: "ae2:flawed_budding_quartz"
+				type: "item"
+			}]
+			subtitle: "{university.certus.subtitle}"
+			tasks: [{
+				id: "64D706106902413D"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			title: "{university.certus.title}"
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3DB834F1D71682BD"]
+			description: [
+				"{university.fluix.desc1}"
+				""
+				"{university.fluix.desc2}"
+			]
+			id: "0864DB2B1B7F1A27"
+			rewards: [{
+				id: "633CD991B4ECBD2D"
+				item: {
+					Count: 1b
+					id: "ae2:fluix_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{university.fluix.subtitle}"
+			tasks: [{
+				id: "4554607A0D7C74AE"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			title: "{university.fluix.title}"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5ED5888D565F3B62"]
+			description: [
+				"{university.inscriber.desc1}"
+				""
+				"{university.inscriber.desc2}"
+				""
+				"{university.inscriber.desc3}"
+			]
+			id: "197357B240FAB602"
+			min_width: 250
+			subtitle: "{university.inscriber.subtitle}"
+			tasks: [{
+				id: "3EDCB204F96937B8"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D17661E64E724D1"]
+			description: [
+				"{university.ae2energyacceptor.desc1}"
+				""
+				"{university.ae2energyacceptor.desc2}"
+				""
+				"{university.ae2energyacceptor.desc3}"
+				""
+				"{university.ae2energyacceptor.desc4}"
+			]
+			hide: true
+			id: "5085B865A43F27F1"
+			min_width: 250
+			optional: true
+			subtitle: "{university.ae2energyacceptor.subtitle}"
+			tasks: [{
+				id: "3FB0AE740642C992"
+				item: "ae2:energy_acceptor"
+				type: "item"
+			}]
+			title: "{university.ae2energyacceptor.title}"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0864DB2B1B7F1A27"]
+			description: [
+				"{university.ae2energycell.desc1}"
+				""
+				"{university.ae2energycell.desc2}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ae2:dense_energy_cell"
+				tag: { }
+			}
+			id: "5D9EC495A93E9127"
+			size: 0.5d
+			subtitle: "{university.ae2energycell.subtitle}"
+			tasks: [{
+				id: "4BCDDF53447C0B8F"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:energy_cell"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:dense_energy_cell"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "megacells:mega_energy_cell"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "{university.ae2energycell.task}"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 4.75d
+		}
+		{
+			dependencies: ["5085B865A43F27F1"]
+			description: [
+				"{university.vibrationchamber.desc1}"
+				""
+				"{university.vibrationchamber.desc2}"
+				""
+				"{university.vibrationchamber.desc3}"
+			]
+			hide: false
+			hide_dependency_lines: true
+			id: "56CC559F7D9C562C"
+			optional: true
+			size: 0.5d
+			subtitle: "{university.vibrationchamber.subtitle}"
+			tasks: [{
+				id: "6EE2A5C01B808013"
+				item: "ae2:vibration_chamber"
+				type: "item"
+			}]
+			title: "{university.vibrationchamber.title}"
+			x: 0.75d
+			y: 4.75d
+		}
+		{
+			dependencies: ["61478F1459897332"]
+			description: [
+				"{university.ae2compass.desc1}"
+				""
+				"{university.ae2compass.desc2}"
+			]
+			id: "2CFE1A252EBE4448"
+			subtitle: "{university.ae2compass.subtitle}"
+			tasks: [{
+				id: "3F61539BBE3913F6"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"197357B240FAB602"
+				"0864DB2B1B7F1A27"
+			]
+			description: [
+				"{university.mecontroller.desc1}"
+				""
+				"[\"\",{\"translate\":\"university.mecontroller.desc2.1\"},{\"translate\":\"university.mecontroller.desc2.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/create ponder ae2:controller\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: /create ponder ae2:controller\"]}},{\"translate\":\"university.mecontroller.desc2.3\"}]"
+				""
+				"{university.mecontroller.desc3}"
+			]
+			id: "2D0C38A1F5138847"
+			min_width: 250
+			subtitle: "{university.mecontroller.subtitle}"
+			tasks: [{
+				id: "7BACDE8F0D4679B9"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			title: "{university.mecontroller.title}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0864DB2B1B7F1A27"]
+			description: [
+				"{university.growthaccelerator.desc1}"
+				""
+				"{university.growthaccelerator.desc2}"
+				""
+				"{university.growthaccelerator.desc3}"
+			]
+			id: "2150BC11DE382917"
+			rewards: [{
+				count: 2
+				id: "5FB691AFA69B2312"
+				item: "ae2:quartz_growth_accelerator"
+				type: "item"
+			}]
+			subtitle: "{university.growthaccelerator.subtitle}"
+			tasks: [{
+				id: "27B6D6B207991704"
+				item: "ae2:quartz_growth_accelerator"
+				type: "item"
+			}]
+			title: "{university.growthaccelerator.title}"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["197357B240FAB602"]
+			description: [
+				"{university.cellworkbench.desc1}"
+				""
+				"{university.cellworkbench.desc2}"
+				""
+				"{university.cellworkbench.desc3}"
+				""
+				"{university.cellworkbench.desc4}"
+				""
+				"{university.cellworkbench.desc5}"
+			]
+			hide_dependency_lines: true
+			id: "0B8690414DC5C356"
+			min_width: 275
+			subtitle: "{university.cellworkbench.subtitle}"
+			tasks: [{
+				id: "53FBB99F9E717B70"
+				item: "ae2:cell_workbench"
+				type: "item"
+			}]
+			title: "{university.cellworkbench.title}"
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"74F502FC54174B2B"
+				"2D0C38A1F5138847"
+			]
+			description: [
+				"{university.ae2channels.desc1}"
+				""
+				"{university.ae2channels.desc2}"
+				""
+				"[\"\",{\"translate\":\"university.ae2channels.school.1\"},{\"translate\":\"university.ae2channels.school.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/school enter ftbuniversity:ae2/channels\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: /school enter ftbuniversity:ae2/channels\"]}}]"
+				"{@pagebreak}"
+				"{university.ae2channels.desc3}"
+				"{image:ftbuniversity:textures/quests/ae2/channels_1.png width:155 height:100 align:1}"
+				""
+				"{university.ae2channels.desc4}"
+				"{image:ftbuniversity:textures/quests/ae2/channels_2.png width:180 height:100 align:1}"
+				"{@pagebreak}"
+				"{university.ae2channels.desc5}"
+				""
+				"{university.ae2channels.desc6}"
+				""
+				"[\"\",{\"translate\":\"university.ae2channels.desc7.1\"},{\"translate\":\"university.ae2channels.desc7.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://appliedenergistics.github.io/features/me-network/channels\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"university.ae2channels.desc7.2text\"}]}}]"
+			]
+			id: "74B132C5414B4345"
+			min_required_dependencies: 1
+			min_width: 300
+			subtitle: "{university.ae2channels.subtitle}"
+			tasks: [{
+				icon: "ae2:fluix_smart_dense_cable"
+				id: "4E539FBE57BC35FF"
+				title: "{university.ae2channels.task}"
+				type: "custom"
+			}]
+			title: "{university.ae2channels.title}"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D0C38A1F5138847"]
+			description: [
+				"{university.networktool.desc1}"
+				""
+				"{university.networktool.desc2}"
+				""
+				"{university.networktool.desc3}"
+			]
+			hide_dependency_lines: true
+			id: "3340C5B55F06C0FD"
+			optional: true
+			size: 0.5d
+			subtitle: "{university.networktool.subtitle}"
+			tasks: [{
+				id: "1915BB47BECBDDBF"
+				item: "ae2:network_tool"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.75d
+		}
+		{
+			dependencies: [
+				"5085B865A43F27F1"
+				"2D0C38A1F5138847"
+			]
+			description: [
+				"{university.ae2glasscable.desc1}"
+				""
+				"{university.ae2glasscable.desc2}"
+				""
+				"{university.ae2glasscable.desc3}"
+			]
+			hide_dependency_lines: true
+			icon: "ae2:fluix_glass_cable"
+			id: "74F502FC54174B2B"
+			min_required_dependencies: 1
+			rewards: [{
+				count: 16
+				id: "279E7B9B31019660"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			subtitle: "{university.ae2glasscable.subtitle}"
+			tasks: [{
+				id: "1A13E5C3FECEBCFA"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:fluix_glass_cable"
+							}
+							{
+								Count: 1b
+								id: "ae2:fluix_covered_cable"
+							}
+						]
+					}
+				}
+				title: "{university.ae2glasscable.task}"
+				type: "item"
+			}]
+			title: "{university.ae2glasscable.title}"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74F502FC54174B2B"]
+			description: [
+				"{university.mesmartcable.desc1}"
+				""
+				"{university.mesmartcable.desc2}"
+			]
+			id: "7343E51A9E3F6DF6"
+			rewards: [{
+				count: 16
+				id: "4A003D705272ED1D"
+				item: "ae2:fluix_smart_cable"
+				type: "item"
+			}]
+			subtitle: "{university.mesmartcable.subtitle}"
+			tasks: [{
+				id: "354C6F5E7F0D3971"
+				item: "ae2:fluix_smart_cable"
+				type: "item"
+			}]
+			title: "{university.mesmartcable.title}"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["7343E51A9E3F6DF6"]
+			description: [
+				"{university.medense.desc1}"
+				""
+				"{university.medense.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "7DB78DB110BBF6B0"
+			rewards: [{
+				count: 32
+				id: "14B4019FAB6BFF97"
+				item: "ae2:fluix_covered_dense_cable"
+				type: "item"
+			}]
+			subtitle: "{university.medense.subtitle}"
+			tasks: [{
+				id: "7834404DED3ECAC3"
+				item: "ae2:fluix_covered_dense_cable"
+				type: "item"
+			}]
+			title: "{university.medense.title}"
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7DB78DB110BBF6B0"]
+			description: ["{university.smartdense.desc}"]
+			id: "523095F1DA31B88F"
+			rewards: [{
+				count: 32
+				id: "020186F66F2CBEEF"
+				item: "ae2:fluix_smart_dense_cable"
+				type: "item"
+			}]
+			subtitle: "{university.smartdense.subtitle}"
+			tasks: [{
+				id: "64535229B0232E70"
+				item: "ae2:fluix_smart_dense_cable"
+				type: "item"
+			}]
+			title: "{university.smartdense.title}"
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["74F502FC54174B2B"]
+			description: [
+				"{university.ae2facade.desc1}"
+				""
+				"{university.ae2facade.desc2}"
+				""
+				"{university.ae2facade.desc3}"
+			]
+			hide_dependency_lines: true
+			id: "1B9B53DF502760C5"
+			rewards: [{
+				count: 32
+				id: "137CE9F5E5D73ED4"
+				item: "ae2:cable_anchor"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.ae2facade.subtitle}"
+			tasks: [{
+				id: "35BEAE325C9A27F8"
+				item: {
+					Count: 1b
+					id: "ae2:facade"
+					tag: {
+						item: "minecraft:stone"
+					}
+				}
+				type: "item"
+			}]
+			title: "{university.ae2facade.title}"
+			x: 6.0d
+			y: -3.25d
+		}
+		{
+			dependencies: ["74F502FC54174B2B"]
+			description: [
+				"{university.meterminal.desc1}"
+				""
+				"{university.meterminal.desc2}"
+				""
+				"{university.meterminal.desc3}"
+			]
+			id: "43D65C622B8850D7"
+			subtitle: "{university.meterminal.subtitle}"
+			tasks: [{
+				id: "69F3215EBB5EEFD1"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			title: "{university.meterminal.title}"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["43D65C622B8850D7"]
+			description: ["{university.craftingterminal.desc}"]
+			id: "1328D9F8568DBBC8"
+			subtitle: "{university.craftingterminal.subtitle}"
+			tasks: [{
+				id: "6465BA3CEC517C8F"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["74F502FC54174B2B"]
+			description: [
+				"{university.ae2colorcables.desc1}"
+				""
+				"{university.ae2colorcables.desc2}"
+				""
+				"{university.ae2colorcables.desc3}"
+				""
+				"{university.ae2colorcables.desc4}"
+				""
+				"{image:ftbuniversity:textures/quests/ae2/colored_cable.png width:150 height:87 align:1}"
+			]
+			icon: "ae2:white_smart_cable"
+			id: "535715E7E757EEBA"
+			min_width: 275
+			subtitle: "{university.ae2colorcables.subtitle}"
+			tasks: [{
+				id: "6B6643FE1DEA71A6"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:or"
+								tag: {
+									items: [
+										{
+											Count: 1b
+											id: "itemfilters:id_regex"
+											tag: {
+												value: "glass_cable"
+											}
+										}
+										{
+											Count: 1b
+											id: "itemfilters:id_regex"
+											tag: {
+												value: "covered_cable"
+											}
+										}
+										{
+											Count: 1b
+											id: "itemfilters:id_regex"
+											tag: {
+												value: "smart_cable"
+											}
+										}
+										{
+											Count: 1b
+											id: "itemfilters:id_regex"
+											tag: {
+												value: "dense_cable"
+											}
+										}
+									]
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:not"
+								tag: {
+									items: [{
+										Count: 1b
+										id: "itemfilters:id_regex"
+										tag: {
+											value: "fluix"
+										}
+									}]
+								}
+							}
+						]
+					}
+				}
+				title: "{university.ae2colorcables.task}"
+				type: "item"
+			}]
+			title: "{university.ae2colorcables.title}"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["74F502FC54174B2B"]
+			description: ["{university.quartzfiber.desc}"]
+			disable_toast: true
+			hide_dependency_lines: true
+			id: "59AD3B130184320E"
+			rewards: [
+				{
+					count: 32
+					id: "2BDAF0EF03B7C483"
+					item: "ae2:quartz_fiber"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7EF7A005AAC36B92"
+					item: "ae2:quartz_fixture"
+					type: "item"
+				}
+			]
+			size: 0.5d
+			subtitle: "{university.quartzfiber.subtitle}"
+			tasks: [{
+				disable_toast: true
+				id: "4783D97CCF49614C"
+				item: "ae2:quartz_fiber"
+				type: "item"
+			}]
+			title: "{university.quartzfiber.title}"
+			x: 6.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["43D65C622B8850D7"]
+			description: [
+				"{university.medrive.desc1}"
+				""
+				"{university.medrive.desc2}"
+				""
+				"{university.medrive.desc3}"
+				""
+				"{university.medrive.desc4}"
+				""
+				"{university.medrive.desc5}"
+			]
+			icon: "ae2:drive"
+			id: "2D222B3524A78A76"
+			min_width: 275
+			rewards: [{
+				count: 54
+				id: "30DA546145395997"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			subtitle: "{university.medrive.subtitle}"
+			tasks: [
+				{
+					id: "77E001823DB55DD9"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "755E3805D2896DCA"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "item_storage_cell"
+						}
+					}
+					title: "{university.medrive.task}"
+					type: "item"
+				}
+			]
+			title: "{university.medrive.title}"
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D222B3524A78A76"]
+			description: [
+				"{university.mesecurity.desc1}"
+				""
+				"{university.mesecurity.desc2}"
+				""
+				"{university.mesecurity.desc3}"
+				""
+				"{university.mesecurity.desc4}"
+				""
+				"{university.mesecurity.desc5}"
+			]
+			id: "186807967F3FB384"
+			min_width: 275
+			rewards: [{
+				id: "1B8BA12E70BD36F9"
+				item: {
+					Count: 1b
+					id: "ae2:biometric_card"
+					tag: { }
+				}
+				type: "item"
+			}]
+			subtitle: "{university.mesecurity.subtitle}"
+			tasks: [{
+				id: "6B207907A83B3716"
+				item: "ae2:security_station"
+				type: "item"
+			}]
+			title: "{university.mesecurity.title}"
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2D0C38A1F5138847"
+				"5085B865A43F27F1"
+			]
+			description: [
+				"{university.mechest.desc1}"
+				""
+				"{university.mechest.desc2}"
+				""
+				"{university.mechest.desc3}"
+			]
+			hide_dependency_lines: true
+			icon: "ae2:chest"
+			id: "2B60397533F41E38"
+			min_required_dependencies: 1
+			subtitle: "{university.mechest.subtitle}"
+			tasks: [
+				{
+					id: "63BD4285A98D0611"
+					item: "ae2:chest"
+					type: "item"
+				}
+				{
+					id: "0A0E9D5A53E15004"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "item_storage_cell"
+						}
+					}
+					title: "{university.mechest.task}"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["186807967F3FB384"]
+			description: [
+				"{university.meaccesspoint.desc1}"
+				""
+				"{university.meaccesspoint.desc2}"
+			]
+			id: "045F912B8E124C48"
+			rewards: [{
+				count: 8
+				id: "29674AF86233BB1D"
+				item: "ae2:wireless_booster"
+				type: "item"
+			}]
+			subtitle: "{university.meaccesspoint.subtitle}"
+			tasks: [{
+				id: "7D7CBAD123DCB392"
+				item: "ae2:wireless_access_point"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["045F912B8E124C48"]
+			description: [
+				"{university.wirelessterminal.desc1}"
+				""
+				"{university.wirelessterminal.desc2}"
+				""
+				"{university.wirelessterminal.desc3}"
+			]
+			id: "448C7D79A66DD627"
+			subtitle: "{university.wirelessterminal.subtitle}"
+			tasks: [{
+				id: "6F5164A3046942CC"
+				item: {
+					Count: 1b
+					id: "ae2:wireless_terminal"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2D222B3524A78A76"]
+			description: [
+				"{university.meimport.desc1}"
+				""
+				"{university.meimport.desc2}"
+				""
+				"{university.meimport.desc3}"
+			]
+			id: "573E47E42F5D034D"
+			min_width: 250
+			subtitle: "{university.meimport.subtitle}"
+			tasks: [{
+				id: "6DD279E5BC5121F2"
+				item: "ae2:import_bus"
+				type: "item"
+			}]
+			title: "{university.meimport.title}"
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D222B3524A78A76"]
+			description: [
+				"{university.meexport.desc1}"
+				""
+				"{university.meexport.desc2}"
+				""
+				"{university.meexport.desc3}"
+				""
+				"{university.meexport.desc4}"
+			]
+			id: "48B25DF10BED0E75"
+			min_width: 250
+			subtitle: "{university.meexport.subtitle}"
+			tasks: [{
+				id: "62CA0F3D2F085591"
+				item: "ae2:export_bus"
+				type: "item"
+			}]
+			title: "{university.meexport.title}"
+			x: 9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D222B3524A78A76"]
+			description: [
+				"{university.metoggle.desc1}"
+				""
+				"{university.metoggle.desc2}"
+			]
+			hide_dependency_lines: true
+			icon: "ae2:toggle_bus"
+			id: "46DB1A260887D6E4"
+			subtitle: "{university.metoggle.subtitle}"
+			tasks: [{
+				id: "3E9400312300558A"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:toggle_bus"
+							}
+							{
+								Count: 1b
+								id: "ae2:inverted_toggle_bus"
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			title: "{university.metoggle.title}"
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2D222B3524A78A76"]
+			description: [
+				"{university.levelemitter.desc1}"
+				""
+				"{university.levelemitter.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "2207597B458AF864"
+			subtitle: "{university.levelemitter.subtitle}"
+			tasks: [{
+				id: "270185FFD295B723"
+				item: "ae2:level_emitter"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2D222B3524A78A76"]
+			description: [
+				"{university.storagebus.desc1}"
+				""
+				"{university.storagebus.desc2}"
+				""
+				"{university.storagebus.desc3}"
+				""
+				"{university.storagebus.desc4}"
+				""
+				"{university.storagebus.desc5}"
+			]
+			hide_dependency_lines: true
+			id: "4B522801C1FEC5F0"
+			min_width: 275
+			subtitle: "{university.storagebus.subtitle}"
+			tasks: [{
+				id: "4764B3F2E78A268F"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			title: "{university.storagebus.title}"
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2207597B458AF864"]
+			description: [
+				"{university.storagemonitor.desc1}"
+				""
+				"{university.storagemonitor.desc2}"
+				""
+				"{university.storagemonitor.desc3}"
+				""
+				"{university.storagemonitor.desc4}"
+			]
+			id: "3186C14E98CB2D33"
+			subtitle: "{university.storagemonitor.subtitle}"
+			tasks: [{
+				id: "0C50E750435E2125"
+				item: "ae2:storage_monitor"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4B522801C1FEC5F0"
+				"573E47E42F5D034D"
+				"48B25DF10BED0E75"
+				"6D4A165C14761C74"
+			]
+			description: [
+				"{university.capacitycard.desc1}"
+				""
+				"{university.capacitycard.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "16F368A9EDD5771F"
+			min_required_dependencies: 1
+			subtitle: "{university.capacitycard.subtitle}"
+			tasks: [{
+				id: "49506437DA2C444B"
+				item: "ae2:capacity_card"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"573E47E42F5D034D"
+				"48B25DF10BED0E75"
+				"2207597B458AF864"
+				"4B522801C1FEC5F0"
+				"6D4A165C14761C74"
+			]
+			description: [
+				"{university.fuzzycard.desc1}"
+				""
+				"{university.fuzzycard.desc2}"
+				""
+				"{university.fuzzycard.desc3}"
+				""
+				"{university.fuzzycard.desc4}"
+			]
+			hide_dependency_lines: true
+			id: "567725B4A29A7903"
+			min_required_dependencies: 1
+			subtitle: "{university.fuzzycard.subtitle}"
+			tasks: [{
+				consume_items: false
+				id: "562A8FDF3ADE092F"
+				item: "ae2:fuzzy_card"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"573E47E42F5D034D"
+				"48B25DF10BED0E75"
+				"15A89388CB28DA38"
+			]
+			description: [
+				"{university.redstonecard.desc1}"
+				""
+				"{university.redstonecard.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "5ECE16BAC146DDA7"
+			min_required_dependencies: 1
+			subtitle: "{university.redstonecard.subtitle}"
+			tasks: [{
+				id: "0F292D5F0D2D9FAB"
+				item: "ae2:redstone_card"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["197357B240FAB602"]
+			description: [
+				"{university.ae2acceleration.desc1}"
+				""
+				"{university.ae2acceleration.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "10B926AE1CD32CB4"
+			rewards: [{
+				count: 6
+				id: "5F51E331C41C69B9"
+				item: "ae2:speed_card"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.ae2acceleration.subtitle}"
+			tasks: [{
+				id: "0A64A876E52C906F"
+				item: "ae2:speed_card"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.25d
+		}
+		{
+			dependencies: ["2D222B3524A78A76"]
+			description: [
+				"{university.meioport.desc1}"
+				""
+				"{university.meioport.desc2}"
+				""
+				"{university.meioport.desc3}"
+			]
+			hide_dependency_lines: true
+			id: "15A89388CB28DA38"
+			min_width: 250
+			subtitle: "{university.meioport.subtitle}"
+			tasks: [{
+				id: "519001AE799B7BF2"
+				item: "ae2:io_port"
+				type: "item"
+			}]
+			title: "{university.meioport.title}"
+			x: 11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["15A89388CB28DA38"]
+			description: [
+				"{university.spatialcontainment.desc1}"
+				""
+				"{university.spatialcontainment.desc2}"
+				""
+				"[\"\",{\"translate\":\"university.spatialcontainment.desc3.1\"},{\"translate\":\"university.spatialcontainment.desc3.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/create ponder ae2:spatial_pylon\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: /create ponder ae2:spatial_pylon\"]}},{\"translate\":\"university.spatialcontainment.desc3.3\"}]"
+			]
+			icon: "ae2:spatial_io_port"
+			id: "18189FB5E98DA74B"
+			min_width: 275
+			rewards: [{
+				count: 32
+				id: "6F3E58E06A715EA1"
+				item: "ae2:spatial_pylon"
+				type: "item"
+			}]
+			subtitle: "{university.spatialcontainment.subtitle}"
+			tasks: [
+				{
+					id: "749D594057334DF8"
+					item: "ae2:spatial_io_port"
+					type: "item"
+				}
+				{
+					id: "14670A9A13A19355"
+					item: "ae2:spatial_pylon"
+					type: "item"
+				}
+				{
+					id: "6606C8E2BB136954"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "spatial_storage"
+						}
+					}
+					title: "{university.spatialcontainment.task}"
+					type: "item"
+				}
+			]
+			title: "{university.spatialcontainment.title}"
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2D222B3524A78A76"]
+			description: [
+				"{university.ae2breakplace.desc1}"
+				""
+				"{university.ae2breakplace.desc2}"
+				""
+				"{university.ae2breakplace.desc3}"
+				""
+				"{university.ae2breakplace.desc4}"
+			]
+			hide_dependency_lines: true
+			icon: "ae2:formation_plane"
+			id: "6D4A165C14761C74"
+			min_width: 275
+			subtitle: "{university.ae2breakplace.subtitle}"
+			tasks: [
+				{
+					id: "2A8A1DB6D46B38F3"
+					item: "ae2:annihilation_plane"
+					type: "item"
+				}
+				{
+					id: "09530F8C1C927CEF"
+					item: "ae2:formation_plane"
+					type: "item"
+				}
+			]
+			title: "{university.ae2breakplace.title}"
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2D222B3524A78A76"]
+			description: [
+				"{university.meinterface.desc1}"
+				""
+				"{university.meinterface.desc2}"
+				""
+				"{university.meinterface.desc3}"
+				""
+				"{image:ftbuniversity:textures/quests/ae2/interface_config.png width:167 height:75 align:1}"
+				"{@pagebreak}"
+				"{university.meinterface.desc4}"
+				""
+				"{university.meinterface.desc5}"
+				"{@pagebreak}"
+				"{university.meinterface.desc6}"
+				""
+				"{university.meinterface.desc7}"
+				"{image:ftbuniversity:textures/quests/ae2/subnetwork.png width:162 height:75 align:1}"
+			]
+			hide_dependency_lines: true
+			icon: "ae2:interface"
+			id: "2D0B14FE42F216CC"
+			min_width: 275
+			subtitle: "{university.meinterface.subtitle}"
+			tasks: [{
+				id: "6DEB27E3E880F2C1"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:interface"
+							}
+							{
+								Count: 1b
+								id: "ae2:cable_interface"
+							}
+						]
+					}
+				}
+				title: "{university.meinterface.task}"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2D0B14FE42F216CC"]
+			description: [
+				"{university.mepattern.desc1}"
+				""
+				"{university.mepattern.desc2}"
+				"{@pagebreak}"
+				"{university.mepattern.desc3}"
+				""
+				"{university.mepattern.desc4}"
+				""
+				"{university.mepattern.desc5}"
+				"{@pagebreak}"
+				"{university.mepattern.desc6}"
+				""
+				"{image:ftbuniversity:textures/quests/ae2/pp_arrow.png width:100 height:100 align:1}"
+			]
+			icon: "ae2:pattern_encoding_terminal"
+			id: "1B1F8C723FE03B9B"
+			min_width: 275
+			rewards: [{
+				count: 16
+				id: "7A455DBD65FDD02B"
+				item: "ae2:blank_pattern"
+				type: "item"
+			}]
+			subtitle: "{university.mepattern.subtitle}"
+			tasks: [
+				{
+					id: "651B7C4035542E38"
+					item: "ae2:pattern_encoding_terminal"
+					type: "item"
+				}
+				{
+					id: "00C4216C6E66E88F"
+					item: "ae2:blank_pattern"
+					type: "item"
+				}
+				{
+					id: "2073433FEC6B2DAF"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "pattern_provider"
+						}
+					}
+					title: "{university.mepattern.task}"
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1B1F8C723FE03B9B"]
+			description: [
+				"{university.craftingcpu.desc1}"
+				""
+				"{university.craftingcpu.desc2}"
+				""
+				"{image:ftbuniversity:textures/quests/ae2/cpu.png width:100 height:84 align:1}"
+				"{@pagebreak}"
+				"{university.craftingcpu.desc3}"
+				""
+				"{university.craftingcpu.desc4}"
+				""
+				"{university.craftingcpu.desc5}"
+			]
+			icon: "ae2:crafting_accelerator"
+			id: "4BF7153453CC8539"
+			min_width: 275
+			rewards: [{
+				count: 16
+				id: "6E471450F47B902F"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			subtitle: "{university.craftingcpu.subtitle}"
+			tasks: [
+				{
+					id: "6AEE5B7F2FA031E7"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "crafting_accelerator"
+						}
+					}
+					title: "{university.craftingcpu.task1}"
+					type: "item"
+				}
+				{
+					id: "2183155627D2513C"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "crafting_storage"
+						}
+					}
+					title: "{university.craftingcpu.task2}"
+					type: "item"
+				}
+				{
+					id: "586E74DBDF873625"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "crafting_unit"
+						}
+					}
+					title: "{university.craftingcpu.task3}"
+					type: "item"
+				}
+			]
+			title: "{university.craftingcpu.title}"
+			x: 12.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4BF7153453CC8539"]
+			description: ["{university.craftingmonitor.desc}"]
+			icon: "ae2:crafting_monitor"
+			id: "06EB4B3AD0DCE735"
+			subtitle: "{university.craftingmonitor.subtitle}"
+			tasks: [{
+				id: "63D78094334EA3DF"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:crafting_monitor"
+							}
+							{
+								Count: 1b
+								id: "megacells:mega_crafting_monitor"
+							}
+						]
+					}
+				}
+				title: "{university.craftingmonitor.task}"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4BF7153453CC8539"]
+			description: [
+				"{university.interfaceterminal.desc1}"
+				""
+				"{university.interfaceterminal.desc2}"
+			]
+			id: "02EA1B76AFD12B1D"
+			min_width: 250
+			subtitle: "{university.interfaceterminal.subtitle}"
+			tasks: [{
+				id: "6B0B7CEB5A727948"
+				item: "ae2:pattern_access_terminal"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4BF7153453CC8539"]
+			description: [
+				"{university.molecularassemblar.desc1}"
+				""
+				"{university.molecularassemblar.desc2}"
+				""
+				"{university.molecularassemblar.desc3}"
+				""
+				"{university.molecularassemblar.desc4}"
+				"{@pagebreak}"
+				"{university.molecularassemblar.desc5}"
+				""
+				"{image:ftbuniversity:textures/quests/ae2/molecular_assemblers.png width:211 height:100 align:1}"
+				""
+				"{university.molecularassemblar.desc6}"
+			]
+			id: "267E34038033401C"
+			min_width: 275
+			rewards: [{
+				count: 8
+				id: "2DD548B491FF08C4"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			subtitle: "{university.molecularassemblar.subtitle}"
+			tasks: [{
+				id: "72B6155D0E41E623"
+				item: "ae2:molecular_assembler"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2D222B3524A78A76"]
+			description: [
+				"{university.mattercompressor.desc1}"
+				""
+				"{university.mattercompressor.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "04BC63D794ADFA52"
+			rewards: [{
+				id: "0952360ADFB3AFED"
+				item: {
+					Count: 1b
+					id: "chiselsandbits:block_bit"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Hint Hint\"}"
+						}
+						id: 1
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{university.mattercompressor.subtitle}"
+			tasks: [{
+				id: "6BA98974C1618AE9"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			title: "{university.mattercompressor.title}"
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["04BC63D794ADFA52"]
+			description: [
+				"{university.quantumring.desc1}"
+				""
+				"{university.quantumring.desc2}"
+				""
+				"{image:ftbuniversity:textures/quests/ae2/quantum_ring.png width:100 height:100 align:1}"
+				""
+				"{university.quantumring.desc3}"
+				"{@pagebreak}"
+				"{university.quantumring.desc4}"
+				""
+				"{university.quantumring.desc5}"
+				""
+				"{university.quantumring.desc6}"
+				""
+				"{university.quantumring.desc7}"
+				""
+				"{university.quantumring.desc8}"
+			]
+			icon: "ae2:quantum_entangled_singularity"
+			id: "23B9EE85AF36D9CE"
+			min_width: 275
+			rewards: [
+				{
+					count: 8
+					id: "553CF9EC3CB2FE71"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					id: "05DCD5CA3ABB9EAF"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+			]
+			subtitle: "{university.quantumring.subtitle}"
+			tasks: [
+				{
+					count: 8L
+					id: "08F51B41FDC8FE1B"
+					item: "ae2:quantum_ring"
+					type: "item"
+				}
+				{
+					id: "47F79B17B1B7C02F"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					id: "47A4A40667307282"
+					item: "ae2:quantum_entangled_singularity"
+					type: "item"
+				}
+			]
+			title: "{university.quantumring.title}"
+			x: 12.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0B8690414DC5C356"]
+			description: ["{university.viewcell.desc}"]
+			id: "11E510EE19BD9FA4"
+			subtitle: "{university.viewcell.subtitle}"
+			tasks: [{
+				id: "214E01F8426BB19A"
+				item: "ae2:view_cell"
+				type: "item"
+			}]
+			title: "{university.viewcell.title}"
+			x: 4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6D17661E64E724D1"]
+			description: [
+				"{university.ae2charger.desc1}"
+				""
+				"{university.ae2charger.desc2}"
+				"{@pagebreak}"
+				"{university.ae2charger.desc3}"
+			]
+			hide: true
+			hide_dependency_lines: false
+			icon: "ae2:charger"
+			id: "61478F1459897332"
+			rewards: [{
+				id: "0E138E4156F1DB8C"
+				item: "ae2:crank"
+				type: "item"
+			}]
+			subtitle: "{university.ae2charger.subtitle}"
+			tasks: [{
+				id: "4EC7BF53E2880EE5"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			title: "{university.ae2charger.title}"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D4A165C14761C74"]
+			description: [
+				"{university.planeschool.desc1}"
+				""
+				"[\"\",{\"translate\":\"university.enterschool.1\"},{\"translate\":\"university.enterschool.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/school enter ftbuniversity:ae2/planes\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: /school enter ftbuniversity:ae2/planes\"]}}]"
+				""
+				"{university.planeschool.desc2}"
+			]
+			hide_dependency_lines: true
+			icon: "kubejs:modpack_logo"
+			id: "53278DBD57EEA394"
+			size: 0.5d
+			subtitle: "{university.planeschool.subtitle}"
+			tasks: [{
+				icon: "kubejs:modpack_logo"
+				id: "4E98608A9E3B42F0"
+				title: "{university.planeschool.subtitle}"
+				type: "custom"
+			}]
+			title: "{university.planeschool.title}"
+			x: 11.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["2B60397533F41E38"]
+			description: [
+				"{university.portablecell.desc1}"
+				""
+				"{university.portablecell.desc2}"
+			]
+			icon: {
+				Count: 1b
+				id: "ae2:portable_item_cell_256k"
+				tag: { }
+			}
+			id: "56FDE1035CA4FB62"
+			subtitle: "{university.portablecell.subtitle}"
+			tasks: [{
+				id: "132617D78997C8B2"
+				item: {
+					Count: 1b
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "portable_item_cell"
+					}
+				}
+				title: "{university.portablecell.task}"
+				type: "item"
+			}]
+			title: "{university.portablecell.title}"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["4BF7153453CC8539"]
+			description: [
+				"{university.craftingcard.desc1}"
+				""
+				"{university.craftingcard.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "0554230A58AC51FD"
+			subtitle: "{university.craftingcard.subtitle}"
+			tasks: [{
+				id: "6DCAEC827B35BB9F"
+				item: "ae2:crafting_card"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["18189FB5E98DA74B"]
+			description: [
+				"{university.spatialschool.desc1}"
+				""
+				"[\"\",{\"translate\":\"university.enterschool.1\"},{\"translate\":\"university.enterschool.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/school enter ftbuniversity:ae2/spatial_storage\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: /school enter ftbuniversity:ae2/spatial_storage\"]}}]"
+			]
+			icon: "kubejs:modpack_logo"
+			id: "6E951C1A2EB1666E"
+			size: 0.5d
+			subtitle: "{university.spatialschool.subtitle}"
+			tasks: [{
+				icon: "kubejs:modpack_logo"
+				id: "2E87EFFA45256009"
+				title: "{university.spatialschool.subtitle}"
+				type: "custom"
+			}]
+			title: "{university.spatialschool.title}"
+			x: 13.25d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04BC63D794ADFA52"]
+			description: [
+				"{university.mattercannon.desc1}"
+				""
+				"{university.mattercannon.desc2}"
+				""
+				"{university.mattercannon.desc3}"
+				""
+				"{university.mattercannon.desc4}"
+			]
+			hide_dependency_lines: true
+			id: "0232B303EFCA7E30"
+			min_width: 250
+			size: 0.5d
+			subtitle: "{university.mattercannon.subtitle}"
+			tasks: [{
+				id: "52C42CF377FAC7C6"
+				item: {
+					Count: 1b
+					id: "ae2:matter_cannon"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 10.75d
+			y: 3.25d
+		}
+		{
+			dependencies: ["04BC63D794ADFA52"]
+			description: [
+				"{university.colorapplicator.desc1}"
+				""
+				"{university.colorapplicator.desc2}"
+				""
+				"{university.colorapplicator.desc3}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ae2:color_applicator"
+				tag: { }
+			}
+			id: "1888AA7487C4EE41"
+			size: 0.5d
+			subtitle: "{university.colorapplicator.subtitle}"
+			tasks: [
+				{
+					id: "03F1BD38F20C8143"
+					item: {
+						Count: 1b
+						id: "ae2:color_applicator"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "39CC06B914E04CFD"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "paint_ball"
+						}
+					}
+					title: "{university.colorapplicator.task}"
+					type: "item"
+				}
+			]
+			x: 11.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["3DB834F1D71682BD"]
+			description: ["{university.ae2wrench.desc}"]
+			icon: "ae2:certus_quartz_wrench"
+			id: "4CF7DD79145D5EAF"
+			size: 0.5d
+			subtitle: "{university.ae2wrench.subtitle}"
+			tasks: [{
+				id: "0BDB42F418D3CFC5"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:certus_quartz_wrench"
+							}
+							{
+								Count: 1b
+								id: "ae2:nether_quartz_wrench"
+							}
+						]
+					}
+				}
+				title: "{university.ae2wrench.title}"
+				type: "item"
+			}]
+			x: 0.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2D222B3524A78A76"]
+			description: [
+				"{university.p2p1.desc1}"
+				""
+				"{university.p2p1.desc2}"
+				"{@pagebreak}"
+				"{university.p2p1.desc3}"
+				""
+				"{university.p2p1.desc4}"
+				""
+				"{university.p2p1.desc5}"
+				"{@pagebreak}"
+				"{university.p2p1.desc6}"
+				"{image:ftbuniversity:textures/quests/ae2/p2p.png width:200 height:76 align:1}"
+				""
+				"{university.p2p1.desc7}"
+				""
+				"{university.p2p1.desc8}"
+			]
+			hide_dependency_lines: true
+			icon: "ae2:me_p2p_tunnel"
+			id: "144C32B7CDF255EA"
+			min_width: 275
+			rewards: [{
+				count: 5
+				id: "54B7488632806C38"
+				item: "ae2:me_p2p_tunnel"
+				type: "item"
+			}]
+			subtitle: "{university.p2p1.subtitle}"
+			tasks: [
+				{
+					id: "438AD25A26FB6A98"
+					item: "ae2:me_p2p_tunnel"
+					type: "item"
+				}
+				{
+					id: "1502FE9BF723A228"
+					item: {
+						Count: 1b
+						id: "ae2:memory_card"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "{university.p2p1.title}"
+			x: 14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["144C32B7CDF255EA"]
+			description: [
+				"{university.p2pstyles.desc1}"
+				""
+				"{university.p2pstyles.desc2}"
+			]
+			icon: "ae2:redstone_p2p_tunnel"
+			id: "19646276BFADA19C"
+			min_width: 275
+			subtitle: "{university.p2pstyles.subtitle}"
+			tasks: [{
+				id: "66DB3341CE98454F"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:not"
+								tag: {
+									items: [{
+										Count: 1b
+										id: "ae2:me_p2p_tunnel"
+									}]
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:id_regex"
+								tag: {
+									value: "p2p_tunnel"
+								}
+							}
+						]
+					}
+				}
+				title: "{university.p2pstyles.task}"
+				type: "item"
+			}]
+			title: "{university.p2pstyles.title}"
+			x: 14.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["144C32B7CDF255EA"]
+			description: [
+				"{university.p2p2.desc1}"
+				""
+				"{university.p2p2.desc2}"
+				""
+				"{university.p2p2.desc3}"
+				"{@pagebreak}"
+				"{university.p2p2.desc4}"
+				""
+				"{image:ftbuniversity:textures/quests/ae2/p2p_controller.png width:150 height:71 align:1 fit:true}"
+			]
+			icon: {
+				Count: 1b
+				id: "botania:cosmetic_questgiver_mark"
+				tag: { }
+			}
+			id: "491ECA2441B61B89"
+			min_width: 275
+			subtitle: "{university.p2p2.subtitle}"
+			tasks: [{
+				id: "34F09825F7CA2DDC"
+				type: "checkmark"
+			}]
+			title: "{university.p2p2.title}"
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2CFE1A252EBE4448"]
+			description: ["{university.inscriberpress.desc}"]
+			icon: "ae2:mysterious_cube"
+			id: "5ED5888D565F3B62"
+			rewards: [{
+				id: "7EE66773A50999BB"
+				item: "ae2:not_so_mysterious_cube"
+				type: "item"
+			}]
+			subtitle: "{university.inscriberpress.subtitle}"
+			tasks: [{
+				id: "58F80C4E7562CD42"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:calculation_processor_press"
+							}
+							{
+								Count: 1b
+								id: "ae2:engineering_processor_press"
+							}
+							{
+								Count: 1b
+								id: "ae2:logic_processor_press"
+							}
+							{
+								Count: 1b
+								id: "ae2:silicon_press"
+							}
+						]
+					}
+				}
+				title: "{university.inscriberpress.task}"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3DB834F1D71682BD"]
+			description: [
+				"{university.certusbuds.desc1}"
+				""
+				"{university.certusbuds.desc2}"
+			]
+			icon: "ae2:charged_certus_quartz_crystal"
+			id: "48F366EDCBD13F54"
+			subtitle: "{university.certusbuds.subtitle}"
+			tasks: [
+				{
+					id: "03876CD8E5817030"
+					item: "ae2:charged_certus_quartz_crystal"
+					type: "item"
+				}
+				{
+					id: "37D7DD61C75B898D"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "ae2:flawed_budding_quartz"
+								}
+								{
+									Count: 1b
+									id: "ae2:chipped_budding_quartz"
+								}
+								{
+									Count: 1b
+									id: "ae2:damaged_budding_quartz"
+								}
+								{
+									Count: 1b
+									id: "ae2:quartz_block"
+								}
+							]
+						}
+					}
+					title: "{university.certusbuds.task}"
+					type: "item"
+				}
+			]
+			title: "{university.certusbuds.title}"
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4BF7153453CC8539"]
+			description: [
+				"{university.merequester.desc1}"
+				""
+				"{university.merequester.desc2}"
+			]
+			id: "36BA9AEDACCDE1A5"
+			subtitle: "{university.merequester.subtitle}"
+			tasks: [{
+				id: "1231C631354F74C1"
+				item: "merequester:requester"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"2D222B3524A78A76"
+				"40E6725020CDF47B"
+			]
+			description: [
+				"{university.appbotania.desc1}"
+				""
+				"{university.appbotania.desc2}"
+				""
+				"{university.appbotania.desc3}"
+			]
+			hide: true
+			hide_dependency_lines: true
+			icon: "appbot:fluix_mana_pool"
+			id: "50F61DDF1CB3C0C1"
+			subtitle: "{university.appbotania.subtitle}"
+			tasks: [
+				{
+					id: "6CF025D66BD25589"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: ":mana_storage_cell"
+						}
+					}
+					title: "{university.appbotania.task}"
+					type: "item"
+				}
+				{
+					id: "502A5D1C76E8020C"
+					item: "appbot:fluix_mana_pool"
+					type: "item"
+				}
+			]
+			title: "{university.appbotania.title}"
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["50F61DDF1CB3C0C1"]
+			description: [
+				"{university.manap2p.desc1}"
+				""
+				"{image:ftbuniversity:textures/quests/ae2/mana_p2p.png width:182 height:100 align:1}"
+				""
+				"{university.manap2p.desc2}"
+				""
+				"{image:ftbuniversity:textures/quests/ae2/spark_p2p.png width:205 height:100 align:1}"
+			]
+			id: "06C186A8C676C00B"
+			min_width: 250
+			rewards: [{
+				id: "661DD0EB998AF330"
+				item: "appbot:mana_p2p_tunnel"
+				type: "item"
+			}]
+			subtitle: "{university.manap2p.subtitle}"
+			tasks: [{
+				id: "4CC5284CFBFF4778"
+				item: "appbot:mana_p2p_tunnel"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["50F61DDF1CB3C0C1"]
+			description: ["{university.abcorporea.desc}"]
+			disable_toast: true
+			hide_dependency_lines: true
+			id: "4DF6D66E10185C77"
+			subtitle: "{university.abcorporea.subtitle}"
+			tasks: [{
+				disable_toast: true
+				id: "1D6C15277CD7EDC8"
+				item: "botania:corporea_spark"
+				type: "item"
+			}]
+			title: "{university.abcorporea.title}"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0B8690414DC5C356"]
+			description: [
+				"{university.bulkcell.desc1}"
+				""
+				"{university.bulkcell.desc2}"
+				"{@pagebreak}"
+				"{university.bulkcell.desc3}"
+				""
+				"{university.bulkcell.desc4}"
+			]
+			id: "1D70C1D336BB8AEF"
+			min_width: 250
+			rewards: [{
+				id: "31E98AF367EB81EF"
+				item: "megacells:compression_card"
+				type: "item"
+			}]
+			subtitle: "{university.bulkcell.subtitle}"
+			tasks: [{
+				id: "317637E50EE3BBEA"
+				item: {
+					Count: 1b
+					id: "megacells:bulk_item_cell"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1D70C1D336BB8AEF"]
+			description: [
+				"{university.megadecomp.desc1}"
+				""
+				"{university.megadecomp.desc2}"
+			]
+			id: "63BB5117D6C5EB76"
+			subtitle: "{university.megadecomp.subtitle}"
+			tasks: [{
+				id: "6E9F2E45953796DE"
+				item: "megacells:decompression_module"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["144C32B7CDF255EA"]
+			description: [
+				"{university.p2pschool.desc}"
+				""
+				"[\"\",{\"translate\":\"university.enterschool.1\"},{\"translate\":\"university.enterschool.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/school enter ftbuniversity:ae2/p2p\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: /school enter ftbuniversity:ae2/p2p\"]}}]"
+			]
+			icon: "kubejs:modpack_logo"
+			id: "1671C751A817BC96"
+			subtitle: "{university.p2pschool.subtitle}"
+			tasks: [{
+				icon: "kubejs:modpack_logo"
+				id: "1F6D1208E72AA5C3"
+				title: "{university.p2pschool.subtitle}"
+				type: "custom"
+			}]
+			title: "{university.p2pschool.title}"
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D17661E64E724D1"]
+			description: [
+				"{university.ae2guide.desc1}"
+				""
+				"{university.ae2guide.desc2}"
+				""
+				"{university.ae2guide.desc3}"
+				""
+				"{university.akashicTask}"
+			]
+			hide: true
+			id: "4D0E33FEB4514272"
+			min_width: 250
+			subtitle: "{university.ae2guide.subtitle}"
+			tasks: [{
+				id: "5D60EB7CA953D3EC"
+				item: "ae2:guide"
+				type: "item"
+			}]
+			title: "{university.ae2guide.title}"
+			x: -0.5d
+			y: 1.5d
+		}
+	]
+	title: "{university.ae2.chapter}"
+}

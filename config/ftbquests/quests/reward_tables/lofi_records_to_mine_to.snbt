@@ -1,0 +1,48 @@
+{
+	id: "4043D022D8B16A67"
+	loot_crate: {
+		color: 6555132
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "lofi_records_to_mine_to"
+	}
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ item: "lofirecordstomineto:a_little_something" }
+		{ item: "lofirecordstomineto:a_mix_of_sound_and_space" }
+		{ item: "lofirecordstomineto:alone" }
+		{ item: "lofirecordstomineto:face_it" }
+		{ item: "lofirecordstomineto:falling_leaves" }
+		{ item: "lofirecordstomineto:finger_puppets" }
+		{ item: "lofirecordstomineto:falls_first_sunday" }
+		{ item: "lofirecordstomineto:happy_birthday" }
+		{ item: "lofirecordstomineto:in_search_of_life" }
+		{ item: "lofirecordstomineto:interdimensional" }
+		{ item: "lofirecordstomineto:its_inside" }
+		{ item: "lofirecordstomineto:look_at_the_camera" }
+		{ item: "lofirecordstomineto:making_ways" }
+		{ item: "lofirecordstomineto:memory_loss" }
+		{ item: "lofirecordstomineto:normal" }
+		{ item: "lofirecordstomineto:overhead" }
+		{ item: "lofirecordstomineto:plucked" }
+		{ item: "lofirecordstomineto:remember" }
+		{ item: "lofirecordstomineto:render" }
+		{ item: "lofirecordstomineto:running_from_giants" }
+		{ item: "lofirecordstomineto:shadow_people" }
+		{ item: "lofirecordstomineto:space_whales" }
+		{ item: "lofirecordstomineto:survived_by" }
+		{ item: "lofirecordstomineto:there_there" }
+		{ item: "lofirecordstomineto:thiccer" }
+		{ item: "lofirecordstomineto:time_rider" }
+		{ item: "lofirecordstomineto:turning_over_rocks" }
+		{ item: "lofirecordstomineto:uncanny" }
+		{ item: "lofirecordstomineto:war" }
+		{ item: "lofirecordstomineto:when_it_rains" }
+		{ item: "lofirecordstomineto:wind" }
+	]
+	title: "{university.coolthings.rewards.lofi}"
+}

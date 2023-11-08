@@ -1,0 +1,12 @@
+{
+	id: "19479836443F3DA0"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "prefab:item_house" }
+		{ item: "prefab:item_house_improved" }
+		{ item: "prefab:item_house_advanced" }
+	]
+	title: "{university.prefab.task}"
+	use_title: true
+}

@@ -1,0 +1,14 @@
+{
+	id: "4323EBE582B4C4EB"
+	loot_size: 6
+	order_index: 11
+	rewards: [
+		{ count: 3, item: "ars_nouveau:mendosteen_pod" }
+		{ count: 3, item: "ars_nouveau:bastion_pod" }
+		{ count: 3, item: "ars_nouveau:bombegranate_pod" }
+		{ count: 3, item: "ars_nouveau:frostaya_pod" }
+		{ count: 3, item: "ars_elemental:flashpine_pod" }
+	]
+	title: "{university.archwood.rewards}"
+	use_title: true
+}

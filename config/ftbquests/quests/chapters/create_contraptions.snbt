@@ -1,0 +1,604 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create_contraptions"
+	group: "324223492707BC57"
+	icon: "create:gantry_carriage"
+	id: "5675E3F2ED395DAA"
+	images: [
+		{
+			click: ""
+			corner: false
+			dependency: "7D42A349ED924B59"
+			dev: false
+			height: 1.0d
+			hover: [
+				"{create.ponder.tag.contraption_assembly}"
+				""
+				"&7{create.ponder.tag.contraption_assembly.description}"
+			]
+			image: "ftbuniversity:textures/quests/create/block_attachment.png"
+			rotation: 0.0d
+			width: 9.224489795918368d
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7D42A349ED924B59"
+			dev: false
+			height: 1.0d
+			hover: [
+				"{create.ponder.tag.movement_anchor}"
+				""
+				"&7{create.ponder.tag.movement_anchor.description}"
+			]
+			image: "ftbuniversity:textures/quests/create/movement_anchors.png"
+			rotation: 0.0d
+			width: 9.52d
+			x: 0.5d
+			y: -9.0d
+		}
+		{
+			click: ""
+			corner: false
+			dependency: "7D42A349ED924B59"
+			dev: false
+			height: 1.0d
+			hover: [
+				"{create.ponder.tag.contraption_actor}"
+				"&7{create.ponder.tag.contraption_actor.description}"
+			]
+			image: "ftbuniversity:textures/quests/create/contraption_actors.png"
+			rotation: 0.0d
+			width: 10.14d
+			x: 0.5d
+			y: -3.0d
+		}
+	]
+	order_index: 2
+	quest_links: [{
+		id: "0A1326824E193177"
+		linked_quest: "1A40BF28A6E6F4E9"
+		x: -1.5d
+		y: -8.0d
+	}]
+	quests: [
+		{
+			dependencies: ["598E570C9259DA20"]
+			description: [
+				"{university.mechanicalpiston.desc1}"
+				""
+				"{university.mechanicalpiston.desc2}"
+				""
+				"{university.mechanicalpiston.desc3}"
+				""
+				"{university.mechanicalpiston.desc4}"
+				""
+				"{university.mechanicalpiston.desc5}"
+			]
+			hide_dependency_lines: true
+			icon: "create:mechanical_piston"
+			id: "2672D3D9F9B3DE35"
+			min_width: 275
+			rewards: [{
+				count: 16
+				id: "5737A7440A71C1C5"
+				item: "create:piston_extension_pole"
+				type: "item"
+			}]
+			subtitle: "{university.mechanicalpiston.subtitle}"
+			tasks: [
+				{
+					id: "6DB7B0E01E900062"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "create:mechanical_piston"
+								}
+								{
+									Count: 1b
+									id: "create:sticky_mechanical_piston"
+								}
+							]
+						}
+					}
+					title: "{university.mechanicalpiston.task}"
+					type: "item"
+				}
+				{
+					id: "3BB010893ED12DBF"
+					item: "create:piston_extension_pole"
+					type: "item"
+				}
+			]
+			title: "{university.mechanicalpiston.title}"
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7D42A349ED924B59"]
+			description: [
+				"{university.contraptions.desc1}"
+				""
+				"{university.contraptions.desc2}"
+				"{@pagebreak}"
+				"{university.contraptions.desc3}"
+				""
+				"{university.contraptions.desc4}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "botania:cosmetic_questgiver_mark"
+				tag: { }
+			}
+			id: "598E570C9259DA20"
+			min_width: 275
+			size: 1.25d
+			subtitle: "{university.contraptions.subtitle}"
+			tasks: [{
+				id: "1BDBA22339B112DE"
+				title: "contraptions"
+				type: "checkmark"
+			}]
+			title: "{university.contraptions.title}"
+			x: 0.625d
+			y: -10.625d
+		}
+		{
+			dependencies: ["598E570C9259DA20"]
+			description: [
+				"{university.linearchassis.desc1}"
+				""
+				"{university.linearchassis.desc2}"
+				""
+				"{university.linearchassis.desc3}"
+			]
+			hide_dependency_lines: true
+			icon: "create:linear_chassis"
+			id: "0A7227F968F0B6B0"
+			min_width: 250
+			rewards: [{
+				count: 16
+				id: "6C265E28F2347A9A"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			subtitle: "{university.linearchassis.subtitle}"
+			tasks: [{
+				id: "640E126F84D079EA"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "create:linear_chassis"
+							}
+							{
+								Count: 1b
+								id: "create:secondary_linear_chassis"
+							}
+						]
+					}
+				}
+				title: "{university.linearchassis.task}"
+				type: "item"
+			}]
+			title: "{university.linearchassis.title}"
+			x: -1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["598E570C9259DA20"]
+			description: [
+				"{university.mechbearing.desc1}"
+				""
+				"{university.mechbearing.desc2}"
+				""
+				"{university.mechbearing.desc3}"
+				""
+				"{university.mechbearing.desc4}"
+			]
+			hide_dependency_lines: true
+			id: "019C4D235CE302A8"
+			min_width: 225
+			subtitle: "{university.mechbearing.subtitle}"
+			tasks: [{
+				id: "67A2A59049EBC1D8"
+				item: "create:mechanical_bearing"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["598E570C9259DA20"]
+			description: [
+				"{university.radialchassis.desc1}"
+				""
+				"{university.radialchassis.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "2494A878A13866DD"
+			rewards: [{
+				count: 16
+				id: "22FAC7D041FBB573"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			subtitle: "{university.radialchassis.subtitle}"
+			tasks: [{
+				id: "6F3E94DF7B9C5910"
+				item: "create:radial_chassis"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["598E570C9259DA20"]
+			description: [
+				"{university.createsticker.desc1}"
+				""
+				"{university.createsticker.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "7F5FC729775EB4BB"
+			subtitle: "{university.createsticker.subtitle}"
+			tasks: [{
+				id: "52E9A5E26D28226C"
+				item: "create:sticker"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["598E570C9259DA20"]
+			description: [
+				"{university.superglue.desc1}"
+				""
+				"{university.superglue.desc2}"
+				""
+				"{university.superglue.desc3}"
+			]
+			hide_dependency_lines: true
+			id: "715B5A47109DBE47"
+			rewards: [{
+				id: "5E4A6BF6D602BD22"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{university.superglue.subtitle}"
+			tasks: [{
+				id: "24FA0D11E5A4592B"
+				item: {
+					Count: 1b
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["598E570C9259DA20"]
+			description: [
+				"{university.redstonecontact.desc1}"
+				""
+				"{university.redstonecontact.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "4C225731A626423A"
+			rewards: [{
+				id: "4351A9B0EA8D9E84"
+				item: "create:redstone_contact"
+				type: "item"
+			}]
+			subtitle: "{university.redstonecontact.subtitle}"
+			tasks: [{
+				id: "3D76B7682FD7280F"
+				item: "create:redstone_contact"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["598E570C9259DA20"]
+			description: [
+				"{university.portstorint.desc1}"
+				""
+				"{university.portstorint.desc2}"
+				""
+				"{university.portstorint.desc3}"
+				""
+				"{university.portstorint.desc4}"
+			]
+			hide_dependency_lines: true
+			id: "28433889AFC4B0D2"
+			min_width: 275
+			rewards: [{
+				id: "21D799BE47821CC7"
+				item: "littlelogistics:rapid_hopper"
+				type: "item"
+			}]
+			subtitle: "{university.portstorint.subtitle}"
+			tasks: [{
+				id: "69DD9340CCD09D47"
+				item: "create:portable_storage_interface"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["598E570C9259DA20"]
+			description: [
+				"{university.portfluidint.desc1}"
+				""
+				"{university.portfluidint.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "5D0B2AF0124FED6D"
+			subtitle: "{university.portfluidint.subtitle}"
+			tasks: [{
+				id: "36BCE5BB7A022D6E"
+				item: "create:portable_fluid_interface"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["598E570C9259DA20"]
+			description: [
+				"{university.mechharvest.desc1}"
+				""
+				"{university.mechharvest.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "3466838F868A4900"
+			subtitle: "{university.mechharvest.subtitle}"
+			tasks: [{
+				id: "6B5704F49F6B7224"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			title: "{university.mechharvest.title}"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["598E570C9259DA20"]
+			description: [
+				"{university.mechplow.desc1}"
+				""
+				"{university.mechplow.desc2}"
+				""
+				"{university.mechplow.desc3}"
+			]
+			hide_dependency_lines: true
+			id: "40FC93B561917C8C"
+			subtitle: "{university.mechplow.subtitle}"
+			tasks: [{
+				id: "0A5B86ECCC330885"
+				item: "create:mechanical_plough"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["598E570C9259DA20"]
+			description: [
+				"{university.ropepulley.desc1}"
+				""
+				"{university.ropepulley.desc2}"
+				""
+				"{university.ropepulley.desc3}"
+			]
+			hide_dependency_lines: true
+			id: "6E02945ECC123582"
+			min_width: 250
+			subtitle: "{university.ropepulley.subtitle}"
+			tasks: [{
+				id: "14EAEDB72C440375"
+				item: "create:rope_pulley"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["598E570C9259DA20"]
+			description: [
+				"{university.gantry.desc1}"
+				""
+				"{university.gantry.desc2}"
+				""
+				"{university.gantry.desc3}"
+			]
+			hide_dependency_lines: true
+			icon: "create:gantry_carriage"
+			id: "2A1ACA7961A27BA3"
+			min_width: 250
+			rewards: [{
+				count: 32
+				id: "24346EB977D2159A"
+				item: "create:gantry_shaft"
+				type: "item"
+			}]
+			subtitle: "{university.gantry.subtitle}"
+			tasks: [
+				{
+					id: "2A39C3C0BD38B509"
+					item: "create:gantry_carriage"
+					type: "item"
+				}
+				{
+					id: "45A683473A64A956"
+					item: "create:gantry_shaft"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["598E570C9259DA20"]
+			description: [
+				"{university.cartassembler.desc1}"
+				""
+				"{university.cartassembler.desc2}"
+				""
+				"{university.cartassembler.desc3}"
+				""
+				"{university.cartassembler.desc4}"
+			]
+			hide_dependency_lines: true
+			id: "47EA9204F4CF2A74"
+			min_width: 275
+			rewards: [{
+				id: "6EE43FB0FF71CB45"
+				item: "create:white_seat"
+				type: "item"
+			}]
+			subtitle: "{university.cartassembler.subtitle}"
+			tasks: [{
+				id: "7FA2749A83DC8B85"
+				item: "create:cart_assembler"
+				type: "item"
+			}]
+			title: "{university.cartassembler.title}"
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["598E570C9259DA20"]
+			description: [
+				"{university.createchunk.desc1}"
+				""
+				"{university.createchunk.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "41DBE7B6FFB1E98A"
+			subtitle: "{university.createchunk.subtitle}"
+			tasks: [{
+				id: "01BE7E2BAE31A2D4"
+				item: "createchunkloading:chunk_loader"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["3466838F868A4900"]
+			description: [
+				"{university.createfarm.desc1}"
+				""
+				"[\"\",{\"translate\":\"university.enterschool.1\"},{\"translate\":\"university.enterschool.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/school enter ftbuniversity:create/farm\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: /school enter ftbuniversity:create/farm\"]}}]"
+			]
+			icon: "kubejs:modpack_logo"
+			id: "0D0CBA794F09E2BD"
+			size: 0.5d
+			subtitle: "{university.createfarm.subtitle}"
+			tasks: [{
+				icon: "kubejs:modpack_logo"
+				id: "693E4F9A13F8CA1D"
+				title: "{university.createfarm.subtitle}"
+				type: "custom"
+			}]
+			title: "{university.createfarm.title}"
+			x: -1.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["598E570C9259DA20"]
+			description: [
+				"{university.contrapcontrol.desc1}"
+				""
+				"{university.contrapcontrol.desc2}"
+				""
+				"{university.contrapcontrol.desc3}"
+				""
+				"{university.contrapcontrol.desc4}"
+			]
+			hide_dependency_lines: true
+			id: "243449FB7AB3721D"
+			min_width: 250
+			subtitle: "{university.contrapcontrol.subtitle}"
+			tasks: [{
+				id: "72E113CBA47F8E21"
+				item: "create:contraption_controls"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["598E570C9259DA20"]
+			description: [
+				"{university.createelevator.desc1}"
+				""
+				"{university.createelevator.desc2}"
+			]
+			hide_dependency_lines: true
+			icon: "create:elevator_pulley"
+			id: "2EF5FFAC422F6F9E"
+			min_width: 250
+			rewards: [
+				{
+					count: 64
+					id: "6C906DC4069A2704"
+					item: "create:copycat_panel"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "4CEE6E7CDC21D0F3"
+					item: "create:redstone_contact"
+					type: "item"
+				}
+			]
+			subtitle: "{university.createelevator.subtitle}"
+			tasks: [
+				{
+					id: "1C52CF7AF7AB1F42"
+					item: "create:elevator_pulley"
+					type: "item"
+				}
+				{
+					count: 2L
+					disable_toast: true
+					id: "064975EEAC495364"
+					item: "create:redstone_contact"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -8.0d
+		}
+	]
+	title: "{university.create.chapter2}"
+}

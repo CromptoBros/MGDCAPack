@@ -1,0 +1,3193 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "rftools"
+	group: "324223492707BC57"
+	icon: "rftoolsutility:crafter2"
+	id: "5A751071A9F90A76"
+	images: [{
+		click: "https://ftb.fandom.com/wiki/Endergenic_Power_Generation#Example_Generator_Design"
+		corner: false
+		dependency: "2A48CE32A8074FBB"
+		dev: false
+		height: 0.5d
+		hover: [
+			"{university.endergeniclink.title}"
+			""
+			"{university.endergeniclink.subtitle}"
+		]
+		image: "ftbuniversity:textures/quests/misc/fandom.png"
+		rotation: 0.0d
+		width: 0.5d
+		x: -2.5d
+		y: -1.25d
+	}]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: [
+				"{university.rftcoalgen.desc1}"
+				""
+				"{university.rftcoalgen.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "3F163758DA1AB348"
+			rewards: [{
+				count: 32
+				id: "5F393B68556B3A21"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			subtitle: "{university.rftcoalgen.subtitle}"
+			tasks: [{
+				id: "74B32F43FBAE70A9"
+				item: "rftoolspower:coalgenerator"
+				type: "item"
+			}]
+			title: "{university.rftcoalgen.title}"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: [
+				"{university.endergenic.desc1}"
+				""
+				"{university.endergenic.desc2}"
+				"{@pagebreak}"
+				"{university.endergenic.desc3}"
+				""
+				"{university.endergenic.desc4}"
+				""
+				"{university.endergenic.desc5}"
+				"{@pagebreak}"
+				"{university.endergenic.desc6}"
+				""
+				"{university.endergenic.desc7}"
+			]
+			hide_dependency_lines: true
+			icon: "rftoolspower:endergenic"
+			id: "165E25335FD2F4E2"
+			min_width: 275
+			subtitle: "{university.endergenic.subtitle}"
+			tasks: [
+				{
+					id: "6E731ABCCB41237F"
+					item: "rftoolspower:endergenic"
+					type: "item"
+				}
+				{
+					id: "6AE4796F55D35E54"
+					item: "rftoolspower:pearl_injector"
+					type: "item"
+				}
+				{
+					id: "1B393D6D9CF93AC1"
+					item: "rftoolspower:ender_monitor"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: [
+				"{university.dimcells.desc1}"
+				""
+				"{university.dimcells.desc2}"
+				"{@pagebreak}"
+				"{university.dimcells.desc3}"
+				""
+				"{university.dimcells.desc4}"
+				""
+				"{university.dimcells.desc5}"
+			]
+			hide_dependency_lines: true
+			icon: "rftoolspower:dimensionalcell"
+			id: "7E3EA85F58D69C38"
+			min_width: 300
+			rewards: [{
+				id: "195214F278938B22"
+				item: "rftoolspower:dimensionalcell_advanced"
+				type: "item"
+			}]
+			subtitle: "{university.dimcells.subtitle}"
+			tasks: [
+				{
+					id: "6525E267B1E547EE"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "rftoolspower:dimensionalcell"
+								}
+								{
+									Count: 1b
+									id: "rftoolspower:dimensionalcell_advanced"
+								}
+								{
+									Count: 1b
+									id: "rftoolspower:dimensionalcell_simple"
+								}
+							]
+						}
+					}
+					title: "{university.dimcells.title}"
+					type: "item"
+				}
+				{
+					id: "2A88D682E629D3FA"
+					item: "rftoolspower:powercell_card"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: [
+				"{university.rftpowercell.desc1}"
+				""
+				"{university.rftpowercell.desc2}"
+			]
+			hide_dependency_lines: true
+			icon: "rftoolspower:cell2"
+			id: "776898DBA9C7500C"
+			rewards: [{
+				count: 4
+				id: "352BE7E0A9B9F683"
+				item: "rftoolspower:cell2"
+				type: "item"
+			}]
+			subtitle: "{university.rftpowercell.subtitle}"
+			tasks: [{
+				id: "3DD251B45DC6674F"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "rftoolspower:cell1"
+							}
+							{
+								Count: 1b
+								id: "rftoolspower:cell2"
+							}
+							{
+								Count: 1b
+								id: "rftoolspower:cell3"
+							}
+						]
+					}
+				}
+				title: "{university.rftpowercell.task}"
+				type: "item"
+			}]
+			title: "{university.rftpowercell.title}"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: [
+				"{university.blazagi.desc1}"
+				""
+				"{university.blazagi.desc2}"
+			]
+			hide_dependency_lines: true
+			icon: "rftoolspower:blazing_generator"
+			id: "79D3B8AE64D1D944"
+			rewards: [{
+				count: 16
+				id: "280296E63E4719AF"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			subtitle: "{university.blazagi.subtitle}"
+			tasks: [
+				{
+					id: "429CC88DDB911F07"
+					item: "rftoolspower:blazing_agitator"
+					type: "item"
+				}
+				{
+					id: "01FB56014D0CA058"
+					item: "rftoolspower:blazing_generator"
+					type: "item"
+				}
+			]
+			title: "{university.blazagi.title}"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["79D3B8AE64D1D944"]
+			description: [
+				"{university.blazinf.desc1}"
+				""
+				"{university.blazinf.desc2}"
+			]
+			id: "2FDECB8B0238C861"
+			size: 0.5d
+			subtitle: "{university.blazinf.subtitle}"
+			tasks: [{
+				id: "792599759F1AF808"
+				item: "rftoolspower:blazing_infuser"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: [
+				"{university.rftteleporter.desc1}"
+				""
+				"{university.rftteleporter.desc2}"
+				""
+				"{university.rftteleporter.desc3}"
+			]
+			hide_dependency_lines: true
+			icon: "rftoolsutility:matter_receiver"
+			id: "4326D9D5DC2ADFEE"
+			min_width: 275
+			subtitle: "{university.rftteleporter.subtitle}"
+			tasks: [
+				{
+					id: "0883EBF8707C31F7"
+					item: "rftoolsutility:matter_transmitter"
+					type: "item"
+				}
+				{
+					id: "207F5051D73C364A"
+					item: "rftoolsutility:dialing_device"
+					type: "item"
+				}
+				{
+					id: "391854B57F295BBD"
+					item: "rftoolsutility:matter_receiver"
+					type: "item"
+				}
+			]
+			title: "{university.rftteleporter.title}"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4326D9D5DC2ADFEE"]
+			description: [
+				"{university.rftporter.desc1}"
+				""
+				"{university.rftporter.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "2724372DA1051FC6"
+			size: 0.5d
+			subtitle: "{university.rftporter.subtitle}"
+			tasks: [{
+				id: "7E2FD905E6BB21E8"
+				item: {
+					Count: 1b
+					id: "rftoolsutility:charged_porter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{university.rftporter.title}"
+			x: -1.25d
+			y: 0.25d
+		}
+		{
+			dependencies: ["2724372DA1051FC6"]
+			description: ["{university.rftporter2.desc}"]
+			id: "4C9B1EF7AB016FF7"
+			size: 0.5d
+			subtitle: "{university.rftporter2.subtitle}"
+			tasks: [{
+				id: "059E9D65C2CB6FB2"
+				item: {
+					Count: 1b
+					id: "rftoolsutility:advanced_charged_porter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{university.rftporter2.title}"
+			x: -1.75d
+			y: 0.25d
+		}
+		{
+			dependencies: ["4326D9D5DC2ADFEE"]
+			description: [
+				"{university.rftmatboost.desc1}"
+				""
+				"{university.rftmatboost.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "73B67C12EFE9EA34"
+			size: 0.5d
+			subtitle: "{university.rftmatboost.subtitle}"
+			tasks: [{
+				id: "6BECCB6DE71C919D"
+				item: "rftoolsutility:matter_booster"
+				type: "item"
+			}]
+			title: "{university.rftmatboost.title}"
+			x: -1.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: [
+				"{university.rftcrafter1.desc1}"
+				""
+				"{university.rftcrafter1.desc2}"
+				""
+				"{university.rftcrafter1.desc3}"
+				""
+				"{university.rftcrafter1.desc4}"
+			]
+			hide_dependency_lines: true
+			id: "62A95E92A6E68980"
+			min_width: 275
+			subtitle: "{university.rftcrafter1.subtitle}"
+			tasks: [{
+				id: "17E348037D386AFC"
+				item: "rftoolsutility:crafter1"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["62A95E92A6E68980"]
+			description: ["{university.rftcrafter2.desc}"]
+			id: "540FE0CE8AB88C1D"
+			subtitle: "{university.rftcrafter2.subtitle}"
+			tasks: [{
+				id: "6AD8777FDF52B63A"
+				item: "rftoolsutility:crafter2"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["540FE0CE8AB88C1D"]
+			description: ["{university.rftcrafter3.desc}"]
+			id: "0BA2CCA808CDB5EE"
+			subtitle: "{university.rftcrafter3.subtitle}"
+			tasks: [{
+				id: "620014CC171AE5CF"
+				item: "rftoolsutility:crafter3"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: [
+				"{university.rftwire.desc1}"
+				""
+				"{university.rftwire.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "10BCF8170B30EFFE"
+			rewards: [{
+				count: 6
+				id: "5CDCE2347384FA56"
+				item: "rftoolsbase:machine_base"
+				type: "item"
+			}]
+			subtitle: "{university.rftwire.subtitle}"
+			tasks: [{
+				id: "3AE76616A1F922FD"
+				item: "rftoolsutility:wire"
+				type: "item"
+			}]
+			title: "{university.rftwire.title}"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: [
+				"{university.rftanalog.desc1}"
+				""
+				"{university.rftanalog.desc2}"
+				""
+				"{university.rftanalog.desc3}"
+				""
+				"{university.rftanalog.desc4}"
+			]
+			hide_dependency_lines: true
+			id: "4C3F6382B0C3ACFC"
+			min_width: 275
+			size: 0.5d
+			subtitle: "{university.rftanalog.subtitle}"
+			tasks: [{
+				id: "42AEC595265BEE52"
+				item: "rftoolsutility:analog"
+				type: "item"
+			}]
+			title: "{university.rftanalog.title}"
+			x: -1.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: [
+				"{university.rftcounter.desc1}"
+				""
+				"{university.rftcounter.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "30CCAFD3EB084883"
+			size: 0.5d
+			subtitle: "{university.rftcounter.subtitle}"
+			tasks: [{
+				id: "71DC8A7C091D029F"
+				item: "rftoolsutility:counter"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: [
+				"{university.rftdigit.desc1}"
+				""
+				"{university.rftdigit.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "52593F4CBCC184AF"
+			size: 0.5d
+			subtitle: "{university.rftdigit.subtitle}"
+			tasks: [{
+				id: "15D4306D776DBFB5"
+				item: "rftoolsutility:digit"
+				type: "item"
+			}]
+			title: "{university.rftdigit.title}"
+			x: -2.75d
+			y: 1.75d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: [
+				"{university.rftinvcheck.desc1}"
+				""
+				"{university.rftinvcheck.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "6A7C5625374C555C"
+			size: 0.5d
+			subtitle: "{university.rftinvcheck.subtitle}"
+			tasks: [{
+				id: "6358065683A740FE"
+				item: "rftoolsutility:invchecker"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 1.75d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: [
+				"{university.rftsensor.desc1}"
+				""
+				"{university.rftsensor.desc2}"
+				""
+				"{university.rftsensor.desc3}"
+				""
+				"{university.rftsensor.desc4}"
+			]
+			hide_dependency_lines: true
+			id: "5C70B1A1AD483642"
+			min_width: 250
+			size: 0.5d
+			subtitle: "{university.rftsensor.subtitle}"
+			tasks: [{
+				id: "29F2F22619344E9E"
+				item: "rftoolsutility:sensor"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 1.75d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: [
+				"{university.rftseq.desc1}"
+				""
+				"{university.rftseq.desc2}"
+				""
+				"{university.rftseq.desc3}"
+			]
+			hide_dependency_lines: true
+			id: "31BF87FBDA8323D9"
+			min_width: 250
+			size: 0.5d
+			subtitle: "{university.rftseq.subtitle}"
+			tasks: [{
+				id: "7282CA94C60DC1D2"
+				item: "rftoolsutility:sequencer"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: ["{university.rfttimer.desc}"]
+			hide_dependency_lines: true
+			id: "2CCF2CEBC2C11AB0"
+			size: 0.5d
+			subtitle: "{university.rfttimer.subtitle}"
+			tasks: [{
+				id: "7753FD26D8D07C5C"
+				item: "rftoolsutility:timer"
+				type: "item"
+			}]
+			x: -2.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: ["{university.rftlogicgate.desc}"]
+			hide_dependency_lines: true
+			id: "62E5C30AD1AC39E4"
+			size: 0.5d
+			subtitle: "{university.rftlogicgate.subtitle}"
+			tasks: [{
+				id: "7BC248CCB8E5EF98"
+				item: "rftoolsutility:logic"
+				type: "item"
+			}]
+			title: "{university.rftlogicgate.title}"
+			x: -2.25d
+			y: 1.75d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: [
+				"{university.rftwirelessredstone.desc1}"
+				""
+				"{university.rftwirelessredstone.desc2}"
+				""
+				"{university.rftwirelessredstone.desc3}"
+			]
+			hide_dependency_lines: true
+			icon: "rftoolsutility:redstone_transmitter"
+			id: "1C06A0AD45181BA6"
+			min_width: 275
+			subtitle: "{university.rftwirelessredstone.subtitle}"
+			tasks: [
+				{
+					id: "26773CEED1EAF9B5"
+					item: "rftoolsutility:redstone_transmitter"
+					type: "item"
+				}
+				{
+					id: "09A53A936755431A"
+					item: "rftoolsutility:redstone_receiver"
+					type: "item"
+				}
+			]
+			title: "{university.rftwirelessredstone.title}"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: [
+				"{university.rftscreens.desc1}"
+				""
+				"{university.rftscreens.desc2}"
+				""
+				"{university.rftscreens.desc3}"
+			]
+			hide_dependency_lines: true
+			icon: "rftoolsutility:screen"
+			id: "7B4FF469B0EE419D"
+			min_width: 275
+			subtitle: "{university.rftscreens.subtitle}"
+			tasks: [
+				{
+					id: "7F9F5B28689FAAD0"
+					item: "rftoolsutility:screen"
+					type: "item"
+				}
+				{
+					id: "46B9B7E76392F825"
+					item: "rftoolsutility:screen_controller"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: [
+				"{university.rftspawner.desc1}"
+				""
+				"{university.rftspawner.desc2}"
+				""
+				"{university.rftspawner.desc3}"
+				""
+				"{university.rftspawner.desc4}"
+			]
+			hide_dependency_lines: true
+			icon: "rftoolsutility:spawner"
+			id: "56D1DB0BF10FBF13"
+			min_width: 275
+			subtitle: "{university.rftspawner.subtitle}"
+			tasks: [
+				{
+					id: "3B5BF6254F5D8E39"
+					item: "rftoolsutility:spawner"
+					type: "item"
+				}
+				{
+					id: "6E6C072848ACF52C"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [{
+								Count: 1b
+								id: "rftoolsutility:syringe"
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D7FAD7431768854"
+					item: "rftoolsutility:matter_beamer"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: [
+				"{university.modularstorage.desc1}"
+				""
+				"{university.modularstorage.desc2}"
+				"{@pagebreak}"
+				"{university.modularstorage.desc3}"
+				""
+				"{university.modularstorage.desc4}"
+				""
+				"{university.modularstorage.desc5}"
+			]
+			hide_dependency_lines: true
+			icon: "rftoolsstorage:modular_storage"
+			id: "6F6534043194590D"
+			min_width: 275
+			rewards: [{
+				id: "6153D10EC64AA6D7"
+				item: "rftoolsstorage:storage_module3"
+				type: "item"
+			}]
+			subtitle: "{university.modularstorage.subtitle}"
+			tasks: [
+				{
+					id: "2EBC7B1373F6B0AB"
+					item: "rftoolsstorage:modular_storage"
+					type: "item"
+				}
+				{
+					id: "79A90C8A872B98D0"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "rftoolsstorage:storage_module0"
+								}
+								{
+									Count: 1b
+									id: "rftoolsstorage:storage_module1"
+								}
+								{
+									Count: 1b
+									id: "rftoolsstorage:storage_module2"
+								}
+								{
+									Count: 1b
+									id: "rftoolsstorage:storage_module3"
+								}
+							]
+						}
+					}
+					title: "{university.modularstorage.task}"
+					type: "item"
+				}
+			]
+			title: "{university.modularstorage.title}"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: [
+				"{university.storagescanner.desc1}"
+				""
+				"{university.storagescanner.desc2}"
+				""
+				"{university.storagescanner.desc3}"
+			]
+			hide_dependency_lines: true
+			id: "1B063BB5CDDB3FE6"
+			min_width: 275
+			subtitle: "{university.storagescanner.subtitle}"
+			tasks: [{
+				id: "315696314935C9D8"
+				item: "rftoolsstorage:storage_scanner"
+				type: "item"
+			}]
+			title: "{university.storagescanner.title}"
+			x: 2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: [
+				"{university.rftshapecard.desc1}"
+				""
+				"{university.rftshapecard.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "5493D5471ECD29CF"
+			subtitle: "{university.rftshapecard.subtitle}"
+			tasks: [{
+				id: "73A50DAB16AA3518"
+				item: "rftoolsbuilder:shape_card_def"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5493D5471ECD29CF"]
+			description: [
+				"{university.rftbuilder.desc1}"
+				""
+				"{university.rftbuilder.desc2}"
+			]
+			id: "7AE96E45A5C48A48"
+			subtitle: "{university.rftbuilder.subtitle}"
+			tasks: [{
+				id: "7585E01702CE2297"
+				item: "rftoolsbuilder:builder"
+				type: "item"
+			}]
+			title: "{university.rftbuilder.title}"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: [
+				"{university.shieldprojector.desc1}"
+				""
+				"[\"\",{\"translate\":\"university.shieldprojector.school.1\"},{\"translate\":\"university.shieldprojector.school.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/school enter ftbuniversity:rftools/shields\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: /school enter ftbuniversity:rftools/shields\"]}}]"
+				"{@pagebreak}"
+				"{university.shieldprojector.desc2}"
+				""
+				"{image:ftbuniversity:textures/quests/rft/rft_shield.png width:250 height:81 align:1}"
+				"{@pagebreak}"
+				"{university.shieldprojector.desc3}"
+				""
+				"{university.shieldprojector.desc4}"
+				""
+				"{university.shieldprojector.desc5}"
+				""
+				"{university.shieldprojector.desc6}"
+				""
+				"{image:ftbuniversity:textures/quests/rft/shield_rules.png width:100 height:80 align:1}"
+				"{@pagebreak}"
+				"{university.shieldprojector.desc7}"
+				""
+				"{university.shieldprojector.desc8}"
+			]
+			hide_dependency_lines: true
+			icon: "rftoolsbuilder:blue_shield_template_block"
+			id: "2802ECD11118AA52"
+			min_width: 300
+			rewards: [{
+				id: "46EEE3733D8B6D78"
+				item: {
+					Count: 1b
+					id: "mekanismtools:lapis_lazuli_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{university.shieldprojector.subtitle}"
+			tasks: [
+				{
+					id: "3106E007BDA9B449"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "rftoolsbuilder:shield_block1"
+								}
+								{
+									Count: 1b
+									id: "rftoolsbuilder:shield_block2"
+								}
+								{
+									Count: 1b
+									id: "rftoolsbuilder:shield_block3"
+								}
+								{
+									Count: 1b
+									id: "rftoolsbuilder:shield_block4"
+								}
+							]
+						}
+					}
+					title: "{university.shieldprojector.task1}"
+					type: "item"
+				}
+				{
+					id: "02FF512E6B5E615E"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "rftoolsbuilder:blue_shield_template_block"
+								}
+								{
+									Count: 1b
+									id: "rftoolsbuilder:red_shield_template_block"
+								}
+								{
+									Count: 1b
+									id: "rftoolsbuilder:green_shield_template_block"
+								}
+								{
+									Count: 1b
+									id: "rftoolsbuilder:yellow_shield_template_block"
+								}
+							]
+						}
+					}
+					title: "{university.shieldprojector.task2}"
+					type: "item"
+				}
+			]
+			title: "{university.shieldprojector.title}"
+			x: -0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7AE96E45A5C48A48"]
+			description: [
+				"{university.rftquarry.desc1}"
+				""
+				"{university.rftquarry.desc2}"
+				""
+				"{university.rftquarry.desc3}"
+				""
+				"{university.rftquarry.desc4}"
+			]
+			icon: "rftoolsbuilder:shape_card_quarry_clear"
+			id: "36A7C053868EF40B"
+			min_width: 275
+			subtitle: "{university.rftquarry.subtitle}"
+			tasks: [{
+				id: "216DE0B045651AB1"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "rftoolsbuilder:shape_card_quarry"
+							}
+							{
+								Count: 1b
+								id: "rftoolsbuilder:shape_card_quarry_clear"
+							}
+						]
+					}
+				}
+				title: "{university.rftquarry.task}"
+				type: "item"
+			}]
+			title: "{university.rftquarry.title}"
+			x: -2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["36A7C053868EF40B"]
+			description: [
+				"{university.rftquarryupgrades.desc1}"
+				""
+				"{university.rftquarryupgrades.desc2}"
+			]
+			icon: "rftoolsbuilder:shape_card_quarry_clear_silk"
+			id: "4BA40BAF7760EEA5"
+			subtitle: "{university.rftquarryupgrades.subtitle}"
+			tasks: [{
+				id: "57F04814DB924FFE"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "rftoolsbuilder:shape_card_quarry_clear_fortune"
+							}
+							{
+								Count: 1b
+								id: "rftoolsbuilder:shape_card_quarry_clear_silk"
+							}
+							{
+								Count: 1b
+								id: "rftoolsbuilder:shape_card_quarry_fortune"
+							}
+							{
+								Count: 1b
+								id: "rftoolsbuilder:shape_card_quarry_silk"
+							}
+						]
+					}
+				}
+				title: "{university.rftquarryupgrades.task}"
+				type: "item"
+			}]
+			title: "{university.rftquarryupgrades.title}"
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7AE96E45A5C48A48"]
+			description: ["{university.rftvoidcard.desc}"]
+			hide_dependency_lines: true
+			id: "5158516420857968"
+			subtitle: "{university.rftvoidcard.subtitle}"
+			tasks: [{
+				id: "32B43FE9C3FD441A"
+				item: "rftoolsbuilder:shape_card_void"
+				type: "item"
+			}]
+			title: "{university.rftvoidcard.title}"
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7AE96E45A5C48A48"]
+			description: [
+				"{university.rftpump.desc1}"
+				""
+				"{university.rftpump.desc2}"
+			]
+			icon: "rftoolsbuilder:shape_card_pump_clear"
+			id: "31D52F608948BE15"
+			subtitle: "{university.rftpump.subtitle}"
+			tasks: [{
+				id: "346ADC4B6F3C259D"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "rftoolsbuilder:shape_card_pump"
+							}
+							{
+								Count: 1b
+								id: "rftoolsbuilder:shape_card_pump_clear"
+							}
+						]
+					}
+				}
+				title: "{university.rftpump.task}"
+				type: "item"
+			}]
+			title: "{university.rftpump.title}"
+			x: -2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["7AE96E45A5C48A48"]
+			description: ["{university.rftplacingfluids.desc}"]
+			hide_dependency_lines: true
+			id: "3BAF324A04BE8110"
+			subtitle: "{university.rftplacingfluids.subtitle}"
+			tasks: [{
+				id: "768FE63F4AA4C33B"
+				item: "rftoolsbuilder:shape_card_liquid"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2A48CE32A8074FBB"]
+			description: [
+				"{university.rftbook.desc1}"
+				""
+				"{university.rftbook.desc2}"
+				""
+				"{university.akashicTask}"
+			]
+			hide: true
+			id: "5606F925AE88F7E5"
+			subtitle: "{university.rftbook.subtitle}"
+			tasks: [{
+				id: "77CFB59AC256DFD8"
+				item: "rftoolsbase:manual"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: [
+				"{university.smartwrench.desc1}"
+				""
+				"{university.smartwrench.desc2}"
+				""
+				"{university.smartwrench.desc3}"
+			]
+			id: "0EA8B622F502969A"
+			subtitle: "{university.smartwrench.subtitle}"
+			tasks: [{
+				id: "6DCCA7AAE27D30F5"
+				item: "rftoolsbase:smartwrench"
+				type: "item"
+			}]
+			title: "{university.smartwrench.title}"
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: [
+				"{university.rftprogrammer.desc1}"
+				""
+				"{university.rftprogrammer.desc2}"
+				""
+				"{university.rftprogrammer.desc3}"
+				"{@pagebreak}"
+				"{university.rftprogrammer.desc4}"
+				""
+				"{university.rftprogrammer.desc5}"
+				""
+				"{image:ftbuniversity:textures/quests/rft/opcode_configure.png width:161 height:50 align:1}"
+				"{@pagebreak}"
+				"{university.rftprogrammer.desc6}"
+				""
+				"{university.rftprogrammer.desc7}"
+				""
+				"{image:ftbuniversity:textures/quests/rft/repeat_log.png width:77 height:50 align:1}"
+				"{@pagebreak}"
+				"{university.rftprogrammer.desc8}"
+				""
+				"{university.rftprogrammer.desc9}"
+				"{image:ftbuniversity:textures/quests/rft/test_opcode.png width:50 height:50 align:1}"
+			]
+			hide_dependency_lines: true
+			icon: "rftoolscontrol:programmer"
+			id: "5CF6D14A698A966F"
+			min_width: 275
+			rewards: [
+				{
+					id: "364C5A39AF59F84F"
+					item: {
+						Count: 1b
+						id: "rftoolscontrol:program_card"
+						tag: {
+							grid: [
+								{
+									id: "do_log"
+									pars: [{
+										type: 0
+										v: "Ping!"
+									}]
+									prim: "R"
+									x: 2
+									y: 2
+								}
+								{
+									id: "do_comment"
+									pars: [
+										{
+											type: 0
+											v: "This Wait operation pauses"
+										}
+										{
+											type: 0
+											v: "for 10 ticks when triggered,"
+										}
+										{
+											type: 0
+											v: "then passes on the trigger"
+										}
+									]
+									prim: "U"
+									x: 3
+									y: 3
+								}
+								{
+									id: "ev_timer"
+									pars: [
+										{
+											type: 1
+											v: 20
+										}
+										{
+											type: 4
+											v: 0b
+										}
+									]
+									prim: "R"
+									x: 1
+									y: 2
+								}
+								{
+									id: "do_comment"
+									pars: [
+										{
+											type: 0
+											v: "This Log Message operation"
+										}
+										{
+											type: 0
+											v: "says \"Ping!\" every time it"
+										}
+										{
+											type: 0
+											v: "gets triggered"
+										}
+									]
+									prim: "U"
+									x: 2
+									y: 3
+								}
+								{
+									id: "do_comment"
+									pars: [
+										{
+											type: 0
+											v: "This Repeat event"
+										}
+										{
+											type: 0
+											v: "triggers every 20 ticks,"
+										}
+										{
+											type: 0
+											v: "or every 1 second"
+										}
+									]
+									prim: "U"
+									x: 1
+									y: 3
+								}
+								{
+									id: "do_log"
+									pars: [{
+										type: 0
+										v: "Pong!"
+									}]
+									prim: "R"
+									x: 4
+									y: 2
+								}
+								{
+									id: "do_delay"
+									pars: [{
+										type: 1
+										v: 10
+									}]
+									prim: "R"
+									x: 3
+									y: 2
+								}
+								{
+									id: "do_comment"
+									pars: [
+										{
+											type: 0
+											v: "After those 10 ticks,"
+										}
+										{
+											type: 0
+											v: "it triggers this second operation"
+										}
+										{
+											type: 0
+											v: "that says \"Pong!\""
+										}
+									]
+									prim: "U"
+									x: 4
+									y: 3
+								}
+							]
+							name: "Ping Pong"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36E61BEEE32CF53E"
+					item: {
+						Count: 1b
+						id: "rftoolscontrol:program_card"
+						tag: {
+							grid: [
+								{
+									id: "eval_rs"
+									pars: [{
+										node: ""
+										type: 3
+										v: 1
+									}]
+									prim: "R"
+									x: 2
+									y: 2
+								}
+								{
+									id: "do_comment"
+									pars: [
+										{
+											type: 0
+											v: "Note that this is set to"
+										}
+										{
+											type: 0
+											v: "display the output of the "
+										}
+										{
+											type: 0
+											v: "previous opcode"
+										}
+									]
+									x: 3
+									y: 3
+								}
+								{
+									id: "ev_timer"
+									pars: [
+										{
+											type: 1
+											v: 20
+										}
+										{
+											null: 1b
+											type: 4
+										}
+									]
+									prim: "R"
+									x: 1
+									y: 2
+								}
+								{
+									id: "do_log"
+									pars: [{
+										funId: "last_str"
+										type: 0
+									}]
+									prim: "D"
+									x: 3
+									y: 2
+								}
+							]
+							name: "Get redstone strength"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{university.rftprogrammer.subtitle}"
+			tasks: [
+				{
+					id: "11A0E06F4DA30A6F"
+					item: "rftoolscontrol:programmer"
+					type: "item"
+				}
+				{
+					id: "0C958D348DBA1968"
+					item: "rftoolscontrol:program_card"
+					type: "item"
+				}
+			]
+			title: "{university.rftprogrammer.title}"
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5CF6D14A698A966F"]
+			description: [
+				"{university.rftprocessor.desc1}"
+				""
+				"{university.rftprocessor.desc2}"
+				""
+				"{university.rftprocessor.desc3}"
+				""
+				"{university.rftprocessor.desc4}"
+			]
+			icon: "rftoolscontrol:processor"
+			id: "359AF81605246FA2"
+			min_width: 275
+			subtitle: "{university.rftprocessor.subtitle}"
+			tasks: [
+				{
+					id: "169E3DCC80C2EB9C"
+					item: "rftoolscontrol:processor"
+					type: "item"
+				}
+				{
+					id: "0BBE45BD48E203A4"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "rftoolscontrol:cpu_core_500"
+								}
+								{
+									Count: 1b
+									id: "rftoolscontrol:cpu_core_1000"
+								}
+								{
+									Count: 1b
+									id: "rftoolscontrol:cpu_core_2000"
+								}
+							]
+						}
+					}
+					title: "{university.rftprocessor.task}"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["359AF81605246FA2"]
+			description: [
+				"{university.rftcram.desc1}"
+				""
+				"{university.rftcram.desc2}"
+				""
+				"{university.rftcram.desc3}"
+			]
+			hide_dependency_lines: true
+			id: "2FBF85CEAE3602DD"
+			min_width: 275
+			size: 0.5d
+			subtitle: "{university.rftcram.subtitle}"
+			tasks: [{
+				id: "3E4CC78FA4C8EE8A"
+				item: "rftoolscontrol:ram_chip"
+				type: "item"
+			}]
+			title: "{university.rftcram.title}"
+			x: 2.25d
+			y: 3.25d
+		}
+		{
+			dependencies: ["359AF81605246FA2"]
+			description: [
+				"{university.resourceallocation.desc1}"
+				""
+				"{university.resourceallocation.desc2}"
+				""
+				"{university.resourceallocation.desc3}"
+				"{image:ftbuniversity:textures/quests/rft/resource_allocation.png width:175 height:20 align:1}"
+				""
+				"{university.resourceallocation.desc4}"
+			]
+			icon: "minecraft:chest"
+			id: "51BB825EB2C305EF"
+			min_width: 300
+			rewards: [{
+				id: "07157933954A1AEA"
+				item: {
+					Count: 1b
+					id: "rftoolscontrol:program_card"
+					tag: {
+						grid: [
+							{
+								id: "do_subtract_numbers"
+								pars: [
+									{
+										type: 12
+										varIdx: 0
+									}
+									{
+										type: 12
+										v: 10
+									}
+								]
+								prim: "R"
+								x: 4
+								y: 4
+							}
+							{
+								id: "eval_countinv"
+								pars: [
+									{
+										side: 2
+										type: 5
+									}
+									{
+										null: 1b
+										type: 1
+									}
+									{
+										item: {
+											Count: 1b
+											id: "minecraft:cobblestone"
+										}
+										type: 6
+									}
+									{
+										null: 1b
+										type: 4
+									}
+								]
+								prim: "R"
+								x: 2
+								y: 3
+							}
+							{
+								id: "do_comment"
+								pars: [
+									{
+										type: 0
+										v: "If the output inv has MORE than 10, the excess will be removed"
+									}
+									{
+										type: 0
+										v: "([var0]-10) calculates the excess"
+									}
+									{
+										null: 1b
+										type: 0
+									}
+								]
+								x: 4
+								y: 5
+							}
+							{
+								id: "do_comment"
+								pars: [
+									{
+										type: 0
+										v: "Counts the amount of Cobblestone"
+									}
+									{
+										type: 0
+										v: "in the inventory to the north"
+									}
+									{
+										null: 1b
+										type: 0
+									}
+								]
+								x: 2
+								y: 4
+							}
+							{
+								id: "do_comment"
+								pars: [
+									{
+										type: 0
+										v: "Pulls [var0] amount of Cobble from"
+									}
+									{
+										type: 0
+										v: "the inv to the South, and inserts into"
+									}
+									{
+										type: 0
+										v: "slot 0 of the Processor (which has to be allocated)"
+									}
+								]
+								x: 7
+								y: 1
+							}
+							{
+								id: "do_fetchitems"
+								pars: [
+									{
+										side: 3
+										type: 5
+									}
+									{
+										null: 1b
+										type: 1
+									}
+									{
+										item: {
+											Count: 1b
+											id: "minecraft:cobblestone"
+										}
+										type: 6
+									}
+									{
+										type: 1
+										varIdx: 0
+									}
+									{
+										type: 1
+										v: 0
+									}
+									{
+										null: 1b
+										type: 4
+									}
+								]
+								prim: "R"
+								x: 7
+								y: 2
+							}
+							{
+								id: "do_comment"
+								pars: [
+									{
+										type: 0
+										v: "Overrides var0 with the result"
+									}
+									{
+										null: 1b
+										type: 0
+									}
+									{
+										null: 1b
+										type: 0
+									}
+								]
+								x: 5
+								y: 1
+							}
+							{
+								id: "do_setvar"
+								pars: [{
+									type: 1
+									v: 0
+								}]
+								prim: "R"
+								x: 5
+								y: 2
+							}
+							{
+								id: "do_pushitems"
+								pars: [
+									{
+										side: 3
+										type: 5
+									}
+									{
+										null: 1b
+										type: 1
+									}
+									{
+										null: 1b
+										type: 1
+									}
+									{
+										type: 1
+										v: 0
+									}
+								]
+								prim: "D"
+								x: 7
+								y: 4
+							}
+							{
+								id: "do_comment"
+								pars: [
+									{
+										type: 0
+										v: "If ([var0] > 10) is true, it triggers the green side"
+									}
+									{
+										type: 0
+										v: "If it is false, it triggers the red side"
+									}
+									{
+										type: 0
+										v: ""
+									}
+								]
+								x: 5
+								y: 3
+							}
+							{
+								id: "do_comment"
+								pars: [
+									{
+										type: 0
+										v: "Returns [var0] Cobble to the"
+									}
+									{
+										type: 0
+										v: "input inventory"
+									}
+									{
+										null: 1b
+										type: 0
+									}
+								]
+								x: 7
+								y: 5
+							}
+							{
+								id: "do_setvar"
+								pars: [{
+									type: 1
+									v: 0
+								}]
+								prim: "R"
+								x: 5
+								y: 4
+							}
+							{
+								id: "do_comment"
+								pars: [
+									{
+										type: 0
+										v: "Thanks to Direwolf20 for the"
+									}
+									{
+										type: 0
+										v: "mod spotlights, which this program"
+									}
+									{
+										type: 0
+										v: "is from"
+									}
+								]
+								x: 1
+								y: 1
+							}
+							{
+								id: "do_setvar"
+								pars: [{
+									type: 1
+									v: 0
+								}]
+								prim: "R"
+								x: 3
+								y: 3
+							}
+							{
+								id: "do_comment"
+								pars: [
+									{
+										type: 0
+										v: "Overrides var0 with the result"
+									}
+									{
+										null: 1b
+										type: 0
+									}
+									{
+										null: 1b
+										type: 0
+									}
+								]
+								x: 5
+								y: 5
+							}
+							{
+								id: "do_comment"
+								pars: [
+									{
+										type: 0
+										v: "Stores the amount of Cobble in a variable"
+									}
+									{
+										type: 0
+										v: "with the id 0"
+									}
+									{
+										type: 0
+										v: "The Processor must allocate this program a variable to work"
+									}
+								]
+								x: 3
+								y: 4
+							}
+							{
+								id: "ev_rs_on"
+								pars: [
+									{
+										node: ""
+										type: 3
+										v: 1
+									}
+									{
+										null: 1b
+										type: 4
+									}
+								]
+								prim: "R"
+								x: 1
+								y: 3
+							}
+							{
+								id: "do_comment"
+								pars: [
+									{
+										type: 0
+										v: "Pushes [var0] of the item in slot 0"
+									}
+									{
+										type: 0
+										v: "to the inv to the North of the Processor"
+									}
+									{
+										null: 1b
+										type: 0
+									}
+								]
+								x: 8
+								y: 1
+							}
+							{
+								id: "do_pushitems"
+								pars: [
+									{
+										side: 2
+										type: 5
+									}
+									{
+										null: 1b
+										type: 1
+									}
+									{
+										type: 1
+										varIdx: 0
+									}
+									{
+										type: 1
+										v: 0
+									}
+								]
+								x: 8
+								y: 2
+							}
+							{
+								id: "do_comment"
+								pars: [
+									{
+										type: 0
+										v: "Only continues if [var0] is"
+									}
+									{
+										type: 0
+										v: "NOT equal to 0"
+									}
+									{
+										type: 0
+										v: "so it doesn't try to move 0 items"
+									}
+								]
+								x: 6
+								y: 1
+							}
+							{
+								id: "test_eq_number"
+								pars: [
+									{
+										type: 12
+										varIdx: 0
+									}
+									{
+										type: 12
+										v: 0
+									}
+								]
+								sec: "r"
+								x: 6
+								y: 2
+							}
+							{
+								id: "do_comment"
+								pars: [
+									{
+										type: 0
+										v: "Does (10-var0)"
+									}
+									{
+										type: 0
+										v: "This number is the amount of Cobble"
+									}
+									{
+										type: 0
+										v: "that needs to be moved"
+									}
+								]
+								x: 4
+								y: 1
+							}
+							{
+								id: "do_subtract_numbers"
+								pars: [
+									{
+										type: 12
+										v: 10
+									}
+									{
+										type: 12
+										varIdx: 0
+									}
+								]
+								prim: "R"
+								x: 4
+								y: 2
+							}
+							{
+								id: "do_fetchitems"
+								pars: [
+									{
+										side: 2
+										type: 5
+									}
+									{
+										null: 1b
+										type: 1
+									}
+									{
+										null: 1b
+										type: 6
+									}
+									{
+										type: 1
+										varIdx: 0
+									}
+									{
+										type: 1
+										v: 0
+									}
+									{
+										null: 1b
+										type: 4
+									}
+								]
+								prim: "R"
+								x: 6
+								y: 4
+							}
+							{
+								id: "do_comment"
+								pars: [
+									{
+										type: 0
+										v: "This program will keep an inventory"
+									}
+									{
+										type: 0
+										v: "to the north stocked with 10 Cobblestone,"
+									}
+									{
+										type: 0
+										v: "taken from an inventory to the South"
+									}
+								]
+								x: 2
+								y: 1
+							}
+							{
+								id: "test_gt_number"
+								pars: [
+									{
+										type: 12
+										varIdx: 0
+									}
+									{
+										type: 12
+										v: 10
+									}
+								]
+								prim: "D"
+								sec: "u"
+								x: 4
+								y: 3
+							}
+							{
+								id: "do_comment"
+								pars: [
+									{
+										type: 0
+										v: "Pulls [var0] Cobble out of the output"
+									}
+									{
+										type: 0
+										v: ""
+									}
+									{
+										null: 1b
+										type: 0
+									}
+								]
+								x: 6
+								y: 5
+							}
+						]
+						name: "Stock With Item"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{university.resourceallocation.subtitle}"
+			tasks: [{
+				id: "4FEBF9D224CEFAC0"
+				type: "checkmark"
+			}]
+			title: "{university.resourceallocation.title}"
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["359AF81605246FA2"]
+			description: [
+				"{university.dbstep.desc1}"
+				""
+				"{university.dbstep.desc2}"
+				""
+				"{university.dbstep.desc3}"
+				"{@pagebreak}"
+				"{university.dbstep.desc4}"
+				""
+				"{university.dbstep.desc5}"
+				""
+				"{university.dbstep.desc6}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbuniversity:textures/quests/rft/debug.png"
+				}
+			}
+			id: "4F4C152B1213E754"
+			min_width: 325
+			size: 0.5d
+			subtitle: "{university.dbstep.subtitle}"
+			tasks: [{
+				id: "06854EACFDC75DB8"
+				type: "checkmark"
+			}]
+			title: "{university.dbstep.title}"
+			x: 2.75d
+			y: 3.25d
+		}
+		{
+			dependencies: ["51BB825EB2C305EF"]
+			description: [
+				"{university.node.desc1}"
+				""
+				"{university.node.desc2}"
+				""
+				"{university.node.desc3}"
+				"{@pagebreak}"
+				"{university.node.desc4}"
+				""
+				"{university.node.desc5}"
+				""
+				"{university.node.desc6}"
+				""
+				"{image:ftbuniversity:textures/quests/rft/nodes.png width:134 height:50 align:1}"
+			]
+			icon: "rftoolscontrol:node"
+			id: "665D93D5AEF3AC70"
+			min_width: 300
+			rewards: [{
+				id: "3AC45C18DE279000"
+				item: {
+					Count: 1b
+					id: "rftoolscontrol:program_card"
+					tag: {
+						grid: [
+							{
+								id: "do_comment"
+								pars: [
+									{
+										type: 0
+										v: "Thanks to Direwolf20 for the"
+									}
+									{
+										type: 0
+										v: "mod spotlights, which this program"
+									}
+									{
+										type: 0
+										v: "is from"
+									}
+								]
+								x: 1
+								y: 1
+							}
+							{
+								id: "do_setvar"
+								pars: [{
+									type: 1
+									v: 0
+								}]
+								prim: "R"
+								x: 3
+								y: 3
+							}
+							{
+								id: "do_subtract_numbers"
+								pars: [
+									{
+										type: 12
+										varIdx: 0
+									}
+									{
+										type: 12
+										v: 10
+									}
+								]
+								prim: "R"
+								x: 4
+								y: 4
+							}
+							{
+								id: "eval_countinv"
+								pars: [
+									{
+										nodeName: "Target"
+										side: 1
+										type: 5
+									}
+									{
+										null: 1b
+										type: 1
+									}
+									{
+										item: {
+											Count: 1b
+											id: "minecraft:cobblestone"
+										}
+										type: 6
+									}
+									{
+										null: 1b
+										type: 4
+									}
+								]
+								prim: "R"
+								x: 2
+								y: 3
+							}
+							{
+								id: "ev_rs_on"
+								pars: [
+									{
+										node: ""
+										type: 3
+										v: 1
+									}
+									{
+										null: 1b
+										type: 4
+									}
+								]
+								prim: "R"
+								x: 1
+								y: 3
+							}
+							{
+								id: "do_comment"
+								pars: [
+									{
+										type: 0
+										v: "Counts the amount of Cobblestone"
+									}
+									{
+										type: 0
+										v: "in the inventory above the Node"
+									}
+									{
+										type: 0
+										v: "named Target"
+									}
+								]
+								x: 2
+								y: 4
+							}
+							{
+								id: "do_comment"
+								pars: [
+									{
+										type: 0
+										v: "Inserts [var0] Cobble into the inventory"
+									}
+									{
+										type: 0
+										v: "above the Node named Target"
+									}
+									{
+										null: 1b
+										type: 0
+									}
+								]
+								x: 8
+								y: 1
+							}
+							{
+								id: "do_comment"
+								pars: [
+									{
+										type: 0
+										v: "Grabs [var0] Cobble from the inventory"
+									}
+									{
+										type: 0
+										v: "above the Node named Storage"
+									}
+									{
+										null: 1b
+										type: 0
+									}
+								]
+								x: 7
+								y: 1
+							}
+							{
+								id: "do_pushitems"
+								pars: [
+									{
+										nodeName: "Target"
+										side: 1
+										type: 5
+									}
+									{
+										null: 1b
+										type: 1
+									}
+									{
+										type: 1
+										varIdx: 0
+									}
+									{
+										type: 1
+										v: 0
+									}
+								]
+								x: 8
+								y: 2
+							}
+							{
+								id: "do_fetchitems"
+								pars: [
+									{
+										nodeName: "Storage"
+										side: 1
+										type: 5
+									}
+									{
+										null: 1b
+										type: 1
+									}
+									{
+										item: {
+											Count: 1b
+											id: "minecraft:cobblestone"
+										}
+										type: 6
+									}
+									{
+										type: 1
+										varIdx: 0
+									}
+									{
+										type: 1
+										v: 0
+									}
+									{
+										null: 1b
+										type: 4
+									}
+								]
+								prim: "R"
+								x: 7
+								y: 2
+							}
+							{
+								id: "test_eq_number"
+								pars: [
+									{
+										type: 12
+										varIdx: 0
+									}
+									{
+										type: 12
+										v: 0
+									}
+								]
+								sec: "r"
+								x: 6
+								y: 2
+							}
+							{
+								id: "do_setvar"
+								pars: [{
+									type: 1
+									v: 0
+								}]
+								prim: "R"
+								x: 5
+								y: 2
+							}
+							{
+								id: "do_pushitems"
+								pars: [
+									{
+										nodeName: "Storage"
+										side: 1
+										type: 5
+									}
+									{
+										null: 1b
+										type: 1
+									}
+									{
+										null: 1b
+										type: 1
+									}
+									{
+										type: 1
+										v: 0
+									}
+								]
+								x: 7
+								y: 4
+							}
+							{
+								id: "do_subtract_numbers"
+								pars: [
+									{
+										type: 12
+										v: 10
+									}
+									{
+										type: 12
+										varIdx: 0
+									}
+								]
+								prim: "R"
+								x: 4
+								y: 2
+							}
+							{
+								id: "do_fetchitems"
+								pars: [
+									{
+										nodeName: "Target"
+										side: 1
+										type: 5
+									}
+									{
+										null: 1b
+										type: 1
+									}
+									{
+										null: 1b
+										type: 6
+									}
+									{
+										type: 1
+										varIdx: 0
+									}
+									{
+										type: 1
+										v: 0
+									}
+									{
+										null: 1b
+										type: 4
+									}
+								]
+								prim: "R"
+								x: 6
+								y: 4
+							}
+							{
+								id: "do_comment"
+								pars: [
+									{
+										type: 0
+										v: "Inserts [var0] Cobble into the inventory"
+									}
+									{
+										type: 0
+										v: "above the Source Node"
+									}
+									{
+										null: 1b
+										type: 0
+									}
+								]
+								x: 7
+								y: 5
+							}
+							{
+								id: "do_comment"
+								pars: [
+									{
+										type: 0
+										v: "Identical to the previous program,"
+									}
+									{
+										type: 0
+										v: "except this one uses Nodes"
+									}
+									{
+										type: 0
+										v: ""
+									}
+								]
+								x: 2
+								y: 1
+							}
+							{
+								id: "test_gt_number"
+								pars: [
+									{
+										type: 12
+										varIdx: 0
+									}
+									{
+										type: 12
+										v: 10
+									}
+								]
+								prim: "D"
+								sec: "u"
+								x: 4
+								y: 3
+							}
+							{
+								id: "do_setvar"
+								pars: [{
+									type: 1
+									v: 0
+								}]
+								prim: "R"
+								x: 5
+								y: 4
+							}
+							{
+								id: "do_comment"
+								pars: [
+									{
+										type: 0
+										v: "Grabs [var0] Cobble from the inventory"
+									}
+									{
+										type: 0
+										v: "above the Target Node"
+									}
+									{
+										null: 1b
+										type: 0
+									}
+								]
+								x: 6
+								y: 5
+							}
+						]
+						name: "Stock - Nodes"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{university.node.subtitle}"
+			tasks: [
+				{
+					id: "119F766B26A127E9"
+					item: "rftoolscontrol:node"
+					type: "item"
+				}
+				{
+					id: "1D0BE9AF6DB4CAA9"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "rftoolscontrol:network_card"
+								}
+								{
+									Count: 1b
+									id: "rftoolscontrol:advanced_network_card"
+								}
+							]
+						}
+					}
+					title: "{university.node.task}"
+					type: "item"
+				}
+			]
+			title: "{university.node.title}"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5CF6D14A698A966F"]
+			description: [
+				"{university.programkeys.desc1}"
+				""
+				"{university.programkeys.desc2}"
+			]
+			icon: "create:clipboard"
+			id: "6CEF977075850A77"
+			size: 0.5d
+			subtitle: "{university.programkeys.subtitle}"
+			tasks: [{
+				id: "281A1C44FBEAF736"
+				type: "checkmark"
+			}]
+			title: "{university.programkeys.title}"
+			x: 1.5d
+			y: 3.25d
+		}
+		{
+			dependencies: ["359AF81605246FA2"]
+			description: [
+				"{university.networkid.desc1}"
+				""
+				"{university.networkid.desc2}"
+				""
+				"{university.networkid.desc3}"
+				"{@pagebreak}"
+				"{university.networkid.desc4}"
+				""
+				"{university.networkid.desc5}"
+				""
+				"{university.networkid.desc6}"
+				""
+				"{university.networkid.desc7}"
+			]
+			icon: {
+				Count: 1b
+				id: "rftoolscontrol:network_identifier"
+				tag: {
+					Damage: 0
+					monitordim: "minecraft:overworld"
+					monitorx: 326
+					monitory: 22
+					monitorz: 200
+				}
+			}
+			id: "0C114E047C51C745"
+			min_width: 275
+			subtitle: "{university.networkid.subtitle}"
+			tasks: [
+				{
+					id: "53112425752ADE4F"
+					item: {
+						Count: 1b
+						id: "rftoolscontrol:network_identifier"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4475204B9D4A66AE"
+					item: "rftoolscontrol:advanced_network_card"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["665D93D5AEF3AC70"]
+			description: [
+				"{university.controlworkbench.desc1}"
+				""
+				"{university.controlworkbench.desc2}"
+				""
+				"{university.controlworkbench.desc3}"
+				"{@pagebreak}"
+				"{university.controlworkbench.desc4}"
+				""
+				"{university.controlworkbench.desc5}"
+				""
+				"{university.controlworkbench.desc6}"
+			]
+			icon: "rftoolscontrol:craftingstation"
+			id: "4CB0C857BED45030"
+			min_width: 275
+			rewards: [
+				{
+					id: "5F210B7CDE853FF8"
+					item: {
+						Count: 1b
+						id: "rftoolscontrol:program_card"
+						tag: {
+							grid: [
+								{
+									id: "ev_rs_on"
+									pars: [
+										{
+											node: ""
+											type: 3
+											v: 1
+										}
+										{
+											null: 1b
+											type: 4
+										}
+									]
+									prim: "R"
+									x: 2
+									y: 2
+								}
+								{
+									id: "do_pushmulti"
+									pars: [
+										{
+											intSide: 1
+											side: 2
+											type: 5
+										}
+										{
+											type: 1
+											v: 0
+										}
+										{
+											type: 1
+											v: 8
+										}
+										{
+											type: 1
+											v: 0
+										}
+									]
+									x: 4
+									y: 2
+								}
+								{
+									id: "do_getingredients"
+									pars: [
+										{
+											side: 3
+											type: 5
+										}
+										{
+											side: 2
+											type: 5
+										}
+										{
+											item: {
+												Count: 1b
+												id: "minecraft:furnace"
+											}
+											type: 6
+										}
+										{
+											type: 1
+											v: 0
+										}
+										{
+											type: 1
+											v: 8
+										}
+									]
+									prim: "R"
+									x: 3
+									y: 2
+								}
+							]
+							name: "Craft Furnace"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07FD61E9EDE30850"
+					item: {
+						Count: 1b
+						id: "rftoolsbase:crafting_card"
+						tag: {
+							Items: [
+								{
+									Count: 1b
+									id: "minecraft:cobblestone"
+								}
+								{
+									Count: 1b
+									id: "minecraft:cobblestone"
+								}
+								{
+									Count: 1b
+									id: "minecraft:cobblestone"
+								}
+								{ }
+								{ }
+								{
+									Count: 1b
+									id: "minecraft:cobblestone"
+								}
+								{ }
+								{
+									Count: 1b
+									id: "minecraft:cobblestone"
+								}
+								{ }
+								{ }
+								{
+									Count: 1b
+									id: "minecraft:cobblestone"
+								}
+								{
+									Count: 1b
+									id: "minecraft:cobblestone"
+								}
+								{
+									Count: 1b
+									id: "minecraft:cobblestone"
+								}
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{ }
+								{
+									Count: 1b
+									id: "minecraft:furnace"
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{university.controlworkbench.subtitle}"
+			tasks: [
+				{
+					id: "2F14E2D9C760B437"
+					item: "rftoolscontrol:workbench"
+					type: "item"
+				}
+				{
+					id: "4AF87CA1EF452DEE"
+					item: "rftoolsbase:crafting_card"
+					type: "item"
+				}
+			]
+			title: "{university.controlworkbench.title}"
+			x: 3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4CB0C857BED45030"]
+			description: [
+				"{university.controlcraftstation.desc1}"
+				""
+				"{university.controlcraftstation.desc2}"
+				""
+				"{university.controlcraftstation.desc3}"
+				""
+				"{university.controlcraftstation.desc4}"
+			]
+			id: "2BAC7E06F44B71D0"
+			min_width: 300
+			subtitle: "{university.controlcraftstation.subtitle}"
+			tasks: [{
+				id: "06199DF68BA2EC12"
+				item: "rftoolscontrol:craftingstation"
+				type: "item"
+			}]
+			title: "{university.controlcraftstation.title}"
+			x: 2.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: [
+				"{university.rftenviro.desc1}"
+				""
+				"{university.rftenviro.desc2}"
+				""
+				"{university.rftenviro.desc3}"
+			]
+			hide_dependency_lines: true
+			icon: "rftoolsutility:environmental_controller"
+			id: "7C8A582148E7A27A"
+			min_width: 275
+			rewards: [{
+				count: 16
+				id: "3EA99EA5DAC2BA12"
+				item: "rftoolsbase:dimensionalshard"
+				type: "item"
+			}]
+			subtitle: "{university.rftenviro.subtitle}"
+			tasks: [
+				{
+					id: "1CDB1FACB67CDBA4"
+					item: "rftoolsutility:environmental_controller"
+					type: "item"
+				}
+				{
+					id: "0BE7953EFD300470"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [{
+								Count: 1b
+								id: "rftoolsutility:syringe"
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57BF25CE50CC3749"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "rftoolsutility:featherfalling_module"
+								}
+								{
+									Count: 1b
+									id: "rftoolsutility:featherfallingplus_module"
+								}
+								{
+									Count: 1b
+									id: "rftoolsutility:haste_module"
+								}
+								{
+									Count: 1b
+									id: "rftoolsutility:hasteplus_module"
+								}
+								{
+									Count: 1b
+									id: "rftoolsutility:flight_module"
+								}
+								{
+									Count: 1b
+									id: "rftoolsutility:glowing_module"
+								}
+								{
+									Count: 1b
+									id: "rftoolsutility:luck_module"
+								}
+								{
+									Count: 1b
+									id: "rftoolsutility:nightvision_module"
+								}
+								{
+									Count: 1b
+									id: "rftoolsutility:peaceful_module"
+								}
+								{
+									Count: 1b
+									id: "rftoolsutility:regeneration_module"
+								}
+								{
+									Count: 1b
+									id: "rftoolsutility:regenerationplus_module"
+								}
+								{
+									Count: 1b
+									id: "rftoolsutility:saturation_module"
+								}
+								{
+									Count: 1b
+									id: "rftoolsutility:saturationplus_module"
+								}
+								{
+									Count: 1b
+									id: "rftoolsutility:speed_module"
+								}
+								{
+									Count: 1b
+									id: "rftoolsutility:speedplus_module"
+								}
+								{
+									Count: 1b
+									id: "rftoolsutility:waterbreathing_module"
+								}
+								{
+									Count: 1b
+									id: "rftoolsutility:blindness_module"
+								}
+								{
+									Count: 1b
+									id: "rftoolsutility:noteleport_module"
+								}
+								{
+									Count: 1b
+									id: "rftoolsutility:poison_module"
+								}
+								{
+									Count: 1b
+									id: "rftoolsutility:slowness_module"
+								}
+								{
+									Count: 1b
+									id: "rftoolsutility:weakness_module"
+								}
+							]
+						}
+					}
+					title: "{university.rftenviro.task}"
+					type: "item"
+				}
+			]
+			title: "{university.rftenviro.title}"
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0EA8B622F502969A"]
+			description: [
+				"{university.spacechamber.desc1}"
+				""
+				"{university.spacechamber.desc2}"
+				"{@pagebreak}"
+				"{university.spacechamber.desc3}"
+				""
+				"{image:ftbuniversity:textures/quests/rft/space/chamber.png width:130 height:100 align:1}"
+				""
+				"{university.spacechamber.desc4}"
+				""
+				"{university.spacechamber.desc5}"
+				"{@pagebreak}"
+				"{university.spacechamber.desc6}"
+				""
+				"{image:ftbuniversity:textures/quests/rft/space/card.png width:186 height:100 align:1 fit:true}"
+				""
+				"{university.spacechamber.desc7}"
+				"{@pagebreak}"
+				"{university.spacechamber.desc8}"
+				""
+				"{image:ftbuniversity:textures/quests/rft/space/collect.png width:119 height:100 align:1}"
+				""
+				"{university.spacechamber.desc9}"
+				""
+				"{university.spacechamber.desc10}"
+				"{@pagebreak}"
+				"{image:ftbuniversity:textures/quests/rft/space/move_gui.png width:60 height:58 align:1}"
+				""
+				"{university.spacechamber.desc11}"
+				""
+				"{image:ftbuniversity:textures/quests/rft/space/move.png width:293 height:100 align:1}"
+				"{@pagebreak}"
+				"{university.spacechamber.desc12}"
+				""
+				"{image:ftbuniversity:textures/quests/rft/space/copy.png width:154 height:100 align:1}"
+			]
+			hide_dependency_lines: true
+			icon: "rftoolsbuilder:space_chamber_controller"
+			id: "0E4884B02AE677DA"
+			min_width: 275
+			subtitle: "{university.spacechamber.subtitle}"
+			tasks: [
+				{
+					id: "08AFA80E9EE1114C"
+					item: "rftoolsbuilder:space_chamber_controller"
+					type: "item"
+				}
+				{
+					count: 7L
+					id: "4C0D5FBF421D6C16"
+					item: "rftoolsbuilder:space_chamber"
+					type: "item"
+				}
+				{
+					id: "0963A8FF1A902BB8"
+					item: "rftoolsbuilder:space_chamber_card"
+					type: "item"
+				}
+			]
+			title: "{university.spacechamber.title}"
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0E4884B02AE677DA"]
+			description: [
+				"{university.rftmover.desc1}"
+				""
+				"{university.rftmover.desc2}"
+				"{@pagebreak}"
+				"{image:ftbuniversity:textures/quests/rft/vehicles/basic_vehicle.png width:250 height:139 align:1}"
+				""
+				"{university.rftmover.desc3}"
+				"{@pagebreak}"
+				"{university.rftmover.desc4}"
+				""
+				"{university.rftmover.desc5}"
+				""
+				"{image:ftbuniversity:textures/quests/rft/vehicles/builder_gui.png width:225 height:61 align:1}"
+				""
+				"{university.rftmover.desc6}"
+				"{@pagebreak}"
+				"{university.rftmover.desc7}"
+				""
+				"{university.rftmover.desc8}"
+				""
+				"{image:ftbuniversity:textures/quests/rft/vehicles/one_mover.png width:225 height:120 align:1}"
+				""
+				"{university.rftmover.desc9}"
+				"{@pagebreak}"
+				"{image:ftbuniversity:textures/quests/rft/vehicles/more_movers.png width:250 height:150 align:1}"
+				""
+				"{university.rftmover.desc10}"
+				"{@pagebreak}"
+				""
+				"{image:ftbuniversity:textures/quests/rft/vehicles/controller_gui.png width:250 height:114 align:1}"
+				""
+				"{university.rftmover.desc11}"
+				""
+				"{university.rftmover.desc12}"
+				"{@pagebreak}"
+				"{image:ftbuniversity:textures/quests/rft/vehicles/moving_gui.png width:150 height:64 align:1}"
+				""
+				"{university.rftmover.desc13}"
+				""
+				"{image:ftbuniversity:textures/quests/rft/vehicles/moved_vehicle.png width:100 height:93 align:1}"
+				"{@pagebreak}"
+				"{university.rftmover.desc14}"
+				""
+				"{university.rftmover.desc15}"
+				""
+				"{university.rftmover.desc16}"
+			]
+			icon: "rftoolsbuilder:vehicle_card"
+			id: "417C74F8DDA9DC80"
+			min_width: 275
+			rewards: [{
+				count: 4
+				id: "3F6E9F4481DAEB7C"
+				item: "rftoolsbuilder:mover"
+				type: "item"
+			}]
+			subtitle: "{university.rftmover.subtitle}"
+			tasks: [
+				{
+					id: "2145469CDA3A26D9"
+					item: "rftoolsbuilder:vehicle_builder"
+					type: "item"
+				}
+				{
+					id: "7A0192F439E09F25"
+					item: "rftoolsbuilder:vehicle_card"
+					type: "item"
+				}
+				{
+					id: "2F329F4497A971B6"
+					item: "rftoolsbuilder:mover_controller"
+					type: "item"
+				}
+				{
+					id: "1F306F97993902F2"
+					item: "rftoolsbuilder:mover"
+					type: "item"
+				}
+			]
+			title: "{university.rftmover.title}"
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["417C74F8DDA9DC80"]
+			description: [
+				"{university.moveblocks.desc1}"
+				""
+				"{university.moveblocks.desc2}"
+				""
+				"{university.moveblocks.desc3}"
+				""
+				"{university.moveblocks.desc4}"
+				"{@pagebreak}"
+				"{university.moveblocks.desc5}"
+				""
+				"{image:ftbuniversity:textures/quests/rft/vehicles/mover_controls.png width:125 height:125 align:1}"
+				"{@pagebreak}"
+				"{university.moveblocks.desc6}"
+				""
+				"{image:ftbuniversity:textures/quests/rft/vehicles/elevator_built.png width:125 height:125 align:1}"
+			]
+			icon: "rftoolsbuilder:mover_control"
+			id: "39F38F58458459CE"
+			min_width: 250
+			subtitle: "{university.moveblocks.subtitle}"
+			tasks: [
+				{
+					id: "0F2505929719A3D5"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "rftoolsbuilder:mover_control"
+								}
+								{
+									Count: 1b
+									id: "rftoolsbuilder:mover_control2"
+								}
+								{
+									Count: 1b
+									id: "rftoolsbuilder:mover_control3"
+								}
+								{
+									Count: 1b
+									id: "rftoolsbuilder:mover_control4"
+								}
+							]
+						}
+					}
+					title: "{university.moveblocks.task1}"
+					type: "item"
+				}
+				{
+					id: "370F6B6FF674868C"
+					item: "rftoolsbuilder:mover_status"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["417C74F8DDA9DC80"]
+			description: [
+				"{university.rftmover2.desc1}"
+				""
+				"{university.rftmover2.desc2}"
+				""
+				"{image:ftbuniversity:textures/quests/rft/vehicles/traffic.png width:200 height:154 align:1}"
+				"{@pagebreak}"
+				"{university.rftmover2.desc3}"
+				""
+				"{university.rftmover2.desc4}"
+				""
+				"{university.rftmover2.desc5}"
+				""
+				"{university.rftmover2.desc6}"
+			]
+			icon: "create_things_and_misc:train_sing_yellow_2"
+			id: "5C33985101080C56"
+			min_width: 250
+			size: 0.5d
+			subtitle: "{university.rftmover2.subtitle}"
+			tasks: [{
+				id: "3D80A48D0CCDF46D"
+				type: "checkmark"
+			}]
+			title: "{university.rftmover2.title}"
+			x: -4.25d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0E4884B02AE677DA"]
+			description: [
+				"{university.spacechamber2.desc1}"
+				""
+				"{image:ftbuniversity:textures/quests/rft/space/bad_wither_1.png width:125 height:118 align:1}"
+				""
+				"{university.spacechamber2.desc2}"
+				"{@pagebreak}"
+				"{image:ftbuniversity:textures/quests/rft/space/bad_wither_2.png width:125 height:103 align:1}"
+				""
+				"{university.spacechamber2.desc3}"
+				"{@pagebreak}"
+				"{university.spacechamber2.desc4}"
+				""
+				"{university.spacechamber2.desc5}"
+				""
+				"{image:ftbuniversity:textures/quests/rft/space/good_wither.png width:150 height:64 align:1 fit:true}"
+			]
+			icon: "minecraft:wither_skeleton_skull"
+			id: "22F76963EC56D590"
+			min_width: 275
+			size: 0.5d
+			subtitle: "{university.spacechamber2.subtitle}"
+			tasks: [{
+				id: "61F804848D5280A9"
+				type: "checkmark"
+			}]
+			title: "{university.spacechamber2.title}"
+			x: -4.25d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2802ECD11118AA52"]
+			description: ["[\"\",{\"translate\":\"university.shieldschool.desc.1\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"/school enter ftbuniversity:rftools/shields\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: /school enter ftbuniversity:rftools/shields\"]}},{\"translate\":\"university.shieldschool.desc.2\"}]"]
+			icon: "kubejs:modpack_logo"
+			id: "2F7482B783B6C725"
+			size: 0.5d
+			subtitle: "{university.shieldschool.subtitle}"
+			tasks: [{
+				icon: "kubejs:modpack_logo"
+				id: "00250E49088A64B7"
+				title: "{university.shieldschool.subtitle}"
+				type: "custom"
+			}]
+			title: "{university.shieldschool.title}"
+			x: -0.5d
+			y: 3.25d
+		}
+	]
+	title: "{university.rftools.chapter}"
+}

@@ -1,0 +1,1071 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "evilcraft"
+	group: "38AD62CCDB954696"
+	icon: "evilcraft:dark_gem"
+	id: "0A1F4CE02AB6E879"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0E2430DD3B63301E"]
+			description: [
+				"{university.evilbook.desc1}"
+				""
+				"{university.evilbook.desc2}"
+				""
+				"{university.akashicTask}"
+			]
+			hide: true
+			icon: "evilcraft:origins_of_darkness"
+			id: "25B2E24CBB58E080"
+			rewards: [{
+				id: "08D2106DC689B6D9"
+				item: {
+					Count: 1b
+					id: "evilcraft:spikey_claws"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{university.evilbook.subtitle}"
+			tasks: [{
+				id: "2EFBC49810FC553D"
+				item: "evilcraft:origins_of_darkness"
+				type: "item"
+			}]
+			title: "{university.evilbook.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E2430DD3B63301E"]
+			description: [
+				"{university.vengeancespirits.desc1}"
+				""
+				"{university.vengeancespirits.desc2}"
+			]
+			hide: true
+			id: "126BF300894CF43C"
+			rewards: [{
+				count: 16
+				id: "3D30DECEC6478DB1"
+				item: "evilcraft:condensed_blood"
+				type: "item"
+			}]
+			subtitle: "{university.vengeancespirits.subtitle}"
+			tasks: [{
+				icon: "minecraft:wither_rose"
+				id: "07BC2A91C95DCEF3"
+				title: "{university.vengeancespirits.subtitle}"
+				type: "custom"
+			}]
+			title: "{university.vengeancespirits.title}"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["126BF300894CF43C"]
+			description: [
+				"{university.vengeancering.desc1}"
+				""
+				"{university.vengeancering.desc2}"
+			]
+			id: "2A012FAF8782046D"
+			subtitle: "{university.vengeancering.subtitle}"
+			tasks: [{
+				id: "5B789CB6C1BEEFB7"
+				item: "evilcraft:vengeance_ring"
+				type: "item"
+			}]
+			title: "{university.vengeancering.title}"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["25B2E24CBB58E080"]
+			description: [
+				"{university.extractor.desc1}"
+				""
+				"{university.extractor.desc2}"
+				""
+				"{university.extractor.desc3}"
+				""
+				"{university.extractor.desc4}"
+			]
+			id: "3AB72BF3EFC7A7B2"
+			min_width: 250
+			rewards: [{
+				id: "77CECB5AB57B47C5"
+				item: "evilcraft:spiked_plate"
+				type: "item"
+			}]
+			subtitle: "{university.extractor.subtitle}"
+			tasks: [{
+				id: "5DCAB082DD840EDA"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+							capacity: 5000
+						}
+					}
+					id: "evilcraft:blood_extractor"
+					tag: {
+						Fluid: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+						}
+						capacity: 5000
+					}
+				}
+				type: "item"
+			}]
+			title: "{university.extractor.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0E2430DD3B63301E"]
+			description: [
+				"{university.darktank.desc1}"
+				""
+				"{university.darktank.desc2}"
+			]
+			hide: true
+			id: "073F5013843DC0DF"
+			rewards: [{
+				id: "64E00357F25A0B9F"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+							capacity: 576000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+						}
+						capacity: 576000
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{university.darktank.subtitle}"
+			tasks: [{
+				id: "3E9E99AE49FFC1D9"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+							capacity: 16000
+						}
+					}
+					id: "evilcraft:dark_tank"
+					tag: {
+						Fluid: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+						}
+						capacity: 16000
+					}
+				}
+				type: "item"
+			}]
+			title: "{university.darktank.title}"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3AB72BF3EFC7A7B2"]
+			description: [
+				"{university.darkpowergem.desc1}"
+				""
+				"{university.darkpowergem.desc2}"
+				""
+				"{university.darkpowergem.desc3}"
+				""
+				"{university.darkpowergem.desc4}"
+			]
+			id: "658E637CC9A6E69F"
+			min_width: 250
+			rewards: [{
+				count: 8
+				id: "36CCFFFB27D59E47"
+				item: "evilcraft:dark_ore_deepslate"
+				type: "item"
+			}]
+			subtitle: "{university.darkpowergem.subtitle}"
+			tasks: [{
+				id: "5A61B2D5941CC645"
+				item: "evilcraft:dark_power_gem"
+				type: "item"
+			}]
+			title: "{university.darkpowergem.title}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["658E637CC9A6E69F"]
+			description: [
+				"{university.bloodinfuser.desc1}"
+				""
+				"{university.bloodinfuser.desc2}"
+				""
+				"{university.bloodinfuser.desc3}"
+			]
+			id: "0F282A785121B586"
+			rewards: [{
+				count: 8
+				icon: "evilcraft:blood_waxed_coal"
+				id: "0FF3E164998FF758"
+				item: "evilcraft:blood_waxed_coal_block"
+				type: "item"
+			}]
+			subtitle: "{university.bloodinfuser.subtitle}"
+			tasks: [{
+				id: "493EB6FF7E4FDC00"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+							capacity: 10000
+						}
+					}
+					id: "evilcraft:blood_infuser"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{university.bloodinfuser.title}"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F282A785121B586"]
+			description: [
+				"{university.promise.desc1}"
+				""
+				"{university.promise.desc2}"
+				""
+				"{university.promise.desc3}"
+				""
+				"{university.promise.desc4}"
+			]
+			icon: "evilcraft:promise_tier_1"
+			id: "2B1FCEC117E6FF5E"
+			min_width: 250
+			rewards: [{
+				count: 3
+				id: "074A526F469A227F"
+				item: "evilcraft:promise_speed_0"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.promise.subtitle}"
+			tasks: [{
+				id: "5C1AAC3A5A9A4909"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "evilcraft:promise_speed_0"
+							}
+							{
+								Count: 1b
+								id: "evilcraft:promise_efficiency_0"
+							}
+							{
+								Count: 1b
+								id: "evilcraft:promise_tier_1"
+							}
+							{
+								Count: 1b
+								id: "evilcraft:promise_tier_2"
+							}
+							{
+								Count: 1b
+								id: "evilcraft:promise_tier_3"
+							}
+						]
+					}
+				}
+				title: "{university.promise.task}"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["658E637CC9A6E69F"]
+			description: [
+				"{university.bloodchest.desc1}"
+				""
+				"{university.bloodchest.desc2}"
+			]
+			id: "00F05043F7B370D6"
+			rewards: [{
+				id: "3F896C2BA0672775"
+				item: "evilcraft:blook"
+				type: "item"
+			}]
+			subtitle: "{university.bloodchest.subtitle}"
+			tasks: [{
+				id: "08FD7C6592C49010"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+							capacity: 10000
+						}
+					}
+					id: "evilcraft:blood_chest"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{university.bloodchest.title}"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0F282A785121B586"]
+			description: [
+				"{university.undeadtree.desc1}"
+				""
+				"{university.undeadtree.desc2}"
+			]
+			id: "0C3B90072606F36D"
+			rewards: [{
+				count: 6
+				id: "4D21A5E83B75FA13"
+				item: "evilcraft:undead_sapling"
+				type: "item"
+			}]
+			subtitle: "{university.undeadtree.subtitle}"
+			tasks: [{
+				id: "251DD367B3DDD4EB"
+				item: "evilcraft:undead_sapling"
+				type: "item"
+			}]
+			title: "{university.undeadtree.title}"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["2B1FCEC117E6FF5E"]
+			description: ["{university.effortless.desc}"]
+			id: "6F91F7EC725AF048"
+			rewards: [{
+				count: 64
+				id: "3FEE8047F1D97913"
+				item: "evilcraft:dull_dust"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.effortless.subtitle}"
+			tasks: [{
+				id: "72C927A1D606EAC9"
+				item: "evilcraft:effortless_ring"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -1.25d
+		}
+		{
+			dependencies: [
+				"00F05043F7B370D6"
+				"0C3B90072606F36D"
+			]
+			description: [
+				"{university.colossalbloodchest.desc1}"
+				""
+				"{university.colossalbloodchest.desc2}"
+				""
+				"{university.colossalbloodchest.desc3}"
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Amount: 0
+						FluidName: "minecraft:empty"
+						capacity: 10000
+					}
+				}
+				id: "evilcraft:colossal_blood_chest"
+				tag: {
+					Fluid: {
+						Amount: 0
+						FluidName: "minecraft:empty"
+					}
+					capacity: 10000
+				}
+			}
+			id: "4D2906B70A03EB38"
+			size: 0.5d
+			subtitle: "{university.colossalbloodchest.subtitle}"
+			tasks: [
+				{
+					id: "1A617CCC6C539A31"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Amount: 0
+								FluidName: "minecraft:empty"
+								capacity: 10000
+							}
+						}
+						id: "evilcraft:colossal_blood_chest"
+						tag: {
+							Fluid: {
+								Amount: 0
+								FluidName: "minecraft:empty"
+							}
+							capacity: 10000
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 25L
+					id: "190A3E31ADFE6EAD"
+					item: "evilcraft:reinforced_undead_planks"
+					type: "item"
+				}
+			]
+			title: "{university.colossalbloodchest.title}"
+			x: 3.75d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"231DCFF5B24A3476"
+				"0F282A785121B586"
+			]
+			description: [
+				"{university.reanimator.desc1}"
+				""
+				"{university.reanimator.desc2}"
+			]
+			id: "1C15DA57FDB0C88B"
+			subtitle: "{university.reanimator.subtitle}"
+			tasks: [{
+				id: "343BD978EDF2004A"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+							capacity: 10000
+						}
+					}
+					id: "evilcraft:spirit_reanimator"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2A012FAF8782046D"]
+			description: [
+				"{university.eternalclosure.desc1}"
+				""
+				"{university.eternalclosure.desc2}"
+				""
+				"{university.eternalclosure.desc3}"
+			]
+			icon: "evilcraft:box_of_eternal_closure"
+			id: "231DCFF5B24A3476"
+			min_width: 250
+			rewards: [{
+				id: "508D07FA72552B2D"
+				item: {
+					Count: 1b
+					id: "evilcraft:box_of_eternal_closure"
+					tag: {
+						spiritTag: {
+							buildupDuration: 0
+							frozenDuration: 20
+							innerEntity: "minecraft:warden"
+							isSwarm: 0b
+							playerId: ""
+							playerName: ""
+							remainingLife: 625
+							swarmTier: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{university.eternalclosure.subtitle}"
+			tasks: [
+				{
+					id: "41B48035F1FA8E40"
+					item: "evilcraft:box_of_eternal_closure"
+					type: "item"
+				}
+				{
+					id: "02D8B875E804B7CC"
+					item: "evilcraft:vengeance_focus"
+					type: "item"
+				}
+			]
+			title: "{university.eternalclosure.title}"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"231DCFF5B24A3476"
+				"0F282A785121B586"
+			]
+			description: [
+				"{university.spiritfurnace.desc1}"
+				""
+				"{university.spiritfurnace.desc2}"
+				""
+				"{university.spiritfurnace.desc3}"
+			]
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Amount: 0
+						FluidName: "minecraft:empty"
+						capacity: 10000
+					}
+				}
+				id: "evilcraft:spirit_furnace"
+				tag: {
+					Fluid: {
+						Amount: 0
+						FluidName: "minecraft:empty"
+					}
+					capacity: 10000
+				}
+			}
+			id: "623A4B81D3B503EC"
+			min_width: 250
+			rewards: [{
+				id: "1B10852DAB01471F"
+				item: "evilcraft:promise_speed_0"
+				type: "item"
+			}]
+			subtitle: "{university.spiritfurnace.subtitle}"
+			tasks: [
+				{
+					id: "0D0E2A24F88ED43E"
+					item: {
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Amount: 0
+								FluidName: "minecraft:empty"
+								capacity: 10000
+							}
+						}
+						id: "evilcraft:spirit_furnace"
+						tag: {
+							Fluid: {
+								Amount: 0
+								FluidName: "minecraft:empty"
+							}
+							capacity: 10000
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7831788BC13B07A1"
+					item: "evilcraft:dark_blood_brick"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["0C3B90072606F36D"]
+			description: ["{university.veinsword.desc}"]
+			hide_dependency_lines: true
+			id: "12D9238A4A50A4C0"
+			rewards: [{
+				count: 4
+				id: "0A1C5D4217572E6A"
+				item: "evilcraft:sceptre_of_thunder"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.veinsword.subtitle}"
+			tasks: [{
+				id: "1FF063A75E274BD4"
+				item: {
+					Count: 1b
+					id: "evilcraft:vein_sword"
+					tag: {
+						Damage: 0
+						Enchantments: [{
+							id: "minecraft:looting"
+							lvl: 2s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["658E637CC9A6E69F"]
+			description: ["{university.invigorating.desc}"]
+			id: "7BB7F46FB805AC30"
+			size: 0.5d
+			subtitle: "{university.invigorating.subtitle}"
+			tasks: [{
+				id: "56DC40BEAD8F0179"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+							capacity: 5000
+						}
+					}
+					id: "evilcraft:invigorating_pendant"
+					tag: {
+						Fluid: {
+							Amount: 0
+							FluidName: "minecraft:empty"
+						}
+						capacity: 5000
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -0.75d
+		}
+		{
+			dependencies: ["0C3B90072606F36D"]
+			description: [
+				"{university.kineticator.desc1}"
+				""
+				"{university.kineticator.desc2}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Amount: 0
+						FluidName: "minecraft:empty"
+						capacity: 1000
+					}
+				}
+				id: "evilcraft:kineticator"
+				tag: {
+					Fluid: {
+						Amount: 0
+						FluidName: "minecraft:empty"
+					}
+					capacity: 1000
+				}
+			}
+			id: "4C74E5BB0B51A9D9"
+			rewards: [{
+				count: 64
+				id: "539376096A4CFBE1"
+				item: "evilcraft:blood_potash"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.kineticator.subtitle}"
+			tasks: [{
+				id: "130BAC6E7C59F169"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										Amount: 0
+										FluidName: "minecraft:empty"
+										capacity: 1000
+									}
+								}
+								id: "evilcraft:kineticator"
+								tag: {
+									Fluid: {
+										Amount: 0
+										FluidName: "minecraft:empty"
+									}
+									capacity: 1000
+								}
+							}
+							{
+								Count: 1b
+								ForgeCaps: {
+									Parent: {
+										Amount: 0
+										FluidName: "minecraft:empty"
+										capacity: 1000
+									}
+								}
+								id: "evilcraft:kineticator_repelling"
+								tag: {
+									Fluid: {
+										Amount: 0
+										FluidName: "minecraft:empty"
+									}
+									capacity: 1000
+								}
+							}
+						]
+					}
+				}
+				title: "{university.kineticator.task}"
+				type: "item"
+			}]
+			title: "{university.kineticator.title}"
+			x: 5.75d
+			y: 1.75d
+		}
+		{
+			dependencies: ["2A012FAF8782046D"]
+			description: ["{university.piercefocus.desc}"]
+			id: "1C646399E62FB593"
+			rewards: [{
+				count: 4
+				id: "334404059680E40F"
+				item: "evilcraft:vengeance_essence"
+				type: "item"
+			}]
+			subtitle: "{university.piercefocus.subtitle}"
+			tasks: [{
+				id: "2999F6B5CE2F586D"
+				item: "evilcraft:piercing_vengeance_focus"
+				type: "item"
+			}]
+			title: "{university.piercefocus.title}"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0C3B90072606F36D"]
+			description: ["{university.vengpick.desc}"]
+			hide_dependency_lines: true
+			id: "7B6A64C766C3D7B5"
+			size: 0.5d
+			subtitle: "{university.vengpick.subtitle}"
+			tasks: [{
+				id: "2BDF3B9095A80430"
+				item: {
+					Count: 1b
+					id: "evilcraft:vengeance_pickaxe"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:fortune"
+								lvl: 5s
+							}
+							{
+								id: "evilcraft:vengeance"
+								lvl: 3s
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 5.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["126BF300894CF43C"]
+			description: ["{university.gemtorch.desc}"]
+			id: "4763E18ED3A2DFE5"
+			rewards: [{
+				count: 32
+				id: "66190CB43A9D3A67"
+				item: "evilcraft:gem_stone_torch"
+				type: "item"
+			}]
+			subtitle: "{university.gemtorch.subtitle}"
+			tasks: [{
+				id: "1B40B4B612CB030C"
+				item: "evilcraft:gem_stone_torch"
+				type: "item"
+			}]
+			title: "{university.gemtorch.title}"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1C646399E62FB593"]
+			description: ["{university.spectralglasses.desc}"]
+			id: "7D47B3D4A8FAAC59"
+			subtitle: "{university.spectralglasses.subtitle}"
+			tasks: [{
+				id: "32AA59F11DACD512"
+				item: {
+					Count: 1b
+					id: "evilcraft:spectral_glasses"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{university.spectralglasses.title}"
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"1C646399E62FB593"
+				"514A4BCD5EBCF794"
+			]
+			description: [
+				"{university.sangenvacc.desc1}"
+				""
+				"{university.sangenvacc.desc2}"
+			]
+			id: "0177756F72DC38DE"
+			size: 0.5d
+			subtitle: "{university.sangenvacc.subtitle}"
+			tasks: [{
+				id: "52E6E94B63ED9ABE"
+				item: "evilcraft:sanguinary_environmental_accumulator"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0E2430DD3B63301E"]
+			description: [
+				"{university.enviroacc.desc1}"
+				""
+				"{university.enviroacc.desc2}"
+				""
+				"{university.enviroacc.desc3}"
+				""
+				"{university.enviroacc.desc4}"
+			]
+			hide: true
+			id: "514A4BCD5EBCF794"
+			min_width: 250
+			subtitle: "{university.enviroacc.subtitle}"
+			tasks: [{
+				icon: "evilcraft:environmental_accumulator"
+				id: "66E839F5E9F791E1"
+				observe_type: 0
+				timer: 0L
+				title: "{university.enviroacc.subtitle}"
+				to_observe: "evilcraft:environmental_accumulator"
+				type: "observation"
+			}]
+			title: "{university.enviroacc.title}"
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["514A4BCD5EBCF794"]
+			description: [
+				"{university.weathercontainers.desc1}"
+				""
+				"{university.weathercontainers.desc2}"
+			]
+			icon: {
+				Count: 1b
+				id: "evilcraft:weather_container"
+				tag: {
+					weather: "RAIN"
+				}
+			}
+			id: "10E809CEC7E0DA28"
+			rewards: [{
+				count: 8
+				id: "6F6C72D5B2867832"
+				item: "evilcraft:lightning_grenade"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.weathercontainers.subtitle}"
+			tasks: [{
+				id: "6009CBD55DEBDBD8"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "evilcraft:weather_container"
+								tag: {
+									weather: "CLEAR"
+								}
+							}
+							{
+								Count: 1b
+								id: "evilcraft:weather_container"
+								tag: {
+									weather: "RAIN"
+								}
+							}
+							{
+								Count: 1b
+								id: "evilcraft:weather_container"
+								tag: {
+									weather: "LIGHTNING"
+								}
+							}
+						]
+					}
+				}
+				title: "{university.weathercontainers.title}"
+				type: "item"
+			}]
+			x: -0.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["514A4BCD5EBCF794"]
+			description: [
+				"{university.biomeextract.desc1}"
+				""
+				"{university.biomeextract.desc2}"
+			]
+			id: "3008DE854B0117B1"
+			rewards: [{
+				id: "28C6F0D8F513B315"
+				item: "evilcraft:eternal_water"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.biomeextract.subtitle}"
+			tasks: [{
+				id: "7A91050DE17C0545"
+				item: "evilcraft:biome_extract"
+				type: "item"
+			}]
+			x: 0.25d
+			y: 5.25d
+		}
+		{
+			dependencies: ["0C3B90072606F36D"]
+			description: [
+				"{university.broom.desc1}"
+				""
+				"{university.broom.desc2}"
+				""
+				"{university.broom.desc3}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Amount: 10000
+						FluidName: "evilcraft:blood"
+						capacity: 10000
+					}
+				}
+				id: "evilcraft:broom"
+				tag: {
+					Fluid: {
+						Amount: 10000
+						FluidName: "evilcraft:blood"
+					}
+					capacity: 10000
+				}
+			}
+			id: "2BED2D3EA0B5FD5D"
+			min_width: 250
+			rewards: [{
+				id: "2CB5FF097E144CFF"
+				item: {
+					Count: 1b
+					id: "evilcraft:broom_part"
+					tag: {
+						broom_parts_tag: ["evilcraft:cap_head_creeper"]
+					}
+				}
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.broom.subtitle}"
+			tasks: [
+				{
+					icon: {
+						Count: 1b
+						id: "evilcraft:broom_part"
+						tag: {
+							broom_parts_tag: ["evilcraft:brush_wheat"]
+						}
+					}
+					id: "1A06E525C84CE43F"
+					title: "{university.broom.task1}"
+					type: "custom"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "evilcraft:broom_part"
+						tag: {
+							broom_parts_tag: ["evilcraft:rod_wood"]
+						}
+					}
+					id: "44529455C112A9A9"
+					title: "{university.broom.task2}"
+					type: "custom"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "evilcraft:broom_part"
+						tag: {
+							broom_parts_tag: ["evilcraft:cap_head_player"]
+						}
+					}
+					id: "4A86A1768A1E7BA9"
+					title: "{university.broom.task3}"
+					type: "custom"
+				}
+			]
+			title: "{university.broom.title}"
+			x: 5.25d
+			y: 1.75d
+		}
+	]
+	title: "{university.evilcraft.chapter}"
+}

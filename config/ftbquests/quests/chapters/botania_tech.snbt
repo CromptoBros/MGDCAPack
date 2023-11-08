@@ -1,0 +1,320 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "botania_tech"
+	group: "324223492707BC57"
+	icon: "botania:lexicon"
+	id: "01E087608F8F4074"
+	order_index: 0
+	quest_links: [
+		{
+			id: "7B4DD9C77F627C1D"
+			linked_quest: "7093FB84229B34D7"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "79AA235AE4B78D95"
+			linked_quest: "362769E3F3953954"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "5822411D3D0B379F"
+			linked_quest: "0BB1CD69F3FF5C45"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "6792A07E54B4C295"
+			linked_quest: "3A64BADFA461E89C"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "2974A848B25360B4"
+			linked_quest: "4525A619619CCBEC"
+			size: 0.5d
+			x: 3.0d
+			y: -0.75d
+		}
+		{
+			id: "6F726BECDD004B9F"
+			linked_quest: "001672BF2414012C"
+			size: 0.5d
+			x: 6.0d
+			y: 0.75d
+		}
+		{
+			id: "006216330B1452D2"
+			linked_quest: "7065007D9593F03B"
+			size: 0.5d
+			x: 3.0d
+			y: 0.75d
+		}
+		{
+			id: "62902CBD14EC95F1"
+			linked_quest: "309781D3612B4A9D"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "50D12DF862690D75"
+			linked_quest: "3767ECABC6E9C9FC"
+			size: 0.5d
+			x: 4.0d
+			y: -0.75d
+		}
+		{
+			id: "1B81D4B4F8EBE80E"
+			linked_quest: "6637F7B5F94DD808"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "072BDEC90DB37D76"
+			linked_quest: "5F765F179331C825"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "52413D88CD56EEAC"
+			linked_quest: "40E6725020CDF47B"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "73E52EBAC231A125"
+			linked_quest: "7E72F9D4C9FA3B08"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "47F898A3FB9332F9"
+			linked_quest: "5877C3EB23063F05"
+			size: 0.5d
+			x: 6.0d
+			y: -0.75d
+		}
+		{
+			id: "2B17ECF52C9E7154"
+			linked_quest: "7127B549CA61AC28"
+			size: 0.5d
+			x: 5.0d
+			y: 0.75d
+		}
+		{
+			id: "68D0347E48017994"
+			linked_quest: "6EC5ADC9B6B3FB14"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			id: "5A78859C7398B47F"
+			linked_quest: "0D78B5F36382C0F1"
+			x: 4.0d
+			y: 2.5d
+		}
+		{
+			id: "3391C9F6C782A857"
+			linked_quest: "0301125E31E427C1"
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			id: "29D0811984938CAC"
+			linked_quest: "674240A81091E369"
+			x: 4.0d
+			y: 4.5d
+		}
+		{
+			id: "517C135ACEAE2556"
+			linked_quest: "15FD6F633284F5D7"
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			id: "22B1E49E5D034E89"
+			linked_quest: "6C753F0DC6ED98F1"
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			id: "2F77F83A0323641E"
+			linked_quest: "393419276BB838E3"
+			size: 0.5d
+			x: 4.75d
+			y: 4.5d
+		}
+		{
+			id: "287E622160782726"
+			linked_quest: "76BE032AC883B943"
+			x: 2.5d
+			y: 4.5d
+		}
+		{
+			id: "2F1B3D68BA01F958"
+			linked_quest: "4A9FA7262B0794F9"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			id: "1319224674C710E8"
+			linked_quest: "7CBE29587DE2120D"
+			x: 1.0d
+			y: 5.5d
+		}
+		{
+			id: "464C141178FE6B8A"
+			linked_quest: "0FA334A068350140"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "21D62192FC0BC7E4"
+			linked_quest: "4B0C79A1DC71AE45"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			id: "3DA2ACE815B38DCE"
+			linked_quest: "55F585C4FAE83664"
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			id: "20C0084B73994001"
+			linked_quest: "42CA0B58F0C48607"
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			id: "4A042B952EB8872D"
+			linked_quest: "4B1463339F850F2C"
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			id: "39434DEF8ED63A66"
+			linked_quest: "6EBBF416D3D8403E"
+			size: 0.5d
+			x: 6.0d
+			y: -1.25d
+		}
+		{
+			id: "2EE64ABE73F5EC18"
+			linked_quest: "47893F9B03F9C826"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "44EF9A449B41D0DE"
+			linked_quest: "74A0B5AC307E9CF6"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			id: "53E92957972CAEEB"
+			linked_quest: "38FD3CD0CE2A3E1E"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "2B3BF73EF96DEFCF"
+			linked_quest: "7DD85C13D28FFA36"
+			size: 0.5d
+			x: 2.25d
+			y: 2.75d
+		}
+		{
+			id: "3FD26239DF74569F"
+			linked_quest: "7A2C1F4CD4791057"
+			size: 0.5d
+			x: 2.75d
+			y: 2.75d
+		}
+		{
+			id: "431DAB3CE3B62905"
+			linked_quest: "08F8ED36302E40F9"
+			size: 0.5d
+			x: 2.25d
+			y: 3.25d
+		}
+		{
+			id: "4CC9572E63B4061E"
+			linked_quest: "275BE6206860272B"
+			size: 0.5d
+			x: 2.75d
+			y: 3.25d
+		}
+		{
+			id: "0198C799E13F197C"
+			linked_quest: "43BD4BB1CEFB356D"
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			id: "5CDD9C6905C2698F"
+			linked_quest: "7FB8C3A920B36A6A"
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			id: "243AFD6BC6FB8EAE"
+			linked_quest: "63FD14AE7EDA04CA"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			id: "44C78DE5898A58F1"
+			linked_quest: "592EE99E209184B7"
+			x: 6.5d
+			y: 3.0d
+		}
+		{
+			id: "7E386BA77F2D6567"
+			linked_quest: "5A08EC44C68F9788"
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			id: "524D8D4CF579E218"
+			linked_quest: "6ACC2FE546094F0B"
+			x: 6.5d
+			y: 5.0d
+		}
+		{
+			id: "11E8D6216144F61A"
+			linked_quest: "6862CA1BFDC20E3D"
+			size: 0.5d
+			x: 6.5d
+			y: 1.25d
+		}
+		{
+			id: "22111C653EED4958"
+			linked_quest: "64AE8FF9B5D2AE5B"
+			size: 0.5d
+			x: 7.0d
+			y: -0.75d
+		}
+	]
+	quests: [{
+		dependencies: ["579F8A4A81B98941"]
+		description: ["Chapters arent visible if they only have linked quests, so have this small hidden one"]
+		disable_toast: true
+		hide: true
+		id: "0126B704846D5AF8"
+		progression_mode: "linear"
+		size: 0.1d
+		tasks: [{
+			id: "1786726D09E08284"
+			stat: "minecraft:play_time"
+			type: "stat"
+			value: 1
+		}]
+		title: "Ignore this"
+		x: 3.2d
+		y: 0.55d
+	}]
+	title: "{university.botania.chapter}"
+}

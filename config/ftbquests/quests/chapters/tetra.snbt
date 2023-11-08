@@ -1,0 +1,983 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tetra"
+	group: "590394916256F444"
+	icon: {
+		Count: 1b
+		id: "tetra:modular_double"
+		tag: {
+			Damage: 0
+			HideFlags: 1
+			"double/basic_axe_left_material": "basic_axe/stone"
+			"double/basic_handle_material": "basic_handle/stick"
+			"double/basic_pickaxe_right_material": "basic_pickaxe/stone"
+			"double/handle": "double/basic_handle"
+			"double/head_left": "double/basic_axe_left"
+			"double/head_right": "double/basic_pickaxe_right"
+			honing_progress: 290
+			id: "46dcb48a-5ec0-46d1-b502-896ff0b41d42"
+		}
+	}
+	id: "36D4B5D7BA037A87"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7EC0D1ECFDD5FFE6"]
+			description: [
+				"{university.craftablehammers.desc1}"
+				""
+				"{university.craftablehammers.desc2}"
+				""
+				"{university.craftablehammers.desc3}"
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:modular_double"
+				tag: {
+					Damage: 0
+					"double/basic_hammer_left_material": "basic_hammer/oak"
+					"double/basic_hammer_right_material": "basic_hammer/oak"
+					"double/basic_handle_material": "basic_handle/stick"
+					"double/handle": "double/basic_handle"
+					"double/head_left": "double/basic_hammer_left"
+					"double/head_right": "double/basic_hammer_right"
+					id: "1d8d1402-8f85-4e53-bfad-e6905bd3e7be"
+				}
+			}
+			id: "4C8C1DD6BBA6FBC7"
+			min_width: 250
+			subtitle: "{university.craftablehammers.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/stone"
+						"double/basic_hammer_right_material": "basic_hammer/stone"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "5e132b1f-f860-4244-b027-df75804ac097"
+					}
+				}
+				id: "74B88AE14B2AE2FF"
+				title: "{university.craftablehammers.task}"
+				type: "custom"
+			}]
+			title: "{university.craftablehammers.title}"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C8C1DD6BBA6FBC7"]
+			description: [
+				"{university.holosphere.desc1}"
+				""
+				"{university.holosphere.desc2}"
+				""
+				"{university.holosphere.desc3}"
+				""
+				"{university.holosphere.desc4}"
+			]
+			id: "6DD6206C2DC6DCBA"
+			min_width: 275
+			rewards: [{
+				count: 4
+				id: "0502B4E870AA0456"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			subtitle: "{university.holosphere.subtitle}"
+			tasks: [{
+				id: "1D30A8237DCE7AA7"
+				item: {
+					Count: 1b
+					id: "tetra:holo"
+					tag: {
+						"holo/core": "holo/core"
+						"holo/core_material": "frame/dim"
+						"holo/frame": "holo/frame"
+						"holo/frame_material": "core/ancient"
+						"holo/repo": "holo/repo"
+						"holo/repo_material": "repo/default"
+						"holo/scanner": "holo/scanner"
+						"holo/scanner_material": "scanner/default"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17E11119134E49D6"]
+			description: [
+				"{university.dolabra.desc1}"
+				""
+				"{university.dolabra.desc2}"
+				""
+				"{university.dolabra.desc3}"
+			]
+			hide_dependency_lines: true
+			id: "5B8CFE8F1F06B125"
+			size: 0.5d
+			subtitle: "{university.dolabra.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						"double/basic_axe_right_material": "basic_axe/stone"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/basic_pickaxe_left_material": "basic_pickaxe/stone"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_pickaxe_left"
+						"double/head_right": "double/basic_axe_right"
+						honing_progress: 290
+						id: "dd1306db-55ba-4962-b120-cc62a1c61347"
+					}
+				}
+				id: "2DE1C0DEECC152A8"
+				title: "{university.dolabra.task}"
+				type: "custom"
+			}]
+			title: "{university.dolabra.title}"
+			x: 3.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["6DD6206C2DC6DCBA"]
+			description: [
+				"{university.tetratools.desc1}"
+				""
+				"{university.tetratools.desc2}"
+			]
+			icon: "tetra:basic_workbench"
+			id: "17E11119134E49D6"
+			min_width: 250
+			subtitle: "{university.tetratools.subtitle}"
+			tasks: [{
+				id: "49C2D62948FD49BA"
+				type: "checkmark"
+			}]
+			title: "{university.tetratools.title}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["17E11119134E49D6"]
+			description: [
+				"{university.tetratiers.desc1}"
+				""
+				"{image:ftbuniversity:textures/quests/misc/tetra/blackstone_hammer.png width:200 height:37 align:1 fit:true}"
+				""
+				"{university.tetratiers.desc2}"
+				""
+				"{university.tetratiers.desc3}"
+				"{@pagebreak}"
+				"{university.tetratiers.desc4}"
+				""
+				"{university.tetratiers.desc5}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbuniversity:textures/quests/misc/tetra/t3_hammer.png"
+				}
+			}
+			id: "5E9ECEA70E657DA0"
+			min_width: 250
+			size: 0.5d
+			subtitle: "{university.tetratiers.subtitle}"
+			tasks: [{
+				id: "4A5B65547BCCBD7E"
+				type: "checkmark"
+			}]
+			title: "{university.tetratiers.title}"
+			x: 3.25d
+			y: -0.75d
+		}
+		{
+			dependencies: ["17E11119134E49D6"]
+			description: [
+				"{university.tetratypes.desc1}"
+				""
+				"{image:ftbuniversity:textures/quests/misc/tetra/tool_types.png width:200 height:28 align:1 fit:true}"
+				""
+				"{university.tetratypes.desc2}"
+				""
+				"{university.tetratypes.desc3}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbuniversity:textures/quests/misc/tetra/prying.png"
+				}
+			}
+			id: "4263FF473C5F2069"
+			size: 0.5d
+			subtitle: "{university.tetratypes.subtitle}"
+			tasks: [{
+				id: "2379397A98CB3F42"
+				type: "checkmark"
+			}]
+			title: "{university.tetratypes.title}"
+			x: 2.75d
+			y: -0.75d
+		}
+		{
+			dependencies: ["17E11119134E49D6"]
+			description: [
+				"{university.tetrabelt.desc1}"
+				""
+				"{university.tetrabelt.desc2}"
+				""
+				"{university.tetrabelt.desc3}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "tetra:modular_toolbelt"
+				tag: {
+					HideFlags: 1
+					honing_progress: 650
+					id: "3372bdae-5d59-4e5e-8173-a8367e846da6"
+					"toolbelt/belt": "toolbelt/belt"
+					"toolbelt/belt_material": "belt/inlaid"
+					"toolbelt/slot1": "toolbelt/strap_slot1"
+					"toolbelt/strap_slot1_material": "strap1/leather"
+				}
+			}
+			id: "5B45D7292453CA11"
+			size: 0.5d
+			subtitle: "{university.tetrabelt.subtitle}"
+			tasks: [{
+				id: "66FC4F3469D74AED"
+				item: {
+					Count: 1b
+					id: "tetra:modular_toolbelt"
+					tag: {
+						id: "12e46c17-14a9-48b0-a7df-13dab0fc5c3a"
+						"toolbelt/belt": "toolbelt/belt"
+						"toolbelt/belt_material": "belt/rope"
+						"toolbelt/slot1": "toolbelt/strap_slot1"
+						"toolbelt/strap_slot1_material": "strap1/leather"
+					}
+				}
+				type: "item"
+			}]
+			title: "{university.tetrabelt.title}"
+			x: 2.5d
+			y: 1.25d
+		}
+		{
+			dependencies: ["17E11119134E49D6"]
+			description: [
+				"{university.integrity.desc1}"
+				""
+				"{university.integrity.desc2}"
+				""
+				"{university.integrity.desc3}"
+				""
+				"{university.integrity.desc4}"
+			]
+			hide_dependency_lines: true
+			icon: "create:experience_nugget"
+			id: "04CF8C38EB628842"
+			min_width: 275
+			rewards: [{
+				count: 64
+				id: "156D1535F4E1A5C1"
+				item: "create:experience_nugget"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.integrity.subtitle}"
+			tasks: [{
+				id: "4D74C5AFBF349653"
+				type: "checkmark"
+			}]
+			title: "{university.integrity.title}"
+			x: 2.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["17E11119134E49D6"]
+			description: [
+				"{university.socket.desc1}"
+				""
+				"{university.socket.desc2}"
+				""
+				"{university.socket.desc3}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbuniversity:textures/quests/misc/tetra/binding.png"
+				}
+			}
+			id: "2462FDE8EB701A3D"
+			rewards: [{
+				count: 6
+				id: "312C3D311BC74609"
+				item: "tetra:geode"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.socket.subtitle}"
+			tasks: [{
+				id: "4F73CAA9E915A46F"
+				type: "checkmark"
+			}]
+			title: "{university.socket.title}"
+			x: 3.5d
+			y: -1.25d
+		}
+		{
+			dependencies: ["17E11119134E49D6"]
+			description: [
+				"{university.tetraenchant.desc1}"
+				""
+				"{university.tetraenchant.desc2}"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:enchanting_table"
+			id: "774C9D1027D1733F"
+			rewards: [{
+				count: 32
+				id: "3CA609F1FA813863"
+				item: "mob_grinding_utils:solid_xp_baby"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.tetraenchant.subtitle}"
+			tasks: [{
+				id: "338BFBF03C5EDA1C"
+				type: "checkmark"
+			}]
+			title: "{university.tetraenchant.title}"
+			x: 3.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["17E11119134E49D6"]
+			description: [
+				"{university.tetraschem.desc1}"
+				""
+				"{image:ftbuniversity:textures/quests/misc/tetra/schematics.png width:215 height:100 align:1}"
+				""
+				"{university.tetraschem.desc2}"
+				""
+				"{university.tetraschem.desc3}"
+				""
+				"{@pagebreak}"
+				"{university.tetraschem.desc4}"
+				""
+				"{university.tetraschem.desc5}"
+				""
+				"{university.tetraschem.desc6}"
+				"{@pagebreak}"
+				"{university.tetraschem.desc7}"
+				""
+				"{university.tetraschem.desc8}"
+				""
+				"{university.tetraschem.desc9}"
+				""
+				"{university.tetraschem.desc10}"
+				"{@pagebreak}"
+				"{university.tetraschem.desc11}"
+				""
+				"{university.tetraschem.desc12}"
+				""
+				"{university.tetraschem.desc13}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "tetra:scroll_rolled"
+				tag: {
+					BlockEntityTag: {
+						data: [{
+							effects: ["tetra:fibre_expertise"]
+							glyphs: [
+								5
+								10
+								11
+								4
+							]
+							intricate: 0b
+							key: "fibre_expertise"
+							material: 0
+							ribbon: "a88054"
+						}]
+					}
+				}
+			}
+			id: "64D076C73D1DAA4B"
+			min_width: 250
+			size: 0.5d
+			subtitle: "{university.tetraschem.subtitle}"
+			tasks: [
+				{
+					icon: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										3
+										2
+										2
+										1
+									]
+									intricate: 0b
+									key: "sword/sturdy_guard"
+									material: 1
+									ribbon: "bcb8b5"
+									schematics: ["tetra:sword/sturdy_guard"]
+								}]
+							}
+						}
+					}
+					id: "5900934DD94FD4CF"
+					title: "{university.tetraschem.task1}"
+					type: "custom"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									details: "warforge"
+									glyphs: [
+										6
+										7
+										11
+										7
+									]
+									intricate: 0b
+									key: "warforge/adze"
+									material: 2
+									ribbon: "8559b3"
+									schematics: ["tetra:warforge/adze"]
+								}]
+							}
+						}
+					}
+					id: "3D08C02FFA325E7E"
+					title: "{university.tetraschem.task2}"
+					type: "custom"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									effects: ["tetra:gem_expertise"]
+									glyphs: [
+										14
+										13
+										14
+										15
+									]
+									intricate: 0b
+									key: "gem_expertise"
+									material: 0
+									ribbon: "2bffee"
+								}]
+							}
+						}
+					}
+					id: "117872F91AE2E0E4"
+					title: "{university.tetraschem.task3}"
+					type: "custom"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "tetra:scroll_rolled"
+						tag: {
+							BlockEntityTag: {
+								data: [{
+									glyphs: [
+										15
+										14
+										15
+										15
+									]
+									intricate: 1b
+									key: "hone/gild_1"
+									material: 2
+									ribbon: "c9ae69"
+									schematics: ["tetra:hone/gild_1"]
+								}]
+							}
+						}
+					}
+					id: "6EC9FD29436D1262"
+					title: "{university.tetraschem.task4}"
+					type: "custom"
+				}
+			]
+			title: "{university.tetraschem.title}"
+			x: 2.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["17E11119134E49D6"]
+			description: [
+				"{university.tetrarack.desc1}"
+				""
+				"{university.tetrarack.desc2}"
+				""
+				"{university.tetrarack.desc3}"
+			]
+			hide_dependency_lines: true
+			id: "183D0D8CA0C1542B"
+			size: 0.5d
+			subtitle: "{university.tetrarack.subtitle}"
+			tasks: [{
+				id: "4CFC96673B740744"
+				item: "tetra:rack"
+				type: "item"
+			}]
+			x: 3.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["17E11119134E49D6"]
+			description: [
+				"{university.ancientruins.desc1}"
+				""
+				"{university.ancientruins.desc2}"
+				"{@pagebreak}"
+				"{university.ancientruins.desc3}"
+				""
+				"{university.ancientruins.desc4}"
+				""
+				"{image:ftbuniversity:textures/quests/misc/tetra/percussion_scanner.png width:279 height:150 align:1}"
+				""
+				"{university.ancientruins.desc5}"
+				"{@pagebreak}"
+				"{university.ancientruins.desc6}"
+				""
+				"{university.ancientruins.desc7}"
+				""
+				"{university.ancientruins.desc8}"
+				""
+				"{image:ftbuniversity:textures/quests/misc/tetra/sweeper.png width:250 height:11 align:1}"
+				""
+				"{university.ancientruins.desc9}"
+				"{@pagebreak}"
+				"{university.ancientruins.desc10}"
+				""
+				"{image:ftbuniversity:textures/quests/misc/tetra/ruin.png width:279 height:150 align:1 fit:true}"
+			]
+			id: "24CB58ABF478A01A"
+			min_width: 275
+			subtitle: "{university.ancientruins.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:holo"
+					tag: {
+						HideFlags: 1
+						"holo/core": "holo/core"
+						"holo/core_material": "frame/dim"
+						"holo/frame": "holo/frame"
+						"holo/frame_material": "core/ancient"
+						"holo/repo": "holo/repo"
+						"holo/repo_material": "repo/default"
+						"holo/scanner": "holo/scanner"
+						"holo/scanner:scanner/sweeper": 0
+						"holo/scanner_material": "scanner/default"
+						honing_progress: 850
+						id: "ae511c98-11d4-418d-b212-1dcb3a9169b8"
+					}
+				}
+				id: "40F07D90B0C5C0C6"
+				title: "{university.ancientruins.task}"
+				type: "custom"
+			}]
+			title: "{university.ancientruins.title}"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FBEF9540A778253"]
+			description: [
+				"{university.forgehammer.desc1}"
+				""
+				"{university.forgehammer.desc2}"
+				""
+				"{university.forgehammer.desc3}"
+				"{@pagebreak}"
+				"{university.forgehammer.desc4}"
+				""
+				"{university.forgehammer.desc5}"
+				""
+				"{university.forgehammer.desc6}"
+				"{@pagebreak}"
+				"{university.forgehammer.desc7}"
+				""
+				"{university.forgehammer.desc8}"
+				"{university.forgehammer.desc9}"
+				"{university.forgehammer.desc10}"
+				"{university.forgehammer.desc11}"
+			]
+			icon: "tetra:forged_workbench"
+			id: "2EAC256C48C60710"
+			min_width: 250
+			subtitle: "{university.forgehammer.subtitle}"
+			tasks: [
+				{
+					icon: "tetra:hammer_base"
+					id: "5E9EB47E986A9041"
+					observe_type: 0
+					timer: 0L
+					title: "{university.forgehammer.task1}"
+					to_observe: "tetra:hammer_base"
+					type: "observation"
+				}
+				{
+					disable_toast: true
+					id: "2F5EFA7F3FFE2386"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "tetra:vent_plate"
+								}
+								{
+									Count: 1b
+									id: "tetra:planar_stabilizer"
+								}
+								{
+									Count: 1b
+									id: "tetra:combustion_chamber"
+								}
+								{
+									Count: 1b
+									id: "tetra:lubricant_dispenser"
+								}
+							]
+						}
+					}
+					title: "{university.forgehammer.task2}"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					id: "4299606D411A96B2"
+					item: {
+						Count: 1b
+						id: "tetra:thermal_cell"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "{university.forgehammer.title}"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24CB58ABF478A01A"]
+			description: [
+				"{university.tetrascavenge.desc1}"
+				""
+				"{university.tetrascavenge.desc2}"
+				""
+				"{university.tetrascavenge.desc3}"
+				""
+				"{university.tetrascavenge.desc4}"
+			]
+			icon: "tetra:forged_crate"
+			id: "3FBEF9540A778253"
+			min_width: 275
+			subtitle: "{university.tetrascavenge.subtitle}"
+			tasks: [{
+				id: "78FD2ED284F2AD43"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ftbuniversity:tetra_salvage_items"
+					}
+				}
+				title: "{university.tetrascavenge.task}"
+				type: "item"
+			}]
+			title: "{university.tetrascavenge.title}"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FBEF9540A778253"]
+			description: [
+				"{university.chthonic.desc1}"
+				""
+				"{university.chthonic.desc2}"
+				"{@pagebreak}"
+				"{university.chthonic.desc3}"
+				""
+				"{image:ftbuniversity:textures/quests/misc/tetra/auto_extractor.png width:100 height:54 align:1 fit:true}"
+				"{@pagebreak}"
+				"{university.chthonic.desc4}"
+			]
+			hide_dependency_lines: true
+			id: "1C5AEEE185F5498B"
+			min_width: 250
+			rewards: [{
+				id: "7DE8EF93D542C385"
+				item: "tetra:lubricant_dispenser"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.chthonic.subtitle}"
+			tasks: [{
+				id: "0869EACA548E54CC"
+				item: "tetra:chthonic_extractor"
+				type: "item"
+			}]
+			title: "{university.chthonic.title}"
+			x: 5.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["3FBEF9540A778253"]
+			description: [
+				"{university.extractorruin.desc1}"
+				""
+				"{image:ftbuniversity:textures/quests/misc/tetra/extractor_ruins.png width:200 height:108 align:1 fit:true}"
+				"{@pagebreak}"
+				"{university.extractorruin.desc2}"
+				""
+				"{university.extractorruin.desc3}"
+				""
+				"{university.extractorruin.desc4}"
+				"{@pagebreak}"
+				"{university.extractorruin.desc5}"
+				""
+				"{university.extractorruin.desc6}"
+				""
+				"{image:ftbuniversity:textures/quests/misc/tetra/seeping.png width:1000 height:538 align:1 fit:true}"
+			]
+			id: "587177BE5EFD9AA6"
+			min_width: 250
+			rewards: [{
+				id: "5369149A889A2D22"
+				item: {
+					Count: 1b
+					id: "tetra:thermal_cell"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{university.extractorruin.subtitle}"
+			tasks: [{
+				icon: "tetra:core_extractor"
+				id: "00408F39770153F4"
+				structure: "tetra:extractor_ruin"
+				title: "{university.extractorruin.subtitle}"
+				type: "structure"
+			}]
+			title: "{university.extractorruin.title}"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3FBEF9540A778253"]
+			description: [
+				"{university.fancytetra.desc1}"
+				""
+				"{university.fancytetra.desc2}"
+				""
+				"{university.fancytetra.desc3}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "tetra:modular_sword"
+				tag: {
+					Damage: 0
+					id: "5fc9fae8-6c21-4cb0-a465-f039ee94c800"
+					"sword/basic_hilt_material": "basic_hilt/stick"
+					"sword/blade": "sword/stonecutter"
+					"sword/hilt": "sword/basic_hilt"
+					"sword/stonecutter_material": "stonecutter/stonecutter"
+				}
+			}
+			id: "08FE8211404651F7"
+			size: 0.5d
+			subtitle: "{university.fancytetra.subtitle}"
+			tasks: [
+				{
+					icon: {
+						Count: 1b
+						id: "tetra:modular_sword"
+						tag: {
+							Damage: 0
+							id: "5fc9fae8-6c21-4cb0-a465-f039ee94c800"
+							"sword/basic_hilt_material": "basic_hilt/stick"
+							"sword/blade": "sword/stonecutter"
+							"sword/hilt": "sword/basic_hilt"
+							"sword/stonecutter_material": "stonecutter/stonecutter"
+						}
+					}
+					id: "10A8927F82770AD5"
+					title: "{university.fancytetra.task1}"
+					type: "custom"
+				}
+				{
+					icon: {
+						Count: 1b
+						id: "tetra:modular_single"
+						tag: {
+							Damage: 0
+							id: "a6fba635-4540-4c6e-8719-b097e9a49cf4"
+							"single/basic_handle_material": "basic_handle/stick"
+							"single/earthpiercer_material": "earthpiercer/earthpiercer"
+							"single/handle": "single/basic_handle"
+							"single/head": "single/earthpiercer"
+						}
+					}
+					id: "3356C4A22F67BAFD"
+					title: "{university.fancytetra.task2}"
+					type: "custom"
+				}
+			]
+			title: "{university.fancytetra.title}"
+			x: 6.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["1C5AEEE185F5498B"]
+			description: [
+				"{university.extractorpick.desc1}"
+				""
+				"{university.extractorpick.desc2}"
+			]
+			id: "39DC21BBC70E3800"
+			size: 0.5d
+			subtitle: "{university.extractorpick.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						"double/basic_handle_material": "basic_handle/oak"
+						"double/basic_pickaxe_left_material": "basic_pickaxe/diamond"
+						"double/extractor_right_material": "extractor/extractor"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_pickaxe_left"
+						"double/head_left:arrested": 0
+						"double/head_right": "double/extractor_right"
+						"double/head_right/settle_progress": 292
+						honing_progress: 422
+						id: "1b5127f2-f937-45f0-b009-25b5b8505cc9"
+						repairCount: 1
+					}
+				}
+				id: "29CFC29271E40881"
+				title: "{university.extractorpick.task}"
+				type: "custom"
+			}]
+			title: "{university.extractorpick.title}"
+			x: 5.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["3FBEF9540A778253"]
+			description: [
+				"{university.forgedbolt.desc1}"
+				""
+				"{university.forgedbolt.desc2}"
+				""
+				"{university.forgedbolt.desc3}"
+				""
+				"{university.forgedbolt.desc4}"
+			]
+			hide_dependency_lines: true
+			id: "52BF72315BADCED9"
+			min_width: 250
+			size: 0.5d
+			subtitle: "{university.forgedbolt.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						HideFlags: 1
+						"double/basic_hammer_left_material": "basic_hammer/iron"
+						"double/basic_hammer_right_material": "basic_hammer/iron"
+						"double/basic_handle_material": "basic_handle/spruce"
+						"double/binding": "double/binding"
+						"double/binding_material": "double_binding/bolt"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						honing_progress: 440
+						id: "602c50d0-c062-4885-b7a0-956757c095d6"
+					}
+				}
+				id: "060F3E8E9D66B377"
+				title: "{university.forgedbolt.task}"
+				type: "custom"
+			}]
+			title: "{university.forgedbolt.title}"
+			x: 6.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["720E7178E0A91013"]
+			description: [
+				"{university.tetrawonk.desc1}"
+				""
+				"{university.tetrawonk.desc2}"
+				""
+				"{university.tetrawonk.desc3}"
+			]
+			hide: true
+			icon: "ftbquests:missing_item"
+			id: "7EC0D1ECFDD5FFE6"
+			min_width: 250
+			subtitle: "{university.tetrawonk.subtitle}"
+			tasks: [{
+				id: "3C9A0E49F41B7729"
+				type: "checkmark"
+			}]
+			title: "{university.tetrawonk.title}"
+			x: 0.0d
+			y: -1.5d
+		}
+	]
+	title: "{university.tetra.chapter}"
+}

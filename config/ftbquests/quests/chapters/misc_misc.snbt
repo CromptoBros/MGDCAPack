@@ -1,0 +1,1353 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "misc_misc"
+	group: "15D8274150BAE808"
+	icon: "minecraft:debug_stick"
+	id: "3F45B36C63382AA1"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.quarkenchant.desc1}"
+				""
+				"{image:ftbuniversity:textures/quests/misc/matrix_enchanting.png width:250 height:118 align:1}"
+				"{@pagebreak}"
+				"{university.quarkenchant.desc2}"
+				""
+				"{university.quarkenchant.desc3}"
+				""
+				"{university.quarkenchant.desc4}"
+				"{@pagebreak}"
+				"{university.quarkenchant.desc5}"
+			]
+			hide: true
+			id: "0D272D391AFE8387"
+			min_width: 275
+			subtitle: "{university.quarkenchant.subtitle}"
+			tasks: [{
+				id: "7802C9C2D9FF03BA"
+				item: "quark:matrix_enchanter"
+				type: "item"
+			}]
+			title: "[\"\",{\"translate\":\"university.quarkenchant.title\",\"font\":\"alt\"}]"
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.clickmachine.desc1}"
+				""
+				"{university.clickmachine.desc2}"
+			]
+			hide: true
+			id: "2715AF5EC30EEAC7"
+			subtitle: "{university.clickmachine.subtitle}"
+			tasks: [{
+				id: "7F7634F4AFBAE49D"
+				item: "clickmachine:auto_clicker"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.coolthings.desc1}"
+				""
+				"{university.coolthings.desc2}"
+				""
+				"{university.coolthings.desc3}"
+			]
+			hide: true
+			id: "791204CA38628E3A"
+			optional: true
+			rewards: [{
+				auto: "enabled"
+				id: "3FC25DF7D27D1F01"
+				item: {
+					Count: 1b
+					id: "ftbquests:lootcrate"
+					tag: {
+						type: "cool_things"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			subtitle: "{university.coolthings.subtitle}"
+			tasks: [{
+				id: "504463E320D387A8"
+				points: false
+				type: "xp"
+				value: 15L
+			}]
+			title: "{university.coolthings.title}"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.glassential.desc1}"
+				""
+				"{university.glassential.desc2}"
+			]
+			hide: true
+			icon: "glassential:glass_ethereal"
+			id: "6E73BEA81DF64F37"
+			rewards: [{
+				count: 64
+				id: "4F32EDADD968DA25"
+				item: "minecraft:glass"
+				type: "item"
+			}]
+			subtitle: "{university.glassential.subtitle}"
+			tasks: [{
+				id: "693A410630123ED7"
+				item: {
+					Count: 1b
+					id: "itemfilters:mod"
+					tag: {
+						value: "glassential"
+					}
+				}
+				title: "{university.glassential.task}"
+				type: "item"
+			}]
+			title: "{university.glassential.title}"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.framedblocks.desc1}"
+				""
+				"{university.framedblocks.desc2}"
+			]
+			hide: true
+			icon: "framedblocks:framed_double_prism_corner"
+			id: "4723920F4F626C05"
+			rewards: [{
+				id: "6DD37BBF32869D4B"
+				item: "framedblocks:framing_saw"
+				type: "item"
+			}]
+			subtitle: "{university.framedblocks.subtitle}"
+			tasks: [{
+				id: "72B2DEED40CD55C8"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:mod"
+								tag: {
+									value: "framedblocks"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:not"
+								tag: {
+									items: [{
+										Count: 1b
+										id: "itemfilters:or"
+										tag: {
+											items: [
+												{
+													Count: 1b
+													id: "framedblocks:framed_hammer"
+												}
+												{
+													Count: 1b
+													id: "framedblocks:framed_wrench"
+												}
+												{
+													Count: 1b
+													id: "framedblocks:framed_blueprint"
+													tag: {
+														blueprint_data: { }
+													}
+												}
+												{
+													Count: 1b
+													id: "framedblocks:framed_key"
+												}
+												{
+													Count: 1b
+													id: "framedblocks:framed_screwdriver"
+												}
+												{
+													Count: 1b
+													id: "framedblocks:framing_saw"
+												}
+												{
+													Count: 1b
+													id: "framedblocks:framed_reinforcement"
+												}
+											]
+										}
+									}]
+								}
+							}
+						]
+					}
+				}
+				title: "{university.framedblocks.title}"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.shrinkmod.desc1}"
+				""
+				"{university.shrinkmod.desc2}"
+				""
+				"{university.shrinkmod.desc3}"
+				""
+				"{university.shrinkmod.desc4}"
+				""
+				"{university.shrinkmod.desc5}"
+			]
+			hide: true
+			id: "6D3B872EEC0686E4"
+			min_width: 275
+			rewards: [{
+				id: "2CECE89EF58FD630"
+				item: {
+					Count: 1b
+					id: "shrink:mob_bottle"
+					tag: {
+						AbsorptionAmount: 0.0f
+						Age: 0
+						Air: 300s
+						AltMush: 0b
+						ArmorDropChances: [
+							0.085f
+							0.085f
+							0.085f
+							0.085f
+						]
+						ArmorItems: [
+							{ }
+							{ }
+							{ }
+							{ }
+						]
+						Attributes: [
+							{
+								Base: 16.0d
+								Modifiers: [{
+									Amount: -0.013571976579179499d
+									Name: "Random spawn bonus"
+									Operation: 1
+									UUID: [I;
+										783621013
+										-1967044147
+										-1117716172
+										-506409729
+									]
+								}]
+								Name: "minecraft:generic.follow_range"
+							}
+							{
+								Base: 0.08d
+								Name: "forge:entity_gravity"
+							}
+							{
+								Base: 0.25d
+								Name: "minecraft:generic.movement_speed"
+							}
+							{
+								Base: 0.0d
+								Name: "forge:step_height_addition"
+							}
+						]
+						BeamCounter: 0
+						Brain: {
+							memories: { }
+						}
+						CanPickUpLoot: 0b
+						CanUpdate: 1b
+						CitadelData: { }
+						DeathTime: 0s
+						EggTime: 31049
+						FallDistance: 0.0f
+						FallFlying: 0b
+						Fire: -1s
+						ForcedAge: 0
+						ForgeCaps: {
+							"mekanism:radiation": {
+								radiation: 1.0E-7d
+							}
+							"pneumaticcraft:hacking": { }
+							"shrink:shrunk": {
+								defaulteyeheight: 0.0f
+								isshrinking: 1b
+								isshrunk: 1b
+								scale: 0.21f
+							}
+						}
+						ForgeData: {
+							"naturesaura:time_alive": 40
+						}
+						HandDropChances: [
+							0.085f
+							0.085f
+						]
+						HandItems: [
+							{ }
+							{ }
+						]
+						Health: 15.0f
+						HurtByTimestamp: 0
+						HurtTime: 0s
+						InLove: 0
+						Invulnerable: 0b
+						KubeJSPersistentData: {
+							already_spawned: 1b
+						}
+						LeftHanded: 0b
+						Motion: [
+							0.0d
+							-0.0784000015258789d
+							0.0d
+						]
+						MushroomCount: 0
+						MushroomState: {
+							Name: "minecraft:brown_mushroom"
+						}
+						OnGround: 1b
+						PersistenceRequired: 0b
+						PortalCooldown: 0
+						Pos: [
+							174.5d
+							69.0d
+							-43.5d
+						]
+						Rotation: [
+							-69.33426f
+							0.0f
+						]
+						Sack: 0
+						UUID: [I;
+							-1160680541
+							589908377
+							-1359765605
+							-1319901418
+						]
+						entity: "alexsmobs:mungus"
+						"forge:spawn_type": "SPAWN_EGG"
+						id: "alexsmobs:mungus"
+						"slimyboyos:absorbed_item": {
+							Count: 1b
+							id: "minecraft:air"
+							tag: {
+								data_model: { }
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{university.shrinkmod.subtitle}"
+			tasks: [{
+				id: "7A5172C619BB8FE7"
+				item: {
+					Count: 1b
+					id: "shrink:shrinking_device"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{university.shrinkmod.title}"
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.compactmachines.desc1}"
+				""
+				"{university.compactmachines.desc2}"
+			]
+			hide: true
+			icon: "compactmachines:personal_shrinking_device"
+			id: "70C23F786C85AFE8"
+			min_width: 275
+			subtitle: "{university.compactmachines.subtitle}"
+			tasks: [
+				{
+					id: "1F9D11101C74FBE1"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "compactmachines:machine_tiny"
+								}
+								{
+									Count: 1b
+									id: "compactmachines:machine_small"
+								}
+								{
+									Count: 1b
+									id: "compactmachines:machine_normal"
+								}
+								{
+									Count: 1b
+									id: "compactmachines:machine_large"
+								}
+								{
+									Count: 1b
+									id: "compactmachines:machine_giant"
+								}
+								{
+									Count: 1b
+									id: "compactmachines:machine_maximum"
+								}
+							]
+						}
+					}
+					title: "{university.compactmachines.title}"
+					type: "item"
+				}
+				{
+					id: "1E0175BFEE9F0C80"
+					item: "compactmachines:personal_shrinking_device"
+					type: "item"
+				}
+			]
+			title: "{university.compactmachines.title}"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.tinyredstone.desc1}"
+				""
+				"{university.tinyredstone.desc2}"
+				""
+				"{university.tinyredstone.desc3}"
+				""
+				"{university.tinyredstone.desc4}"
+				"{@pagebreak}"
+				"{university.tinyredstone.desc5}"
+				""
+				"{university.tinyredstone.desc6}"
+				""
+				"{university.tinyredstone.desc7}"
+				""
+				"{image:ftbuniversity:textures/quests/misc/tiny_redstone.png width:100 height:100 align:1}"
+			]
+			hide: true
+			icon: "tinyredstone:tiny_redstone_block"
+			id: "1AE06DA75012FBCD"
+			min_width: 275
+			rewards: [{
+				count: 48
+				id: "5BEC44390C9853A5"
+				item: "tinyredstone:silicon"
+				type: "item"
+			}]
+			subtitle: "{university.tinyredstone.subtitle}"
+			tasks: [
+				{
+					id: "1F85BE8771B5631A"
+					item: "tinyredstone:redstone_panel"
+					type: "item"
+				}
+				{
+					id: "16896823D6482BC7"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "tinyredstone:tiny_component"
+						}
+					}
+					title: "{university.tinyredstone.task1}"
+					type: "item"
+				}
+				{
+					id: "3448373E6086FCE4"
+					item: {
+						Count: 1b
+						id: "itemfilters:mod"
+						tag: {
+							value: "tinygates"
+						}
+					}
+					title: "{university.tinyredstone.task2}"
+					type: "item"
+				}
+			]
+			title: "{university.tinyredstone.title}"
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.trashcans.desc1}"
+				""
+				"{university.trashcans.desc2}"
+				""
+				"{university.trashcans.desc3}"
+			]
+			hide: true
+			icon: "trashcans:item_trash_can"
+			id: "3BD980B0EF255B4B"
+			rewards: [{
+				id: "6AF8F6C52D0564DC"
+				item: {
+					Count: 1b
+					id: "minecraft:player_head"
+					tag: {
+						SkullOwner: {
+							Id: [I;
+								318930907
+								-1429649125
+								-1651259422
+								-141436858
+							]
+							Name: "1aaron5"
+							Properties: {
+								textures: [{
+									Value: "ewogICJ0aW1lc3RhbXAiIDogMTY4MTQzNDU5OTQyNywKICAicHJvZmlsZUlkIiA6ICIxMzAyN2ZkYmFhYzk0OTFiOWQ5M2M3ZTJmNzkxZDg0NiIsCiAgInByb2ZpbGVOYW1lIiA6ICIxYWFyb241IiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FjMzc2Yjg4MTQxZmQzNzZkNWM5MDNkNTdmODg3NDlmNmIzNGQ3ZmNmYWUzMTRjZGVjOWVmYmMyNWY4ZjQzMmMiCiAgICB9LAogICAgIkNBUEUiIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIzNDBjMGUwM2RkMjRhMTFiMTVhOGIzM2MyYTdlOWUzMmFiYjIwNTFiMjQ4MWQwYmE3ZGVmZDYzNWNhN2E5MzMiCiAgICB9CiAgfQp9"
+								}]
+							}
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{university.trashcans.subtitle}"
+			tasks: [{
+				id: "24858229415B95EB"
+				item: {
+					Count: 1b
+					id: "itemfilters:mod"
+					tag: {
+						value: "trashcans"
+					}
+				}
+				title: "{university.trashcans.task}"
+				type: "item"
+			}]
+			title: "{university.trashcans.title}"
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.compressium.desc1}"
+				""
+				"{university.compressium.desc2}"
+				""
+				"{university.compressium.desc3}"
+			]
+			hide: true
+			icon: "compressium:cobblestone_2"
+			id: "5BC926923754A2F5"
+			rewards: [{
+				icon: { Count: 64b, id: "compressium:diorite_9" }
+				id: "49F1A12D2A333CC4"
+				item: {
+					Count: 1b
+					id: "compressium:diorite_3"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"jk lol\"}"
+						}
+					}
+				}
+				title: "Compressed Block of Diorite (9x)"
+				type: "item"
+			}]
+			subtitle: "{university.compressium.subtitle}"
+			tasks: [{
+				id: "47B937FF0F4D5818"
+				item: {
+					Count: 1b
+					id: "itemfilters:mod"
+					tag: {
+						value: "compressium"
+					}
+				}
+				title: "{university.compressium.task}"
+				type: "item"
+			}]
+			title: "{university.compressium.title}"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.chipped.desc1}"
+				""
+				"{university.chipped.desc2}"
+			]
+			hide: true
+			icon: "chipped:tinkering_table"
+			id: "0DD4BBA875564671"
+			subtitle: "{university.chipped.subtitle}"
+			tasks: [
+				{
+					id: "3D27666DACFDBE74"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "chipped:botanist_workbench"
+								}
+								{
+									Count: 1b
+									id: "chipped:glassblower"
+								}
+								{
+									Count: 1b
+									id: "chipped:carpenters_table"
+								}
+								{
+									Count: 1b
+									id: "chipped:loom_table"
+								}
+								{
+									Count: 1b
+									id: "chipped:mason_table"
+								}
+								{
+									Count: 1b
+									id: "chipped:alchemy_bench"
+								}
+								{
+									Count: 1b
+									id: "chipped:tinkering_table"
+								}
+							]
+						}
+					}
+					title: "{university.chipped.task1}"
+					type: "item"
+				}
+				{
+					id: "7CB3D9AA731ECD1A"
+					item: {
+						Count: 1b
+						id: "itemfilters:and"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "itemfilters:not"
+									tag: {
+										items: [{
+											Count: 1b
+											id: "itemfilters:or"
+											tag: {
+												items: [
+													{
+														Count: 1b
+														id: "chipped:botanist_workbench"
+													}
+													{
+														Count: 1b
+														id: "chipped:glassblower"
+													}
+													{
+														Count: 1b
+														id: "chipped:carpenters_table"
+													}
+													{
+														Count: 1b
+														id: "chipped:loom_table"
+													}
+													{
+														Count: 1b
+														id: "chipped:mason_table"
+													}
+													{
+														Count: 1b
+														id: "chipped:alchemy_bench"
+													}
+													{
+														Count: 1b
+														id: "chipped:tinkering_table"
+													}
+												]
+											}
+										}]
+									}
+								}
+								{
+									Count: 1b
+									id: "itemfilters:mod"
+									tag: {
+										value: "chipped"
+									}
+								}
+							]
+						}
+					}
+					title: "{university.chipped.task2}"
+					type: "item"
+				}
+			]
+			title: "{university.chipped.title}"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.cnb.desc1}"
+				""
+				"{university.cnb.desc2}"
+				""
+				"{university.cnb.desc3}"
+				""
+				"{university.cnb.desc4}"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "chiselsandbits:chisel_iron"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "36EC3D5D89DD312B"
+			min_width: 250
+			subtitle: "{university.cnb.subtitle}"
+			tasks: [{
+				id: "384E924CA1C1B9D3"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "chiselsandbits:chisel_stone"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "chiselsandbits:chisel_iron"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "chiselsandbits:chisel_gold"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "chiselsandbits:chisel_diamond"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "chiselsandbits:chisel_netherite"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "{university.cnb.task}"
+				type: "item"
+			}]
+			title: "{university.cnb.title}"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["36EC3D5D89DD312B"]
+			description: [
+				"{university.bitbag.desc1}"
+				""
+				"{university.bitbag.desc2}"
+			]
+			id: "5BFC037DF733A163"
+			size: 0.5d
+			subtitle: "{university.bitbag.subtitle}"
+			tasks: [{
+				id: "565B72CBDF2963CE"
+				item: {
+					Count: 1b
+					id: "chiselsandbits:bit_bag"
+					tag: {
+						Inventory: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "{university.bitbag.title}"
+			x: -0.75d
+			y: -0.25d
+		}
+		{
+			dependencies: ["36EC3D5D89DD312B"]
+			description: ["{university.bittank.desc}"]
+			id: "4D351D44A25A3CF1"
+			size: 0.5d
+			subtitle: "{university.bittank.subtitle}"
+			tasks: [{
+				id: "65B9B92CA988FD79"
+				item: {
+					Count: 1b
+					id: "chiselsandbits:bit_storage"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "{university.bittank.title}"
+			x: -0.75d
+			y: 0.25d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.mmmmmmmmmmmm.desc1}"
+				""
+				"{university.mmmmmmmmmmmm.desc2}"
+				""
+				"{university.mmmmmmmmmmmm.desc3}"
+				""
+				"{university.mmmmmmmmmmmm.desc4}"
+			]
+			hide: true
+			id: "20EC38FAFB966641"
+			min_width: 250
+			subtitle: "{university.mmmmmmmmmmmm.subtitle}"
+			tasks: [{
+				id: "1DE6D16E819CD9F0"
+				item: "dummmmmmy:target_dummy"
+				type: "item"
+			}]
+			title: "{university.mmmmmmmmmmmm.title}"
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.cobblegen.desc1}"
+				""
+				"{university.cobblegen.desc2}"
+				""
+				"{university.cobblegen.desc3}"
+			]
+			hide: true
+			icon: "cobblefordays:tier_2"
+			id: "0794DB92B50F4B38"
+			rewards: [{
+				id: "2163A31037A6A1D9"
+				item: "compressium:cobblestone_3"
+				type: "item"
+			}]
+			subtitle: "{university.cobblegen.subtitle}"
+			tasks: [{
+				id: "1AC161397D092844"
+				item: {
+					Count: 1b
+					id: "itemfilters:mod"
+					tag: {
+						value: "cobblefordays"
+					}
+				}
+				title: "{university.cobblegen.task}"
+				type: "item"
+			}]
+			title: "{university.cobblegen.title}"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4723920F4F626C05"]
+			description: [
+				"{university.framedblocktools.desc1}"
+				""
+				"{university.framedblocktools.desc2}"
+				""
+				"{university.framedblocktools.desc3}"
+				""
+				"{university.framedblocktools.desc4}"
+				""
+				"{university.framedblocktools.desc5}"
+				""
+				"{university.framedblocktools.desc6}"
+				""
+				"{university.framedblocktools.desc7}"
+				""
+				"{university.framedblocktools.desc8}"
+				""
+				"{university.framedblocktools.desc9}"
+			]
+			icon: "framedblocks:framed_hammer"
+			id: "31987A3CF4290D35"
+			min_width: 275
+			size: 0.5d
+			subtitle: "{university.framedblocktools.subtitle}"
+			tasks: [{
+				id: "03F6DDA150D12B37"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "framedblocks:framed_hammer"
+							}
+							{
+								Count: 1b
+								id: "framedblocks:framed_wrench"
+							}
+							{
+								Count: 1b
+								id: "framedblocks:framed_blueprint"
+								tag: {
+									blueprint_data: { }
+								}
+							}
+							{
+								Count: 1b
+								id: "framedblocks:framed_key"
+							}
+							{
+								Count: 1b
+								id: "framedblocks:framed_screwdriver"
+							}
+							{
+								Count: 1b
+								id: "minecraft:glowstone_dust"
+							}
+							{
+								Count: 1b
+								id: "minecraft:water_bucket"
+							}
+							{
+								Count: 1b
+								id: "minecraft:bucket"
+							}
+							{
+								Count: 1b
+								id: "framedblocks:framed_reinforcement"
+							}
+							{
+								Count: 1b
+								id: "minecraft:phantom_membrane"
+							}
+						]
+					}
+				}
+				title: "{university.framedblocktools.title}"
+				type: "item"
+			}]
+			x: -8.25d
+			y: 0.0d
+		}
+		{
+			dependencies: ["70C23F786C85AFE8"]
+			description: [
+				"{university.compactupgrades.desc1}"
+				""
+				"{university.compactupgrades.desc2}"
+				"{@pagebreak}"
+				"{university.compactupgrades.desc3}"
+				""
+				"{image:ftbuniversity:textures/quests/misc/compact_tunnels.png width:179 height:150 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "compactmachines:tunnel"
+				tag: {
+					definition: {
+						id: "compactmachines:item"
+					}
+				}
+			}
+			id: "2F090E9C229A85EB"
+			min_width: 250
+			size: 0.5d
+			subtitle: "{university.compactupgrades.subtitle}"
+			tasks: [{
+				id: "737B0F960CBB3A62"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "compactmachines:tunnel"
+								tag: {
+									definition: {
+										id: "compactmachines:energy"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "compactmachines:tunnel"
+								tag: {
+									definition: {
+										id: "compactmachines:fluid"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "compactmachines:tunnel"
+								tag: {
+									definition: {
+										id: "compactmachines:item"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "compactmachines:chunkloader_upgrade"
+								tag: {
+									upgrade_info: {
+										key: "compactmachines:chunkloader"
+									}
+								}
+							}
+						]
+					}
+				}
+				title: "{university.compactupgrades.title}"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.mininggadget.desc1}"
+				""
+				"{university.mininggadget.desc2}"
+				""
+				"{university.mininggadget.desc3}"
+				""
+				"{university.mininggadget.desc4}"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "mininggadgets:mininggadget"
+				tag: {
+					energy: 1000000.0d
+				}
+			}
+			id: "0591566E7517A270"
+			min_width: 275
+			rewards: [{
+				id: "3F27704EDF763AA0"
+				item: "mininggadgets:upgrade_light_placer"
+				type: "item"
+			}]
+			subtitle: "{university.mininggadget.subtitle}"
+			tasks: [
+				{
+					id: "38449ABD8C23F325"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "mininggadgets:mininggadget_simple"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "mininggadgets:mininggadget_fancy"
+									tag: { }
+								}
+								{
+									Count: 1b
+									id: "mininggadgets:mininggadget"
+									tag: { }
+								}
+							]
+						}
+					}
+					title: "{university.mininggadget.task1}"
+					type: "item"
+				}
+				{
+					id: "106DB6EBF2FA2CF9"
+					item: "mininggadgets:modificationtable"
+					type: "item"
+				}
+				{
+					id: "41DE413E2558621B"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "gadget.*upgrade"
+						}
+					}
+					title: "{university.mininggadget.task2}"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.gag.desc1}"
+				""
+				"{university.gag.desc2}"
+				""
+				"{university.gag.desc3}"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "gag:time_sand_pouch"
+				tag: {
+					grains: 40
+				}
+			}
+			id: "5E0EADE6277BE0C0"
+			subtitle: "{university.gag.subtitle}"
+			tasks: [{
+				id: "626F3323E32A77E7"
+				item: {
+					Count: 1b
+					id: "itemfilters:mod"
+					tag: {
+						value: "gag"
+					}
+				}
+				title: "{university.gag.task}"
+				type: "item"
+			}]
+			title: "{university.gag.title}"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.scannable.desc1}"
+				""
+				"{university.scannable.desc2}"
+				""
+				"{university.scannable.desc3}"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "scannable:scanner"
+				tag: {
+					items: [
+						{
+							item: {
+								Count: 1b
+								id: "scannable:common_ores_module"
+							}
+							slot: 0b
+						}
+						{
+							item: {
+								Count: 1b
+								id: "scannable:range_module"
+							}
+							slot: 1b
+						}
+						{
+							item: {
+								Count: 1b
+								id: "scannable:range_module"
+							}
+							slot: 2b
+						}
+					]
+				}
+			}
+			id: "38123AAA7143BB88"
+			rewards: [{
+				id: "2A9451B5E5C6BA4E"
+				item: "scannable:range_module"
+				type: "item"
+			}]
+			subtitle: "{university.scannable.subtitle}"
+			tasks: [
+				{
+					id: "6358DFA051F04088"
+					item: "scannable:scanner"
+					type: "item"
+				}
+				{
+					id: "44DAEBEFD8FDC940"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "scannable:range_module"
+								}
+								{
+									Count: 1b
+									id: "scannable:entity_module"
+								}
+								{
+									Count: 1b
+									id: "scannable:hostile_entity_module"
+								}
+								{
+									Count: 1b
+									id: "scannable:friendly_entity_module"
+								}
+								{
+									Count: 1b
+									id: "scannable:block_module"
+								}
+								{
+									Count: 1b
+									id: "scannable:rare_ores_module"
+								}
+								{
+									Count: 1b
+									id: "scannable:common_ores_module"
+								}
+								{
+									Count: 1b
+									id: "scannable:fluid_module"
+								}
+							]
+						}
+					}
+					title: "{university.scannable.task2}"
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.jamd.desc1}"
+				""
+				"{university.jamd.desc2}"
+			]
+			hide: true
+			id: "3BF9AFE67010FD39"
+			subtitle: "{university.jamd.subtitle}"
+			tasks: [{
+				id: "42697CD80A4D523C"
+				item: "jamd:mine_portal_block"
+				type: "item"
+			}]
+			title: "{university.jamd.title}"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.emi.desc1}"
+				""
+				"{university.emi.desc2}"
+				""
+				"{image:ftbuniversity:textures/quests/misc/emi/recipe_tree.png width:1000 height:557 align:1 fit:true}"
+				"{@pagebreak}"
+				"[\"\",{\"translate\":\"university.emi.remove1.1\"},{\"translate\":\"university.emi.remove1.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"7F7AE39FD5850BB6\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"university.emi.remove1.2text\"}]}},{\"translate\":\"university.emi.remove1.3\"}]"
+				""
+				"{university.emi.remove2}"
+				"{@pagebreak}"
+				"{university.emi.desc3}"
+				""
+				"{university.emi.desc4}"
+				""
+				"{image:ftbuniversity:textures/quests/misc/emi/untaught.png width:100 height:109 align:1}"
+				"{@pagebreak}"
+				"{university.emi.desc5}"
+				""
+				"{image:ftbuniversity:textures/quests/misc/emi/partially_taught.png width:100 height:140 align:1}"
+				"{@pagebreak}"
+				"{university.emi.desc6}"
+				""
+				"{image:ftbuniversity:textures/quests/misc/emi/fully_taught.png width:134 height:120 align:1}"
+				""
+				"{university.emi.desc7}"
+				"{@pagebreak}"
+				"{university.emi.desc8}"
+				""
+				"{image:ftbuniversity:textures/quests/misc/emi/synthetic_favorites.png width:500 height:133 align:1 fit:true}"
+				""
+				"{university.emi.desc9}"
+				"{@pagebreak}"
+				"{university.emi.desc10}"
+				""
+				"{university.emi.desc11}"
+				""
+				"{university.emi.desc12}"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbuniversity:textures/quests/misc/emi/emi.png"
+				}
+			}
+			id: "196B455F50521BE2"
+			min_width: 250
+			subtitle: "{university.emi.subtitle}"
+			tasks: [{
+				id: "417E966DFD867E07"
+				type: "checkmark"
+			}]
+			title: "{university.emi.title}"
+			x: -4.5d
+			y: -1.5d
+		}
+	]
+	title: "{university.misc.chapter}"
+}

@@ -1,0 +1,12 @@
+{
+	id: "1AFBAB023127ACCF"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{ item: "pneumaticcraft:advanced_air_compressor" }
+		{ item: "pneumaticcraft:advanced_liquid_compressor" }
+		{ item: "pneumaticcraft:solar_compressor" }
+	]
+	title: "{university.aerialinterface.rewards}"
+	use_title: true
+}

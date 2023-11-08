@@ -1,0 +1,436 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "technical"
+	group: "15D8274150BAE808"
+	icon: {
+		Count: 1b
+		id: "ftbquests:custom_icon"
+		tag: {
+			Icon: "ftbuniversity:textures/quests/technical/spark/logo.png"
+		}
+	}
+	id: "700DAC37037A6281"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.spark.desc1}"
+				""
+				"[\"\",{\"translate\":\"university.spark.desc3.1\"},{\"translate\":\"university.spark.desc3.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://spark.lucko.me/docs/\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: https://spark.lucko.me/docs/\"]}},{\"translate\":\"university.spark.desc3.3\"}]"
+				"{@pagebreak}"
+				"{university.spark.desc4}"
+				""
+				"{university.spark.desc5}"
+				""
+				"{university.spark.desc6}"
+				"{@pagebreak}"
+				"{image:ftbuniversity:textures/quests/technical/spark/toggle_views.png width:98 height:25 align:1}"
+				""
+				"{university.spark.desc8}"
+				""
+				"{image:ftbuniversity:textures/quests/technical/spark/widgets.png width:250 height:54 align:1 fit:true}"
+				""
+				"{university.spark.desc9}"
+				"{@pagebreak}"
+				"{university.spark.desc10}"
+				""
+				"{image:ftbuniversity:textures/quests/technical/spark/graph.png width:402 height:100 align:1 fit:true}"
+				""
+				"{university.spark.desc11}"
+				""
+				"{university.spark.desc12}"
+				""
+				"{university.spark.desc13}"
+				"{@pagebreak}"
+				"{university.spark.desc14}"
+				""
+				"{image:ftbuniversity:textures/quests/technical/spark/collapsed_tree.png width:500 height:121 align:1 fit:true}"
+				""
+				"{university.spark.desc15}"
+				""
+				"{university.spark.desc16}"
+				"{@pagebreak}"
+				"{image:ftbuniversity:textures/quests/technical/spark/graph_selected.png width:200 height:49 align:1 fit:true}"
+				""
+				"{university.spark.desc17}"
+				""
+				"{university.spark.desc18}"
+				""
+				"{image:ftbuniversity:textures/quests/technical/spark/tnt_tree.png width:240 height:100 align:1 fit:true}"
+				"{@pagebreak}"
+				"{image:ftbuniversity:textures/quests/technical/spark/view_modes.png width:643 height:58 align:1 fit:true}"
+				""
+				"{university.spark.desc19}"
+				""
+				"{university.spark.desc20}"
+				"{@pagebreak}"
+				"{image:ftbuniversity:textures/quests/technical/spark/flame_button.png width:32 height:32 align:1}"
+				""
+				"{university.spark.desc21}"
+				""
+				"{image:ftbuniversity:textures/quests/technical/spark/flame_graph.png width:500 height:202 align:1 fit:true}"
+				"{@pagebreak}"
+				"[\"\",{\"translate\":\"university.observable.desc12.1\"},{\"translate\":\"university.observable.desc12.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/FTBTeam/FTB-Modpack-Issues/issues\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: https://github.com/FTBTeam/FTB-Modpack-Issues/issues\"]}},{\"translate\":\"university.observable.desc12.3\"},{\"translate\":\"university.observable.desc12.4\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/feedthebeast\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: https://discord.gg/feedthebeast\"]}},{\"translate\":\"university.observable.desc12.5\"}]"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbuniversity:textures/quests/technical/spark/logo.png"
+				}
+			}
+			id: "2A5A57BC28E9B6AE"
+			min_width: 275
+			subtitle: "{university.spark.subtitle}"
+			tasks: [{
+				id: "7C54FD3D36992E9E"
+				type: "checkmark"
+			}]
+			title: "{university.spark.title}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.observable.desc1}"
+				""
+				"{university.observable.desc2}"
+				""
+				"{image:ftbuniversity:textures/quests/technical/observable/menu.png width:200 height:149 align:1}"
+				"{@pagebreak}"
+				"{university.observable.desc3}"
+				""
+				"{university.observable.desc4}"
+				"{@pagebreak}"
+				"{university.observable.desc5}"
+				""
+				"{image:ftbuniversity:textures/quests/technical/observable/overlay.png width:250 height:115 align:1}"
+				""
+				"{university.observable.desc6}"
+				"{@pagebreak}"
+				"{university.observable.desc7}"
+				""
+				"{university.observable.desc8}"
+				""
+				"{image:ftbuniversity:textures/quests/technical/observable/individual.png width:250 height:120 align:1 fit:true}"
+				"{@pagebreak}"
+				"{university.observable.desc9}"
+				""
+				"{image:ftbuniversity:textures/quests/technical/observable/aggregate.png width:250 height:113 align:1}"
+				"{@pagebreak}"
+				"{university.observable.desc10}"
+				""
+				"[\"\",{\"translate\":\"university.observable.desc12.1\"},{\"translate\":\"university.observable.desc12.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/FTBTeam/FTB-Modpack-Issues/issues\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: https://github.com/FTBTeam/FTB-Modpack-Issues/issues\"]}},{\"translate\":\"university.observable.desc12.3\"},{\"translate\":\"university.observable.desc12.4\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/feedthebeast\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: https://discord.gg/feedthebeast\"]}},{\"translate\":\"university.observable.desc12.5\"}]"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbuniversity:textures/quests/technical/observable/logo.png"
+				}
+			}
+			id: "4C0FED80C9F3451B"
+			min_width: 275
+			subtitle: "{university.observable.subtitle}"
+			tasks: [{
+				id: "4F82A0D33261613E"
+				type: "checkmark"
+			}]
+			title: "{university.observable.title}"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.crashreports.desc1}"
+				""
+				"{university.crashreports.desc2}"
+				""
+				"[\"\",{\"translate\":\"university.crashreports.desc3.1\"},{\"translate\":\"university.crashreports.desc3.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/FTBTeam/FTB-Modpack-Issues/issues\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: https://github.com/FTBTeam/FTB-Modpack-Issues/issues\"]}},{\"translate\":\"university.crashreports.desc3.3\"}]"
+				"{@pagebreak}"
+				"{university.crashreports.desc4}"
+				""
+				"[\"\",{\"translate\":\"university.crashreports.desc5.1\"},{\"translate\":\"university.crashreports.desc5.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://gist.github.com/aaronhowser1/198815a0c03f699252e6c43291df0f57\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: https://gist.github.com/aaronhowser1/198815a0c03f699252e6c43291df0f57\"]}},{\"translate\":\"university.crashreports.desc5.3\"}]"
+				"{@pagebreak}"
+				"{university.crashreports.desc6}"
+				""
+				"{university.crashreports.desc7}"
+				""
+				"{university.crashreports.desc8}"
+				"{@pagebreak}"
+				"{university.crashreports.desc9}"
+				""
+				"{university.crashreports.desc10}"
+				"{@pagebreak}"
+				"{university.crashreports.desc11}"
+				""
+				"{university.crashreports.desc12}"
+				"{@pagebreak}"
+				"{university.crashreports.desc13}"
+				""
+				"{university.crashreports.desc14}"
+				""
+				"{university.crashreports.desc15}"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbuniversity:textures/quests/technical/txt_file.png"
+				}
+			}
+			id: "5BB73AA8506877FF"
+			min_width: 250
+			subtitle: "{university.crashreports.subtitle}"
+			tasks: [{
+				id: "783A5AD3A207D526"
+				type: "checkmark"
+			}]
+			title: "{university.crashreports.title}"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.modconfigure.desc1}"
+				""
+				"{university.modconfigure.desc2}"
+				""
+				"{university.modconfigure.desc3}"
+				"{@pagebreak}"
+				"{university.modconfigure.desc4}"
+				""
+				"{university.modconfigure.desc5}"
+				"{@pagebreak}"
+				"[\"\",{\"translate\":\"university.modconfigure.desc6.1\"},{\"translate\":\"university.modconfigure.desc6.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://code.visualstudio.com/\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: https://code.visualstudio.com/\"]}},{\"translate\":\"university.modconfigure.desc6.3\"},{\"translate\":\"university.modconfigure.desc6.4\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://notepad-plus-plus.org/\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: https://notepad-plus-plus.org/\"]}},{\"translate\":\"university.modconfigure.desc6.5\"}]"
+				"{@pagebreak}"
+				"{university.modconfigure.desc7}"
+				""
+				"{university.modconfigure.desc8}"
+				""
+				"{image:ftbuniversity:textures/quests/technical/example_config.png width:100 height:73 align:1 fit:true}"
+				"{@pagebreak}"
+				"{university.modconfigure.desc9}"
+				""
+				"{university.modconfigure.desc10}"
+				""
+				"{university.modconfigure.desc11}"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbuniversity:textures/quests/technical/toml.png"
+				}
+			}
+			id: "4DD56B212FB708E3"
+			min_width: 275
+			subtitle: "{university.modconfigure.subtitle}"
+			tasks: [{
+				id: "1906676DEB48B3A4"
+				title: "{university.modconfigure.task}"
+				type: "custom"
+			}]
+			title: "{university.modconfigure.title}"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.removingmods.desc1}"
+				""
+				"{university.removingmods.desc2}"
+				"{@pagebreak}"
+				"{university.removingmods.desc3}"
+				""
+				"{university.removingmods.desc4}"
+				""
+				"{university.removingmods.desc5}"
+				"{@pagebreak}"
+				"{university.removingmods.desc6}"
+				""
+				"{university.removingmods.desc7}"
+				"{@pagebreak}"
+				"{university.removingmods.desc8}"
+				""
+				"{university.removingmods.desc9}"
+				""
+				"{university.removingmods.desc10}"
+				""
+				"[\"\",{\"translate\":\"university.removingmods.desc11.1\"},{\"translate\":\"university.removingmods.desc11.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"change_page\",\"value\":\"5BB73AA8506877FF\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"translate\":\"university.removingmods.desc11.2text\"}]}},{\"translate\":\"university.removingmods.desc11.3\"}]"
+				"{@pagebreak}"
+				"{university.removingmods.desc12}"
+				""
+				"[\"\",{\"translate\":\"university.removingmods.desc13.1\"},{\"translate\":\"university.removingmods.desc13.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://www.curseforge.com/minecraft/search?page=1&class=mc-mods&sortType=1&pageSize=20\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\":three_button_mouse: Curseforge\"}]}},{\"translate\":\"university.removingmods.desc13.3\"},{\"translate\":\"university.removingmods.desc13.4\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://modrinth.com/mods\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[{\"text\":\":three_button_mouse: Modrinth\"}]}},{\"translate\":\"university.removingmods.desc13.5\"}]"
+				""
+				"[\"\",{\"translate\":\"university.removingmods.desc14.1\"},{\"translate\":\"university.removingmods.desc14.2\",\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://stopmodreposts.org/\"},\"hoverEvent\":{\"action\":\"show_text\",\"contents\":[\":three_button_mouse: Stop Mod Reposts\"]}},{\"translate\":\"university.removingmods.desc14.3\"}]"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbuniversity:textures/quests/technical/jar.png"
+				}
+			}
+			id: "7F7AE39FD5850BB6"
+			min_width: 250
+			subtitle: "{university.removingmods.subtitle}"
+			tasks: [{
+				id: "2F836F0AC37FDD41"
+				type: "checkmark"
+			}]
+			title: "{university.removingmods.title}"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.ftbbackups.desc1}"
+				""
+				"{university.ftbbackups.desc2}"
+				"{@pagebreak}"
+				"{university.ftbbackups.desc3}"
+				""
+				"{university.ftbbackups.desc4}"
+				""
+				"{image:ftbuniversity:textures/quests/technical/backups/folder.png width:125 height:89 align:1}"
+				"{@pagebreak}"
+				"{university.ftbbackups.desc5}"
+				""
+				"{image:ftbuniversity:textures/quests/technical/backups/zip.png width:120 height:25 align:1}"
+				""
+				"{university.ftbbackups.desc6}"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbuniversity:textures/quests/technical/ftb_backups.png"
+				}
+			}
+			id: "05B063803443F618"
+			min_width: 250
+			subtitle: "{university.ftbbackups.subtitle}"
+			tasks: [{
+				id: "0E961EB68C177C9E"
+				type: "checkmark"
+			}]
+			title: "{university.ftbbackups.title}"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.reachinginstance.desc1}"
+				""
+				"{university.reachinginstance.desc2}"
+				""
+				"{image:ftbuniversity:textures/quests/technical/open_folder.png width:82 height:50 align:1}"
+				""
+				"{university.reachinginstance.desc3}"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbuniversity:textures/quests/technical/folder.png"
+				}
+			}
+			id: "12E35865F9C6FFA8"
+			min_width: 250
+			subtitle: "{university.reachinginstance.subtitle}"
+			tasks: [{
+				id: "592A9E291CBACE08"
+				type: "checkmark"
+			}]
+			title: "{university.reachinginstance.title}"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.effortlessbuilding.desc1}"
+				""
+				"{university.effortlessbuilding.desc2}"
+				""
+				"{image:ftbuniversity:textures/quests/technical/effortless/radial.png width:75 height:75 align:1}"
+				"{@pagebreak}"
+				"{university.effortlessbuilding.desc3}"
+				""
+				"{university.effortlessbuilding.desc4}"
+				"{@pagebreak}"
+				"{university.effortlessbuilding.desc5}"
+				""
+				"{image:ftbuniversity:textures/quests/technical/effortless/filling.png width:133 height:75 align:1}"
+				""
+				"{university.effortlessbuilding.desc6}"
+				""
+				"{university.effortlessbuilding.desc7}"
+				"{@pagebreak}"
+				"{university.effortlessbuilding.desc8}"
+				""
+				"{image:ftbuniversity:textures/quests/technical/effortless/modifier.png width:123 height:100 align:1}"
+				""
+				"{university.effortlessbuilding.desc9}"
+				""
+				"{image:ftbuniversity:textures/quests/technical/effortless/array.png width:230 height:119 align:1}"
+				"{@pagebreak}"
+				"{university.effortlessbuilding.desc10}"
+				""
+				"{image:ftbuniversity:textures/quests/technical/effortless/mirror.png width:177 height:50 align:1}"
+				""
+				"{university.effortlessbuilding.desc11}"
+				""
+				"{image:ftbuniversity:textures/quests/technical/effortless/mirror_circles.png width:202 height:100 align:1}"
+				"{@pagebreak}"
+				"{university.effortlessbuilding.desc12}"
+				""
+				"{image:ftbuniversity:textures/quests/technical/effortless/radial_mirror.png width:177 height:50 align:1}"
+				""
+				"{image:ftbuniversity:textures/quests/technical/effortless/radial_lines.png width:230 height:156 align:1}"
+				"{@pagebreak}"
+				"{university.effortlessbuilding.desc13}"
+				""
+				"{image:ftbuniversity:textures/quests/technical/effortless/stacking_modifiers.png width:177 height:103 align:1}"
+				""
+				"{image:ftbuniversity:textures/quests/technical/effortless/twice_radial.png width:230 height:150 align:1}"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbuniversity:textures/quests/technical/effortless.png"
+				}
+			}
+			id: "5C4C58753E7317CE"
+			min_width: 275
+			subtitle: "{university.effortlessbuilding.subtitle}"
+			tasks: [{
+				id: "52BAA79337CA56AF"
+				type: "checkmark"
+			}]
+			title: "{university.effortlessbuilding.title}"
+			x: 3.0d
+			y: 3.0d
+		}
+	]
+	title: "{university.technical.chapter}"
+}

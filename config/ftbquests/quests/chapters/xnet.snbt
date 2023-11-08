@@ -1,0 +1,426 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "hexagon"
+	filename: "xnet"
+	group: "3355232C2CB5DB41"
+	icon: "xnet:controller"
+	id: "108D30F86FAD2DCD"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["264CE0005277D2B7"]
+			description: [
+				"{university.xncontroller.desc1}"
+				""
+				"{university.xncontroller.desc2}"
+				""
+				"{university.xncontroller.desc3}"
+			]
+			hide: true
+			id: "5FD0B280AB8DD096"
+			subtitle: "{university.xncontroller.subtitle}"
+			tasks: [{
+				id: "02BD0A5072CF3540"
+				item: "xnet:controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5FD0B280AB8DD096"]
+			description: [
+				"{university.xnconnector.desc1}"
+				""
+				"{university.xnconnector.desc2}"
+				""
+				"{university.xnconnector.desc3}"
+				""
+				"{university.xnconnector.desc4}"
+			]
+			icon: "xnet:connector_blue"
+			id: "14C4F6EBB2F6BE8C"
+			min_width: 275
+			subtitle: "{university.xnconnector.subtitle}"
+			tasks: [{
+				id: "5643E1E344BB4CAE"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "xnet:connector_red"
+							}
+							{
+								Count: 1b
+								id: "xnet:connector_green"
+							}
+							{
+								Count: 1b
+								id: "xnet:connector_blue"
+							}
+							{
+								Count: 1b
+								id: "xnet:connector_yellow"
+							}
+						]
+					}
+				}
+				title: "{university.xnconnector.title}"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["14C4F6EBB2F6BE8C"]
+			description: [
+				"{university.advconnectors.desc1}"
+				""
+				"{university.advconnectors.desc2}"
+				""
+				"{university.advconnectors.desc3}"
+				""
+				"{university.advconnectors.desc4}"
+			]
+			icon: "xnet:advanced_connector_blue"
+			id: "73C7A7F6B4C2A959"
+			min_width: 275
+			subtitle: "{university.advconnectors.subtitle}"
+			tasks: [{
+				id: "77EB9C01360759E8"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "xnet:advanced_connector_red"
+							}
+							{
+								Count: 1b
+								id: "xnet:advanced_connector_green"
+							}
+							{
+								Count: 1b
+								id: "xnet:advanced_connector_blue"
+							}
+							{
+								Count: 1b
+								id: "xnet:advanced_connector_yellow"
+							}
+						]
+					}
+				}
+				title: "{university.advconnectors.title}"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["14C4F6EBB2F6BE8C"]
+			description: ["{university.xnfacade.desc}"]
+			id: "16A7D508D41713FD"
+			subtitle: "{university.xnfacade.subtitle}"
+			tasks: [{
+				id: "40144C287EA4FF14"
+				item: "xnet:facade"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["14C4F6EBB2F6BE8C"]
+			description: [
+				"{university.xncables.desc1}"
+				""
+				"{university.xncables.desc2}"
+				""
+				"{university.xncables.desc3}"
+			]
+			icon: "xnet:netcable_blue"
+			id: "3435A70C6C556B40"
+			min_width: 225
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1007BA019D8D0B1E"
+				table_id: 8101254141349678143L
+				type: "choice"
+			}]
+			subtitle: "{university.xncables.subtitle}"
+			tasks: [{
+				id: "67068B6FA2F468AE"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "xnet:netcable_red"
+							}
+							{
+								Count: 1b
+								id: "xnet:netcable_green"
+							}
+							{
+								Count: 1b
+								id: "xnet:netcable_blue"
+							}
+							{
+								Count: 1b
+								id: "xnet:netcable_yellow"
+							}
+						]
+					}
+				}
+				title: "{university.xncables.title}"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3435A70C6C556B40"]
+			description: [
+				"{university.xnet1.desc1}"
+				""
+				"{university.xnet1.desc2}"
+				""
+				"{university.xnet1.desc3}"
+				"{@pagebreak}"
+				"{university.xnet1.desc4}"
+				""
+				"{university.xnet1.desc5}"
+				""
+				"{image:ftbuniversity:textures/quests/xnet/xnet_controller.png width:200 height:129 align:1}"
+			]
+			icon: {
+				Count: 1b
+				id: "botania:cosmetic_questgiver_mark"
+				tag: { }
+			}
+			id: "5EDED471FE6ED67D"
+			min_width: 300
+			subtitle: "{university.xnet1.subtitle}"
+			tasks: [{
+				id: "774EAC0465DF24EC"
+				type: "checkmark"
+			}]
+			title: "{university.xnet1.title}"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5EDED471FE6ED67D"]
+			description: [
+				"{university.xnet3.desc1}"
+				""
+				"{university.xnet3.desc2}"
+				""
+				"{university.xnet3.desc3}"
+				""
+				"{university.xnet3.desc4}"
+			]
+			icon: {
+				Count: 1b
+				id: "botania:cosmetic_questgiver_mark"
+				tag: { }
+			}
+			id: "1E5443A0B4502D8E"
+			subtitle: "{university.xnet3.subtitle}"
+			tasks: [{
+				id: "6D8C51F3B453BFBA"
+				type: "checkmark"
+			}]
+			title: "{university.xnet3.title}"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5EDED471FE6ED67D"]
+			description: [
+				"{university.xnet2.desc1}"
+				""
+				"{university.xnet2.desc2}"
+				"{@pagebreak}"
+				"{university.xnet2.desc3}"
+				""
+				"{university.xnet2.desc4}"
+				"{@pagebreak}"
+				"{university.xnet2.desc5}"
+				""
+				"{university.xnet2.desc6}"
+			]
+			icon: "minecraft:furnace"
+			id: "0FD2C321698D11B4"
+			min_width: 275
+			subtitle: "{university.xnet2.subtitle}"
+			tasks: [{
+				id: "7630D9379DABF609"
+				type: "checkmark"
+			}]
+			title: "{university.xnet2.title}"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5EDED471FE6ED67D"]
+			description: [
+				"{university.xnlogic.desc1}"
+				""
+				"{university.xnlogic.desc2}"
+				""
+				"{university.xnlogic.desc3}"
+				"{@pagebreak}"
+				"{university.xnlogic.desc4}"
+				"{image:ftbuniversity:textures/quests/xnet/xnet_logic_1.png width:200 height:80 align:1}"
+				"{@pagebreak}"
+				"{university.xnlogic.desc5}"
+				"{image:ftbuniversity:textures/quests/xnet/xnet_logic_2.png width:200 height:80 align:1}"
+				""
+				"{university.xnlogic.desc6}"
+			]
+			icon: {
+				Count: 1b
+				id: "botania:cosmetic_questgiver_mark"
+				tag: { }
+			}
+			id: "00F94BCC956DD822"
+			min_width: 275
+			subtitle: "{university.xnlogic.subtitle}"
+			tasks: [{
+				id: "57460204A50A04DF"
+				type: "checkmark"
+			}]
+			title: "{university.xnlogic.title}"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5EDED471FE6ED67D"]
+			description: [
+				"{university.xnrouter.desc1}"
+				""
+				"{university.xnrouter.desc2}"
+				""
+				"{university.xnrouter.desc3}"
+				""
+				"{university.xnrouter.desc4}"
+				""
+				"{university.xnrouter.desc5}"
+				""
+				"{university.xnrouter.desc6}"
+			]
+			id: "33008D0753CA6DF3"
+			min_width: 275
+			subtitle: "{university.xnrouter.subtitle}"
+			tasks: [{
+				id: "619D0C8ACF28C442"
+				item: "xnet:router"
+				type: "item"
+			}]
+			title: "{university.xnrouter.title}"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["33008D0753CA6DF3"]
+			description: [
+				"{university.xnrouter2.desc1}"
+				""
+				"{university.xnrouter2.desc2}"
+				"{@pagebreak}"
+				"{university.xnrouter2.desc3}"
+				""
+				"{university.xnrouter2.desc4}"
+				"{@pagebreak}"
+				"{university.xnrouter2.desc5}"
+			]
+			icon: "xnet:connector_routing"
+			id: "563EB6A13FFE0F5C"
+			min_width: 275
+			rewards: [{
+				id: "22988166B6D34193"
+				item: "xnet:router"
+				type: "item"
+			}]
+			subtitle: "{university.xnrouter2.subtitle}"
+			tasks: [
+				{
+					id: "5FF71D6C3E7DB136"
+					item: "xnet:connector_routing"
+					type: "item"
+				}
+				{
+					id: "42B4CCF3400C3F35"
+					item: "xnet:netcable_routing"
+					type: "item"
+				}
+			]
+			title: "{university.xnrouter2.title}"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["563EB6A13FFE0F5C"]
+			description: [
+				"{university.wirelessrouter.desc1}"
+				""
+				"{university.wirelessrouter.desc2}"
+				"{@pagebreak}"
+				"{university.wirelessrouter.desc3}"
+				""
+				"{university.wirelessrouter.desc4}"
+				""
+				"{university.wirelessrouter.desc5}"
+			]
+			icon: "xnet:wireless_router"
+			id: "307B9C35ACE6E121"
+			min_width: 275
+			subtitle: "{university.wirelessrouter.subtitle}"
+			tasks: [
+				{
+					id: "520FA6931BB848F4"
+					item: "xnet:wireless_router"
+					type: "item"
+				}
+				{
+					id: "6C5898B0564CB54A"
+					item: "xnet:antenna_base"
+					type: "item"
+				}
+				{
+					id: "111C9B0EA059C6B0"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "xnet:antenna"
+								}
+								{
+									Count: 1b
+									id: "xnet:antenna_dish"
+								}
+							]
+						}
+					}
+					title: "{university.wirelessrouter.task}"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: 0.0d
+		}
+	]
+	title: "{university.xnet.chapter}"
+}

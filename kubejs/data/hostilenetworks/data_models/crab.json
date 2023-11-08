@@ -1,0 +1,49 @@
+{
+  "conditions": [
+    {
+      "modid": "quark",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "quark:crab",
+  "subtypes": [],
+  "name": "entity.quark.crab",
+  "name_color": "0xC5B2E1",
+  "display_nbt": {},
+  "gui_scale": 1.0,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 0.0,
+  "gui_z_offset": 0.0,
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:empty_prediction",
+    "count": 1
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction",
+    "count": 1
+  },
+  "trivia": "hostilenetworks.trivia.crab",
+  "fabricator_drops": [
+    {
+      "item": "quark:crab_leg",
+      "count": 16
+    },
+    {
+      "item": "quark:crab_shell",
+      "count": 8
+    }
+  ],
+  "tier_data": [
+    6,
+    54,
+    354,
+    1254
+  ],
+  "data_per_kill": [
+    1,
+    4,
+    10,
+    18
+  ]
+}

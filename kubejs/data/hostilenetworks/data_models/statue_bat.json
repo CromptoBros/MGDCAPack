@@ -1,0 +1,45 @@
+{
+  "conditions": [
+    {
+      "modid": "statues",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "statues:statue_bat",
+  "subtypes": [],
+  "name": "entity.statues.statue_bat",
+  "name_color": "0xF71165",
+  "display_nbt": {},
+  "gui_scale": 1.0,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 0.0,
+  "gui_z_offset": 0.0,
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:empty_prediction",
+    "count": 1
+  },
+  "base_drop": {
+    "item": "hostilenetworks:overworld_prediction",
+    "count": 1
+  },
+  "trivia": "hostilenetworks.trivia.statue_bat",
+  "fabricator_drops": [
+    {
+      "item": "statues:statue_core",
+      "count": 4
+    }
+  ],
+  "tier_data": [
+    6,
+    54,
+    354,
+    1254
+  ],
+  "data_per_kill": [
+    1,
+    4,
+    10,
+    18
+  ]
+}

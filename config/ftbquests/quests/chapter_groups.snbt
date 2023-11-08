@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "590394916256F444", title: "{university.gear.group}" }
+		{ id: "3355232C2CB5DB41", title: "{university.storageautomation.group}" }
+		{ id: "324223492707BC57", title: "{university.tech.group}" }
+		{ id: "38AD62CCDB954696", title: "{university.magic.group}" }
+		{ id: "15D8274150BAE808", title: "{university.misc.group}" }
+	]
+}

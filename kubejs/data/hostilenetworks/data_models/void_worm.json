@@ -1,0 +1,49 @@
+{
+  "conditions": [
+    {
+      "modid": "alexsmobs",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "alexsmobs:void_worm",
+  "subtypes": [],
+  "name": "entity.alexsmobs.void_worm",
+  "name_color": "0xD31093",
+  "display_nbt": {},
+  "gui_scale": 1.0,
+  "gui_x_offset": 0.0,
+  "gui_y_offset": 0.0,
+  "gui_z_offset": 0.0,
+  "sim_cost": 256,
+  "input": {
+    "item": "hostilenetworks:empty_prediction",
+    "count": 1
+  },
+  "base_drop": {
+    "item": "hostilenetworks:end_prediction",
+    "count": 1
+  },
+  "trivia": "hostilenetworks.trivia.void_worm",
+  "fabricator_drops": [
+    {
+      "item": "alexsmobs:void_worm_mandible",
+      "count": 2
+    },
+    {
+      "item": "alexsmobs:void_worm_eye",
+      "count": 1
+    }
+  ],
+  "tier_data": [
+    6,
+    54,
+    354,
+    1254
+  ],
+  "data_per_kill": [
+    1,
+    4,
+    10,
+    18
+  ]
+}

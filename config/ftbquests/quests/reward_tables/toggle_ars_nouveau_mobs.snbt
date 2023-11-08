@@ -1,0 +1,23 @@
+{
+	id: "3383BCCF352C7690"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			auto: "invisible"
+			ignore_reward_blocking: true
+			stage: "no_ars_nouveau_mobs"
+			title: "{university.disablean.disable}"
+			type: "gamestage"
+		}
+		{
+			auto: "invisible"
+			ignore_reward_blocking: true
+			remove: true
+			stage: "no_ars_nouveau_mobs"
+			title: "{university.disablean.enable}"
+			type: "gamestage"
+		}
+	]
+	title: "Toggle Ars Nouveau mobs"
+}

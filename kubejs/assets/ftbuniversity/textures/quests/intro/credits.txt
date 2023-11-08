@@ -1,0 +1,7 @@
+Text images made using https://textcraft.net/
+
+Center color is the dark grey E on the last page, second from the last on top row. After downloading the image, in Paint.Net use the Recolor tool with Tolerance 0 to replace the color with #32292A
+Outer color is #EABC53
+Disable 3D and drop shadow
+
+Extra, 2 pix.

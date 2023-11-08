@@ -1,0 +1,12 @@
+{
+	id: "706D6FB8224F4C3F"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{ count: 16, item: "xnet:netcable_red" }
+		{ count: 16, item: "xnet:netcable_green" }
+		{ count: 16, item: "xnet:netcable_blue" }
+		{ count: 16, item: "xnet:netcable_yellow" }
+	]
+	title: "{university.xncables.title}"
+}

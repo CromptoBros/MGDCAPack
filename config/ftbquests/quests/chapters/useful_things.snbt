@@ -1,0 +1,395 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "useful_things"
+	group: ""
+	icon: "minecraft:crafting_table"
+	id: "0D69F10811DE3819"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3D783F2EC10EA6F8"]
+			description: [
+				"{university.usefulthingsquest.desc1}"
+				""
+				"{university.usefulthingsquest.desc2}"
+			]
+			hide: true
+			hide_dependent_lines: true
+			icon: "botania:cosmetic_questgiver_mark"
+			id: "346BBCE51A8700CF"
+			min_width: 250
+			subtitle: "{university.usefulthingsquest.subtitle}"
+			tasks: [{
+				id: "1570035421299CF7"
+				stat: "minecraft:play_time"
+				title: "{university.usefulthingsquest.task}"
+				type: "stat"
+				value: 36000
+			}]
+			title: "{university.usefulthingsquest.title}"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["346BBCE51A8700CF"]
+			description: ["{university.spawners.desc}"]
+			disable_toast: true
+			id: "69736437A01FAA31"
+			subtitle: "{university.spawners.subtitle}"
+			tasks: [{
+				id: "794921ED039E891E"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ftbuniversity:useful_things/mob_spawners"
+					}
+				}
+				title: "{university.spawners.title}"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["346BBCE51A8700CF"]
+			description: ["{university.mobmovers.desc}"]
+			disable_toast: true
+			id: "43ED9DD289CC9A95"
+			subtitle: "{university.mobmovers.subtitle}"
+			tasks: [{
+				id: "5720BC735EF92C94"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ftbuniversity:useful_things/mob_movers"
+					}
+				}
+				title: "{university.mobmovers.title}"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["346BBCE51A8700CF"]
+			description: ["{university.killers.desc}"]
+			disable_toast: true
+			id: "186D71686E1BB3DD"
+			subtitle: "{university.killers.subtitle}"
+			tasks: [{
+				id: "4551C9E26ABA1B34"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ftbuniversity:useful_things/mob_killers"
+					}
+				}
+				title: "{university.killers.title}"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["346BBCE51A8700CF"]
+			description: ["{university.fegen.desc}"]
+			disable_toast: true
+			id: "13FD928642DCFA5F"
+			subtitle: "{university.fegen.subtitle}"
+			tasks: [{
+				id: "42F0EC53C633F2D0"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ftbuniversity:useful_things/fe_gen"
+					}
+				}
+				title: "{university.fegen.title}"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["346BBCE51A8700CF"]
+			description: ["{university.fefill.desc}"]
+			disable_toast: true
+			id: "3D45040D2D8D4369"
+			subtitle: "{university.fefill.subtitle}"
+			tasks: [{
+				id: "5A7C6A0F0AB6B765"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ftbuniversity:useful_things/fe_filler"
+					}
+				}
+				title: "{university.fefill.title}"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["346BBCE51A8700CF"]
+			description: ["{university.fetp.desc}"]
+			disable_toast: true
+			id: "2F6BD46EC2B7999A"
+			subtitle: "{university.fetp.subtitle}"
+			tasks: [{
+				id: "44D1F81B7FD62090"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ftbuniversity:useful_things/fe_teleporter"
+					}
+				}
+				title: "{university.fetp.title}"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["346BBCE51A8700CF"]
+			description: ["{university.festorage.desc}"]
+			disable_toast: true
+			id: "6E734740993E8DD1"
+			subtitle: "{university.festorage.subtitle}"
+			tasks: [{
+				id: "743CBDBCB37930FE"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ftbuniversity:useful_things/fe_storage"
+					}
+				}
+				title: "{university.festorage.title}"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["346BBCE51A8700CF"]
+			description: ["{university.invchargers.desc}"]
+			disable_toast: true
+			id: "0CAA6BCA65FA570C"
+			subtitle: "{university.invchargers.subtitle}"
+			tasks: [{
+				id: "3B1D6179BE56FE67"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ftbuniversity:useful_things/inventory_chargers"
+					}
+				}
+				title: "{university.invchargers.title}"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["346BBCE51A8700CF"]
+			description: ["{university.fetrans.desc}"]
+			disable_toast: true
+			id: "5F37B914E97935A1"
+			subtitle: "{university.fetrans.subtitle}"
+			tasks: [{
+				id: "1387FEA8A5B0A14C"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ftbuniversity:useful_things/fe_transfer"
+					}
+				}
+				title: "{university.fetrans.title}"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["346BBCE51A8700CF"]
+			description: ["{university.itemtransfer.desc}"]
+			disable_toast: true
+			id: "245AA09009E679BD"
+			subtitle: "{university.itemtransfer.subtitle}"
+			tasks: [{
+				id: "512CE7B398245D4B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ftbuniversity:useful_things/item_transfer"
+					}
+				}
+				title: "{university.itemtransfer.title}"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["346BBCE51A8700CF"]
+			description: ["{university.itemstorage.desc}"]
+			disable_toast: true
+			id: "6FC804E8CF0125D5"
+			subtitle: "{university.itemstorage.subtitle}"
+			tasks: [{
+				id: "5921C16DE1466658"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ftbuniversity:useful_things/item_storage"
+					}
+				}
+				title: "{university.itemstorage.title}"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["346BBCE51A8700CF"]
+			description: ["{university.fluidtransfer.desc}"]
+			disable_toast: true
+			id: "146726F58A8C4F1C"
+			subtitle: "{university.fluidtransfer.subtitle}"
+			tasks: [{
+				id: "2CE40FE6D57A1296"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ftbuniversity:useful_things/fluid_transfer"
+					}
+				}
+				title: "{university.fluidtransfer.title}"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["346BBCE51A8700CF"]
+			description: ["{university.fluidstorage.desc}"]
+			disable_toast: true
+			id: "65DA7235B21D546D"
+			subtitle: "{university.fluidstorage.subtitle}"
+			tasks: [{
+				id: "2FFE069CB9FED693"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ftbuniversity:useful_things/fluid_storage"
+					}
+				}
+				title: "{university.fluidstorage.title}"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["346BBCE51A8700CF"]
+			description: ["{university.flight.desc}"]
+			disable_toast: true
+			id: "09AFEE70BCFD1128"
+			subtitle: "{university.flight.subtitle}"
+			tasks: [{
+				id: "688870FE1BFEC515"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ftbuniversity:useful_things/flight"
+					}
+				}
+				title: "{university.flight.title}"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["346BBCE51A8700CF"]
+			description: ["{university.quarries.desc}"]
+			disable_toast: true
+			id: "57682606EFA1BCDB"
+			subtitle: "{university.quarries.subtitle}"
+			tasks: [{
+				id: "4A6AC4CF90A2F135"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ftbuniversity:useful_things/quarry"
+					}
+				}
+				title: "{university.quarries.title}"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["346BBCE51A8700CF"]
+			description: ["{university.pumps.desc}"]
+			disable_toast: true
+			id: "4A469C56BD4F396F"
+			subtitle: "{university.pumps.subtitle}"
+			tasks: [{
+				id: "3713E3E7C697E73B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ftbuniversity:useful_things/pump"
+					}
+				}
+				title: "{university.pumps.title}"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["346BBCE51A8700CF"]
+			description: ["{university.playertransfer.desc}"]
+			disable_toast: true
+			id: "6BE3251040BF1E42"
+			subtitle: "{university.playertransfer.subtitle}"
+			tasks: [{
+				id: "4AB8AA7D74BB6ABF"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ftbuniversity:useful_things/player_transfer"
+					}
+				}
+				title: "{university.playertransfer.title}"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.0d
+		}
+	]
+	title: "{university.usefulthings.chapter}"
+}

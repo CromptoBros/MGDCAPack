@@ -1,0 +1,1455 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "natures_aura"
+	group: "38AD62CCDB954696"
+	icon: "naturesaura:gold_leaf"
+	id: "7A00FD87B63373BF"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["38F754E26E327B51"]
+			description: [
+				"{university.nabook.desc}"
+				""
+				"{university.akashicTask}"
+			]
+			hide: true
+			id: "6AA86472AD7E79E1"
+			subtitle: "{university.nabook.subtitle}"
+			tasks: [{
+				id: "38048AA09DD222EF"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:weak_nbt"
+								tag: {
+									value: {
+										"patchouli:book": "naturesaura:book"
+									}
+								}
+							}
+							{
+								Count: 1b
+								id: "patchouli:guide_book"
+								tag: {
+									"patchouli:book": "naturesaura:book"
+								}
+							}
+						]
+					}
+				}
+				title: "{university.nabook.task}"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6AA86472AD7E79E1"]
+			description: [
+				"{university.goldpowder.desc1}"
+				""
+				"{university.goldpowder.desc2}"
+				""
+				"{university.goldpowder.desc3}"
+			]
+			icon: "naturesaura:gold_leaf"
+			id: "4AB09698C37ADC82"
+			rewards: [{
+				count: 8
+				id: "426B37EFD7245BAF"
+				item: "naturesaura:gold_leaf"
+				type: "item"
+			}]
+			subtitle: "{university.goldpowder.subtitle}"
+			tasks: [
+				{
+					id: "496FBEF6AC1D0463"
+					item: "naturesaura:gold_fiber"
+					type: "item"
+				}
+				{
+					id: "1DA5354F3C622053"
+					item: "naturesaura:gold_leaf"
+					type: "item"
+				}
+				{
+					id: "42FB65C7C90E8F37"
+					item: "naturesaura:gold_powder"
+					type: "item"
+				}
+			]
+			title: "{university.goldpowder.title}"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4AB09698C37ADC82"]
+			description: [
+				"{university.ritualoftheforest.desc1}"
+				""
+				"{university.ritualoftheforest.desc2}"
+				""
+				"{university.ritualoftheforest.desc3}"
+				""
+				"{university.ritualoftheforest.desc4}"
+			]
+			id: "439711A12F1593A7"
+			min_width: 250
+			rewards: [{
+				count: 3
+				id: "022E31463EBF8EFC"
+				item: "naturesaura:wood_stand"
+				type: "item"
+			}]
+			subtitle: "{university.ritualoftheforest.subtitle}"
+			tasks: [{
+				id: "791503E7AAE63FC3"
+				item: "naturesaura:wood_stand"
+				type: "item"
+			}]
+			title: "{university.ritualoftheforest.title}"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4AB09698C37ADC82"]
+			description: [
+				"{university.aura.desc1}"
+				""
+				"{university.aura.desc2}"
+				"{@pagebreak}"
+				"{university.aura.desc3}"
+				""
+				"{university.aura.desc4}"
+				""
+				"{university.aura.desc5}"
+			]
+			id: "593F27D3FF233B37"
+			min_width: 250
+			rewards: [
+				{
+					id: "3A9A8D5B8EB0573A"
+					item: {
+						Count: 1b
+						id: "naturesaura:aura_bottle"
+						tag: {
+							stored_type: "naturesaura:overworld"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D89E7E4E839D37F"
+					item: {
+						Count: 1b
+						id: "naturesaura:aura_bottle"
+						tag: {
+							stored_type: "naturesaura:nether"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03359184A4D7AFE6"
+					item: {
+						Count: 1b
+						id: "naturesaura:aura_bottle"
+						tag: {
+							stored_type: "naturesaura:end"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "{university.aura.subtitle}"
+			tasks: [{
+				id: "5E0D4662C4FD9F4C"
+				item: "naturesaura:bottle_two_the_rebottling"
+				type: "item"
+			}]
+			title: "{university.aura.title}"
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"439711A12F1593A7"
+				"593F27D3FF233B37"
+			]
+			description: ["{university.naturalaltar.desc}"]
+			id: "6A863734F9847833"
+			rewards: [{
+				count: 16
+				id: "668737DD4D60ACCA"
+				item: "naturesaura:infused_stone"
+				type: "item"
+			}]
+			subtitle: "{university.naturalaltar.subtitle}"
+			tasks: [{
+				id: "4D17E1FBF95A4EFD"
+				item: "naturesaura:nature_altar"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["095D23F1BCE5FE6F"]
+			description: [
+				"{university.offering.desc1}"
+				""
+				"{university.offering.desc2}"
+				""
+				"{university.offering.desc3}"
+				""
+				"{university.offering.desc4}"
+			]
+			id: "54191E5A6BFAD3A1"
+			subtitle: "{university.offering.subtitle}"
+			tasks: [{
+				id: "5CE4B57A3AA6F576"
+				item: "naturesaura:offering_table"
+				type: "item"
+			}]
+			title: "{university.offering.title}"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["54191E5A6BFAD3A1"]
+			description: ["{university.skyingot.desc}"]
+			id: "63A00BAF318851F9"
+			rewards: [{
+				count: 6
+				id: "55360FD5E39D54F5"
+				item: "naturesaura:sky_ingot"
+				type: "item"
+			}]
+			subtitle: "{university.skyingot.subtitle}"
+			tasks: [{
+				id: "04D65B60C1726EA6"
+				item: "naturesaura:sky_ingot"
+				type: "item"
+			}]
+			title: "{university.skyingot.title}"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["439711A12F1593A7"]
+			description: ["{university.environeye.desc}"]
+			hide_dependency_lines: true
+			id: "4FE66D3A254387F2"
+			rewards: [{
+				id: "70CA92A533755599"
+				item: "botania:third_eye"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.environeye.subtitle}"
+			tasks: [{
+				id: "5CEE33F05582983E"
+				item: "naturesaura:eye"
+				type: "item"
+			}]
+			title: "{university.environeye.title}"
+			x: -1.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["439711A12F1593A7"]
+			description: [
+				"{university.ancienttree.desc1}"
+				""
+				"{university.ancienttree.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "0AFA265138D531D7"
+			rewards: [{
+				count: 4
+				id: "6CDB91BE04DD9D2D"
+				item: "naturesaura:ancient_sapling"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.ancienttree.subtitle}"
+			tasks: [{
+				id: "743816AB70F62820"
+				item: "naturesaura:ancient_sapling"
+				type: "item"
+			}]
+			title: "{university.ancienttree.title}"
+			x: -1.25d
+			y: -2.25d
+		}
+		{
+			dependencies: ["593F27D3FF233B37"]
+			description: [
+				"{university.auraflora.desc1}"
+				""
+				"{university.auraflora.desc2}"
+				""
+				"{university.auraflora.desc3}"
+			]
+			hide_dependency_lines: true
+			icon: "naturesaura:aura_bloom"
+			id: "2FB514751073C74E"
+			rewards: [{
+				count: 16
+				id: "5CE3C6F625431B6B"
+				item: "naturesaura:crimson_meal"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.auraflora.subtitle}"
+			tasks: [{
+				id: "4D43983C110515BD"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "naturesaura:aura_bloom"
+							}
+							{
+								Count: 1b
+								id: "naturesaura:aura_cactus"
+							}
+							{
+								Count: 1b
+								id: "naturesaura:aura_mushroom"
+							}
+							{
+								Count: 1b
+								id: "naturesaura:crimson_aura_mushroom"
+							}
+							{
+								Count: 1b
+								id: "naturesaura:warped_aura_mushroom"
+							}
+						]
+					}
+				}
+				title: "{university.auraflora.title}"
+				type: "item"
+			}]
+			x: -1.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["63A00BAF318851F9"]
+			description: [
+				"{university.auracart.desc1}"
+				""
+				"{university.auracart.desc2}"
+				""
+				"{university.auracart.desc3}"
+			]
+			hide_dependency_lines: true
+			id: "63BA09BD4C5D4E1A"
+			rewards: [{
+				count: 32
+				id: "34C43FC7E23C98D9"
+				item: "minecraft:rail"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.auracart.subtitle}"
+			tasks: [{
+				id: "55DC219522D573D7"
+				item: "naturesaura:mover_cart"
+				type: "item"
+			}]
+			title: "{university.auracart.title}"
+			x: 4.75d
+			y: 0.25d
+		}
+		{
+			dependencies: ["6A863734F9847833"]
+			description: ["{university.infusediron.desc}"]
+			icon: "naturesaura:infused_iron"
+			id: "095D23F1BCE5FE6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FEDF345C94113E9"
+				table_id: 6878046888891086041L
+				type: "loot"
+			}]
+			subtitle: "{university.infusediron.subtitle}"
+			tasks: [
+				{
+					id: "61EB1AA9D723D541"
+					item: "naturesaura:infused_iron"
+					type: "item"
+				}
+				{
+					id: "6ACB2E1B94308AEA"
+					item: "naturesaura:tainted_gold"
+					type: "item"
+				}
+			]
+			title: "{university.infusediron.title}"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6A863734F9847833"]
+			description: [
+				"{university.auradetector.desc1}"
+				""
+				"{university.auradetector.desc2}"
+			]
+			id: "3D5C5360C905D441"
+			rewards: [{
+				count: 8
+				id: "2E0FC1DBC41DB0DC"
+				item: "minecraft:comparator"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.auradetector.subtitle}"
+			tasks: [{
+				id: "260119F7DE101AAC"
+				item: "naturesaura:aura_detector"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["593F27D3FF233B37"]
+			description: [
+				"{university.effectpowder.desc1}"
+				""
+				"{university.effectpowder.desc2}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "naturesaura:effect_powder"
+				tag: {
+					effect: "naturesaura:cache_recharge"
+				}
+			}
+			id: "6CC5DE2EE4CDC051"
+			rewards: [{
+				count: 16
+				id: "68C05CA4E2BECA3C"
+				item: {
+					Count: 1b
+					id: "naturesaura:effect_powder"
+					tag: {
+						effect: "naturesaura:ore_spawn"
+					}
+				}
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.effectpowder.subtitle}"
+			tasks: [{
+				id: "4FECA1B416782F78"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "naturesaura:effect_powder"
+								tag: {
+									effect: "naturesaura:ore_spawn"
+								}
+							}
+							{
+								Count: 1b
+								id: "naturesaura:effect_powder"
+								tag: {
+									effect: "naturesaura:plant_boost"
+								}
+							}
+							{
+								Count: 1b
+								id: "naturesaura:effect_powder"
+								tag: {
+									effect: "naturesaura:animal"
+								}
+							}
+							{
+								Count: 1b
+								id: "naturesaura:effect_powder"
+								tag: {
+									effect: "naturesaura:cache_recharge"
+								}
+							}
+							{
+								Count: 1b
+								id: "naturesaura:effect_powder"
+								tag: {
+									effect: "naturesaura:nether_grass"
+								}
+							}
+						]
+					}
+				}
+				title: "{university.effectpowder.title}"
+				type: "item"
+			}]
+			x: -1.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["593F27D3FF233B37"]
+			description: ["{university.auragens.desc}"]
+			hide_dependency_lines: true
+			icon: "naturesaura:firework_generator"
+			id: "143FBED2C13732F3"
+			size: 0.5d
+			subtitle: "{university.auragens.subtitle}"
+			tasks: [{
+				id: "16212DB821960A2B"
+				item: {
+					Count: 1b
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "natures.*generator"
+					}
+				}
+				title: "{university.auragens.title}"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.75d
+		}
+		{
+			dependencies: ["54191E5A6BFAD3A1"]
+			description: [
+				"{university.auraimbalance.desc1}"
+				""
+				"{university.auraimbalance.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "3EA70DB7517D4406"
+			size: 0.5d
+			subtitle: "{university.auraimbalance.subtitle}"
+			tasks: [{
+				id: "57B4209BDAABBA40"
+				item: "naturesaura:lower_limiter"
+				type: "item"
+			}]
+			x: 3.25d
+			y: -1.75d
+		}
+		{
+			dependencies: ["095D23F1BCE5FE6F"]
+			description: [
+				"{university.shootingmark.desc1}"
+				""
+				"{university.shootingmark.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "17E32EFCB4D4B3E2"
+			rewards: [{
+				count: 8
+				id: "4584A1367D68D00D"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.shootingmark.subtitle}"
+			tasks: [{
+				id: "06D4DC8618AF4011"
+				item: "naturesaura:projectile_generator"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["54191E5A6BFAD3A1"]
+			description: ["{university.creatcat.desc}"]
+			hide_dependency_lines: true
+			id: "568D8AB05C89F0E4"
+			size: 0.5d
+			subtitle: "{university.creatcat.subtitle}"
+			tasks: [{
+				id: "502C48AE0BD2D475"
+				item: "naturesaura:generator_limit_remover"
+				type: "item"
+			}]
+			title: "{university.creatcat.title}"
+			x: 2.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["095D23F1BCE5FE6F"]
+			description: ["{university.auracache.desc}"]
+			hide_dependency_lines: true
+			icon: "naturesaura:aura_cache"
+			id: "3D005CC0A0278835"
+			size: 0.5d
+			subtitle: "{university.auracache.subtitle}"
+			tasks: [{
+				id: "555D0AB6A8AC25C5"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "naturesaura:aura_cache"
+							}
+							{
+								Count: 1b
+								id: "naturesaura:aura_trove"
+							}
+						]
+					}
+				}
+				title: "{university.auracache.task}"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["095D23F1BCE5FE6F"]
+			description: ["{university.mystmag.desc}"]
+			hide_dependency_lines: true
+			id: "65CEFC530B3F4B99"
+			size: 0.5d
+			subtitle: "{university.mystmag.subtitle}"
+			tasks: [{
+				id: "0450DFFF210E8FBE"
+				item: "naturesaura:range_visualizer"
+				type: "item"
+			}]
+			x: 1.25d
+			y: 0.25d
+		}
+		{
+			dependencies: ["095D23F1BCE5FE6F"]
+			description: [
+				"{university.impercept.desc1}"
+				""
+				"{university.impercept.desc2}"
+				""
+				"{university.impercept.desc3}"
+				""
+				"{university.impercept.desc4}"
+			]
+			hide_dependency_lines: true
+			id: "7A711574CDB7324C"
+			min_width: 250
+			rewards: [{
+				id: "4F98AF03B0FC7F93"
+				item: "naturesaura:farming_stencil"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.impercept.subtitle}"
+			tasks: [{
+				id: "7A159DCA4AC629A0"
+				item: "naturesaura:placer"
+				type: "item"
+			}]
+			title: "{university.impercept.title}"
+			x: 1.75d
+			y: 0.25d
+		}
+		{
+			dependencies: ["095D23F1BCE5FE6F"]
+			description: [
+				"{university.itemgrounder.desc1}"
+				""
+				"{university.itemgrounder.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "318547E3EF58E1FE"
+			size: 0.5d
+			subtitle: "{university.itemgrounder.subtitle}"
+			tasks: [{
+				id: "6AB1A43E0108B6D1"
+				item: "naturesaura:pickup_stopper"
+				type: "item"
+			}]
+			x: 1.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["095D23F1BCE5FE6F"]
+			description: [
+				"{university.nahopper.desc1}"
+				""
+				"{university.nahopper.desc2}"
+				""
+				"{university.nahopper.desc3}"
+			]
+			hide_dependency_lines: true
+			icon: "naturesaura:grated_chute"
+			id: "320809F2791572DA"
+			size: 0.5d
+			subtitle: "{university.nahopper.subtitle}"
+			tasks: [
+				{
+					id: "4F8997897C7844DD"
+					item: "naturesaura:grated_chute"
+					type: "item"
+				}
+				{
+					id: "512E79ABCE3ECD8D"
+					item: "naturesaura:hopper_upgrade"
+					type: "item"
+				}
+			]
+			title: "{university.nahopper.title}"
+			x: 1.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["095D23F1BCE5FE6F"]
+			description: [
+				"{university.herbabsorb.desc1}"
+				""
+				"{university.herbabsorb.desc2}"
+				""
+				"{university.herbabsorb.desc3}"
+			]
+			hide_dependency_lines: true
+			id: "759E9028D5EB9E1D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3BE54B7C04045055"
+				table_id: 2639422846271360523L
+				type: "loot"
+			}]
+			size: 0.5d
+			subtitle: "{university.herbabsorb.subtitle}"
+			tasks: [{
+				id: "3399619AC3FC5B77"
+				item: "naturesaura:flower_generator"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -1.25d
+		}
+		{
+			dependencies: ["095D23F1BCE5FE6F"]
+			description: ["{university.swamphomi.desc}"]
+			hide_dependency_lines: true
+			id: "78C251C71067E62E"
+			rewards: [{
+				count: 32
+				id: "16A1CFCA770116BE"
+				item: "minecraft:mossy_cobblestone"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.swamphomi.subtitle}"
+			tasks: [{
+				id: "282B15B6F72231CD"
+				item: "naturesaura:moss_generator"
+				type: "item"
+			}]
+			x: 1.25d
+			y: -1.75d
+		}
+		{
+			dependencies: ["095D23F1BCE5FE6F"]
+			description: ["{university.candim.desc}"]
+			hide_dependency_lines: true
+			id: "7069A79BB0ED1EF4"
+			size: 0.5d
+			subtitle: "{university.candim.subtitle}"
+			tasks: [{
+				id: "7629F99FE29169AE"
+				item: "naturesaura:oak_generator"
+				type: "item"
+			}]
+			x: 1.75d
+			y: -1.75d
+		}
+		{
+			dependencies: ["095D23F1BCE5FE6F"]
+			description: [
+				"{university.botanisttools.desc1}"
+				""
+				"{university.botanisttools.desc2}"
+				""
+				"{university.botanisttools.desc3}"
+				""
+				"{university.botanisttools.desc4}"
+			]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "naturesaura:infused_iron_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "707F2C1FD2AE7109"
+			rewards: [{
+				id: "4EE6C56F35EFAC37"
+				item: "naturesaura:break_prevention"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.botanisttools.subtitle}"
+			tasks: [
+				{
+					id: "3FC58A8032F8E2E8"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "naturesaura:infused_iron_pickaxe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:infused_iron_axe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:infused_iron_shovel"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:infused_iron_hoe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:infused_iron_sword"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{university.botanisttools.task1}"
+					type: "item"
+				}
+				{
+					id: "266510B80D489475"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "naturesaura:infused_iron_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:infused_iron_chest"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:infused_iron_pants"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:infused_iron_shoes"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{university.botanisttools.task2}"
+					type: "item"
+				}
+			]
+			title: "{university.botanisttools.title}"
+			x: 1.25d
+			y: 1.25d
+		}
+		{
+			dependencies: ["095D23F1BCE5FE6F"]
+			description: [
+				"{university.disentangler.desc1}"
+				""
+				"{university.disentangler.desc2}"
+				""
+				"{university.disentangler.desc3}"
+			]
+			hide_dependency_lines: true
+			id: "1FBD495B61FCBAE5"
+			size: 0.5d
+			subtitle: "{university.disentangler.subtitle}"
+			tasks: [{
+				id: "42FCC6C262448F0C"
+				item: "naturesaura:animal_generator"
+				type: "item"
+			}]
+			title: "{university.disentangler.title}"
+			x: 1.75d
+			y: -2.25d
+		}
+		{
+			dependencies: ["095D23F1BCE5FE6F"]
+			description: [
+				"{university.offshoot.desc1}"
+				""
+				"{university.offshoot.desc2}"
+				""
+				"{university.offshoot.desc3}"
+			]
+			hide_dependency_lines: true
+			id: "1A5F84867B633977"
+			rewards: [{
+				id: "3267269D401A2ED7"
+				item: {
+					Count: 1b
+					id: "minecraft:magma_cube_spawn_egg"
+					tag: {
+						EntityTag: {
+							Attributes: [
+								{
+									Base: 2048.0f
+									Name: "generic.follow_range"
+								}
+								{
+									Name: "generic.armor"
+								}
+							]
+							CustomName: "[{\"text\":\"Big Boy\"}]"
+							CustomNameVisible: 1b
+							Glowing: 1b
+							PersistenceRequired: 1b
+							Size: 40
+						}
+						display: {
+							Name: "[{\"text\":\"Big Boy Spawn Egg\",\"italic\":false}]"
+						}
+					}
+				}
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.offshoot.subtitle}"
+			tasks: [{
+				id: "75F00160B9392D8D"
+				item: "naturesaura:slime_split_generator"
+				type: "item"
+			}]
+			title: "{university.offshoot.title}"
+			x: 1.25d
+			y: -2.25d
+		}
+		{
+			dependencies: ["54191E5A6BFAD3A1"]
+			description: [
+				"{university.sundial.desc1}"
+				""
+				"{university.sundial.desc2}"
+				""
+				"{university.sundial.desc3}"
+			]
+			hide_dependency_lines: true
+			icon: "naturesaura:time_changer"
+			id: "7AFC6579BBF55FC3"
+			rewards: [{
+				id: "67BD27E861F5DDA4"
+				item: "minecraft:clock"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.sundial.subtitle}"
+			tasks: [
+				{
+					id: "0F1D070AE9B6F23C"
+					item: "naturesaura:time_changer"
+					type: "item"
+				}
+				{
+					id: "4A937D973B9FED4B"
+					item: "naturesaura:clock_hand"
+					type: "item"
+				}
+			]
+			title: "{university.sundial.title}"
+			x: 2.75d
+			y: 0.25d
+		}
+		{
+			dependencies: ["54191E5A6BFAD3A1"]
+			description: [
+				"{university.enderheights.desc1}"
+				""
+				"{university.enderheights.desc2}"
+				""
+				"{university.enderheights.desc3}"
+			]
+			hide_dependency_lines: true
+			id: "011EA4069D4BA3D5"
+			rewards: [{
+				count: 4
+				id: "72AEB974D7B12A8D"
+				item: "minecraft:chorus_flower"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.enderheights.subtitle}"
+			tasks: [{
+				id: "102FE2542ECD5699"
+				item: "naturesaura:chorus_generator"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["54191E5A6BFAD3A1"]
+			description: ["{university.richstaff.desc}"]
+			hide_dependency_lines: true
+			id: "2E361070F1ABEB51"
+			size: 0.5d
+			subtitle: "{university.richstaff.subtitle}"
+			tasks: [{
+				id: "270241D779CDE2B9"
+				item: "naturesaura:loot_finder"
+				type: "item"
+			}]
+			title: "{university.richstaff.title}"
+			x: 2.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["63A00BAF318851F9"]
+			description: [
+				"{university.altarbirth.desc1}"
+				""
+				"{university.altarbirth.desc2}"
+				""
+				"{university.altarbirth.desc3}"
+			]
+			hide_dependency_lines: true
+			id: "47114EF7A11EE288"
+			rewards: [{
+				count: 4
+				id: "27E1681ABAFB49E2"
+				item: "naturesaura:birth_spirit"
+				type: "item"
+			}]
+			size: 0.75d
+			subtitle: "{university.altarbirth.subtitle}"
+			tasks: [{
+				id: "356F3EABE8A74C10"
+				item: "naturesaura:animal_spawner"
+				type: "item"
+			}]
+			title: "{university.altarbirth.title}"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["54191E5A6BFAD3A1"]
+			description: [
+				"{university.cloudshifter.desc1}"
+				""
+				"{university.cloudshifter.desc2}"
+				""
+				"{university.cloudshifter.desc3}"
+			]
+			hide_dependency_lines: true
+			id: "2C8CE13A203A94EE"
+			size: 0.5d
+			subtitle: "{university.cloudshifter.subtitle}"
+			tasks: [{
+				id: "7BB284638BF2DB42"
+				item: "naturesaura:weather_changer"
+				type: "item"
+			}]
+			x: 3.25d
+			y: 0.25d
+		}
+		{
+			dependencies: ["54191E5A6BFAD3A1"]
+			description: [
+				"{university.lampofsanctuary.desc1}"
+				""
+				"{university.lampofsanctuary.desc2}"
+				""
+				"{university.lampofsanctuary.desc3}"
+			]
+			hide_dependency_lines: true
+			id: "351828FC305F1DD7"
+			size: 0.5d
+			subtitle: "{university.lampofsanctuary.subtitle}"
+			tasks: [{
+				id: "3B708DD7F68275A8"
+				item: "naturesaura:spawn_lamp"
+				type: "item"
+			}]
+			title: "{university.lampofsanctuary.title}"
+			x: 3.0d
+			y: 1.25d
+		}
+		{
+			dependencies: ["54191E5A6BFAD3A1"]
+			description: [
+				"{university.staffofshadows.desc1}"
+				""
+				"{university.staffofshadows.desc2}"
+			]
+			hide_dependency_lines: true
+			id: "5A2CBFE73198155B"
+			size: 0.5d
+			subtitle: "{university.staffofshadows.subtitle}"
+			tasks: [{
+				id: "2A1D97E862658EE8"
+				item: "naturesaura:cave_finder"
+				type: "item"
+			}]
+			x: 3.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["63A00BAF318851F9"]
+			description: ["{university.lastchance.desc}"]
+			hide_dependency_lines: true
+			id: "3A451CE74947B1DF"
+			size: 0.5d
+			subtitle: "{university.lastchance.subtitle}"
+			tasks: [{
+				id: "41A40203A186338C"
+				item: "naturesaura:death_ring"
+				type: "item"
+			}]
+			x: 4.25d
+			y: 0.25d
+		}
+		{
+			dependencies: ["63A00BAF318851F9"]
+			description: [
+				"{university.envirocular.desc1}"
+				""
+				"{university.envirocular.desc2}"
+				""
+				"{university.envirocular.desc3}"
+			]
+			hide_dependency_lines: true
+			id: "520A5B2D66900597"
+			size: 0.5d
+			subtitle: "{university.envirocular.subtitle}"
+			tasks: [{
+				id: "2B3BD82803D5F201"
+				item: "naturesaura:eye_improved"
+				type: "item"
+			}]
+			title: "{university.envirocular.title}"
+			x: 4.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["63A00BAF318851F9"]
+			description: ["{university.transcat.desc}"]
+			hide_dependency_lines: true
+			id: "7E20A9D31DBFB4CF"
+			size: 0.5d
+			subtitle: "{university.transcat.subtitle}"
+			tasks: [{
+				id: "0497728A2F335F26"
+				item: "naturesaura:conversion_catalyst"
+				type: "item"
+			}]
+			x: 4.25d
+			y: -1.25d
+		}
+		{
+			dependencies: ["7E20A9D31DBFB4CF"]
+			description: [
+				"{university.energeticaura.desc1}"
+				""
+				"{university.energeticaura.desc2}"
+			]
+			id: "48576AF39DF8938A"
+			rewards: [{
+				count: 18
+				id: "54540067BB3D20D2"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.energeticaura.subtitle}"
+			tasks: [{
+				id: "03C459AEEA6C123E"
+				item: "naturesaura:rf_converter"
+				type: "item"
+			}]
+			x: 4.75d
+			y: -1.25d
+		}
+		{
+			dependencies: ["63A00BAF318851F9"]
+			description: ["{university.skyseekertools.desc}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "naturesaura:sky_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "65290B57700526E1"
+			size: 0.5d
+			subtitle: "{university.skyseekertools.subtitle}"
+			tasks: [
+				{
+					id: "0DA19A8403D5693B"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "naturesaura:sky_pickaxe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:sky_axe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:sky_shovel"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:sky_hoe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:sky_sword"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{university.skyseekertools.task1}"
+					type: "item"
+				}
+				{
+					id: "013B01E60DBD27A6"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "naturesaura:sky_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:sky_chest"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:sky_pants"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:sky_shoes"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{university.skyseekertools.task2}"
+					type: "item"
+				}
+			]
+			title: "{university.skyseekertools.title}"
+			x: 4.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["63A00BAF318851F9"]
+			description: ["{university.soulstrider.desc}"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1b
+				id: "naturesaura:depth_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5033644D37F82069"
+			size: 0.5d
+			subtitle: "{university.soulstrider.subtitle}"
+			tasks: [
+				{
+					id: "762C1E0062E9649A"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "naturesaura:depth_sword"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:depth_pickaxe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:depth_axe"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:depth_shovel"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:depth_hoe"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{university.soulstrider.task1}"
+					type: "item"
+				}
+				{
+					id: "7BC0EF9E296B85A9"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "naturesaura:depth_helmet"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:depth_chest"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:depth_pants"
+									tag: {
+										Damage: 0
+									}
+								}
+								{
+									Count: 1b
+									id: "naturesaura:depth_shoes"
+									tag: {
+										Damage: 0
+									}
+								}
+							]
+						}
+					}
+					title: "{university.soulstrider.task2}"
+					type: "item"
+				}
+			]
+			title: "{university.soulstrider.title}"
+			x: 4.75d
+			y: 1.25d
+		}
+		{
+			dependencies: ["63A00BAF318851F9"]
+			description: ["{university.ancientstaff.desc}"]
+			hide_dependency_lines: true
+			id: "738F3CEF48126332"
+			size: 0.5d
+			subtitle: "{university.ancientstaff.subtitle}"
+			tasks: [{
+				id: "46B0E000AAB5FB10"
+				item: "naturesaura:netherite_finder"
+				type: "item"
+			}]
+			x: 4.25d
+			y: 1.25d
+		}
+	]
+	title: "{university.naturesaura.chapter}"
+}

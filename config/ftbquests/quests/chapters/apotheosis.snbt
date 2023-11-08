@@ -1,0 +1,909 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "apotheosis"
+	group: "590394916256F444"
+	icon: "apotheosis:boss_summoner"
+	id: "72A799DDD658CA2A"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbuniversity:textures/quests/apoth/adventure.png"
+			rotation: 0.0d
+			width: 2.536082474226804d
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbuniversity:textures/quests/apoth/other.png"
+			rotation: 0.0d
+			width: 2.11340206185567d
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 1.0d
+			hover: [ ]
+			image: "ftbuniversity:textures/quests/apoth/enchanting.png"
+			rotation: 0.0d
+			width: 2.7422680412371134d
+			x: -7.0d
+			y: -3.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["51159D799DADB412"]
+			description: [
+				"{university.apothenchant.desc1}"
+				""
+				"{university.apothenchant.desc2}"
+				""
+				"{image:ftbuniversity:textures/quests/apoth/enchant.png width:250 height:120 align:1 fit:true}"
+				"{@pagebreak}"
+				"{university.apothenchant.desc3}"
+				""
+				"{university.apothenchant.desc4}"
+				""
+				"{university.apothenchant.desc5}"
+				""
+				"{university.apothenchant.desc6}"
+				""
+				"{university.apothenchant.desc7}"
+			]
+			hide: true
+			id: "5A240FA18606E2C1"
+			min_width: 250
+			rewards: [{
+				id: "688106BC555A50C5"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "{university.apothenchant.subtitle}"
+			tasks: [{
+				id: "095A07BE0AB88634"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "{university.apothenchant.title}"
+			x: -6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5A240FA18606E2C1"]
+			description: [
+				"{university.enchantstats.desc1}"
+				"{@pagebreak}"
+				"{university.enchantstats.desc2}"
+				""
+				"{university.enchantstats.desc3}"
+				""
+				"{university.enchantstats.desc4}"
+				""
+				"{university.enchantstats.desc5}"
+				"{@pagebreak}"
+				"{university.enchantstats.desc6}"
+			]
+			icon: "minecraft:bookshelf"
+			id: "4CDC9775A992D72C"
+			min_width: 275
+			rewards: [{
+				id: "0CF689E92E13A69A"
+				item: {
+					Count: 1b
+					id: "apotheosis:potion_charm"
+					tag: {
+						Damage: 0
+						Potion: "alexsmobs:long_bug_pheromones"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{university.enchantstats.subtitle}"
+			tasks: [
+				{
+					id: "260B0E82B124B68A"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ftbuniversity:apotheosis/eterna"
+						}
+					}
+					title: "{university.enchantstats.task1}"
+					type: "item"
+				}
+				{
+					id: "05713976E804C122"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ftbuniversity:apotheosis/quanta"
+						}
+					}
+					title: "{university.enchantstats.task2}"
+					type: "item"
+				}
+				{
+					id: "0AA21F161D29F8CE"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "ftbuniversity:apotheosis/arcana"
+						}
+					}
+					title: "{university.enchantstats.task3}"
+					type: "item"
+				}
+			]
+			title: "{university.enchantstats.title}"
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5A240FA18606E2C1"]
+			description: [
+				"{university.rectification.desc1}"
+				""
+				"{university.rectification.desc2}"
+			]
+			icon: "apotheosis:rectifier_t2"
+			id: "57B994AA9544D243"
+			rewards: [{
+				id: "2C3D410929004D6D"
+				item: "apotheosis:rectifier"
+				type: "item"
+			}]
+			subtitle: "{university.rectification.subtitle}"
+			tasks: [{
+				id: "1A5864CEA7AE8114"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ftbuniversity:apotheosis/rectification"
+					}
+				}
+				title: "{university.rectification.task}"
+				type: "item"
+			}]
+			title: "{university.rectification.title}"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A240FA18606E2C1"]
+			description: [
+				"{university.apothclues.desc1}"
+				""
+				"{university.apothclues.desc2}"
+				""
+				"{image:ftbuniversity:textures/quests/apoth/no_clues.png width:100 height:12 align:1 fit:true}"
+			]
+			icon: "apotheosis:sightshelf"
+			id: "1571758C60443C70"
+			rewards: [{
+				id: "5EB45CF6EA43A4E9"
+				item: "apotheosis:sightshelf_t2"
+				type: "item"
+			}]
+			subtitle: "{university.apothclues.subtitle}"
+			tasks: [{
+				id: "1B79E7582ABABDCB"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "ftbuniversity:apotheosis/clue"
+					}
+				}
+				title: "{university.apothclues.task}"
+				type: "item"
+			}]
+			title: "{university.apothclues.title}"
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["51159D799DADB412"]
+			description: [
+				"{university.apothspawns.desc1}"
+				""
+				"{university.apothspawns.desc2}"
+				""
+				"{university.apothspawns.desc3}"
+			]
+			hide: true
+			id: "2B03B3E1C2986189"
+			min_width: 250
+			rewards: [{
+				id: "006DC8C40C84B2E4"
+				item: "minecraft:soul_lantern"
+				type: "item"
+			}]
+			subtitle: "{university.apothspawns.subtitle}"
+			tasks: [{
+				id: "0C62B34A35C4409A"
+				item: "minecraft:spawner"
+				type: "item"
+			}]
+			title: "{university.apothspawns.title}"
+			x: -0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["51159D799DADB412"]
+			description: [
+				"{university.apothanvil.desc1}"
+				""
+				"{university.apothanvil.desc2}"
+				""
+				"{university.apothanvil.desc3}"
+				""
+				"{university.apothanvil.desc4}"
+				""
+				"{university.apothanvil.desc5}"
+			]
+			hide: true
+			id: "455750C27C310F34"
+			min_width: 250
+			rewards: [{
+				id: "2244F6D18742B5C0"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "apotheosis:obliteration"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{university.apothanvil.subtitle}"
+			tasks: [{
+				id: "0950B3D916110BB6"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["51159D799DADB412"]
+			description: [
+				"{university.apothtome.desc1}"
+				""
+				"{university.apothtome.desc2}"
+				""
+				"{university.apothtome.desc3}"
+			]
+			hide: true
+			icon: "apotheosis:other_tome"
+			id: "12D9F1D2D2E05D1D"
+			rewards: [{
+				count: 6
+				id: "6C3FDF36C514128D"
+				item: "apotheosis:other_tome"
+				type: "item"
+			}]
+			subtitle: "{university.apothtome.subtitle}"
+			tasks: [{
+				id: "126A28D247E42EFE"
+				item: {
+					Count: 1b
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "apoth.*tome"
+					}
+				}
+				title: "{university.apothtome.title}"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5A240FA18606E2C1"]
+			description: [
+				"{university.infusionenchanting.desc1}"
+				""
+				"{university.infusionenchanting.desc2}"
+				""
+				"{university.infusionenchanting.desc3}"
+			]
+			hide_dependency_lines: true
+			icon: "minecraft:enchanting_table"
+			id: "2C93FA7ACBB2C03B"
+			rewards: [{
+				id: "6170AA138F84E078"
+				item: "apotheosis:inert_trident"
+				type: "item"
+			}]
+			subtitle: "{university.infusionenchanting.subtitle}"
+			tasks: [{
+				id: "2D9E0D71E085F49F"
+				type: "checkmark"
+			}]
+			title: "{university.infusionenchanting.title}"
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["51159D799DADB412"]
+			description: [
+				"{university.enchlib.desc1}"
+				""
+				"{university.enchlib.desc2}"
+				""
+				"{university.enchlib.desc3}"
+				""
+				"{university.enchlib.desc4}"
+			]
+			hide: true
+			icon: "apotheosis:library"
+			id: "74A1BF4B3F8EA192"
+			min_width: 250
+			rewards: [{
+				id: "16BF51EA7130DB17"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "{university.enchlib.subtitle}"
+			tasks: [{
+				id: "48CC57A03D571E1D"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:library"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:ender_library"
+							}
+						]
+					}
+				}
+				title: "{university.enchlib.title}"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51159D799DADB412"]
+			description: [
+				"{university.affixitems.desc1}"
+				""
+				"{university.affixitems.desc2}"
+				""
+				"{university.affixitems.desc3}"
+				""
+				"{university.affixitems.desc4}"
+				""
+				"{university.affixitems.desc5}"
+				""
+				"{university.affixitems.desc6}"
+				""
+				"{university.affixitems.desc7}"
+			]
+			hide: true
+			id: "2997B717BA272858"
+			min_width: 275
+			rewards: [{
+				icon: "apotheosis:reforging_table"
+				id: "10881A8E2F8E4932"
+				title: "{university.affixitems.reward}"
+				type: "custom"
+			}]
+			subtitle: "{university.affixitems.subtitle}"
+			tasks: [{
+				icon: "minecraft:experience_bottle"
+				id: "28C4320907416A7E"
+				item: {
+					Count: 1b
+					id: "itemfilters:custom"
+					tag: {
+						value: "affix_items"
+					}
+				}
+				title: "{university.affixitems.subtitle}"
+				type: "item"
+			}]
+			title: "{university.affixitems.title}"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2997B717BA272858"]
+			description: [
+				"{university.apothgems.desc1}"
+				""
+				"{university.apothgems.desc2}"
+				""
+				"{university.apothgems.desc3}"
+				""
+				"{university.apothgems.desc4}"
+				""
+				"{university.apothgems.desc5}"
+			]
+			id: "7C5C48A165DCA14F"
+			min_width: 250
+			rewards: [{
+				id: "57EA7F7A55DB06FD"
+				item: {
+					Count: 1b
+					id: "apotheosis:gem"
+					tag: {
+						gem: "apotheosis:core/guardian"
+						rarity: "rare"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{university.apothgems.subtitle}"
+			tasks: [{
+				id: "594DB8D3FDD4F301"
+				item: {
+					Count: 1b
+					id: "apotheosis:gem"
+					tag: {
+						gem: "apotheosis:core/guardian"
+						rarity: "rare"
+					}
+				}
+				type: "item"
+			}]
+			title: "{university.apothgems.title}"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["141FA8F1CCFB767F"]
+			description: [
+				"{university.apothvials.desc1}"
+				""
+				"{university.apothvials.desc2}"
+			]
+			icon: "apotheosis:vial_of_expulsion"
+			id: "6B66D17A83F4703C"
+			rewards: [{
+				count: 6
+				id: "7508445535BAAC55"
+				item: "apotheosis:vial_of_extraction"
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.apothvials.subtitle}"
+			tasks: [{
+				id: "51BAC7696AA53B1B"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:vial_of_expulsion"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:vial_of_extraction"
+							}
+						]
+					}
+				}
+				title: "{university.apothvials.task}"
+				type: "item"
+			}]
+			title: "{university.apothvials.title}"
+			x: -4.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2997B717BA272858"]
+			description: [
+				"{university.salvagetable.desc1}"
+				""
+				"{university.salvagetable.desc2}"
+				""
+				"{university.salvagetable.desc3}"
+			]
+			icon: "apotheosis:salvaging_table"
+			id: "360778720C6CCAF4"
+			subtitle: "{university.salvagetable.subtitle}"
+			tasks: [
+				{
+					id: "3F875A0912C5A8EE"
+					item: "apotheosis:salvaging_table"
+					type: "item"
+				}
+				{
+					id: "71E574787CF3DEFA"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "apotheosis:common_material"
+								}
+								{
+									Count: 1b
+									id: "apotheosis:uncommon_material"
+								}
+								{
+									Count: 1b
+									id: "apotheosis:rare_material"
+								}
+								{
+									Count: 1b
+									id: "apotheosis:epic_material"
+								}
+								{
+									Count: 1b
+									id: "apotheosis:mythic_material"
+								}
+							]
+						}
+					}
+					title: "{university.salvagetable.task}"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["141FA8F1CCFB767F"]
+			description: [
+				"{university.sigilsocket.desc1}"
+				""
+				"{university.sigilsocket.desc2}"
+			]
+			icon: "apotheosis:sigil_of_socketing"
+			id: "68B4C4B272C5652D"
+			rewards: [{
+				id: "7DA841F0A1ABDC14"
+				item: {
+					Count: 1b
+					id: "apotheosis:potion_charm"
+					tag: {
+						Damage: 0
+						Potion: "alexsmobs:long_clinging"
+					}
+				}
+				type: "item"
+			}]
+			size: 0.5d
+			subtitle: "{university.sigilsocket.subtitle}"
+			tasks: [{
+				id: "7994AC67106E8965"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:sigil_of_socketing"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:superior_sigil_of_socketing"
+							}
+						]
+					}
+				}
+				title: "{university.sigilsocket.title}"
+				type: "item"
+			}]
+			x: -3.25d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"360778720C6CCAF4"
+				"7C5C48A165DCA14F"
+			]
+			description: ["{university.gemdust.desc}"]
+			id: "141FA8F1CCFB767F"
+			min_required_dependencies: 1
+			rewards: [{
+				count: 16
+				id: "1322E1135F199322"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			subtitle: "{university.gemdust.subtitle}"
+			tasks: [{
+				id: "2597E5F788F76985"
+				item: "apotheosis:gem_dust"
+				type: "item"
+			}]
+			title: "{university.gemdust.title}"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["141FA8F1CCFB767F"]
+			description: [
+				"{university.gemcutting.desc1}"
+				""
+				"{university.gemcutting.desc2}"
+			]
+			id: "664F885A5FB79E25"
+			subtitle: "{university.gemcutting.subtitle}"
+			tasks: [{
+				id: "6DB590C04AC25C85"
+				item: "apotheosis:gem_cutting_table"
+				type: "item"
+			}]
+			title: "{university.gemcutting.title}"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["141FA8F1CCFB767F"]
+			description: [
+				"{university.reforgingtable.desc1}"
+				""
+				"{university.reforgingtable.desc2}"
+				""
+				"{university.reforgingtable.desc3}"
+				""
+				"{university.reforgingtable.desc4}"
+			]
+			icon: "apotheosis:reforging_table"
+			id: "6798706249888034"
+			min_width: 250
+			rewards: [{
+				count: 2
+				id: "20845398540C4ABA"
+				item: "apotheosis:mythic_material"
+				type: "item"
+			}]
+			subtitle: "{university.reforgingtable.subtitle}"
+			tasks: [{
+				id: "758AF75735369B90"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "apotheosis:simple_reforging_table"
+							}
+							{
+								Count: 1b
+								id: "apotheosis:reforging_table"
+							}
+						]
+					}
+				}
+				title: "{university.reforgingtable.task}"
+				type: "item"
+			}]
+			title: "{university.reforgingtable.title}"
+			x: -3.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["51159D799DADB412"]
+			description: [
+				"{university.apothboss.desc1}"
+				""
+				"{university.apothboss.desc2}"
+				""
+				"{university.apothboss.desc3}"
+			]
+			hide: true
+			id: "43222EFD51353707"
+			rewards: [{
+				count: 3
+				id: "200A7A6A50297C4E"
+				item: "apotheosis:boss_summoner"
+				type: "item"
+			}]
+			subtitle: "{university.apothboss.subtitle}"
+			tasks: [{
+				icon: "apotheosis:boss_summoner"
+				id: "64EA8B16516E28E4"
+				title: "{university.apothboss.subtitle}"
+				type: "custom"
+			}]
+			title: "{university.apothboss.title}"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["51159D799DADB412"]
+			description: [
+				"{university.potioncharm.desc1}"
+				""
+				"{university.potioncharm.desc2}"
+				""
+				"{university.potioncharm.desc3}"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Potion: "minecraft:fire_resistance"
+				}
+			}
+			id: "64B5F7F686AE4F32"
+			subtitle: "{university.potioncharm.subtitle}"
+			tasks: [{
+				id: "35B7AC260D3545B2"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [{
+							Count: 1b
+							id: "apotheosis:potion_charm"
+							tag: {
+								Damage: 0
+								Potion: "alexsmobs:lava_vision"
+							}
+						}]
+					}
+				}
+				title: "{university.potioncharm.title}"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2B03B3E1C2986189"]
+			description: [
+				"{university.apothegg.desc1}"
+				""
+				"{university.apothegg.desc2}"
+			]
+			icon: "minecraft:creeper_spawn_egg"
+			id: "612E78DE57334180"
+			rewards: [{
+				id: "419B20BD8C5DC20D"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "apotheosis:capturing"
+							lvl: 3s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{university.apothegg.subtitle}"
+			tasks: [{
+				id: "4E6A214A64D317DF"
+				item: {
+					Count: 1b
+					id: "itemfilters:id_regex"
+					tag: {
+						value: "spawn_egg"
+					}
+				}
+				title: "{university.apothegg.title}"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["51159D799DADB412"]
+			description: [
+				"{university.attributes.desc1}"
+				""
+				"{university.attributes.desc2}"
+				""
+				"{university.attributes.desc3}"
+			]
+			hide: true
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbuniversity:textures/quests/apoth/attribute.png"
+				}
+			}
+			id: "15E8B4DE57BEDBF5"
+			rewards: [{
+				id: "267900C3D687D538"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_swiftness"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{university.attributes.subtitle}"
+			tasks: [{
+				id: "38D162518ECA54D6"
+				type: "checkmark"
+			}]
+			title: "{university.attributes.title}"
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["64B5F7F686AE4F32"]
+			description: ["{university.unbreakpot.desc}"]
+			icon: {
+				Count: 1b
+				id: "apotheosis:potion_charm"
+				tag: {
+					Damage: 0
+					Potion: "minecraft:fire_resistance"
+					charm_enabled: 1b
+				}
+			}
+			id: "55736087835BBEAC"
+			rewards: [{
+				id: "43CEE4ED3886BDE5"
+				item: {
+					Count: 1b
+					id: "apotheosis:potion_charm"
+					tag: {
+						Damage: 0
+						Potion: "alexsmobs:long_clinging"
+						Unbreakable: 1b
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{university.unbreakpot.subtitle}"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "apotheosis:potion_charm"
+					tag: {
+						Damage: 0
+						Potion: "apotheosis:long_vitality"
+						Unbreakable: 1b
+						charm_enabled: 1b
+					}
+				}
+				id: "5BA3D7CA85CED182"
+				title: "{university.unbreakpot.task}"
+				type: "custom"
+			}]
+			title: "{university.unbreakpot.title}"
+			x: 0.5d
+			y: -1.0d
+		}
+	]
+	title: "{university.apotheosis.chapter}"
+}

@@ -1,0 +1,664 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rftools_dimensions"
+	group: "324223492707BC57"
+	icon: "rftoolsdim:dimension_builder"
+	id: "18A7182210C7DA10"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3066DAD4D75F1010"]
+			description: [
+				"{university.enscriber.desc1}"
+				""
+				"{university.enscriber.desc2}"
+				""
+				"{university.enscriber.desc3}"
+				""
+				"{university.enscriber.desc4}"
+			]
+			icon: "rftoolsdim:enscriber"
+			id: "0E49624222631201"
+			min_width: 250
+			subtitle: "{university.enscriber.subtitle}"
+			tasks: [
+				{
+					id: "4A32C9FA672485A1"
+					item: "rftoolsdim:enscriber"
+					type: "item"
+				}
+				{
+					id: "4D30C9D3F5032FA8"
+					item: "rftoolsdim:empty_dimension_tab"
+					type: "item"
+				}
+			]
+			title: "{university.enscriber.title}"
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["35BEE26A40E8AC88"]
+			description: [
+				"{university.phasedfield.desc1}"
+				""
+				"{university.phasedfield.desc2}"
+				""
+				"{university.phasedfield.desc3}"
+			]
+			id: "4BF7F2D841E0CA80"
+			subtitle: "{university.phasedfield.subtitle}"
+			tasks: [{
+				id: "153B42D961E1C813"
+				item: "rftoolsdim:phased_field_generator"
+				type: "item"
+			}]
+			title: "{university.phasedfield.title}"
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5606F925AE88F7E5"]
+			description: [
+				"{university.dimlet.desc1}"
+				""
+				"{university.dimlet.desc2}"
+				""
+				"{university.dimlet.desc3}"
+			]
+			id: "3066DAD4D75F1010"
+			min_width: 250
+			subtitle: "{university.dimlet.subtitle}"
+			tasks: [{
+				id: "3B93CF93670589EC"
+				item: "rftoolsdim:empty_dimlet"
+				type: "item"
+			}]
+			title: "{university.dimlet.title}"
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["3C66CD2BF3ABE6CB"]
+			description: [
+				"{university.dimletworkbench.desc1}"
+				""
+				"{university.dimletworkbench.desc2}"
+				""
+				"{university.dimletworkbench.desc3}"
+				""
+				"{university.dimletworkbench.desc4}"
+			]
+			icon: "rftoolsdim:dimlet_workbench"
+			id: "13DA4F4CBEDC4A1E"
+			min_width: 250
+			subtitle: "{university.dimletworkbench.subtitle}"
+			tasks: [
+				{
+					id: "054DA7339DFA397E"
+					item: "rftoolsdim:dimlet_workbench"
+					type: "item"
+				}
+				{
+					id: "00CD3725C0F95A4B"
+					item: "rftoolsdim:knowledge_holder"
+					type: "item"
+				}
+			]
+			title: "{university.dimletworkbench.title}"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3066DAD4D75F1010"]
+			description: [
+				"{university.researcher.desc1}"
+				""
+				"{university.researcher.desc2}"
+				""
+				"{university.researcher.desc3}"
+				""
+				"{university.researcher.desc4}"
+			]
+			icon: "rftoolsdim:researcher"
+			id: "3C66CD2BF3ABE6CB"
+			min_width: 250
+			rewards: [{
+				id: "3ED6F09F495B5242"
+				item: "rftoolsbase:machine_infuser"
+				type: "item"
+			}]
+			subtitle: "{university.researcher.subtitle}"
+			tasks: [
+				{
+					id: "33D30026361984A2"
+					item: "rftoolsdim:researcher"
+					type: "item"
+				}
+				{
+					id: "38C78DFF73E00231"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "rftoolsdim:common_lost_knowledge"
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:uncommon_lost_knowledge"
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:rare_lost_knowledge"
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:legendary_lost_knowledge"
+								}
+							]
+						}
+					}
+					title: "{university.researcher.title}"
+					type: "item"
+				}
+			]
+			title: "{university.researcher.title}"
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["0E49624222631201"]
+			description: [
+				"{university.dimensionbuilder.desc1}"
+				""
+				"{university.dimensionbuilder.desc2}"
+				""
+				"{university.dimensionbuilder.desc3}"
+			]
+			icon: "rftoolsdim:dimension_builder"
+			id: "35BEE26A40E8AC88"
+			min_width: 250
+			rewards: [{
+				id: "636C6AD06ED4399E"
+				item: "rftoolsdim:dimension_monitor"
+				type: "item"
+			}]
+			subtitle: "{university.dimensionbuilder.subtitle}"
+			tasks: [
+				{
+					id: "4C83763AA7A11EDA"
+					item: "rftoolsdim:dimension_builder"
+					type: "item"
+				}
+				{
+					id: "73BC7488A4A037A3"
+					item: "rftoolsdim:realized_dimension_tab"
+					type: "item"
+				}
+			]
+			title: "{university.dimensionbuilder.title}"
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["35BEE26A40E8AC88"]
+			description: [
+				"{university.rftdmatter.desc1}"
+				""
+				"{university.rftdmatter.desc2}"
+				""
+				"{university.rftdmatter.desc3}"
+			]
+			icon: "rftoolsutility:matter_transmitter"
+			id: "3F70F8C40B71987A"
+			rewards: [{
+				id: "149C2B4CFB2C6FE6"
+				item: "rftoolsutility:matter_receiver"
+				type: "item"
+			}]
+			subtitle: "{university.rftdmatter.subtitle}"
+			tasks: [
+				{
+					id: "4632907542D8067D"
+					item: "rftoolsutility:matter_transmitter"
+					type: "item"
+				}
+				{
+					id: "35485AC90C428603"
+					item: "rftoolsutility:dialing_device"
+					type: "item"
+				}
+			]
+			title: "{university.rftdmatter.title}"
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0E49624222631201"]
+			description: [
+				"{university.digitdimlets.desc1}"
+				""
+				"{university.digitdimlets.desc2}"
+				""
+				"{university.digitdimlets.desc3}"
+			]
+			icon: {
+				Count: 1b
+				id: "rftoolsdim:digit_dimlet"
+				tag: {
+					name: "0"
+				}
+			}
+			id: "2CA52FE107DC2098"
+			subtitle: "{university.digitdimlets.subtitle}"
+			tasks: [{
+				id: "1EC7FB7E01F5D206"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "rftoolsdim:digit_dimlet"
+								tag: {
+									name: "0"
+								}
+							}
+							{
+								Count: 1b
+								id: "rftoolsdim:digit_dimlet"
+								tag: {
+									name: "1"
+								}
+							}
+							{
+								Count: 1b
+								id: "rftoolsdim:digit_dimlet"
+								tag: {
+									name: "2"
+								}
+							}
+							{
+								Count: 1b
+								id: "rftoolsdim:digit_dimlet"
+								tag: {
+									name: "3"
+								}
+							}
+							{
+								Count: 1b
+								id: "rftoolsdim:digit_dimlet"
+								tag: {
+									name: "4"
+								}
+							}
+							{
+								Count: 1b
+								id: "rftoolsdim:digit_dimlet"
+								tag: {
+									name: "5"
+								}
+							}
+							{
+								Count: 1b
+								id: "rftoolsdim:digit_dimlet"
+								tag: {
+									name: "6"
+								}
+							}
+							{
+								Count: 1b
+								id: "rftoolsdim:digit_dimlet"
+								tag: {
+									name: "7"
+								}
+							}
+							{
+								Count: 1b
+								id: "rftoolsdim:digit_dimlet"
+								tag: {
+									name: "8"
+								}
+							}
+							{
+								Count: 1b
+								id: "rftoolsdim:digit_dimlet"
+								tag: {
+									name: "9"
+								}
+							}
+						]
+					}
+				}
+				title: "{university.digitdimlets.task}"
+				type: "item"
+			}]
+			title: "{university.digitdimlets.title}"
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["35BEE26A40E8AC88"]
+			description: ["{university.activityprobe.desc}"]
+			id: "3B2648E61ADC8DB4"
+			subtitle: "{university.activityprobe.subtitle}"
+			tasks: [{
+				id: "29F3594D53A12341"
+				item: "rftoolsdim:activity_probe"
+				type: "item"
+			}]
+			title: "{university.activityprobe.title}"
+			x: 6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3F70F8C40B71987A"]
+			description: [
+				"{university.rftstructs.desc1}"
+				""
+				"{university.rftstructs.desc2}"
+			]
+			id: "0FB092FD5DB0D25B"
+			subtitle: "{university.rftstructs.subtitle}"
+			tasks: [{
+				icon: "rftoolsdim:dimensional_blank_block"
+				id: "5E1CC45F8DC43BC0"
+				observe_type: 0
+				timer: 0L
+				title: "{university.rftstructs.task}"
+				to_observe: "rftoolsdim:dimensional_blank_block"
+				type: "observation"
+			}]
+			title: "{university.rftstructs.title}"
+			x: 8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3F70F8C40B71987A"]
+			description: [
+				"{university.dimessence.desc1}"
+				""
+				"{university.dimessence.desc2}"
+			]
+			icon: "rftoolsdim:rare_essence"
+			id: "1D32997DCA984161"
+			subtitle: "{university.dimessence.subtitle}"
+			tasks: [{
+				id: "5CF55B4CD6A965A4"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "rftoolsdim:common_essence"
+							}
+							{
+								Count: 1b
+								id: "rftoolsdim:rare_essence"
+							}
+							{
+								Count: 1b
+								id: "rftoolsdim:legendary_essence"
+							}
+						]
+					}
+				}
+				title: "{university.dimessence.title}"
+				type: "item"
+			}]
+			title: "{university.dimessence.title}"
+			x: 8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"0E49624222631201"
+				"13DA4F4CBEDC4A1E"
+			]
+			description: [
+				"{university.filleddimlets.desc1}"
+				""
+				"{university.filleddimlets.desc2}"
+				""
+				"{university.filleddimlets.desc3}"
+				""
+				"{university.filleddimlets.desc4}"
+			]
+			icon: "rftoolsdim:biome_dimlet"
+			id: "6FEF957B747E976D"
+			min_required_dependencies: 1
+			min_width: 250
+			subtitle: "{university.filleddimlets.subtitle}"
+			tasks: [{
+				id: "4464CB7EEC186351"
+				item: {
+					Count: 1b
+					id: "itemfilters:and"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:id_regex"
+								tag: {
+									value: "dimlet"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:not"
+								tag: {
+									items: [{
+										Count: 1b
+										id: "itemfilters:or"
+										tag: {
+											items: [
+												{
+													Count: 1b
+													id: "rftoolsdim:dimlet_workbench"
+												}
+												{
+													Count: 1b
+													id: "itemfilters:id_regex"
+													tag: {
+														value: "digit"
+													}
+												}
+												{
+													Count: 1b
+													id: "itemfilters:id_regex"
+													tag: {
+														value: "empty"
+													}
+												}
+											]
+										}
+									}]
+								}
+							}
+						]
+					}
+				}
+				title: "{university.filleddimlets.task}"
+				type: "item"
+			}]
+			title: "{university.filleddimlets.title}"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["13DA4F4CBEDC4A1E"]
+			description: [
+				"{university.absorbers.desc1}"
+				""
+				"{university.absorbers.desc2}"
+				""
+				"{university.absorbers.desc3}"
+				""
+				"{university.absorbers.desc4}"
+				""
+				"{university.absorbers.desc5}"
+				""
+				"{university.absorbers.desc6}"
+			]
+			icon: "rftoolsdim:structure_absorber"
+			id: "1037C8A81432C72C"
+			min_width: 250
+			rewards: [{
+				id: "71AFB3359F4AFF83"
+				item: {
+					Count: 1b
+					id: "rftoolsdim:block_absorber"
+					tag: {
+						BlockEntityTag: {
+							Info: {
+								absorbing: 0
+								block: "minecraft:white_concrete"
+								owner: "1aaron5"
+								ownerId: [I;
+									318930907
+									-1429649125
+									-1651259422
+									-141436858
+								]
+								powered: 0b
+							}
+							Items: [ ]
+							id: "rftoolsdim:block_absorber"
+						}
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "{university.absorbers.subtitle}"
+			tasks: [{
+				id: "42A20902D6DFA206"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "rftoolsdim:block_absorber"
+							}
+							{
+								Count: 1b
+								id: "rftoolsdim:fluid_absorber"
+							}
+							{
+								Count: 1b
+								id: "rftoolsdim:biome_absorber"
+							}
+							{
+								Count: 1b
+								id: "rftoolsdim:structure_absorber"
+							}
+						]
+					}
+				}
+				title: "{university.absorbers.task}"
+				type: "item"
+			}]
+			title: "{university.absorbers.title}"
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["13DA4F4CBEDC4A1E"]
+			description: [
+				"{university.dimletingredients.desc1}"
+				""
+				"{university.dimletingredients.desc2}"
+				""
+				"{university.dimletingredients.desc3}"
+			]
+			icon: "rftoolsdim:part_memory_0"
+			id: "78FA9411D38A1E72"
+			subtitle: "{university.dimletingredients.subtitle}"
+			tasks: [
+				{
+					id: "2C9E961975669EDF"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "rftoolsdim:part_memory_0"
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:part_memory_1"
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:part_memory_2"
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:part_memory_3"
+								}
+							]
+						}
+					}
+					title: "{university.dimletingredients.task1}"
+					type: "item"
+				}
+				{
+					id: "70521F8260B6B6A1"
+					item: {
+						Count: 1b
+						id: "itemfilters:or"
+						tag: {
+							items: [
+								{
+									Count: 1b
+									id: "rftoolsdim:part_energy_0"
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:part_energy_1"
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:part_energy_2"
+								}
+								{
+									Count: 1b
+									id: "rftoolsdim:part_energy_3"
+								}
+							]
+						}
+					}
+					title: "{university.dimletingredients.task2}"
+					type: "item"
+				}
+				{
+					id: "6D65EED73EF7210D"
+					item: {
+						Count: 1b
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "empty_.*_dimlet"
+						}
+					}
+					title: "{university.dimletingredients.task3}"
+					type: "item"
+				}
+			]
+			title: "{university.dimletingredients.title}"
+			x: 1.5d
+			y: -2.5d
+		}
+	]
+	title: "{university.rftdim.chapter}"
+}

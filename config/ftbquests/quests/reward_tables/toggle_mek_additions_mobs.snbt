@@ -1,0 +1,23 @@
+{
+	id: "6FB2579DED7CA813"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{
+			auto: "invisible"
+			ignore_reward_blocking: true
+			stage: "no_mekanism_additions_mobs"
+			title: "{university.disablemekmobs.disable}"
+			type: "gamestage"
+		}
+		{
+			auto: "invisible"
+			ignore_reward_blocking: true
+			remove: true
+			stage: "no_mekanism_additions_mobs"
+			title: "{university.disablemekmobs.enable}"
+			type: "gamestage"
+		}
+	]
+	title: "{university.disablemekmobs.subtitle}"
+}

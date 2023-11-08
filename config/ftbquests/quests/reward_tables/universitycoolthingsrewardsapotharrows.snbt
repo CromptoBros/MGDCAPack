@@ -1,0 +1,21 @@
+{
+	id: "37301D711245F572"
+	loot_crate: {
+		color: 12434877
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "university_coolthings_rewards_apotharrows"
+	}
+	loot_size: 6
+	order_index: 15
+	rewards: [
+		{ count: 4, item: "apotheosis:broadhead_arrow" }
+		{ count: 4, item: "apotheosis:diamond_mining_arrow" }
+		{ count: 4, item: "apotheosis:obsidian_arrow" }
+	]
+	title: "{university.coolthings.rewards.apotharrows}"
+	use_title: true
+}
