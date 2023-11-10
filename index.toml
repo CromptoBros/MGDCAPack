@@ -1857,10 +1857,6 @@ file = "kubejs/assets/ftbuniversity/tips/tomes.json"
 hash = "d327a1164c6c8e21e3b7ca09dbaa8ac1802352309324a5b2f4e044b57466a29d"
 
 [[files]]
-file = "kubejs/assets/legendarytooltips/Eclectric Trove.url"
-hash = "3d04d93f729356fc668e0066146cdb4c01b3fccbf705a797b68bc50a4048d7ca"
-
-[[files]]
 file = "kubejs/assets/legendarytooltips/frame_definitions.json"
 hash = "4c2a7124b75fddf7418236db4292780d0ed7e389849fac98d52a6d3fcf132e10"
 
@@ -2363,10 +2359,6 @@ hash = "25c83c1975f79ae83865260a65f7774d92c496b169817903d459bdcf1acc37d9"
 [[files]]
 file = "kubejs/data/hostilenetworks/data_models/yeti.json"
 hash = "a89ba414d6c870a3e08fd8c4e603a1227963d958bbd51bdbe181a36464252c00"
-
-[[files]]
-file = "kubejs/data/idas/IDAS - Alex's Mobs Integration.url"
-hash = "d5c1825e0d71188f74c4267f3ab9bbf615f4f5dd78b3b1148ecd79719e457d2b"
 
 [[files]]
 file = "kubejs/data/idas/advancements/ancient_mines.json"
