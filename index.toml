@@ -569,10 +569,6 @@ file = "kubejs/assets/ftbuniversity/sounds.json"
 hash = "14ba45fac7978899de3d965fe227e7d56a5f38d26a4e76becec341d009fc0f52"
 
 [[files]]
-file = "kubejs/assets/ftbuniversity/sounds/Sound Sources.txt"
-hash = "e3754b2ccff20432d090a554d8fcef17b569e318c7f04efcb6a15a9e923cd8e8"
-
-[[files]]
 file = "kubejs/assets/ftbuniversity/sounds/processed.ogg"
 hash = "3a0829d33b1fbd797d8b4812a276e9db1ea90bc663a26a63392ff6752151a579"
 
