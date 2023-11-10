@@ -1029,10 +1029,6 @@ file = "kubejs/assets/ftbuniversity/textures/quests/hex/smelt_cypher.png.mcmeta"
 hash = "3efed5492e371683e115a8e83506291576066c70b7328e528e39cbbeb538200b"
 
 [[files]]
-file = "kubejs/assets/ftbuniversity/textures/quests/hex/stack/Stack.psd"
-hash = "18834b4dd7958c9f34c689d53d6ad1dbf63199825f570e8bbae46493853dde8b"
-
-[[files]]
 file = "kubejs/assets/ftbuniversity/textures/quests/hex/stack/blink.png"
 hash = "e97b47d618084351eaae68d0d0518fb0c9a2bc048d257251e900ba9de873aeb2"
 
