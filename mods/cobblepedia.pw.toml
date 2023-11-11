@@ -1,0 +1,13 @@
+name = "Cobblepedia"
+filename = "Cobblepedia-forge-0.4.4+1.19.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2obPz7jf/versions/z8G2NkKF/Cobblepedia-forge-0.4.4%2B1.19.2.jar"
+hash-format = "sha1"
+hash = "25763b984bda993b2bca33ade827686f9eef1963"
+
+[update]
+[update.modrinth]
+mod-id = "2obPz7jf"
+version = "z8G2NkKF"
