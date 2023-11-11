@@ -3085,7 +3085,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-botanics-addon.pw.toml"
-hash = "a4b1ece78c9cf62c4dc08aac9a1561a5a4667ab580a66212981ab2c1f1846c3b"
+hash = "73e72d7bf9dbf6ae420413f606dc908fcfbad193ffc8bf4608a76f9a9022b706"
 metafile = true
 
 [[files]]
@@ -3120,7 +3120,7 @@ metafile = true
 
 [[files]]
 file = "mods/ars-elemental.pw.toml"
-hash = "ae34d9ddf39e76a6f5f9a6f7398a06ccf7e0ab92269480b98f6ca6e1dbb9a26b"
+hash = "9436107528af540617b3e160ed69d0b063d2f38fcb9df1028f9e45b75faf5c73"
 metafile = true
 
 [[files]]
@@ -3602,7 +3602,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
-hash = "a97537a65797310989730a819b70176d94da382416ec2ff78516553a4a378808"
+hash = "159f0b1858fa12899ae8974e2aae38603dd9abe4db3131042f2964d59b20a485"
 metafile = true
 
 [[files]]
@@ -4241,7 +4241,7 @@ metafile = true
 
 [[files]]
 file = "mods/super-factory-manager.pw.toml"
-hash = "4b4160e971f486bef102fff8e1e6143cfab70a07fe1487c72660a47484423a62"
+hash = "f77dae4d24161d14701eb0826e8c0db2914862b6ea5975bff110f91ed5007d96"
 metafile = true
 
 [[files]]
@@ -4256,7 +4256,7 @@ metafile = true
 
 [[files]]
 file = "mods/supplementaries.pw.toml"
-hash = "fdcb35b291b7dd2c4db0a7c733a17e901a682b46a0a5c13ee5fcd2a0e12f8157"
+hash = "e457857bcd60c949be74c059251cb540642ed0e8006932c4c17e0da4eb149269"
 metafile = true
 
 [[files]]
